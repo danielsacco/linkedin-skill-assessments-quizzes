@@ -2,7 +2,7 @@
 
 #### Q1. To set object scale values to 1,1,1 without changing the object's size, which command do you use?
 
-- [x] Freeze Transformations
+- [ ] Freeze Transformations
 - [ ] Reset Transformations
 - [ ] Center Pivot
 - [ ] Delete by Type > History
@@ -13,7 +13,7 @@
 
 - [ ] alembic cache
 - [ ] triangle mesh
-- [x] quadrilateral mesh
+- [ ] quadrilateral mesh
 - [ ] NURBS
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2022/ENU/?guid=GUID-9AB21360-F979-48BD-8A13-A5C94CDA6750)
@@ -22,14 +22,14 @@
 
 - [ ] difference between key values
 - [ ] frames per second
-- [x] time between keys
+- [ ] time between keys
 - [ ] steepness of function curve
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-619CAE9C-107D-4504-A769-227DDC847153)
 
 #### Q4. A key advantage of physically based rendering is the ability to make extensive adjustment in post-production without compromising image quality. Which output file format preserves the full brightness and contrast range of a physically based rendering?
 
-- [x] EXR
+- [ ] EXR
 - [ ] GIF
 - [ ] JPG
 - [ ] BMP
@@ -39,7 +39,7 @@
 - [ ] Add Scene Time Warp
 - [ ] Set tangents to Stepped
 - [ ] Hold Current Keys
-- [x] Enable Stepped Previews
+- [ ] Enable Stepped Previews
 
 [Reference](https://help.autodesk.com/view/MAYACRE/ENU/?guid=GUID-6A77D603-7D06-47D2-BCCC-59792ACB82EE)
 
@@ -55,7 +55,7 @@
 #### Q7. Before rendering any dynamic simulation, what must you do in order to get a predictable and consistent result?
 
 - [ ] Delete construction history
-- [x] Bake to keyframes
+- [ ] Bake to keyframes
 - [ ] Cache to disk
 - [ ] Build a mesh
 
@@ -66,7 +66,7 @@
 ![Which texture type does not require UVs to render in software?](images/image02.png?raw=true)
 
 - [ ] Position the mouse cursor in a viewport and hold down the Spacebar
-- [x] Position the mouse cursor in a viewport and hold down the right mouse button
+- [ ] Position the mouse cursor in a viewport and hold down the right mouse button
 - [ ] Position the mouse cursor in a viewport and tap the Spacebar
 - [ ] Position the mouse cursor in a viewport and hold down the middle mouse button
 
@@ -78,7 +78,7 @@
 
 - [ ] clip plane
 - [ ] film back
-- [x] frustum
+- [ ] frustum
 - [ ] gate mask
 
 [Warning] Just be carefull. Because in this question, they have been asking about "pyramid shape" but also they show the "gate mask".
@@ -88,7 +88,7 @@
 
 ![Which of these images shows a Bezier curve?](images/image04.png?raw=true)
 
-- [x] A
+- [ ] A
 - [ ] B
 - [ ] C
 - [ ] D
@@ -102,14 +102,14 @@
 - [ ] point
 - [ ] directional
 - [ ] spot
-- [x] area
+- [ ] area
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2023/ENU/?guid=GUID-3D68F3CC-2D09-43C5-A275-E11B6DDB8341)
 
 #### Q12. Why might you choose Quaternion rotation interpolation over the default Euler interpolation?
 
 - [ ] XYZ axes can be keyed independently
-- [x] Angle values can be greater than 180 degrees and less than -180 degrees
+- [ ] Angle values can be greater than 180 degrees and less than -180 degrees
 - [ ] Curves are easily shaped with tangent handles
 - [ ] Rotations are more reliable
 
@@ -117,7 +117,7 @@
 
 #### Q13. In a physically based renderer such as Arnold, what material attribute controls reflectivity according the angle of the surface to the camera? For example, if you want to make the front-facing surface more reflective relative to the side-facing surface, what should you increase?
 
-- [x] Specular Roughness
+- [ ] Specular Roughness
 - [ ] Index of Refraction
 - [ ] Anisotropy
 - [ ] Transmission Weight
@@ -126,7 +126,7 @@
 
 #### Q14. For a dynamic simulation, what Playback Speed setting ensures reliable interactive viewport performance at the most accurate frame rate?
 
-- [x] Play Every Frame, Max Real-Time (current frame rate \*1)
+- [ ] Play Every Frame, Max Real-Time (current frame rate \*1)
 - [ ] Continuos
 - [ ] Real-time (current frame rate \*1)
 - [ ] Play Every Frame, Free
@@ -137,7 +137,7 @@
 
 - [ ] Specular Samples
 - [ ] Diffuse Ray Depth
-- [x] Diffuse Samples
+- [ ] Diffuse Samples
 - [ ] Transmission Ray Depth
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=arnold_for_maya_noise_am_What_Is_Sampling_html)
@@ -147,7 +147,7 @@
 - [ ] point constraint
 - [ ] inverse kinematics
 - [ ] orient constarint
-- [x] parent-child link
+- [ ] parent-child link
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-0EA4CA51-9C50-43DA-8D0B-A451C387EFBC)
 
@@ -156,7 +156,7 @@
 - [ ] parent constraint
 - [ ] aim constraint
 - [ ] orient constraint
-- [x] point constraint
+- [ ] point constraint
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-79F8E9DC-72B9-4465-8D77-8A69F61D313A)
 
@@ -165,7 +165,7 @@
 - [ ] Scale the object UVs
 - [ ] Scale the object transform
 - [ ] Scale a texture placement node
-- [x] Adjust texture attributes
+- [ ] Adjust texture attributes
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-DA80E9DE-7846-4E49-BD3D-46F588B559D5)
 
@@ -174,7 +174,7 @@
 - [ ] Substance
 - [ ] XGen
 - [ ] Modeling Toolkit
-- [x] Paint Effects
+- [ ] Paint Effects
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-890E22CA-74F9-4608-AC35-E1E0B1768168)
 
@@ -198,7 +198,7 @@
 
 #### Q22. What is the standard method to preserve links to dependent files such as bitmap textures?
 
-- [x] Save dependent files to the same project as the scene files
+- [ ] Save dependent files to the same project as the scene files
 - [ ] Save all files to the system drive
 - [ ] Save scene files in ASCII format
 - [ ] Save all files to a network drive
@@ -209,21 +209,21 @@
 
 - [ ] point
 - [ ] area
-- [x] directional
+- [ ] directional
 - [ ] spot
 
 [Reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-EE660E20-02A3-49E6-96CC-EC11C8371E04)
 
 #### Q24. What is the fundamental property of all polygon mesh vertices
 
-- [x] A vertex always has a mesurable position
+- [ ] A vertex always has a mesurable position
 - [ ] A vertex always lies on a curve
 - [ ] A vertex always has a mesurable size
 - [ ] A vertex always has a color
 
 #### Q25. What is the simulation of how light propagates in an environment known as?
 
-- [x] Global Illumination
+- [ ] Global Illumination
 - [ ] Sampling
 - [ ] Atmosphere
 - [ ] Local Illumination
@@ -233,19 +233,19 @@
 - [ ] Phong
 - [ ] Blinn
 - [ ] Surface
-- [x] Lambert
+- [ ] Lambert
 
 #### Q27. In which situation should the construction history be completely deleted?
 
 - [ ] The object must be transformed
-- [x] The model is finished and ready for rigging
+- [ ] The model is finished and ready for rigging
 - [ ] The model is animated by a deformer
 - [ ] Input nodes must be adjusted
 
 #### Q28. You have set up a particular node--such as a camera, light, or shape--with specific settings that you want to use in the future. What feature allows you to store and retrive all parameters for a particular node type?
 
 - [ ] object template
-- [x] Content Browser
+- [ ] Content Browser
 - [ ] Attribute Editor presents
 - [ ] tool settings
 
@@ -254,7 +254,7 @@
 #### Q29. In what tool are you able to measure and set the texel density for an object's UVs?
 
 - [ ] Planar Mapping
-- [x] UV Toolkit
+- [ ] UV Toolkit
 - [ ] Transfer Attributes
 - [ ] UV Set Editor
 
@@ -262,7 +262,7 @@
 
 #### Q30. What do the Maya modelling features assume that a scene unit is?
 
-- [x] centimeter
+- [ ] centimeter
 - [ ] meter
 - [ ] inch
 - [ ] foot

@@ -2,7 +2,7 @@
 
 #### P1. Se abre una secuencia anidada para recortar la longitud de un clip. La duración total de los clips se alarga. ¿Qué sucede con la duración del nido en la secuencia principal?
 
-- [x] Nada, la duración del nido sigue siendo la misma en la secuencia original.
+- [ ] Nada, la duración del nido sigue siendo la misma en la secuencia original.
 - [ ] La duración del nido cambia y una edición de sobrescritura empuja los clips restantes para hacer espacio.
 - [ ] Los clips cambian de velocidad para que coincida con la duración del nido.
 - [ ] La duración del nido cambia y una edición de ondulación empuja los clips restantes para hacer espacio.
@@ -11,12 +11,12 @@
 
 - [ ] El anidamiento mejora el rendimiento de reproducción.
 - [ ] El anidamiento facilita la reducción del desorden en el panel Proyecto, ahorrando tiempo y potencialmente presupuesto del proyecto.
-- [x] El anidamiento permite aplicar un solo efecto a todo lo que está dentro del nido, como una corrección de color o un limitador de video.
+- [ ] El anidamiento permite aplicar un solo efecto a todo lo que está dentro del nido, como una corrección de color o un limitador de video.
 - [ ] El anidamiento ayuda a Adobe Premiere Pro a renderizar más rápido.
 
 #### P3. ¿Qué sucede en el disco duro cuando creas un subclip?
 
-- [x] Nada, ya que un subclip no crea un nuevo archivo multimedia en su disco duro.
+- [ ] Nada, ya que un subclip no crea un nuevo archivo multimedia en su disco duro.
 - [ ] Se crea un archivo de puntero en el disco duro.
 - [ ] Se crea un nuevo clip maestro en el disco duro y se agrega al proyecto.
 - [ ] Se crea un nuevo archivo multimedia junto al medio original.
@@ -26,18 +26,18 @@
 - [ ] Adobe Premiere puede exportar archivos directamente.
 - [ ] Puede codificar secuencias en uno o más formatos con Adobe Media Encoder.
 - [ ] Mientras utiliza Adobe Media Encoder, puede seguir trabajando en la misma secuencia en Adobe Premiere Pro.
-- [x] Al hacer clic en Exportar, Adobe Premiere Pro codificará el archivo en segundo plano y le permitirá continuar editando.
+- [ ] Al hacer clic en Exportar, Adobe Premiere Pro codificará el archivo en segundo plano y le permitirá continuar editando.
 
 #### P5. Mientras trabaja en Premiere Pro, ¿cómo puede crear rápidamente una nueva composición de After Effects con ajustes que coincidan con la secuencia actual?
 
 - [ ] Seleccione Archivo > Adobe Dynamic Link > Importar composición de After Effects.
 - [ ] Importe un proyecto desde After Effects y elija Igualar el tamaño del proyecto al importar.
-- [x] Seleccione Archivo > Adobe Dynamic Link > Nueva composición de After Effects.
+- [ ] Seleccione Archivo > Adobe Dynamic Link > Nueva composición de After Effects.
 - [ ] Cambie a After Effects y configure manualmente el proyecto para mayor precisión.
 
 #### P6. ¿Cuál NO es una etiqueta disponible en el panel Sonido esencial?
 
-- [x] Narración
+- [ ] Narración
 - [ ] SFX
 - [ ] Ambiente
 - [ ] Música
@@ -52,7 +52,7 @@ D. Temperature
 E. Blur
 ```
 
-- [x] B, C, D
+- [ ] B, C, D
 - [ ] A, B, C
 - [ ] B, D, E
 - [ ] A, C, E
@@ -61,14 +61,14 @@ E. Blur
 
 - [ ] Panel Monitor de programa
 - [ ] Panel Monitor de origen
-- [x] Panel Línea de tiempo
+- [ ] Panel Línea de tiempo
 - [ ] Panel Explorador de medios
 
 #### P9. ¿Qué puede hacer para que la capa de forma ajuste automáticamente el tamaño a medida que cambia la capa de texto?
 
 ![image](images/001.png?raw=true)
 
-- [x] Seleccione la opción Máscara con forma.
+- [ ] Seleccione la opción Máscara con forma.
 - [ ] Seleccione Diseño responsivo y Anclar a la capa de texto.
 - [ ] Seleccione Diseño responsivo y Anclar al fotograma de vídeo.
 - [ ] Utilice los controles Alinear y Transformar.
@@ -78,11 +78,11 @@ E. Blur
 - [ ] Panel Línea de tiempo
 - [ ] Panel Explorador de medios
 - [ ] Panel de captura
-- [x] Panel Monitor de origen
+- [ ] Panel Monitor de origen
 
 #### P11. ¿Qué panel le permite modificar los efectos de vídeo después de que se hayan aplicado a un clip?
 
-- [x] Panel Efectos
+- [ ] Panel Efectos
 - [ ] Panel Línea de tiempo
 - [ ] Panel Monitor de origen
 - [ ] Panel Controles de efectos
@@ -91,14 +91,14 @@ E. Blur
 
 - [ ] Excluir clips no utilizados
 - [ ] Consolidar y transcodificar
-- [x] Recopilar archivos y copiarlos en una nueva ubicación
+- [ ] Recopilar archivos y copiarlos en una nueva ubicación
 - [ ] Crear nuevo proyecto recortado
 
 #### P13. ¿Cuál es la transición de vídeo predeterminada en Adobe Premiere Pro?
 
 - [ ] disolver la película
 - [ ] disolución aditiva
-- [x] disolución cruzada
+- [ ] disolución cruzada
 - [ ] disolución del impacto
 
 #### P14. ¿Qué término describe el algoritmo que se utiliza para codificar y decodificar un archivo de vídeo?
@@ -106,7 +106,7 @@ E. Blur
 - [ ] contenedor
 - [ ] formato
 - [ ] compresor
-- [x] códec
+- [ ] códec
 
 #### P15. Desea guardar una pequeña parte de un clip más largo para facilitar el acceso. ¿Cómo puedes hacer esto?
 
@@ -115,20 +115,20 @@ E. Blur
 - [ ] en el Explorador de medios, marque los puntos de entrada y salida de un clip y, a continuación, impórtelos.
 - [ ] Marque los puntos de entrada y salida del clip en el Monitor de programa y seleccione elegir Clip > Crear subclip.
 - [ ] Marque los puntos de entrada y salida de un clip en el panel Línea de tiempo y, a continuación, arrástrelo de nuevo a una papelera.
-- [x] Marque los puntos de entrada y salida del clip en el Monitor de origen y seleccione Clip > Crear subclip.
+- [ ] Marque los puntos de entrada y salida del clip en el Monitor de origen y seleccione Clip > Crear subclip.
 
 #### P16. ¿Qué ajuste puede ayudar a devolver los detalles de borde a las imágenes de video?
 
 - [ ] Intensidad
 - [ ] Contraste
-- [x] Afilar
+- [ ] Afilar
 - [ ] Claridad
 
 #### P17. ¿Dónde se puede ajustar la duración de una transición?
 
 - [ ] Panel Efectos
 - [ ] Panel del proyecto
-- [x] Panel Controles de efectos
+- [ ] Panel Controles de efectos
 - [ ] Panel Monitor de programa
 
 #### P18. Estás trabajando con un nuevo proyecto y has estado editando durante dos horas. ¿Cuál es el número de proyectos de copia de seguridad que esperaría encontrar?
@@ -137,7 +137,7 @@ E. Blur
 
 - [ ] 2
 - [ ] 12
-- [x] 20
+- [ ] 20
 - [ ] 24
 
 #### P19. ¿Qué panel utilizaría para examinar e importar activos para obtener la máxima compatibilidad con Premiere Pro?
@@ -145,7 +145,7 @@ E. Blur
 - [ ] Biblioteca
 - [ ] Efectos
 - [ ] Proyecto
-- [x] Navegador de medios
+- [ ] Navegador de medios
 
 Referencia : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.\&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import.
 
@@ -153,7 +153,7 @@ Referencia : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-br
 
 ![image](images/004.png)
 
-- [x] La transición se deslizaría hacia la derecha.
+- [ ] La transición se deslizaría hacia la derecha.
 - [ ] Extenderías solo el lado derecho de la transición.
 - [ ] Realizaría una edición de ondulación y extendería la duración del primer clip.
 - [ ] La transición crecería en ambos lados.
@@ -162,7 +162,7 @@ Referencia : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-br
 
 - [ ] Adobe Photoshop
 - [ ] Adobe Premiere Pro
-- [x] Adobe Audition
+- [ ] Adobe Audition
 - [ ] Adobe After Effects
 
 #### P22. ¿Qué panel de preferencias incluye la Duración predeterminada de la transición de vídeo y la Duración predeterminada de la transición de audio?
@@ -170,20 +170,20 @@ Referencia : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-br
 - [ ] Medios de comunicación
 - [ ] Reproducción
 - [ ] Generalidades
-- [x] Cronología
+- [ ] Cronología
 
 #### P23. Si un efecto tiene una estrella junto a su icono, ¿qué tipo de efecto es?
 
 - [ ] audio
 - [ ] plantilla
 - [ ] transición
-- [x] ajuste preestablecido
+- [ ] ajuste preestablecido
 
 #### P24. ¿Cómo se manipuló este clip mediante un ajuste de curvas?
 
 ![image](images/005.png)
 
-- [x] Hue vs. Luma
+- [ ] Hue vs. Luma
 - [ ] Saturación vs. Saturación
 - [ ] Tono vs. Saturación
 - [ ] Luma vs. Saturación
@@ -191,20 +191,20 @@ Referencia : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-br
 #### P25. ¿Dónde se almacenan los datos de transparencia al componer medios?
 
 - [ ] Panel Gráficos esenciales
-- [x] Panel Efectos
+- [ ] Panel Efectos
 - [ ] canal alfa
 - [ ] montaje editar
 
 #### P26. Cuando parte de su material de archivo es transparente, ¿dónde se almacena la información de transparencia en el archivo?
 
 - [ ] monitor de origen
-- [x] canal alfa
+- [ ] canal alfa
 - [ ] efecto de opacidad
 - [ ] efecto alfa
 
 #### P27. ¿Qué opción le permite reutilizar archivos de renderizado creados previamente para una exportación?
 
-- [x] Usar vistas previas
+- [ ] Usar vistas previas
 - [ ] Usar mezcla de marcos
 - [ ] Utilice la máxima calidad de renderizado
 - [ ] Configuración de la secuencia de coincidencias
@@ -214,7 +214,7 @@ Referencia : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-br
 ![image](images/006.png)
 
 - [ ] Recortar en
-- [x] Recortar
+- [ ] Recortar
 - [ ] Recorte de ondulación en
 - [ ] Recorte de ondulación
 
@@ -230,7 +230,7 @@ E. FLV
 
 - [ ] A, B, C
 - [ ] A, C, E
-- [x] B, C, D
+- [ ] B, C, D
 - [ ] B, D, E
 
 #### P30. ¿Qué formato de archivo de vídeo se puede exportar con Adobe Media Encoder? (Seleccione tres elementos.)
@@ -246,11 +246,11 @@ E. M4A
 - [ ] A, B, C
 - [ ] A, C, E
 - [ ] B, C, D
-- [x] B, D, E
+- [ ] B, D, E
 
 #### P31. Si ha colocado un efecto acelerado por GPU en un clip de la línea de tiempo y no lo ha representado, ¿qué color aparece en la parte superior de la línea de tiempo?
 
-- [x] rojo
+- [ ] rojo
 - [ ] azul
 - [ ] amarillo
 - [ ] verde
@@ -260,7 +260,7 @@ E. M4A
 - [ ] El brillo predeterminado es la posición intermedia entre más oscuro y más claro.
 - [ ] Puede configurar la barra superior de las ventanas en un color de acento personalizado.
 - [ ] Puede ajustar la intensidad del indicador de enfoque para ayudar a identificar fácilmente qué ventana está activa.
-- [x] Puede cambiar el color de resaltado.
+- [ ] Puede cambiar el color de resaltado.
 
 #### P33. ¿Qué puedes contar sobre esta transición?
 
@@ -276,7 +276,7 @@ E. M4A
 - [ ] Anule la selección de las secuencias no deseadas en el área Secuencia.
 - [ ] Seleccione Crear nuevo proyecto recortado.
 - [ ] Seleccione Consolidar y transcodificar.
-- [x] Elija Recopilar archivos y Copiar a una nueva ubicación.
+- [ ] Elija Recopilar archivos y Copiar a una nueva ubicación.
 
 #### P35. Desea tomar un clip parcial que se utiliza en la línea de tiempo y enviarlo a After Effects para su procesamiento adicional mediante dynamic Link. ¿Qué método logra esto mejor?
 
@@ -330,7 +330,7 @@ E. Ellipse
 ![image](images/010.png)
 
 - [ ] Negros
-- [x] Contraste
+- [ ] Contraste
 - [ ] Blancos
 - [ ] Exposición
 
@@ -387,7 +387,7 @@ E. Ellipse
 
 #### P48. Para organizar rápidamente los paneles en Adobe Premiere Pro para una tarea específica, ¿qué utiliza?
 
-- [x] espacios de trabajo
+- [ ] espacios de trabajo
 - [ ] diseños
 - [ ] ajustes preestablecidos del panel
 - [ ] eventos

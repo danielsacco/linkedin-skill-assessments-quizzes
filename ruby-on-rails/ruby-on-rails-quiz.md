@@ -4,11 +4,11 @@
 
 - [ ] `<%= render partial: "nav", selected: "about"}%>`
 - [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
-- [x] `<%= render partial: "nav", locals: {selected: "about"}`
+- [ ] `<%= render partial: "nav", locals: {selected: "about"}`
 
 #### Q2. Within a Rails controller, which code will prevent the parent controller's before_action `:get_feature` from running?
 
-- [x] `skip_before_action :get_feature`
+- [ ] `skip_before_action :get_feature`
 - [ ] `skip :get_feature, except: []`
 - [ ] `prevent_action :get_feature`
 - [ ] `:redis_cache_store`
@@ -17,7 +17,7 @@
 
 - [ ] The `form_tag` method is for basic forms, while the `form_for` method is for multipart forms that include file uploads.
 - [ ] The `form_tag` method is for HTTP requests, while the `form_for` method is for AJAX requests.
-- [x] The `form_tag` method typically expects a URL as its first argument, while the `form_for` method typically expects a model object.
+- [ ] The `form_tag` method typically expects a URL as its first argument, while the `form_for` method typically expects a model object.
 - [ ] The `form_tag` method is evaluated at runtime, while the `form_for` method is precompiled and cached.
 
 #### Q4. What is `before_action` (formerly known as `before_filter`)?
@@ -25,11 +25,11 @@
 - [ ] A trigger that is executed before an alteration of an object's state
 - [ ] A method that is executed before an ActiveRecord model is saved
 - [ ] A callback that fires before an event is handled
-- [x] A method in a controller that is executed before the controller action method
+- [ ] A method in a controller that is executed before the controller action method
 
 #### Q5. Which module can you use to encapsulate a cohesive chunk of functionality into a mixin?
 
-- [x] `ActiveSupport::Concern`
+- [ ] `ActiveSupport::Concern`
 - [ ] `RailsHelper.CommonClass`
 - [ ] `ActiveJob::Mixin`
 - [ ] `ActiveSupport::Module`
@@ -38,12 +38,12 @@
 
 - [ ] `put :items, include: patch`
 - [ ] `put 'items', to: 'items#update'`
-- [x] `match 'items', to 'items#update', via: [:put, :patch]`
+- [ ] `match 'items', to 'items#update', via: [:put, :patch]`
 - [ ] `match :items, using: put && patch`
 
 #### Q7. Which choice includes standard REST HTTP verbs?
 
-- [x] GET, POST, PATCH, DELETE
+- [ ] GET, POST, PATCH, DELETE
 - [ ] REDIRECT, RENDER, SESSION, COOKIE
 - [ ] INDEX, SHOW, NEW, CREATE, EDIT, UPDATE, DESTROY
 - [ ] CREATE, READ, UPDATE, DELETE
@@ -52,7 +52,7 @@
 
 - [ ] `Product.where("name = #{@keyword}")`
 - [ ] `Product.where("name = " << @keyword}`
-- [x] `Product.where("name = ?", @keyword`
+- [ ] `Product.where("name = ?", @keyword`
 - [ ] `Product.where("name = " + h(@keyword)`
 
 #### Q9. Given this code, which statement about the database table "documents" could be expected to be _true_?
@@ -72,20 +72,20 @@ end
 ```
 
 - [ ] It would include a column for `:type`.
-- [x] It would include columns for `:documentable_id` and `:documentable_type`.
+- [ ] It would include columns for `:documentable_id` and `:documentable_type`.
 - [ ] It would include columns for `:documentable` and `:type`.
 - [ ] It would include a column for `:polymorphic_type`.
 
 #### Q10. Are instance variables set within a controller method accessible within a view?
 
-- [x] Yes, any instance variables that are set in an action method on a controller can be accessed and displayed in a view.
+- [ ] Yes, any instance variables that are set in an action method on a controller can be accessed and displayed in a view.
 - [ ] Yes, instance variables set within an action method are accessible within a view, but only when render is explicitly called inside the action method.
 - [ ] No, instance variables in a controller are private and are not accessible.
 - [ ] No, instance variables can never be set in a controller action method.
 
 #### Q11. When a validation of a field in a Rails model fails, where are the messages for validation errors stored?
 
-- [x] `my_model.errors[:field]`
+- [ ] `my_model.errors[:field]`
 - [ ] `my_model.get_errors_for(:field)`
 - [ ] `my_model.field.error`
 - [ ] `my_model.all_errors.select(:field)`
@@ -109,28 +109,28 @@ end
 - [ ] `User.where(first_name: "Carrie")`
 - [ ] `User.not.where(id: [1, 2, 4, 5])`
 - [ ] `User.find_by(first_name: "Cordero")`
-- [x] `User.find(3)`
+- [ ] `User.find(3)`
 
 #### Q13. How would you generate a drop-down menu that allows the user to select from a collection of product names?
 
 - [ ] `<%= select_tag(@products) %>`
 - [ ] `<%= collection_select(@products) %>`
 - [ ] `<select name="product_id"> <%= @products.each do |product| %> <option value="<%= product.id %>"/> <% end %></select>`
-- [x] `<%= collection_select(:product, :product_id, Product.all, :id, :name) %>`
+- [ ] `<%= collection_select(:product, :product_id, Product.all, :id, :name) %>`
 
 #### Q14. For a Rails validator, how would you define an error message for the model attribute `address` with the message "This address is invalid"?
 
 - [ ] `model.errors = This address is invalid`
 - [ ] `errors(model, :address) << "This address is invalid"`
 - [ ] `display_error_for(model, :address, "This address is invalid")`
-- [x] `model.errors[:address] << "This address is invalid"`
+- [ ] `model.errors[:address] << "This address is invalid"`
 
 [Custom Validator](https://guides.rubyonrails.org/v5.2/active_record_validations.html#custom-validators)
 
 #### Q15. Given the URL helper `product_path(@product)`, which statement would be expected to be _false_?
 
 - [ ] If sent using the PATCH HTTP method, the URL could be used to update a product in the database.
-- [x] If sent using the POST HTTP method, the URL would create a new product in the database.
+- [ ] If sent using the POST HTTP method, the URL would create a new product in the database.
 - [ ] If sent using the GET HTTP method, the URL would execute the show action in ProductsController.
 - [ ] If sent using the DELETE HTTP method, the URL would call the destroy action by default.
 
@@ -148,18 +148,18 @@ end
 - [ ] The user's documents will be loaded.
 - [ ] The index action will run normally because `:index` is not listed as an argument to `before_action`.
 - [ ] The `require_login` method will automatically log in the user before running the index action.
-- [x] The index action will not be run if the `require_login` method calls render or `redirect_to`.
+- [ ] The index action will not be run if the `require_login` method calls render or `redirect_to`.
 
 #### Q17. In Rails, how would you cache a partial template that is rendered?
 
-- [x] `render partial: 'shared/menu', cached: true`
+- [ ] `render partial: 'shared/menu', cached: true`
 - [ ] `render_with_cache partial: 'shared/menu'`
 - [ ] `render partial: 'shared/menu'`
 - [ ] `render partial: 'shared/menu', cached_with_variables: {}`
 
 #### Q18. What is the reason for using Concerns in Rails?
 
-- [x] Concerns allow modularity and code reuse in models, controllers, and other classes.
+- [ ] Concerns allow modularity and code reuse in models, controllers, and other classes.
 - [ ] Concerns are used to separate class methods from models.
 - [ ] Concerns are used to increase security of Rails applications.
 - [ ] Concerns are used to refactor Rails views.
@@ -168,7 +168,7 @@ end
 
 - [ ] `build`
 - [ ] `new`
-- [x] `create`
+- [ ] `create`
 - [ ] `save`
 
 [Reference](https://medium.com/@de.usmanusa/difference-between-create-new-and-save-methods-in-activerecord-ea135085a08c)
@@ -178,7 +178,7 @@ end
 - [ ] `CoffeeOrders`
 - [ ] `Coffee_Orders`
 - [ ] `Coffee_Order`
-- [x] `CoffeeOrder`
+- [ ] `CoffeeOrder`
 
 [Reference](https://guides.rubyonrails.org/active_record_basics.html#naming-conventions)
 
@@ -187,13 +187,13 @@ end
 - [ ] The `has_many: through` association is the one-to-many equivalent to the `belongs_to` one-to-one association.
 - [ ] Both associations are identical, and `has_many: through` is maintained only for legacy purposes.
 - [ ] The `has_many` association is a one-to-many association, while `has_many: through` is a one-to-one association that matches through a third model.
-- [x] Both are one-to-many associations but with `has_many :through`, the declaring model can associate through a third model.
+- [ ] Both are one-to-many associations but with `has_many :through`, the declaring model can associate through a third model.
 
 #### Q22. How do you add Ruby code inside Rails views and have its result outputted in the HTML file?
 
 - [ ] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<% %>`.
 - [ ] Insert Ruby code inside standard HTML files and surround it with `<% %>`. The web server will handle the rest.
-- [x] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<%= %>`.
+- [ ] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<%= %>`.
 - [ ] Put the code in an .rb file and include it in a `<link>` tag of an HTML file.
 
 [Reference](https://guides.rubyonrails.org/action_view_overview.html#erb)
@@ -202,7 +202,7 @@ end
 
 - [ ] `<% render 'view_mobile' %>`
 - [ ] `<% render 'view', use_layout: 'mobile' %>`
-- [x] `<% render 'view', layout: 'mobile' %>`
+- [ ] `<% render 'view', layout: 'mobile' %>`
 - [ ] `<% render_with_layout 'view', 'mobile' %>`
 
 [Reference](https://stackoverflow.com/a/19277971)
@@ -230,7 +230,7 @@ end
 ```
 
 - [ ] The product will not be updated and the edit template will be rendered.
-- [x] The product will not be updated and the controller will raise an ActiveModel::ForbiddenAttributes exception.
+- [ ] The product will not be updated and the controller will raise an ActiveModel::ForbiddenAttributes exception.
 - [ ] The product will be updated with the values for name, style, and color, but the value for price will be ignored.
 - [ ] The product will be updated with the values for name, style, color, and price.
 
@@ -272,7 +272,7 @@ class Classroom < ActiveRecord::Base
 end
 ```
 
-- [x] D
+- [ ] D
 
 ```rb
 class Classroom < ActiveRecord::Base
@@ -288,7 +288,7 @@ end
 
 - [ ] app/static
 - [ ] app/images
-- [x] app/assets
+- [ ] app/assets
 - [ ] app/views
 
 [Reference: RoR folder structure](https://images.app.goo.gl/CfKZPEQcGExfSx5C6)
@@ -296,7 +296,7 @@ end
 #### Q27. If the Rails asset pipeline is being used to serve JavaScript files, how would you include a link to one of those JavaScript files in a view?
 
 - [ ] `<script src="/main.js"></script>`
-- [x] `<%= javascript_include_tag 'main' %>`
+- [ ] `<%= javascript_include_tag 'main' %>`
 - [ ] `<%= javascript_tag 'main' %>`
 - [ ] `<!-- include_javascript 'main' -->`
 
@@ -304,14 +304,14 @@ end
 
 - [ ] MemCacheStore, MongoDBStore, MemoryStore, and FileStore
 - [ ] MemoryStore, FileStore, and CacheCacheStore
-- [x] MemoryStore, FileStore, MemCacheStore, RedisCacheStore, and NullStore
+- [ ] MemoryStore, FileStore, MemCacheStore, RedisCacheStore, and NullStore
 - [ ] MemoryStore, FileStore, MySQLStore, and RedisCacheStore
 
 #### Q29. What is the correct way to generate a ProductsController with an index action using only the command-line tools bundled with Rails?
 
 - [ ] `rails generate controller --options {name: "Products", actions: "index"}`
 - [ ] `rails generate controller --name Products --action index`
-- [x] `rails generate controller Products index`
+- [ ] `rails generate controller Products index`
 - [ ] `rails generate ProductsController --actions index`
 
 #### Q30. If a model class is named Product, in which database table will ActiveRecord store and retrieve model instances?
@@ -319,12 +319,12 @@ end
 - [ ] `product_table`
 - [ ] `all_products`
 - [ ] `products_table`
-- [x] `products`
+- [ ] `products`
 
 #### Q31. What is a popular alternative template language for generating views in a Rails app that is focused on simple abstracted markup?
 
 - [ ] Mustache
-- [x] Haml
+- [ ] Haml
 - [ ] Liquid
 - [ ] Tilt
 
@@ -335,7 +335,7 @@ end
 - [ ] The method executes using "sudo" privileges.
 - [ ] Any ending line return will be omitted from the result.
 - [ ] The method will ignore exceptions that occur during execution.
-- [x] It is a more powerful or destructive version of the method.
+- [ ] It is a more powerful or destructive version of the method.
 
 #### Q33. What part of the code below causes the method `#decrypt_data` to be run?
 
@@ -346,7 +346,7 @@ end
 ```
 
 - [ ] `MyModel.first.update(field: 'example')`
-- [x] `MyModel.where(id: 42)`
+- [ ] `MyModel.where(id: 42)`
 - [ ] `MyModel.first.destroy`
 - [ ] `MyModel.new(field: 'new instance')`
 
@@ -354,7 +354,7 @@ end
 
 - [ ] `csrf_protection`
 - [ ] `csrf_helper`
-- [x] `csrf_meta_tags`
+- [ ] `csrf_meta_tags`
 - [ ] `csrf`
 
 [Reference](https://api.rubyonrails.org/classes/ActionView/Helpers/CsrfHelper.html)
@@ -368,7 +368,7 @@ before_destroy :notify_admin_users, if: ->(model) { model.is_admin }
 ```
 
 - [ ] `encrypt_data`
-- [x] `clear_cache`
+- [ ] `clear_cache`
 - [ ] `notify_admin_users`
 - [ ] None of these callbacks will be called when `is_admin` is true.
       [Explanation]:
@@ -383,7 +383,7 @@ Therefore, only the after_save callback with the if: ->(model) { model.is_admin 
 #### Q36. In a Rails controller, what does the code `params.permit(:name, :sku)` do?
 
 - [ ] It filters out all parameters.
-- [x] It filters out submitted form parameters that are not named `:name` or `:sku` to make forms more secure.
+- [ ] It filters out submitted form parameters that are not named `:name` or `:sku` to make forms more secure.
 - [ ] It raises an error if parameters that are not named `:name` or `:sku` are found.
 - [ ] It raises an error if the `:name` and `:sku` parameters are set to `nil`.
 
@@ -395,12 +395,12 @@ Therefore, only the after_save callback with the if: ->(model) { model.is_admin 
 
 - [ ] `=>`
 - [ ] `<==>`
-- [x] `<=>`
+- [ ] `<=>`
 - [ ] `||`
 
 #### Q38. You made a spelling mistake while creating a table for bank accounts. Which code would you expect to see in a migration to fix the error?
 
-- [x] A
+- [ ] A
 
 ```
 class IAmADummy < ActiveRecord::Migration
@@ -447,7 +447,7 @@ end
 <% check_box(:post, :visible) %>
 ```
 
-- [x] A
+- [ ] A
 
 ```
 <input type="hidden" name="post[visible]" value="0" />
@@ -485,7 +485,7 @@ end
 
 - [ ] The string assigned to flash[:notice] will not be available until the next browser request.
 - [ ] An instance variable should be used for flash[:notice]
-- [x] This is an invalid syntax to use to assign valuse to flash[:notice]
+- [ ] This is an invalid syntax to use to assign valuse to flash[:notice]
 - [ ] The previous value of flash[:notice] will not be cleared automatically
       [Explanation]:
       The cause of the bug is a syntax error in the line that sets the value of the flash[:notice] message. The string literal "You have been logged out" is not properly enclosed in the surrounding string literal.
@@ -494,7 +494,7 @@ end
 
 - [ ] Each database column requres adding a matching attr_accessor declaration in the ActiveRecord model.
 - [ ] All attributes in an ActiveRecord model are read-only declared as writable using attr_accessible
-- [x] An instance of an ActiveRecord model will have attributes that match the columns in a corresponding database table.
+- [ ] An instance of an ActiveRecord model will have attributes that match the columns in a corresponding database table.
 - [ ] ActiveRecord models can have only attributes that have a matching database column
 
 #### Q42. What is the correct way to assign a value to the session?
@@ -517,7 +517,7 @@ $_SESSION['user_id'] = user.id
 session_save(:user_id, user.id)
 ```
 
-- [x] D
+- [ ] D
 
 ```
 session[:user_id] = user.id
@@ -530,7 +530,7 @@ session[:user_id] = user.id
 ```
 
 - [ ] either true or false
-- [x] an unsaved Tag instance
+- [ ] an unsaved Tag instance
 - [ ] a saved Tag instance
 - [ ] an array of Tag instances
 
@@ -552,7 +552,7 @@ session[:user_id] = user.id
 <% end %>
 ```
 
-- [x] C
+- [ ] C
 
 ```
 <% render "shared/head, locals: {title: "My page title"} %>
@@ -568,7 +568,7 @@ session[:user_id] = user.id
 
 #### Q45. How would you validate that a project's name is not blank, is fewer than 50 characters, and is unique?
 
-- [x] A
+- [ ] A
 
 ```
 class Project
@@ -610,7 +610,7 @@ end
 
 ```
 
-- [x] has_one_attached
+- [ ] has_one_attached
 - [ ] has_image
 - [ ] attached_file
 - [ ] acts_as_attachment
@@ -621,7 +621,7 @@ end
 link_to('Link', {controller: 'products', action: 'index', page: 3})
 ```
 
-- [x] A
+- [ ] A
 
 ```
 /products?page=3
@@ -648,27 +648,27 @@ link_to('Link', {controller: 'products', action: 'index', page: 3})
 #### Q48. Which part of the Rails framework is primarily responsible for making decisions about how to respond to a browser request?
 
 - [ ] view
-- [x] controller
+- [ ] controller
 - [ ] ActiveRecord
 - [ ] model
 
 #### Q49. If User is an ActiveRecord class, which choice would be expected to return an array?
 
-- [x] User.where(last_name: 'Smith')
+- [ ] User.where(last_name: 'Smith')
 - [ ] User.find_or_create(last_name: 'Smith')
 - [ ] User.find_by_last_name('Smith')
 - [ ] User.find('Smith')
 
 #### Q50. Which choice is not a valid Rails route?
 
-- [x] route "products/index", to: "products/index", via: :get
+- [ ] route "products/index", to: "products/index", via: :get
 - [ ] match "products/index", to: "products#index", via: :get
 - [ ] root "products/index"
 - [ ] get "products/index"
 
 #### Q51. Given a table of blog_posts and a related table of comments (comments made on each blog post), which ActiveRecord query will retrieve all blog posts with comments created during @range?
 
-- [x] BlogPost.joins (:comments).where(comments: {created_at: @range})
+- [ ] BlogPost.joins (:comments).where(comments: {created_at: @range})
 - [ ] BlogPost.where(['comments.created_at', @range])
 - [ ] BlogPost.preload ("comments.created_at").where(created_at: @range)
 - [ ] BlogPost.includes (:comments).where('comments.created_at' => @range)
@@ -687,7 +687,7 @@ saved_name = _____
 
 - [ ] category.name_was
 - [ ] category.saved(:name)
-- [x] category.changes[:name]
+- [ ] category.changes[:name]
 - [ ] category.name_changed?
 
 #### Q53. Given two models, what is the issue with the query used to fetch them?
@@ -704,7 +704,7 @@ Order.limit(3).each { |order| puts order.line_items }
 ```
 
 - [ ] This query will result in extensive caching, and you will have to then deal with caching issues.
-- [x] This query will result in the N+1 query issue. Three orders will result in four queries.
+- [ ] This query will result in the N+1 query issue. Three orders will result in four queries.
 - [ ] This query will result in the 1 query issue. Three orders will result in one query.
 - [ ] There are no issues with this query, and you are correctly limiting the number of Order models that will be loaded.
 
@@ -712,14 +712,14 @@ Order.limit(3).each { |order| puts order.line_items }
 
 - [ ] `<%= render(:partial => 'shared/product') %>`
 - [ ] `<%= render('shared/product', :collection => @products) %>`
-- [x] `<%= render(template: 'shared/product', with: @products) %>`
+- [ ] `<%= render(template: 'shared/product', with: @products) %>`
 - [ ] `<%= render('shared/product', locals: { product: @product }) %>`
 
 #### Q55. Which code sample will skip running the `login_required` "before" filter on the `get_posts` controller action?
 
 - [ ] `before_action :login_required, skip: [:get_posts]`
 - [ ] `skip_before_action :login_required, except: [:get_posts]`
-- [x] `skip_before_action :login_required, only: [:get_posts]`
+- [ ] `skip_before_action :login_required, only: [:get_posts]`
 - [ ] `skip_action before: :login_required, only: [:get_posts]`
 
 #### Q56. Within a Rails model with a `cache_key` method, which code snippet will expire the cache whenever the model is updated?
@@ -748,7 +748,7 @@ Rails.cache.delete(cache_key)
 end
 ```
 
-- [x] D
+- [ ] D
 
 ```ruby
 after_update_commit do
@@ -772,7 +772,7 @@ end
 ```
 
 - [ ] The galleries table will have no primary key.
-- [x] The galleries table will include a column named "updated_at".
+- [ ] The galleries table will include a column named "updated_at".
 - [ ] The galleries table will contain exactly seven columns.
 - [ ] The galleries table will have an index on the position column.
 
@@ -795,7 +795,7 @@ rescue => e
 end
 ```
 
-- [x] B
+- [ ] B
 
 ```ruby
 rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
@@ -822,13 +822,13 @@ end
 - [ ] model
 - [ ] view
 - [ ] web server
-- [x] router
+- [ ] router
 
 #### Q60. When rendering a partial in a view, how would you pass local variables for rendering?
 
 - [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
 - [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
-- [x] `<%= render partial: "nav", locals: {selected: "about"} %>`
+- [ ] `<%= render partial: "nav", locals: {selected: "about"} %>`
 - [ ] `<%= render partial: "nav", selected: "about"} %>`
 
 #### Q61. Given this code, and assuming `@user` is an instance of `User` that has an assigned location, which choice would be used to return the user's city?
@@ -847,7 +847,7 @@ end
 
 - [ ] `@user.user_city`
 - [ ] `@user.location_city`
-- [x] `@user.city`
+- [ ] `@user.city`
 - [ ] `@user.try(:city)`
 
 [Reference](https://itnext.io/understanding-delegate-in-ruby-on-rails-i-wish-i-knew-before-5edd341bad47)
@@ -856,7 +856,7 @@ end
 
 `scope :active, lambda { where(:active => true) }`
 
-- [x] an Active Record model
+- [ ] an Active Record model
 - [ ] an ActionView template
 - [ ] an ApplicationHelper file
 - [ ] an ActionController controller
@@ -866,11 +866,11 @@ end
 - [ ] The models used for STI must mix in the module `ActiveRecord::STI`
 - [ ] All models used for STI must include "self.abstract_class=true".
 - [ ] All database tables used for STI must be related to each other using a foreign key.
-- [x] The database table used for STI must have a column named "type".
+- [ ] The database table used for STI must have a column named "type".
 
 #### Q64. A way that views can share reusable code, such as formatting a date, is called a \_?
 
-- [x] helper
+- [ ] helper
 - [ ] utility
 - [ ] controller
 - [ ] formatter
@@ -880,7 +880,7 @@ end
 - [ ] Insert Ruby code inside standard HTML files and surround it with `<% %>`. The web server will handle the rest.
 - [ ] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<% %>`
 - [ ] Put the code in `an.rb. file` and include it in a `<link>` tag of an HTML file.
-- [x] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<%= %>`.
+- [ ] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<%= %>`.
 
 #### Q66.You are working with a large database of portfolios that sometimes have an associated image. Which statement best explains the purpose of includes(:image) in this code?
 
@@ -895,7 +895,7 @@ end
 - [ ] It preloads the images files using asset pipeline.
 - [ ] It selects only portfolios that have an image attached.
 - [ ] It includes the number of associated images when determining how many records to return.
-- [x] It will execute two database queries of 21 database queries.
+- [ ] It will execute two database queries of 21 database queries.
 
 #### Q67. What line of code causes the method `decrypt_data` to be run?
 
@@ -908,12 +908,12 @@ end
 - [ ] MyModel.decrypt_data
 - [ ] MyModel.query(id: 42)
 - [ ] MyModel.find(:decrypt_data)
-- [x] MyModel.where(id: 42)
+- [ ] MyModel.where(id: 42)
 
 #### Q68. Which line of inquiry would you follow after receiving this error message: No route matches [POST] "/burrito/create"?
 
 - [ ] Check that there is a matching path for "/burrito/create" in you paths.rb file.
-- [x] Check that there is a `post` route that matches "/burrito/create" in your routes.rb file.
+- [ ] Check that there is a `post` route that matches "/burrito/create" in your routes.rb file.
 - [ ] Add the line `resources :burritos` to your routes.rb file.
 - [ ] Check that there is a `get` route that matches "burrito/create" in your paths.rb file.
 
@@ -950,7 +950,7 @@ def show
 end
 ```
 
-- [x] D
+- [ ] D
 
 ```
 def show
@@ -965,7 +965,7 @@ end
 - [ ] render
 - [ ] puts
 - [ ] view_content
-- [x] yield
+- [ ] yield
 
 [Reference](https://guides.rubyonrails.org/layouts_and_rendering.html)
 
@@ -973,13 +973,13 @@ end
 
 - [ ] how many downloads it has on Ruby Toolbox
 - [ ] if it is well documented
-- [x] how long pull requests and issues stay open
+- [ ] how long pull requests and issues stay open
 - [ ] the date it was first released
 
 #### Q72. What decides which controller receives which requests?
 
 - [ ] web server
-- [x] router
+- [ ] router
 - [ ] view
 - [ ] model
 
@@ -996,7 +996,7 @@ end
 
 - [ ] The variable `@user` will be set to the object returned by `User.first` unless `session[:user_id]` has a value.
 - [ ] The result of `User.find_by_id` is irrelevant because the variable `@user` will always be set to the object returned by `User.first`.
-- [x] If `User.find_by_id` does not raise an exception, the variable `@user` will be set to the object returned by `User.first`.
+- [ ] If `User.find_by_id` does not raise an exception, the variable `@user` will be set to the object returned by `User.first`.
 - [ ] If `User.find_by_id ` returns nil or false, the variable `@user` will be set to the object returned by `User.first`.
 
 #### Q74. When defining a resource route, seven routes are defined by default. Which two methods allow defining additional routes on the resource?
@@ -1004,7 +1004,7 @@ end
 - [ ] only, except
 - [ ] match, resolve
 - [ ] action, path
-- [x] member, collection
+- [ ] member, collection
 
 #### Q75. You are rendering a partial with this code. What will display the user's name?
 
@@ -1026,7 +1026,7 @@ end
 - [ ] `params[:name]`
 - [ ] `@params.name`
 - [ ] `params.require(:category).permit(:name)`
-- [x] `params[:category][:name]`
+- [ ] `params[:category][:name]`
 
 #### Q77. Which missing line would best show the correct usage of strong parameters?
 
@@ -1048,6 +1048,6 @@ end
 - [ ] `params[:project].allow(:name, :visible, :description)`
 - [ ] `params[:project].allowed`
 - [ ] `params.permit(:project).allow(:name, :visible, :description)`
-- [x] `params.require(:project).permit(:name, :visible, :description)`
+- [ ] `params.require(:project).permit(:name, :visible, :description)`
 
 [Strong Params](https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters)

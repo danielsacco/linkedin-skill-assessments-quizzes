@@ -2,7 +2,7 @@
 
 #### D1. Qual è uno dei motivi per fare clic su Opzioni oggetto > cornice di testo?
 
-- [x] per modificare il numero di colonne in una cornice di testo
+- [ ] per modificare il numero di colonne in una cornice di testo
 - [ ] per applicare un'ombra esterna al fotogramma
 - [ ] per modificare gli angoli di una cornice da angolo ad arrotondato
 - [ ] per modificare il riempimento e il tratto di una cornice di testo
@@ -12,7 +12,7 @@
 #### D2. Quale pannello consente di aggiungere una punta di freccia alla fine di una linea?
 
 - [ ] Effetti
-- [x] Corsa
+- [ ] Corsa
 - [ ] Trasforma
 - [ ] Pathfinder
 
@@ -22,7 +22,7 @@
 
 ![Q3](images/question_3.jpg)
 
-- [x] Il testo selezionato non è stato formattato utilizzando la definizione di stile.
+- [ ] Il testo selezionato non è stato formattato utilizzando la definizione di stile.
 - [ ] Il testo selezionato si trova in testo non inserito al di fuori dei confini della cornice corrente.
 - [ ] Lo stile è stato applicato a due o più paragrafi.
 - [ ] Lo stile è stato aggiunto da quando sono stati creati gli stili master.
@@ -31,7 +31,7 @@
 
 #### D4. Vuoi assicurarti che un'immagine sulla tua pagina sia esattamente il 25% delle sue dimensioni originali. Come è possibile determinare se l'immagine è impostata sulla dimensione desiderata?
 
-- [x] Fate doppio clic sull'immagine con lo strumento selezione.
+- [ ] Fate doppio clic sull'immagine con lo strumento selezione.
 - [ ] Selezionate la cornice grafica con lo strumento selezione.
 - [ ] Fare clic su **Finestra** > **Informazioni**.
 - [ ] Fare clic su **Oggetto** > **Decente**.
@@ -40,7 +40,7 @@
 
 - [ ] Seleziona **Mostra opzioni di importazione** Nel **Luogo** finestra di dialogo.
 - [ ] Fare clic con il pulsante destro del mouse sulla pagina con il cursore di posizione.
-- [x] Tenete premuto Maiusc e fate clic con il cursore posiziona all'interno delle guide ai margini.
+- [ ] Tenete premuto Maiusc e fate clic con il cursore posiziona all'interno delle guide ai margini.
 - [ ] Nella **Pagine** , fare clic sull'icona **Nuove pagine** con il cursore di posizione.
 
 #### D6. Selezionate una cornice grafica che contiene un'immagine di Photoshop e utilizzate il campo Scala nel pannello Controllo per ingrandirla al 200%. Cosa succede alla risoluzione effettiva dell'immagine?
@@ -48,18 +48,18 @@
 - [ ] La risoluzione raddoppia.
 - [ ] La risoluzione effettiva dell'immagine rimane invariata fino a quando non si sceglie dal menu Visualizza > Prestazioni schermo.
 - [ ] La risoluzione effettiva dell'immagine è impostata in Photoshop, non in InDesign, quindi rimane la stessa.
-- [x] Corretto La risoluzione è tagliata a metà.
+- [ ] Corretto La risoluzione è tagliata a metà.
 
 #### D7. Qual è uno dei motivi per cui potresti voler utilizzare la funzione Variabili di testo?
 
 - [ ] per creare didascalie sotto le immagini che si aggiornano automaticamente
 - [ ] per includere i calcoli all'interno di una tabella dinamica
 - [ ] per regolare automaticamente le dimensioni del testo per riempire la cornice
-- [x] per creare intestazioni in esecuzione che includano i nomi dei capitoli
+- [ ] per creare intestazioni in esecuzione che includano i nomi dei capitoli
 
 #### D8. Desiderate inserire 4 di un PDF multipagina in un documento InDesign. Cosa dovresti fare?
 
-- [x] Nella **Luogo** , selezionare **Mostra opzioni di importazione**.
+- [ ] Nella **Luogo** , selezionare **Mostra opzioni di importazione**.
 - [ ] Importa il PDF con il **Media** invece di **File>Luogo**
 - [ ] Aprite il PDF in Acrobat, selezionate la pagina 4 e trascinatelo in InDesign.
 - [ ] Dopo aver posizionato il PDF, disattivate le pagine indesiderate nel pannello Media.
@@ -68,7 +68,7 @@
 
 - [ ] Gli oggetti nella pagina master A non sono visibili.
 - [ ] Gli oggetti nella pagina mastro A devono sempre essere visualizzati dietro gli oggetti della pagina mastro B.
-- [x] Gli oggetti nella pagina mastro A non possono essere selezionati a meno che non si sostituisca sugli oggetti.
+- [ ] Gli oggetti nella pagina mastro A non possono essere selezionati a meno che non si sostituisca sugli oggetti.
 - [ ] Gli oggetti nella pagina mastro A non possono essere selezionati o modificati.
 
 #### D10. Nell'immagine mostrata, il testo si trova su un percorso. Si desidera spostare il testo più a destra lungo il percorso. Come puoi farlo?
@@ -77,12 +77,12 @@
 
 - [ ] Trascina il quadrato blu D.
 - [ ] Trascinare la maniglia laterale B
-- [x] Trascinate la linea inclinata A.
+- [ ] Trascinate la linea inclinata A.
 - [ ] Trascina il segno di spunta centrale C.
 
 #### D11. Quando selezionate una cornice rettangolare nella pagina, InDesign visualizza un quadrato giallo vicino all'angolo superiore destro della cornice. Cosa ti permette di fare?
 
-- [x] Modificare gli angoli da quadrati a arrotondati.
+- [ ] Modificare gli angoli da quadrati a arrotondati.
 - [ ] Ancorare l'oggetto in un altro fotogramma.
 - [ ] Modificate il livello o l'ordine z del fotogramma.
 - [ ] Collegare la cornice a un'altra cornice.
@@ -92,11 +92,11 @@
 - [ ] Lo strumento penna non può influire su un oggetto dopo che è stato creato.
 - [ ] È possibile fare clic su un punto per convertirlo in una curva.
 - [ ] Potete trascinare lo strumento penna all'interno di una cornice per convertirla in una forma composta.
-- [x] È possibile fare clic su un punto per eliminarlo.
+- [ ] È possibile fare clic su un punto per eliminarlo.
 
 #### D13. Qual è uno dei motivi per cui potresti voler utilizzare la funzionalità Colonne span?
 
-- [x] Si dispone di un elenco puntato di sei elementi che si desidera dividere in due colonne al centro di una cornice di testo.
+- [ ] Si dispone di un elenco puntato di sei elementi che si desidera dividere in due colonne al centro di una cornice di testo.
 - [ ] Stai modificando il numero di colonne in una pagina e vuoi assicurarti che il testo scorra correttamente.
 - [ ] Si desidera che una linea o una parte superiore ombreggiata sia bordata per estendersi sulla parte superiore di una cornice multicolonna.
 - [ ] Si dispone di un'intestazione che si desidera estendere su due cornici di testo concatenate

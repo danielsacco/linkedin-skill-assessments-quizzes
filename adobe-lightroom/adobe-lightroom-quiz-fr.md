@@ -3,7 +3,7 @@
 #### Q1. Supposons que vous voyiez une frange de couleur autour des bords de votre sujet. Quel contrôle est le meilleur pour enlever la frange?
 
 - [ ] Réduction du bruit des couleurs
-- [x] Supprimer l’aberration chromatique
+- [ ] Supprimer l’aberration chromatique
 - [ ] Tonification fractionnée
 - [ ] Activer les corrections de profil
 
@@ -12,14 +12,14 @@
 - [ ] métadonnées
 - [ ] Paramètres d’image
 - [ ] Modifier les paramètres
-- [x] Paramètres de développement
+- [ ] Paramètres de développement
 
 Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans les paramètres, je n’ai pu découvrir que paramètres -> Paramètres de copie.
 
 #### Q3. Quel module vous aide à créer un album photo imprimé ?
 
 - [ ] Web
-- [x] Livre
+- [ ] Livre
 - [ ] Imprimer
 - [ ] Bibliothèque
 
@@ -30,14 +30,14 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 - [ ] L’image a été modifiée dans Photoshop.
 - [ ] La photo est marquée comme choisie.
 - [ ] La photo a besoin d’au moins un mot-clé.
-- [x] Une photo est manquante et doit être déplacée.
+- [ ] Une photo est manquante et doit être déplacée.
 
 [Référence (adobe.com)](https://helpx.adobe.com/in/lightroom-classic/help/locate-missing-photos.html)
 
 #### Q5. Ajuster l’exposition d’un fichier brut par -1 équivaut à faire quoi dans l’appareil photo ?
 
 - [ ] ouverture de l’ouverture d’un f-stop
-- [x] fermeture de l’ouverture d’un f-stop
+- [ ] fermeture de l’ouverture d’un f-stop
 - [ ] réglage de l’ISO par +400
 - [ ] réglage de l’ISO par -400
 
@@ -46,13 +46,13 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 ![Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?](images/Q6.png?raw=true)
 
 - [ ] A
-- [x] B
+- [ ] B
 - [ ] C
 - [ ] D
 
 #### Q7. Supposons que vous souhaitiez migrer une sélection d’images vers une autre machine. Comment créer un nouveau catalogue contenant une copie de toutes les images ?
 
-- [x] Utilisez la commande Exporter en tant que catalogue.
+- [ ] Utilisez la commande Exporter en tant que catalogue.
 - [ ] Lorsque vous sauvegardez le catalogue, les images sont également sauvegardées.
 - [ ] Utilisez la commande Exporter.
 - [ ] Utilisez la commande Importer à partir d’un autre catalogue.
@@ -64,18 +64,18 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 - [ ] Mode correctif
 - [ ] Mode écran
 - [ ] Mode de guérison
-- [x] Mode clone
+- [ ] Mode clone
 
 #### Q9. Lors de l’examen des images, quelle tâche peut être accomplie à l’aide des touches numériques?
 
 - [ ] recherche d’images
 - [ ] impression d’images
 - [ ] sélection d’images
-- [x] application des cotes
+- [ ] application des cotes
 
 #### Q10. Quel est le moyen le plus simple de réutiliser vos paramètres d’exportation personnalisés les plus récents ?
 
-- [x] Cliquez sur Fichier > Exporter avec Précédent.
+- [ ] Cliquez sur Fichier > Exporter avec Précédent.
 - [ ] Cliquez sur Fichier > Exporter avec préréglage.
 - [ ] Cliquez sur Fichier > Exporter en tant que catalogue.
 - [ ] Cliquez à nouveau sur Fichier > Exporter.
@@ -84,7 +84,7 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 
 ![In the image shown, what do the blue areas indicate?](images/Q11.png?raw=true)
 
-- [x] Détails écrasés dans l’ombre
+- [ ] Détails écrasés dans l’ombre
 - [ ] un effet spécial appliqué à l’image
 - [ ] trop peu de saturation dans l’image
 - [ ] détails écrasés dans les faits saillants
@@ -92,7 +92,7 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 #### Q12. Lors de l’exportation d’une image, quelle méthode de netteté est la meilleure à utiliser sur les écrans ?
 
 - [ ] Papier glacé
-- [x] Écran
+- [ ] Écran
 - [ ] Internet
 - [ ] Papier mat
 
@@ -100,21 +100,21 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 
 #### Q13. Quel panneau de module Développer vous permet d’ajuster une image en fonction d’une plage de couleurs ?
 
-- [x] HSL/Couleur
+- [ ] HSL/Couleur
 - [ ] Tonification fractionnée
 - [ ] Étalonnage
 - [ ] Basique
 
 #### Q14. Quel type de fichier fonctionnera avec la commande Améliorer les détails ?
 
-- [x] fichiers bruts
+- [ ] fichiers bruts
 - [ ] DSP
 - [ ] JPEG
 - [ ] TIFF
 
 #### Q15. Supposons que lorsque vous utilisez l’outil Vignettage de post-recadrage, le curseur Surbrillance est grisé. Quelle est la cause la plus probable?
 
-- [x] Vous utilisez le style Paint Overlay.
+- [ ] Vous utilisez le style Paint Overlay.
 - [ ] Vous modifiez un fichier brut.
 - [ ] Vous utilisez le style Priorité des couleurs.
 - [ ] Vous utilisez le style Priorité de surbrillance.
@@ -125,12 +125,12 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 
 - [ ] Copie virtuelle
 - [ ] Synchronisé avec Lightroom
-- [x] Avertissement de conflit de métadonnées
+- [ ] Avertissement de conflit de métadonnées
 - [ ] Photo manquante
 
 #### Q17. Quels critères NE PEUVENT PAS être utilisés avec une collection intelligente ?
 
-- [x] Date d’exportation
+- [ ] Date d’exportation
 - [ ] Date de capture
 - [ ] Évaluation
 - [ ] Numéro de série de l’appareil photo

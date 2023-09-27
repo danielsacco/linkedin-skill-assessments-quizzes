@@ -5,11 +5,11 @@
 - [ ] `import React.Component from 'react'`
 - [ ] `import [ Component ] from 'react'`
 - [ ] `import Component from 'react'`
-- [x] `import { Component } from 'react'`
+- [ ] `import { Component } from 'react'`
 
 #### Q2. If a function component should always render the same way given the same props, what is a simple performance optimization available for it?
 
-- [x] Wrap it in the `React.memo` higher-order component.
+- [ ] Wrap it in the `React.memo` higher-order component.
 - [ ] Implement the `useReducer` Hook.
 - [ ] Implement the `useMemo` Hook.
 - [ ] Implement the `shouldComponentUpdate` lifecycle method.
@@ -25,7 +25,7 @@ const person =(firstName, lastName) =>
 console.log(person("Jill", "Wilson"))
 ```
 
-- [x] Wrap the object in parentheses.
+- [ ] Wrap the object in parentheses.
 - [ ] Call the function from another file.
 - [ ] Add a return statement before the first curly brace.
 - [ ] Replace the object with an array.
@@ -34,7 +34,7 @@ console.log(person("Jill", "Wilson"))
 
 `import React, {useState} from 'react';`
 
-- [x] React Hooks
+- [ ] React Hooks
 - [ ] stateful components
 - [ ] math
 - [ ] class components
@@ -49,7 +49,7 @@ console.log(person);
 ```
 
 - [ ] `{{name: "Rachel", age: 31}}`
-- [x] `{name: "Rachel", age: 31}`
+- [ ] `{name: "Rachel", age: 31}`
 - [ ] `{person: "Rachel", person: 31}}`
 - [ ] `{person: {name: "Rachel", age: 31}}`
 
@@ -58,7 +58,7 @@ console.log(person);
 - [ ] Mocha
 - [ ] Chai
 - [ ] Sinon
-- [x] Jest
+- [ ] Jest
 
 [Reference](https://jestjs.io)
 
@@ -71,14 +71,14 @@ const topics = ['cooking', 'art', 'history'];
 - [ ] `const first = ["cooking", "art", "history"]`
 - [ ] `const [] = ["cooking", "art", "history"]`
 - [ ] `const [, first]["cooking", "art", "history"]`
-- [x] `const [first] = ["cooking", "art", "history"]`
+- [ ] `const [first] = ["cooking", "art", "history"]`
 
 #### Q8. How do you handle passing through the component tree without having to pass props down manually at every level?
 
 - [ ] React Send
 - [ ] React Pinpoint
 - [ ] React Router
-- [x] React Context
+- [ ] React Context
 
 [Reference](https://reactjs.org/docs/context.html)
 
@@ -90,7 +90,7 @@ console.log(animal);
 ```
 
 - [ ] Horse
-- [x] Cat
+- [ ] Cat
 - [ ] Mouse
 - [ ] undefined
 
@@ -99,12 +99,12 @@ console.log(animal);
 - [ ] JSX Editor
 - [ ] ReactDOM
 - [ ] Browser Buddy
-- [x] Babel
+- [ ] Babel
 
 #### Q11. Why might you use useReducer over useState in a React component?
 
 - [ ] when you want to replace Redux
-- [x] when you need to manage more complex state in an app
+- [ ] when you need to manage more complex state in an app
 - [ ] when you want to improve performance
 - [ ] when you want to break your production app
 
@@ -115,7 +115,7 @@ console.log(animal);
 ```
 
 - [ ] any that have not changed
-- [x] all of them
+- [ ] all of them
 - [ ] child props
 - [ ] any that have changed
 
@@ -126,7 +126,7 @@ console.log(animal);
 ```
 
 - [ ] This is a route modal
-- [x] This is a route parameter
+- [ ] This is a route parameter
 - [ ] This is a route splitter
 - [ ] This is a route link
 
@@ -143,7 +143,7 @@ ReactDOM.render(<Dish />, document.getElementById('root'));
 - [ ] `div`
 - [ ] section
 - [ ] component
-- [x] `h1`
+- [ ] `h1`
 
 #### Q15. What does this React element look like given the following function? (Alternative: Given the following code, what does this React element look like?)
 
@@ -152,7 +152,7 @@ React.createElement('h1', null, "What's happening?");
 ```
 
 - [ ] `<h1 props={null}>What's happening?</h1>`
-- [x] `<h1>What's happening?</h1>`
+- [ ] `<h1>What's happening?</h1>`
 - [ ] `<h1 id="component">What's happening?</h1>`
 - [ ] `<h1 id="element">What's happening?</h1>`
 
@@ -174,7 +174,7 @@ function MyComponent() {
 
 - [ ] lazy
 - [ ] loading
-- [x] fallback
+- [ ] fallback
 - [ ] spinner
 
 [Reference](https://linguinecode.com/post/how-react-suspense-works)
@@ -188,14 +188,14 @@ const element = <p>{message}</p>;
 
 - [ ] a JS function
 - [ ] a JS element
-- [x] a JS expression
+- [ ] a JS expression
 - [ ] a JSX wrapper
 
 #### Q18. What can you use to handle code splitting?
 
 - [ ] `React.memo`
 - [ ] `React.split`
-- [x] `React.lazy`
+- [ ] `React.lazy`
 - [ ] `React.fallback`
 
 [Reference]()
@@ -204,7 +204,7 @@ const element = <p>{message}</p>;
 
 - [ ] to optimize for all devices
 - [ ] to complete the update
-- [x] to change the layout of the screen
+- [ ] to change the layout of the screen
 - [] when you need the browser to paint before the effect runs
 
 [Source] (https://react.dev/reference/react/useLayoutEffect)
@@ -233,7 +233,7 @@ B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 - [ ] Button A will not have access to the event object on click of the button.
 - [ ] Button B will not fire the handler this.handleClick successfully.
 - [ ] Button A will not fire the handler this.handleClick successfully.
-- [x] There is no difference.
+- [ ] There is no difference.
 
 #### Q21. How do you destructure the properties that are sent to the Dish component?
 
@@ -248,7 +248,7 @@ function Dish(props) {
 ```
 
 - [ ] `function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }`
-- [x] `function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }`
+- [ ] `function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }`
 - [ ] `function Dish(props) { return <h1>{name} {cookingTime}</h1>; }`
 - [ ] `function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }`
 
@@ -256,7 +256,7 @@ function Dish(props) {
 
 - [ ] when you do not want your component to have props
 - [ ] when you have sibling components that need to be compared
-- [x] when you want a default implementation of `shouldComponentUpdate()`
+- [ ] when you want a default implementation of `shouldComponentUpdate()`
 - [ ] when you do not want your component to have state
 
 [Reference](https://reactjs.org/docs/react-api.html#reactpurecomponent)
@@ -265,13 +265,13 @@ function Dish(props) {
 
 - [ ] because you should never mutate state
 - [ ] because `getDerivedStateFromProps()` is an unsafe method to use
-- [x] because you want to allow a component to update in response to changes in the props
+- [ ] because you want to allow a component to update in response to changes in the props
 - [ ] because you want to allow data to flow back up to the parent
 
 #### Q24. What is the children prop?
 
 - [ ] a property that adds child components to state
-- [x] a special property that JSX creates on components that contain both an opening tag and a closing tag, referencing it's contents.
+- [ ] a special property that JSX creates on components that contain both an opening tag and a closing tag, referencing it's contents.
 - [ ] a property that lets you set an array as a property
 - [ ] a property that lets you pass data to child elements
 
@@ -280,7 +280,7 @@ function Dish(props) {
 #### Q25. Which attribute is React's replacement for using innerHTML in the browser DOM?
 
 - [ ] injectHTML
-- [x] dangerouslySetInnerHTML
+- [ ] dangerouslySetInnerHTML
 - [ ] weirdSetInnerHTML
 - [ ] strangeHTML
 
@@ -288,7 +288,7 @@ function Dish(props) {
 
 #### Q26. Which of these terms commonly describe React applications?
 
-- [x] declarative
+- [ ] declarative
 - [ ] integrated
 - [ ] closed
 - [ ] imperative
@@ -298,13 +298,13 @@ function Dish(props) {
 #### Q27. When using webpack, why would you need to use a loader?
 
 - [ ] to put together physical file folders
-- [x] to preprocess files
+- [ ] to preprocess files
 - [ ] to load external data
 - [ ] to load the website into everyone's phone
 
 #### Q28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
-- [x] virtual DOM
+- [ ] virtual DOM
 - [ ] DOM
 - [ ] virtual elements
 - [ ] shadow DOM
@@ -318,13 +318,13 @@ const Heading = () => {
 ```
 
 - [ ] Add a render function.
-- [x] Change the curly braces to parentheses or add a return statement before the `h1` tag.
+- [ ] Change the curly braces to parentheses or add a return statement before the `h1` tag.
 - [ ] Move the `h1` to another component.
 - [ ] Surround the `h1` in a `div`.
 
 #### Q30. To create a constant in JavaScript, which keyword do you use?
 
-- [x] const
+- [ ] const
 - [ ] let
 - [ ] constant
 - [ ] var
@@ -334,14 +334,14 @@ const Heading = () => {
 - [ ] error bosses
 - [ ] error catchers
 - [ ] error helpers
-- [x] error boundaries
+- [ ] error boundaries
 
 [Reference](https://www.geeksforgeeks.org/react-js-error-boundaries/)
 
 #### Q32. In which lifecycle method do you make requests for data in a class component?
 
 - [ ] constructor
-- [x] componentDidMount
+- [ ] componentDidMount
 - [ ] componentWillReceiveProps
 - [ ] componentWillMount
 
@@ -350,14 +350,14 @@ const Heading = () => {
 #### Q33. React components are composed to create a user interface. How are components composed?
 
 - [ ] by putting them in the same file
-- [x] by nesting components
+- [ ] by nesting components
 - [ ] with webpack
 - [ ] with code splitting
 
 #### Q34. All React components must act like **\_** with respect to their props.
 
 - [ ] monads
-- [x] pure functions
+- [ ] pure functions
 - [ ] recursive functions
 - [ ] higher-order functions
 
@@ -371,7 +371,7 @@ const handleChange = (e) => {
 
 - [ ] a computed property name
 - [ ] a set value
-- [x] a dynamic key
+- [ ] a dynamic key
 - [ ] a JSX code string
 
 [Reference](https://www.geeksforgeeks.org/how-to-set-state-with-a-dynamic-key-name-in-reactjs/)
@@ -386,14 +386,14 @@ class Clock extends React.Component {
 }
 ```
 
-- [x] Clock
+- [ ] Clock
 - [ ] It does not have a name prop.
 - [ ] React.Component
 - [ ] Component
 
 #### Q37. What is sent to an `Array.map()` function?
 
-- [x] a callback function that is called once for each element in the array
+- [ ] a callback function that is called once for each element in the array
 - [ ] the name of another array to iterate over
 - [ ] the number of times you want to call the function
 - [ ] a string describing what the function should do
@@ -403,7 +403,7 @@ class Clock extends React.Component {
 - [ ] It provides better encapsulation.
 - [ ] It makes sure that the object is not mutated.
 - [ ] It automatically updates a component.
-- [x] `setState` is asynchronous and might result in out of sync values.
+- [ ] `setState` is asynchronous and might result in out of sync values.
 
 [Reference](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)
 
@@ -412,14 +412,14 @@ class Clock extends React.Component {
 #### Q39. What package contains the render() function that renders a React element tree to the DOM?
 
 - [ ] `React`
-- [x] `ReactDOM`
+- [ ] `ReactDOM`
 - [ ] `Render`
 - [ ] `DOM`
 
 #### Q40. How do you set a default value for an uncontrolled form field?
 
 - [ ] Use the `value` property.
-- [x] Use the `defaultValue` property.
+- [ ] Use the `defaultValue` property.
 - [ ] Use the `default` property.
 - [ ] It assigns one automatically.
 
@@ -434,7 +434,7 @@ const clock = (props) => {
 - [ ] Add quotes around the return value
 - [ ] Remove `this`
 - [ ] Remove the render method
-- [x] Capitalize `clock`
+- [ ] Capitalize `clock`
 
 [Reference](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)
 
@@ -442,7 +442,7 @@ const clock = (props) => {
 
 #### Q42. Which Hook could be used to update the document's title?
 
-- [x] `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });`
+- [ ] `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });`
 - [ ] `useEffect(() => { title = name + ' ' + lastname; });`
 - [ ] `useEffect(function updateTitle() { name + ' ' + lastname; });`
 - [ ] `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
@@ -451,7 +451,7 @@ const clock = (props) => {
 
 - [ ] `fallback`
 - [ ] `split`
-- [x] `lazy`
+- [ ] `lazy`
 - [ ] `memo`
 
 [Reference](https://blog.logrocket.com/lazy-loading-components-in-react-16-6-6cea535c0b52/)
@@ -467,7 +467,7 @@ function MyComponent(props) {
 ```
 
 - [ ] `useEffect(() => { setDone(true); });`
-- [x] `useEffect(() => { setDone(true); }, []);`
+- [ ] `useEffect(() => { setDone(true); }, []);`
 - [ ] `useEffect(() => { setDone(true); }, [setDone]);`
 - [ ] `useEffect(() => { setDone(true); }, [done, setDone]);`
 
@@ -479,13 +479,13 @@ function MyComponent(props) {
 
 - [ ] `<button onClick={this.handleClick.bind(handleClick)}>Click this</button>`
 - [ ] `<button onClick={handleClick()}>Click this</button>`
-- [x] `<button onClick={this.handleClick}>Click this</button>`
+- [ ] `<button onClick={this.handleClick}>Click this</button>`
 - [ ] `<button onclick={this.handleClick}>Click this</button>`
 
 #### Q46. Which answer best describes a function component?
 
 - [ ] A function component is the same as a class component.
-- [x] A function component accepts a single props object and returns a React element.
+- [ ] A function component accepts a single props object and returns a React element.
 - [ ] A function component is the only way to create a component.
 - [ ] A function component is required to create a React component.
 
@@ -493,7 +493,7 @@ function MyComponent(props) {
 
 - [ ] FetchJS
 - [ ] ReactDOM
-- [x] No library. `fetch()` is supported by most browsers.
+- [ ] No library. `fetch()` is supported by most browsers.
 - [ ] React
 
 #### Q48. What will happen when this useEffect Hook is executed, assuming name is not already equal to John?
@@ -506,7 +506,7 @@ useEffect(() => {
 
 - [ ] It will cause an error immediately.
 - [ ] It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.
-- [x] It will update the value of name once and not run again until name is changed from the outside.
+- [ ] It will update the value of name once and not run again until name is changed from the outside.
 - [ ] It will cause an infinite loop.
 
 #### Q49. Which choice will not cause a React component to rerender?
@@ -514,7 +514,7 @@ useEffect(() => {
 - [ ] if the component calls `this.setState(...)`
 - [ ] the value of one of the component's props changes
 - [ ] if the component calls `this.forceUpdate()`
-- [x] one of the component's siblings rerenders
+- [ ] one of the component's siblings rerenders
 
 #### Q50. You have created a new method in a class component called handleClick, but it is not working. Which code is missing?
 
@@ -533,7 +533,7 @@ class Button extends React.Component{
 - [ ] `this.handleClick.bind(this);`
 - [ ] `props.bind(handleClick);`
 - [ ] `this.handleClick.bind();`
-- [x] `this.handleClick = this.handleClick.bind(this);`
+- [ ] `this.handleClick = this.handleClick.bind(this);`
 
 #### Q51. React does not render two sibling elements unless they are wrapped in a fragment. Below is one way to render a fragment. What is the shorthand for this?
 
@@ -562,7 +562,7 @@ class Button extends React.Component{
 <///>
 ```
 
-- [x] C
+- [ ] C
 
 ```javascript
 <>
@@ -594,7 +594,7 @@ class Ticker extends React.component {
 }
 ```
 
-- [x] this.state.count
+- [ ] this.state.count
 - [ ] count
 - [ ] state
 - [ ] state.count
@@ -606,7 +606,7 @@ const greeting = isLoggedIn ? <Hello /> : null;
 ```
 
 - [ ] never
-- [x] when `isLoggedIn` is true
+- [ ] when `isLoggedIn` is true
 - [ ] when a user logs in
 - [ ] when the Hello function is called
 
@@ -616,7 +616,7 @@ const greeting = isLoggedIn ? <Hello /> : null;
 ReactDOM.render(<Message orderNumber="16" />, document.getElementById('root'));
 ```
 
-- [x] string
+- [ ] string
 - [ ] boolean
 - [ ] object
 - [ ] number
@@ -628,7 +628,7 @@ const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>;
 ```
 
 - [ ] `const element = <h1 style="backgroundColor: "blue""}>Hi</h1>;`
-- [x] `const element = <h1 style={{backgroundColor: "blue"}}>Hi</h1>;`
+- [ ] `const element = <h1 style={{backgroundColor: "blue"}}>Hi</h1>;`
 - [ ] `const element = <h1 style={blue}>Hi</h1>;`
 - [ ] `const element = <h1 style="blue">Hi</h1>;`
 
@@ -637,7 +637,7 @@ const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>;
 - [ ] `replaceState`
 - [ ] `refreshState`
 - [ ] `updateState`
-- [x] `setState`
+- [ ] `setState`
 
 #### Q57. Consider the following component. What is the default color for the star?
 
@@ -647,7 +647,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 
 - [ ] black
 - [ ] red
-- [x] grey
+- [ ] grey
 - [ ] white
 
 #### Q58. What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is not bound correctly)
@@ -658,13 +658,13 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 ```
 
 - [ ] `Button A will not have access to the event object on click of the button`
-- [x] `Button A will not fire the handler this.handleClick successfully`
+- [ ] `Button A will not fire the handler this.handleClick successfully`
 - [ ] `There is no difference`
 - [ ] `Button B will not fire the handler this.handleClick successfully`
 
 #### Q59. How would you add to this code, from React Router, to display a component called About?
 
-- [x] A
+- [ ] A
 
 ```javascript
 <Route path="/:id">
@@ -719,7 +719,7 @@ class Greeting extends React.Component {
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```javascript
 class Greeting extends React.Component {
@@ -748,7 +748,7 @@ ReactDOM.render(
 )
 ```
 
-- [x] where the React element should be added to the DOM
+- [ ] where the React element should be added to the DOM
 - [ ] where to call the function
 - [ ] where the root component is
 - [ ] where to create a new JavaScript file
@@ -758,7 +758,7 @@ ReactDOM.render(
 - [ ] The link component allows the user to use the browser's `Back` button.
 - [ ] There is no difference--the `Link` component is just another name for the `<a>` tag.
 - [ ] The `<a>` tag will cause an error when used in React.
-- [x] The `<a>` tag triggers a full page reload, while the `Link` component does not.
+- [ ] The `<a>` tag triggers a full page reload, while the `Link` component does not.
 
 #### Q63. What is the first argument, `x`, that is sent to the `createElement` function?
 
@@ -766,7 +766,7 @@ ReactDOM.render(
 React.createElement(x, y, z);
 ```
 
-- [x] the element that should be created
+- [ ] the element that should be created
 - [ ] the order in which this element should be placed on the page
 - [ ] the properties of the element
 - [ ] data that should be displayed in the element
@@ -780,7 +780,7 @@ useEffect(() => {
 ```
 
 - [ ] componentWillUnmount
-- [x] componentDidMount
+- [ ] componentDidMount
 - [ ] render
 - [ ] componentDidUpdate
 
@@ -799,7 +799,7 @@ class Comp extends React.Component {
 - [ ] Comp
 - [ ] h1
 - [ ] React.Component
-- [x] Component
+- [ ] Component
 
 #### Q66. When using a portal, what is the first argument?
 
@@ -808,7 +808,7 @@ ReactDOM.createPortal(x, y);
 ```
 
 - [ ] the current state
-- [x] the element to render
+- [ ] the element to render
 - [ ] the App component
 - [ ] the page
 
@@ -823,7 +823,7 @@ const [count, setCount] = useState(0);
 - [ ] the initial state value
 - [ ] a variable
 - [ ] a state object
-- [x] a function to update the state
+- [ ] a function to update the state
 
 [Reference](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)
 
@@ -835,7 +835,7 @@ database.map((user) => <h1>{user.data}</h1>);
 ```
 
 - [ ] gives a map of all the entries in database
-- [x] returns a heading tag for every entry in the database containing it's data
+- [ ] returns a heading tag for every entry in the database containing it's data
 - [ ] returns one heading tag for all the entries in database
 - [ ] checks which entry in the database is suitable for heading tag
 
@@ -848,7 +848,7 @@ const { name: firstName } = props;
 - [ ] It is creating a new object that contains the same name property as the props object.
 - [ ] It is assigning the value of the props object's firstName property to a constant called name.
 - [ ] It is retrieving the value of props.name.firstName.
-- [x] It is assigning the value of the props object's name property to a constant called firstName.
+- [ ] It is assigning the value of the props object's name property to a constant called firstName.
 
 #### Q70. What is wrong with this code?
 
@@ -860,7 +860,7 @@ const MyComponent = ({ names }) => (
 ```
 
 - [ ] React components cannot be defined using functions.
-- [x] React does not allow components to return more than one element.
+- [ ] React does not allow components to return more than one element.
 - [ ] The component needs to use the return keyword.
 - [ ] String literals must be surrounded by quotes.
 
@@ -873,7 +873,7 @@ ReactDOM.createPortal(x, y);
 - [ ] the App component
 - [ ] the page
 - [ ] the current state
-- [x] the DOM element that exists outside of the parent component
+- [ ] the DOM element that exists outside of the parent component
 
 #### Q72. Given this code, what will be printed in the `<div>` tag?
 
@@ -893,7 +893,7 @@ const MyComponent = ({ children }) => (
 - [ ] It will produce an error saying "cannot read property "length" of undefined."
 - [ ] 1
 - [ ] undefined
-- [x] 2
+- [ ] 2
 
 #### Q73. What is this pattern called?
 
@@ -902,7 +902,7 @@ const [count, setCount] = useState(0);
 ```
 
 - [ ] object destructuring
-- [x] array destructuring
+- [ ] array destructuring
 - [ ] spread operating
 - [ ] code pushing
 
@@ -911,7 +911,7 @@ const [count, setCount] = useState(0);
 - [ ] src/App.js
 - [ ] src/index.js
 - [ ] public/manifest.json
-- [x] public/index.html
+- [ ] public/index.html
 
 #### Q75. The code below is rendering nothing and generates this error: "ReactDOM is not defined." How do you fix this issue?
 
@@ -926,7 +926,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(element);
 ```
 
-- [x] `createRoot(document.getElementById("root"));`
+- [ ] `createRoot(document.getElementById("root"));`
 - [ ] `ReactDOM(element, document.getElementById("root"));`
 - [ ] `renderDOM(element, document.getElementById("root"));`
 - [ ] `DOM(element, document.getElementById("root"));`
@@ -947,21 +947,21 @@ render() {
 - [ ] `The user is loggedIn ? logged in : not logged in.`
 - [ ] Write a function to check the login status.
 - [ ] `The user is {isLoggedIn = "no"}.`
-- [x] `The user is {isLoggedIn ? "logged in." : "not logged in"}.`
+- [ ] `The user is {isLoggedIn ? "logged in." : "not logged in"}.`
 
 #### Q77. You are rendering a list with React when this warning appears in the console: "Warning: Each child in a list should have a unique 'key' prop." How do you fix this issue?
 
 - [ ] Add a key prop with the same value to each item in the list
 - [ ] Clear the console warnings
 - [ ] Use the UseId hook to generate a unique key for each element in the list
-- [x] When iterating over the list items, add a unique property to each list item.
+- [ ] When iterating over the list items, add a unique property to each list item.
 
 #### Q78. How would you generate the boilerplate code for a new app that you are building to collect underpants?
 
 - [ ] npm create-react-app collect-underpants
 - [ ] npx start-app collect-underpants
 - [ ] react new collect-underpants
-- [x] npx create-react-app collect-underpants
+- [ ] npx create-react-app collect-underpants
 
 [Source: React Docs](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
 
@@ -981,7 +981,7 @@ class StarTrekkin extends React.Component {
 - [ ] `<button onClick={firePhotonTorpedoes()}>Pew Pew</button>`
 - [ ] `<button onClick={firePhotonTorpedoes}>Pew Pew</button>`
 - [ ] `<button onClick={this.firePhotonTorpedoes()}>Pew Pew</button>`
-- [x] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
+- [ ] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
 
 [Source: React Docs](https://reactjs.org/docs/handling-events.html)
 
@@ -989,20 +989,20 @@ class StarTrekkin extends React.Component {
 
 - [ ] shadow DOM
 - [ ] fiber
-- [x] reconciliation
+- [ ] reconciliation
 - [ ] setting state
 
 #### Q81. React is an open-source project but is maintained by which company?
 
 - [ ] Intuit
 - [ ] Twitter
-- [x] Facebook
+- [ ] Facebook
 - [ ] Snapchat
 
 #### Q82. What command can you use to generate a React project?
 
 - [ ] react-starter
-- [x] create-react-app
+- [ ] create-react-app
 - [ ] react-gen
 - [ ] react-start
 
@@ -1010,7 +1010,7 @@ class StarTrekkin extends React.Component {
 
 #### Q83. What is the browser extension called that React developers use to debug applications?
 
-- [x] React Developer Tools
+- [ ] React Developer Tools
 - [ ] React Tooling Add-on
 - [ ] React Codewatch
 - [ ] React Debug
@@ -1018,7 +1018,7 @@ class StarTrekkin extends React.Component {
 #### Q84. Which tool is not part of Create React App?
 
 - [ ] React
-- [x] jQuery
+- [ ] jQuery
 - [ ] webpack
 - [ ] ReactDOM
 
@@ -1026,14 +1026,14 @@ class StarTrekkin extends React.Component {
 
 - [ ] HTML
 - [ ] JavaScriptX
-- [x] JSX
+- [ ] JSX
 - [ ] React JavaScript
 
 #### Q86. How might you check property types without using Flow or TypeScript?
 
 - [ ] Check Manually.
 - [ ] Use `prop-helper`.
-- [x] use `prop-types`.
+- [ ] use `prop-types`.
 - [ ] user `checker-types`.
 
 #### Q87. How do you add an id of heading to the following h1 element?
@@ -1043,7 +1043,7 @@ let dish = <h1>Mac and Cheese</h1>;
 ```
 
 - [ ] `let dish = <h1 id={heading}>Mac and Cheese</h1>;`
-- [x] `let dish = <h1 id="heading">Mac and Cheese</h1>;`
+- [ ] `let dish = <h1 id="heading">Mac and Cheese</h1>;`
 - [ ] `let dish = <h1 id:"heading">Mac and Cheese</h1>;`
 - [ ] `let dish = <h1 class="heading">Mac and Cheese</h1>;`
 
@@ -1065,7 +1065,7 @@ class Huggable extends React.Component {
 - [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>;`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>;`
 - [ ] `<button onClick={(e) => hug(name, e)}>Hug Button</button>;`
-- [x] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
+- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
 
 **Explanation:**
 This question test knowledge of react class components. You need to use `this` in order to call methods declared inside class components.
@@ -1073,7 +1073,7 @@ This question test knowledge of react class components. You need to use `this` i
 #### Q89. What syntax do you use to create a component in React?
 
 - [ ] a generator
-- [x] a function or a class
+- [ ] a function or a class
 - [ ] a service worker
 - [ ] a tag
 
@@ -1087,7 +1087,7 @@ React Components are like functions that return HTML elements. Components are in
 - [ ] onBlur
 - [ ] onPress
 - [ ] defaultValue
-- [x] disabled
+- [ ] disabled
 
 #### Q91. In this function, which is the best way to describe the Dish component?
 
@@ -1103,13 +1103,13 @@ function Dish() {
 ```
 
 - [ ] child component
-- [x] parent component
+- [ ] parent component
 - [ ] nested component
 - [ ] sibling component
 
 #### Q92. When does the componentDidMount function fire?
 
-- [x] right after the component is added to the DOM
+- [ ] right after the component is added to the DOM
 - [ ] before the component is added to the DOM
 - [ ] right after the component is updated
 - [ ] right after an API call
@@ -1119,13 +1119,13 @@ function Dish() {
 #### Q93. What might you use webpack for in React development?
 
 - [ ] to fetch remote dependencies used by your app
-- [x] to split your app into smaller chunks that can be more easily loaded by the browser
+- [ ] to split your app into smaller chunks that can be more easily loaded by the browser
 - [ ] to format your code so that it is more readable
 - [ ] to ensure your app is not vulnerable to code injection
 
 #### Q94. When using the React Developer Tools Chrome extension, what does it mean if the React icon is red?
 
-- [x] You are using the development build of React.
+- [ ] You are using the development build of React.
 - [ ] You are using the production build of React.
 - [ ] You are using webpack.
 - [ ] You are using Create React App.
@@ -1145,13 +1145,13 @@ class TransIsBeautiful extends React.Component {
 ```
 
 - [ ] render(props);
-- [x] super(props);
+- [ ] super(props);
 - [ ] super(this);
 - [ ] this.super();
 
 #### Q96. Which language can you not use with React?
 
-- [x] Swift.
+- [ ] Swift.
 - [ ] JSX.
 - [ ] Javascipt.
 - [ ] TypeScript.
@@ -1170,7 +1170,7 @@ constructor(props) {
 - [ ] console.log(props.pokeDex);
 - [ ] console.log(this.props.pokeDex);
 - [ ] console.log(pokeDex);
-- [x] console.log(this.state.pokeDex);
+- [ ] console.log(this.state.pokeDex);
 
 [Reference](https://www.digitalocean.com/community/tutorials/how-to-manage-state-on-react-class-components#step-3-setting-state-from-a-static-value)
 
@@ -1185,7 +1185,7 @@ add();
 ```
 
 - [ ] null
-- [x] 3
+- [ ] 3
 - [ ] 0
 - [ ] undefined
 
@@ -1196,7 +1196,7 @@ add();
 - [ ] to refer to another JS file
 - [ ] to bind the function
 - [ ] to call a function
-- [x] to directly access the DOM node
+- [ ] to directly access the DOM node
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
 
@@ -1209,7 +1209,7 @@ const { tree, lake } = nature;
 - [ ] function defaults
 - [ ] array destructuring
 - [ ] PRPL pattern
-- [x] destructuring assignment
+- [ ] destructuring assignment
 
 [Reference](https://javascript.info/destructuring-assignment)
 
@@ -1222,7 +1222,7 @@ ReactDom.render(
 );
 ```
 
-- [x] A
+- [ ] A
 
 ```javascript
 <Message sent={false} />,
@@ -1258,7 +1258,7 @@ const PokeDex = (props) => {
 - [ ] props.pokeDex
 - [ ] this.props.pokeDex
 - [ ] setPokeDex()
-- [x] pokeDex
+- [ ] pokeDex
 
 #### Q103. What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?
 
@@ -1272,7 +1272,7 @@ const Greeting = ({ initName }) => {
 - [ ] hug
 - [ ] this.hug(initName)
 - [ ] (name) => this.hug(name)
-- [x] () => hug(initName)
+- [ ] () => hug(initName)
 
 Explanation: Apparently the question misstyped `greet` as `hug`. Putting this aside, we can still learn from this question.
 
@@ -1284,14 +1284,14 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 #### Q104. What is the name of the compiler used to transform JSX into JavaScript?
 
-- [x] Babel
+- [ ] Babel
 - [ ] JSX Editor
 - [ ] Browser Buddy
 - [ ] ReactDOM
 
 #### Q105. Which hook is used to prevent a function from being recreated on every component render?
 
-- [x] useCallback
+- [ ] useCallback
 - [ ] useMemo
 - [ ] useRef
 - [ ] useTransition
@@ -1300,14 +1300,14 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 - [ ] To bind the function
 - [ ] To call a function
-- [x] To directly access a DOM
+- [ ] To directly access a DOM
 - [ ] To refer to another JS file
 
 [Reference](https://www.smashingmagazine.com/2020/11/react-useref-hook/)
 
 #### Q107. Which of the following is required to use React?
 
-- [x] JavaScript
+- [ ] JavaScript
 - [ ] React Router
 - [ ] Redux
 - [ ] Prop-Types
@@ -1318,7 +1318,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 - [ ] const value = useContext(MyContext.Consumer)
 - [ ] const value = useContext(MyContext.Provider)
-- [x] const value = useContext(MyContext)
+- [ ] const value = useContext(MyContext)
 - [ ] const value = useContext({value: "intiial value"})
 
 [Reference](https://reactjs.org/docs/hooks-reference.html#usecontext)
@@ -1327,7 +1327,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 - [ ] to bind function
 - [ ] to call function
-- [x] to directly access DOM node
+- [ ] to directly access DOM node
 - [ ] to refer to another JS file
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html#when-to-use-refs)
@@ -1337,7 +1337,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 - [ ] componentDidMount
 - [ ] componentDidUpdate
 - [ ] willComponentUpdate
-- [x] shouldComponentUpdate
+- [ ] shouldComponentUpdate
 
 [Reference](https://reactjs.org/docs/react-component.html#shouldcomponentupdate)
 
@@ -1346,18 +1346,18 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 - [ ] Runs react local development server
 - [ ] Transfers all JS files to down into one file
 - [ ] A module builder
-- [x] All of the above
+- [ ] All of the above
 
 #### Q112. Choose the method which is not a part of ReactDOM?
 
 - [ ] ReactDOM.createPortal()
 - [ ] ReactDOM.hydrate()
-- [x] ReactDOM.destroy()
+- [ ] ReactDOM.destroy()
 - [ ] ReactDOM.findDOMnode()
 
 #### Q113. In react, the key should be?
 
-- [x] Unique among his siblings
+- [ ] Unique among his siblings
 - [ ] Unique in DOM
 - [ ] Does not requires to be unique
 - [ ] all of the above
@@ -1367,7 +1367,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 #### Q114. Which company developed ReactJS?
 
 - [ ] Google
-- [x] Meta (ex Facebook)
+- [ ] Meta (ex Facebook)
 - [ ] Apple
 - [ ] Twitter
 
@@ -1377,7 +1377,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 
 - [ ] Chai
 - [ ] Sinon
-- [x] Jest
+- [ ] Jest
 - [ ] Mocha
 
 [Reference](https://reactjs.org/docs/testing-recipes.html)
@@ -1385,7 +1385,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 #### Q116. What of the following is used in React.js to increase performance?
 
 - [ ] Original DOM
-- [x] Virtual DOM
+- [ ] Virtual DOM
 - [ ] Both of the above
 - [ ] None of the above
 
@@ -1394,7 +1394,7 @@ Explanation: Apparently the question misstyped `greet` as `hug`. Putting this as
 #### Q117. Among The following options, choose the one which helps react for keeping their data uni-directional?
 
 - [ ] DOM
-- [x] flux
+- [ ] flux
 - [ ] JSX
 - [ ] Props
 
@@ -1413,7 +1413,7 @@ class Greeting extends React.Component {
 - [ ] `const Greeting = (name) => <h1>{name}</h1>`
 - [ ] `function Greeting(name){return <h1>{name}</h1>;}`
 - [ ] `const Greeting = props => { <h1>{props.name}</h1> }`
-- [x] `const Greeting = ({ name }) => <h1>Hello {name}</h1>;`
+- [ ] `const Greeting = ({ name }) => <h1>Hello {name}</h1>;`
 
 #### Q119. Why is the `waitlist` not updating correctly?
 
@@ -1444,7 +1444,7 @@ const Waitlist = () => {
 };
 ```
 
-- [x] `waitlist` is being mutated directly. Use the `setWaitlist` function instead to update the waitlist state.
+- [ ] `waitlist` is being mutated directly. Use the `setWaitlist` function instead to update the waitlist state.
 - [ ] The form is reloading the page each time `Add to waitlist` is clicked.
 - [ ] The `Add to waitlist` button is missing a click handler.
 - [ ] There are likely repeated names inside of the `waitlist` array.
@@ -1459,5 +1459,5 @@ const Waitlist = () => {
 
 - [ ] higher-order component
 - [ ] wish component
-- [x] Render Props
+- [ ] Render Props
 - [ ] setup Componet

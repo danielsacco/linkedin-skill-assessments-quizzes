@@ -3,20 +3,20 @@
 #### P1. ¿Cómo se puede editar una función?
 
 - [ ] Seleccione la función, presione Eliminar y, a continuación, cree una nueva característica.
-- [x] Haga clic con el botón derecho en la función y seleccione Editar función.
+- [ ] Haga clic con el botón derecho en la función y seleccione Editar función.
 - [ ] Siga haciendo clic en Deshacer hasta que la función desaparezca.
 - [ ] Busque la función en el explorador, seleccione Quitar y, a continuación, cree una nueva función.
 
 #### P2. ¿Qué herramienta crea un plano normal a un trazado o arista de esbozo?
 
 - [ ] Plano a través de dos bordes
-- [x] Plano a lo largo del camino
+- [ ] Plano a lo largo del camino
 - [ ] Plano en ángulo
 - [ ] Plano a través de tres puntos
 
 #### P3. ¿Qué herramienta mide la distancia precisa entre dos puntos y crea dimensiones que son paralelas a las ubicaciones de los objetos?
 
-- [x] Dimensión alineada
+- [ ] Dimensión alineada
 - [ ] Dimensión lineal
 - [ ] Dimensión angular
 - [ ] Dimensión de ordenadas
@@ -25,7 +25,7 @@
 
 ![image](images/question_4.png?raw=true)
 
-- [x] 1
+- [ ] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
@@ -39,7 +39,7 @@
 - [ ] sin fricción
 - [ ] desplazamiento prescrito
 - [ ] pin
-- [x] fijo
+- [ ] fijo
 
 #### P6. En el espacio de trabajo CAM, ¿qué estrategia elimina la cavidad interior de una pieza?
 
@@ -64,7 +64,7 @@
 
 #### P9. ¿Qué tipo de orificio introduce automáticamente un valor de diámetro basado en el tipo de sujetador que acomodará?
 
-- [x] Despacho
+- [ ] Despacho
 - [ ] Sencillo
 - [ ] Perforado
 - [ ] A través de
@@ -79,7 +79,7 @@
 #### P11. ¿Qué se requiere para invitar a otras personas a la carpeta del proyecto?
 
 - [ ] un nombre
-- [x] una dirección de correo electrónico
+- [ ] una dirección de correo electrónico
 - [ ] una dirección IP
 - [ ] un número de teléfono
 
@@ -94,12 +94,12 @@
 
 - [ ] control deslizante
 - [ ] revolución
-- [x] plano
+- [ ] plano
 - [ ] ranura para pines
 
 #### P14. ¿Qué vista muestra una pieza de dibujo a escala ampliada?
 
-- [x] vista de detalle
+- [ ] vista de detalle
 - [ ] vista de sección
 - [ ] vista base
 - [ ] vista proyectada
@@ -107,7 +107,7 @@
 #### P15. ¿Qué tipo de archivo no es una salida de dibujo?
 
 - [ ] Archivo DWG
-- [x] Archivo CSV
+- [ ] Archivo CSV
 - [ ] Archivo STEP
 - [ ] Archivo PDF
 
@@ -120,7 +120,7 @@
 
 #### P17. ¿Qué traductor convierte la trayectoria de herramienta de la pantalla en un lenguaje que entiende la máquina CNC?
 
-- [x] un postprocesador
+- [ ] un postprocesador
 - [ ] Código G
 - [ ] Código NC
 - [ ] un procesador de código
@@ -134,7 +134,7 @@
 
 #### P19. ¿Cómo se llama la vista inicial colocada en un dibujo?
 
-- [x] vista base
+- [ ] vista base
 - [ ] vista de detalle
 - [ ] vista de sección
 - [ ] vista principal
@@ -144,7 +144,7 @@
 - [ ] Borrador
 - [ ] Prensa
 - [ ] Tirar
-- [x] Combinar
+- [ ] Combinar
 - [ ] Escala
 
 #### P21. En el espacio de trabajo CAM, ¿qué estrategia elimina la cavidad interior de una pieza?
@@ -156,7 +156,7 @@
 
 #### P22. ¿Qué hace la herramienta Zebra Analysis?
 
-- [x] Comprueba la continuidad de un cuerpo.
+- [ ] Comprueba la continuidad de un cuerpo.
 - [ ] Separa los cuerpos.
 - [ ] Arregla cuerpos.
 - [ ] Aplica un render metálico.
@@ -165,13 +165,13 @@
 
 - [ ] Animación
 - [ ] Malla
-- [x] Simulación
+- [ ] Simulación
 - [ ] Renderizado
 
 #### P24. ¿Qué tipo de filete aplica dos o más valores de radio a una arista seleccionada?
 
 - [ ] G2
-- [x] Radio variable
+- [ ] Radio variable
 - [ ] Longitud del acorde
 - [ ] Suave
 
@@ -200,7 +200,7 @@
 
 ![image](images/question_28.png?raw=png)
 
-- [x] Dos
+- [ ] Dos
 - [ ] Tres
 - [ ] Ninguno
 - [ ] Uno
@@ -209,12 +209,12 @@
 
 - [ ] Uniforme
 - [ ] Cuerpo de reparación
-- [x] Modo de visualización
+- [ ] Modo de visualización
 - [ ] Permitir un mejor rendimiento
 
 #### P30. ¿Qué comando divide un cuerpo utilizando superficies generadas a partir de sus curvas de contorno?
 
-- [x] Cuerpo dividido
+- [ ] Cuerpo dividido
 - [ ] Componente dividido
 - [ ] Silhouette Split
 - [ ] Cara dividida
@@ -224,19 +224,19 @@
 - [ ] Restricciones de la asamblea
 - [ ] Enlace de movimiento
 - [ ] Control de movimiento
-- [x] Articulaciones
+- [ ] Articulaciones
 
 #### P32. ¿Qué comando fusiona superficies para crear un solo cuerpo de superficie?
 
 - [ ] Combinar
 - [ ] Unir
-- [x] Únete
+- [ ] Únete
 - [ ] Puntada
 
 #### P33. ¿Qué comando utiliza una curva de esbozo abierta para crear una función delgada?
 
 - [ ] Hilo
-- [x] Costilla
+- [ ] Costilla
 - [ ] Loft
 - [ ] barrido
 
@@ -252,18 +252,18 @@
 - [ ] Espesar
 - [ ] Abrir
 - [ ] Desplazamiento
-- [x] Shell
+- [ ] Shell
 
 #### P36. ¿Qué herramienta de análisis genera una vista de corte del modelo en un solo plano?
 
 - [ ] Segmento
-- [x] Sección
+- [ ] Sección
 - [ ] Detalle
 - [ ] Proyección
 
 #### P36. ¿Cuál no es un tipo de apariencia disponible en el área de trabajo Renderizar?
 
-- [x] Cuerpos
+- [ ] Cuerpos
 - [ ] Plástico
 - [ ] Madera
 - [ ] Metal

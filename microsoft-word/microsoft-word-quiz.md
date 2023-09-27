@@ -5,19 +5,19 @@
 - [ ] Merge Formatting command
 - [ ] Copy and Paste Styles command
 - [ ] Copy and Paste Attributes command
-- [x] Format Painter tool
+- [ ] Format Painter tool
 
 #### Q2. To protect a document from accidental changes, which option should you select from the Protect Document (Windows) or Protect (Mac) menu?
 
 - [ ] Mark as Final.
 - [ ] Add a Digital Signature.
 - [ ] Encrypt with Password.
-- [x] Always Open Read-Only.
+- [ ] Always Open Read-Only.
 
 #### Q3. You are finalizing a two-page document. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?
 
 - [ ] Change the bottom margin to your current location.
-- [x] Insert a page break.
+- [ ] Insert a page break.
 - [ ] Press Shift + Enter (Shift + Return).
 - [ ] Insert a column break.
 
@@ -25,12 +25,12 @@
 
 - [ ] Click Layout > Text > Text from File.
 - [ ] Click Insert > Text > Building Blocks Organizer.
-- [x] Click Insert > Text > Text from File.
+- [ ] Click Insert > Text > Text from File.
 - [ ] Click Insert > Media.
 
 #### Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box?
 
-- [x] Book Fold.
+- [ ] Book Fold.
 - [ ] Different Odd & Even Pages.
 - [ ] Mirror Margins.
 - [ ] Landscape.
@@ -40,7 +40,7 @@
 #### Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?
 
 - [ ] Background.
-- [x] Watermark.
+- [ ] Watermark.
 - [ ] Imagemark.
 - [ ] Overlay.
 
@@ -48,26 +48,26 @@
 
 - [ ] Design > Size.
 - [ ] File > Page Setup.
-- [x] Layout > Size.
+- [ ] Layout > Size.
 - [ ] Layout > Margins.
 
 #### Q8. Which option lets you mark your favorite templates for quick reuse in the future?
 
 - [ ] Drag to Home tab.
 - [ ] Add to chooser.
-- [x] Pin to list.
+- [ ] Pin to list.
 - [ ] Mark as favorite.
 
 #### Q9. You want to add a caption to a table. Which tab contains this option?
 
 - [ ] Insert
 - [ ] Design
-- [x] References
+- [ ] References
 - [ ] Layout
 
 #### Q10. How can you change the appearance of an entire table in a single step?
 
-- [x] Apply a table style.
+- [ ] Apply a table style.
 - [ ] Apply a graphic style.
 - [ ] Right-click a table and choose a new style.
 - [ ] Apply a cell style.
@@ -76,13 +76,13 @@
 
 - [ ] Whole Word Only.
 - [ ] Replace All.
-- [x] Check Spelling.
+- [ ] Check Spelling.
 - [ ] Match Case.
 
 #### Q12. Which statement best describes how a bookmark is used in a Word document?
 
 - [ ] A bookmark is a hyperlink where the label is automatically generated.
-- [x] A bookmark works in conjunction with hyperlinks to allow you to quickly jump to a specific location in your document.
+- [ ] A bookmark works in conjunction with hyperlinks to allow you to quickly jump to a specific location in your document.
 - [ ] A bookmark is a link in your document that can give you quick access to webpages, files, and other locations within your document.
 - [ ] A bookmark is a color-coded graphic that appears in the navigation pane for easy access to a specific location in your document.
 
@@ -91,25 +91,25 @@
 - [ ] including a personalized message
 - [ ] giving the collaborator the option to edit a document
 - [ ] setting the collaborator's access to view only
-- [x] granting administrator access
+- [ ] granting administrator access
 
 #### Q14. You split a document into three sections. What happens if you change the margins in the first section?
 
 - [ ] The document reverts back to a single section with the new margin settings.
 - [ ] The new margin settings are applied to all of the sections.
 - [ ] The new margin settings are applied to the second and third sections.
-- [x] The new margin settings are applied to just the first section.
+- [ ] The new margin settings are applied to just the first section.
 
 #### Q15. Which ribbon tab includes commands to add various types of objects or media to your document?
 
-- [x] Insert
+- [ ] Insert
 - [ ] File
 - [ ] Layout
 - [ ] Design
 
 #### Q16. What type of page is useful at the front of a large document, to identify the document title, author, and other metadata?
 
-- [x] cover page
+- [ ] cover page
 - [ ] blank page
 - [ ] master page
 - [ ] table of contents page
@@ -118,7 +118,7 @@
 
 ![image](images/001.png?raw=png)
 
-- [x] The boxes resize to maintain the same overall height.
+- [ ] The boxes resize to maintain the same overall height.
 - [ ] The object is deleted and a hole is left behind.
 - [ ] The text merges with the second box.
 - [ ] The gaps between the boxes close and the boxes remain the same size.
@@ -129,7 +129,7 @@
 
 - [ ] The text from the deleted box merges with the next box's text.
 - [ ] The selected object is deleted and the spacing is preserved where the object was.
-- [x] The remaining objects resize to maintain the same overall height.
+- [ ] The remaining objects resize to maintain the same overall height.
 - [ ] The gaps between the objects close and the objects remain the same size.
 
 #### Q19. Which command builds an overview of document contents based on applied headings styles?
@@ -137,18 +137,18 @@
 - [ ] Manage Sources
 - [ ] Cross-Reference
 - [ ] Insert Index
-- [x] Table of Contents
+- [ ] Table of Contents
 
 #### Q20. Which statistic does the Word Count feature **NOT** collect?
 
 - [ ] paragraphs
 - [ ] lines
-- [x] page breaks
+- [ ] page breaks
 - [ ] characters (no spaces)
 
 #### Q21. What is the default view when you open a document or create a new document?
 
-- [x] Print Layout view
+- [ ] Print Layout view
 - [ ] Draft view
 - [ ] Edit view
 - [ ] Web Layout view
@@ -157,7 +157,7 @@
 
 - [ ] Click Open > Recent and select Recover Unsaved Documents.
 - [ ] Click File > Options > Recover Unsaved Documents.
-- [x] Click File > Open > Recent > Documents.
+- [ ] Click File > Open > Recent > Documents.
 - [ ] Click File > Recent > Recover Unsaved Documents.
 
 Explanation:
@@ -169,14 +169,14 @@ Read carefully. It's not about recovering, but only the last recent file!
 
 #### Q23. Which object type can you _not_ insert into a Word document from the **Insert** tab?
 
-- [x] a sketch
+- [ ] a sketch
 - [ ] a symbol
 - [ ] a 3D model
 - [ ] an equation
 
 #### Q24. What Microsoft Word feature lets you capture a portion of your screen to be used as an image in your document?
 
-- [x] Screen Clipping
+- [ ] Screen Clipping
 - [ ] Screen Grab
 - [ ] Screen Capture
 - [ ] none of these answers
@@ -186,7 +186,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 - [ ] Replace All
 - [ ] AutoFormat As You Type
 - [ ] Find and Replace
-- [x] AutoCorrect Options
+- [ ] AutoCorrect Options
 
 **Explanation:** The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
 
@@ -195,7 +195,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 ![image](images/003.png?raw=png)
 
 - [ ] Insert > Text
-- [x] Columns dialog box
+- [ ] Columns dialog box
 - [ ] Insert > Line > Vertical
 - [ ] Insert > Line > Remove
 
@@ -205,13 +205,13 @@ Read carefully. It's not about recovering, but only the last recent file!
 
 - [ ] The cropped parts of the image are hidden and the overall file size increases.
 - [ ] The cropped parts of the image are removed and the overall file size does not change.
-- [x] The cropped parts of the image are hidden and the overall file size does not change.
+- [ ] The cropped parts of the image are hidden and the overall file size does not change.
 - [ ] The cropped parts of the image are removed and the overall file size decreases.
 
 #### Q28. When you are typing in a paragraph and reach the end of the line, Word automatically starts a new line for you. What is this feature called?
 
 - [ ] line wrap
-- [x] word wrap
+- [ ] word wrap
 - [ ] a new line return
 - [ ] a soft return
 
@@ -219,19 +219,19 @@ Read carefully. It's not about recovering, but only the last recent file!
 
 - [ ] Pyramid
 - [ ] Relationship
-- [x] Hierarchy
+- [ ] Hierarchy
 - [ ] Matrix
 
 #### Q30. When you insert page numbers, which position is **NOT** an option?
 
 - [ ] page margins
-- [x] inset
+- [ ] inset
 - [ ] current position
 - [ ] bottom of page
 
 #### Q31. How can you quickly move an insertion point up to the start of the previous paragraph?
 
-- [x] Press Ctrl+Up Arrow (Windows) or Command+Up Arrow (Mac).
+- [ ] Press Ctrl+Up Arrow (Windows) or Command+Up Arrow (Mac).
 - [ ] Press Ctrl+Page Up (Windows) or Command+Page Up (Mac).
 - [ ] Press Ctrl+Left Arrow (Windows) or Command+Left Arrow (Mac).
 - [ ] Press Alt+Left Arrow (Windows) or Option+Left Arrow (Mac).
@@ -240,14 +240,14 @@ Read carefully. It's not about recovering, but only the last recent file!
 
 - [ ] Click **Review > Accept**.
 - [ ] Turn on **Track Changes**.
-- [x] Click **Review > Compare**.
+- [ ] Click **Review > Compare**.
 - [ ] Click **Review > Smart Lookup**.
 
 #### Q33. What is the difference between a footnote and an endnote?
 
 - [ ] Footnotes use Arabic numerals and endnotes use letters.
 - [ ] A footnote is placed in the page footer, and an endnote is placed on a blank page at the end of the document.
-- [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document.
+- [ ] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document.
 - [ ] An endnote always appears on the bottom of the same page that it references.
 
 #### Q34. Which formatting option was used to create the effect shown below?
@@ -255,13 +255,13 @@ Read carefully. It's not about recovering, but only the last recent file!
 ![image](images/004.png?raw=png)
 
 - [ ] Drop Cap
-- [x] Subscript
+- [ ] Subscript
 - [ ] Small Caps
 - [ ] Superscript
 
 #### Q35. What Word building block uses headings to help users identify the contents of a document?
 
-- [x] table of contents
+- [ ] table of contents
 - [ ] page break
 - [ ] cover page
 - [ ] index
@@ -276,14 +276,14 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 ```
 
 - [ ] A, C, D
-- [x] A, B
+- [ ] A, B
 - [ ] D
 - [ ] A, C
 
 #### Q37. You are coordinating the update of your company's 10-chapter operations manual. You begin by saving each chapter as a separate document. What Word feature can you use to manage all of these chapter documents?
 
 - [ ] the Organizer
-- [x] master document
+- [ ] master document
 - [ ] outline view
 - [ ] versioning
 
@@ -291,7 +291,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] You can reformat all headings by changing style sets.
 - [ ] You can navigate from heading to heading in the Navigation pane.
-- [x] all of these answers
+- [ ] all of these answers
 - [ ] You can easily generate a table of contents.
 
 #### Q39. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.)
@@ -303,7 +303,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
     D. Type "(R)".
 
 - [ ] B and D
-- [x] A and B
+- [ ] A and B
 - [ ] B and C
 - [ ] A and D
 
@@ -316,7 +316,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] In the **Styles** task pane, click **New Style** and select **Arial 11 Bold**.
 - [ ] Hold the Ctrl key (Windows) or Command key (Mac) and click the **Format Painter**. Then select **New Style**.
-- [x] On Windows: Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.On Mac: With the **style** pane open, highlight a Heading 1 in the document, then in the style pane drop-down for Heading 11, select Update to Match Selection.
+- [ ] On Windows: Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.On Mac: With the **style** pane open, highlight a Heading 1 in the document, then in the style pane drop-down for Heading 11, select Update to Match Selection.
 - [ ] Select the text, right-click to display the formatting bar, and select **Styles > Copy**.
 
 #### Q41. You are typing text in two columns. When you reach the end of a paragraph in column 1, you want to start the next paragraph in column 1 on the next page. What type of break should you insert at this point?
@@ -324,11 +324,11 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] next page section break
 - [ ] continuous section break
 - [ ] column break
-- [x] page break
+- [ ] page break
 
 #### Q42. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as **\_**.
 
-- [x] a template file
+- [ ] a template file
 - [ ] a PDF
 - [ ] an OpenDocument Text file
 - [ ] a Rich Text Format file
@@ -337,12 +337,12 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] XML Paper Specification (XPS)
 - [ ] OpenDocument Text (ODT)
-- [x] Rich Text Format (RTF)
+- [ ] Rich Text Format (RTF)
 - [ ] plain text (TXT)
 
 #### Q44. How can you break a table into two parts?
 
-- [x] Use the Split Table command.
+- [ ] Use the Split Table command.
 - [ ] Press Shift + Enter (Windows) or Sift + Return (Mac).
 - [ ] Use the Section Break command.
 - [ ] Use the Split Cells command.
@@ -353,7 +353,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] a Word macro-enabled document
 - [ ] a plain text file
-- [x] a multipage website
+- [ ] a multipage website
 - [ ] a Word 2003 XML document
 
 **Explanation:** Each Word document can be saved as a Web Page.
@@ -363,11 +363,11 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Press Enter twice (Windows) or Return twice (Mac).
 - [ ] Press Alt+Enter (Windows) or Option+Return (Mac).
 - [ ] Press Enter (Windows) or Return (Mac).
-- [x] Press Shift+Enter (Windows) or Shift+Return (Mac)
+- [ ] Press Shift+Enter (Windows) or Shift+Return (Mac)
 
 #### Q47. You want to repeat an element (such as the date) on all pages of the document. Which options should you choose?
 
-- [x] Insert > Header & Footer
+- [ ] Insert > Header & Footer
 - [ ] Insert > Text
 - [ ] Design > Header & Footer
 - [ ] View > Header & Footer
@@ -377,11 +377,11 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Insert > Text
 - [ ] View > Header & Footer
 - [ ] Design > Footer
-- [x] Insert > Footer
+- [ ] Insert > Footer
 
 #### Q49. A document has been shared with you from your colleague's OneDrive library. They have given only you editing access. What can you do with this document?
 
-- [x] Share the document with others.
+- [ ] Share the document with others.
 - [ ] Assume ownership of the document.
 - [ ] Remove access from another user.
 - [ ] Coauthor the document with your colleague.
@@ -391,7 +391,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 ![image](images/002.png?raw=png)
 
 - [ ] Draw tools were used in these areas.
-- [x] Changes were made to these areas.
+- [ ] Changes were made to these areas.
 - [ ] Comments were added to these areas.
 - [ ] none of these answers
 
@@ -400,11 +400,11 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] templates
 - [ ] page
 - [ ] columns
-- [x] sections
+- [ ] sections
 
 #### Q52. Which option does the Find and Replace feature **NOT** support?
 
-- [x] Match Punctuation
+- [ ] Match Punctuation
 - [ ] Replace All
 - [ ] Match Case
 - [ ] Whole Word Only
@@ -412,14 +412,14 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 #### Q53. What is the name of the text effect that displays a large capital letter at the beginning of a paragraph?
 
 - [ ] superscript
-- [x] drop cap
+- [ ] drop cap
 - [ ] subscript
 - [ ] small caps
 
 #### Q54. You need to document a procedure. Which paragraph format is best to help readers follow the sequence of instructions?
 
 - [ ] line numbers
-- [x] numbered list
+- [ ] numbered list
 - [ ] columns
 - [ ] bulleted list
 
@@ -428,7 +428,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Click the Select Data button.
 - [ ] Click the Refresh Data button.
 - [ ] Click the Switch Row/Column button.
-- [x] Click the Edit Data button.
+- [ ] Click the Edit Data button.
 
 #### Q56. You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?
 
@@ -440,13 +440,13 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] A
 - [ ] A, B, C, D
 - [ ] A, B, C
-- [x] A or B
+- [ ] A or B
 
 #### Q57. Why is it important to use alternative text for objects in your document?
 
 - [ ] Adding alternative text to an object is one way to apply a caption to an object.
 - [ ] It allows you to display the text in a language other than the default language-for example, English to French, French to German.
-- [x] It helps a user with a visual impairment who is using a screen reader understand the content of the object.
+- [ ] It helps a user with a visual impairment who is using a screen reader understand the content of the object.
 - [ ] It enables you to provide another explanation of the object, in case the user does not understand what the object is.
 
 [Reference](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)
@@ -454,7 +454,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 #### Q58. What is a benefit of using sections in a Microsoft Word document?
 
 - [ ] You can restrict printing for specific document sections.
-- [x] You can apply unique formatting to each section.
+- [ ] You can apply unique formatting to each section.
 - [ ] You can collaborate on specific sections with other authors.
 - [ ] You can restrict access to each section individually.
 
@@ -470,14 +470,14 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] A, B, C
 - [ ] B, C, D
 - [ ] A, B, D
-- [x] A, C, D
+- [ ] A, C, D
 
 [Reference](https://support.microsoft.com/en-us/office/coauthor-documents-anywhere-ed0cf685-f619-4d54-9c42-a61c8795c87f)
 
 #### Q60. When you insert a picture into a document, what happens to the picture?
 
 - [ ] Word stretches the photo to fill the page.
-- [x] Word scales the image to the largest size possible to fit within the height or width of the page.
+- [ ] Word scales the image to the largest size possible to fit within the height or width of the page.
 - [ ] Word converts the photo's file format.
 - [ ] Word analyzes and corrects the image for tone and color.
 
@@ -486,7 +486,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 #### Q61. When working with Track Changes, what is the difference between Simple Markup and all Markup?
 
 - [ ] Simple Markup shows the final version without inline markups; All Markups shows the final version with inline markups.
-- [x] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
+- [ ] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
 - [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.
 - [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
 
@@ -496,7 +496,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] Review the images and crop as needed. Compress the images. Save the document and then compress the entire document.
 - [ ] Replace the images with lower-resolution images. Save the document and then compress it.
-- [x] Review the images and crop as needed. Then compress the images and delete cropped areas.
+- [ ] Review the images and crop as needed. Then compress the images and delete cropped areas.
 - [ ] Review the images and crop as needed. Save document and then compress it.
 
 [Reference link](https://support.microsoft.com/en-us/topic/reduce-the-file-size-of-a-picture-in-microsoft-office-8db7211c-d958-457c-babd-194109eb9535)
@@ -506,13 +506,13 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Accessibility Checker
 - [ ] Check Compatibility
 - [ ] Manage Document
-- [x] Document Inspector
+- [ ] Document Inspector
 
 [Reference](https://support.microsoft.com/en-us/topic/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f#:~:text=Click%20File%20%3E%20Info%20%3E%20Remove%20Personal,from%20the%20document%20check%20box.)
 
 #### Q64. What chart type cannot be used for more than one data series?
 
-- [x] Pie
+- [ ] Pie
 - [ ] Column
 - [ ] Line
 - [ ] Bar
@@ -522,7 +522,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 ![image](https://i.imgur.com/JjdzceL.png?raw=png)
 
 - [ ] A
-- [x] B
+- [ ] B
 - [ ] C
 - [ ] D
 
@@ -531,32 +531,32 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Tall
 - [ ] Portrait
 - [ ] Wide
-- [x] Landscape
+- [ ] Landscape
 
 #### Q67. What is the first step in sharing a document that is currently saved on your local hard drive?
 
 - [ ] Get a sharing link for the document.
 - [ ] Create a new document in OneDrive.
-- [x] Upload the document to OneDrive.
+- [ ] Upload the document to OneDrive.
 - [ ] Send an invitation to the document.
 
 #### Q68. You are working in another application and want to move text into a Word document. How can you do it?
 
 - [ ] Export the text from the other application as a Word document.
-- [x] Use the Insert command and select the Word document.
+- [ ] Use the Insert command and select the Word document.
 - [ ] Select the text and save it as Word document.
 - [ ] Use the Clipboard to copy and paste text into the Word document.
 
 #### Q69. What is typically created as the first page of a document and contains information such as the document title and author?
 
-- [x] cover page
+- [ ] cover page
 - [ ] master page
 - [ ] blank page
 - [ ] table of contents page
 
 #### Q70. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
 
-- [x] check Accessibility
+- [ ] check Accessibility
 - [ ] inspect document
 - [ ] check compatibility
 - [ ] protect document
@@ -567,12 +567,12 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] From the start of the document, hold down the Ctrl (Windows) or Command (Mac) key, and press the Down Arrow key repeatedly, counting each paragraph as you go.
 - [ ] Click File > Properties > Content to display file information, including the number of paragraphs.
-- [x] On the status bar, select Word Count to display file information, including the number of paragraphs.
+- [ ] On the status bar, select Word Count to display file information, including the number of paragraphs.
 - [ ] Click File > Info > Inspect Document to display file information, including the number of paragraphs.
 
 #### Q72. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?
 
-- [x] On the View tab of the ribbon, click Split.
+- [ ] On the View tab of the ribbon, click Split.
 - [ ] Save a duplicate copy of your document, then view both documents side by side.
 - [ ] On the Insert tab of the ribbon, create a bookmark for the location that you want to read.
 - [ ] On the View tab of the ribbon, click New Window.
@@ -580,7 +580,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 #### Q73. What is the purpose of adding alternative text (alt text) to an image in your document?
 
 - [ ] Alt text improves accessibility in your document.
-- [x] all of these answers
+- [ ] all of these answers
 - [ ] Alt text describes what appears in the image.
 - [ ] Screen readers read the text aloud for users with visual impairments.
 
@@ -588,13 +588,13 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] Insert Footnote
 - [ ] Insert Citation
-- [x] Insert Caption
+- [ ] Insert Caption
 - [ ] Insert Table of Figures
 
 #### Q75. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
 
 - [ ] In Line with Text
-- [x] With Text Wrapping
+- [ ] With Text Wrapping
 - [ ] Behind Text
 - [ ] Through
 
@@ -603,25 +603,25 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] On the Insert tab, click SmartArt.
 - [ ] On the Insert tab, click Shapes and look in the Rectangles & Triangles section.
 - [ ] On the Insert tab, click Icons.
-- [x] On the Insert tab, click Shapes and look in the Basic Shapes section.
+- [ ] On the Insert tab, click Shapes and look in the Basic Shapes section.
 
 #### Q77. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?
 
-- [x] Collated
+- [ ] Collated
 - [ ] Print One-Sided
 - [ ] Uncollated
 - [ ] Print on Both Sides
 
 #### Q78. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?
 
-- [x] Read Mode (Windows) or Focus (Mac)
+- [ ] Read Mode (Windows) or Focus (Mac)
 - [ ] Draft view
 - [ ] Web Layout view
 - [ ] Outline view
 
 #### Q79. You want a different header and footer to appear on alternating pages. Which option should you choose?
 
-- [x] Different Odd & Even Pages
+- [ ] Different Odd & Even Pages
 - [ ] Insert Alt Header/Footer
 - [ ] Display on Odd Pages Only
 - [ ] Different First Page
@@ -630,7 +630,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] Open any document, change your font settings, and save as a template.
 - [ ] Create a macro that will change all fonts to Arial 11.5 point.
-- [x] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
+- [ ] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
 - [ ] In a new, blank document, make your font changes and then save your document as a template.
 
 [Reference](https://support.microsoft.com/en-us/office/change-the-default-font-in-word-2f50603b-9886-47e4-a483-48ac5ab80163)
@@ -638,7 +638,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 #### Q81. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
 
 - [ ] Right-click the picture and select **Crop**.
-- [x] In **Picture Tools**, select **Remove Background**.
+- [ ] In **Picture Tools**, select **Remove Background**.
 - [ ] In **Picture Tools**, select **Picture Effects**.
 - [ ] Right-click the picture and select **Size and Position**.
 
@@ -646,12 +646,12 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] SmartArt
 - [ ] drop-down list
-- [x] combo box
+- [ ] combo box
 - [ ] check box
 
 #### Q83. There is a circle shape in your document. Which of the shape's style can you format?
 
-- [x] all of these answers
+- [ ] all of these answers
 - [ ] Outline
 - [ ] Effects
 - [ ] Fill
@@ -661,11 +661,11 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] fonts and paragraph spacing
 - [ ] colors, fonts, paragraph spacing, and effects
 - [ ] colors, fonts, and paragraph spacing
-- [x] colors, fonts, and effects
+- [ ] colors, fonts, and effects
 
 #### Q85. When using the Compare function, the differences between two documents are outlined **\_**.
 
-- [x] in red
+- [ ] in red
 - [ ] on the most recent of the two documents
 - [ ] on the original document
 - [ ] on a third document
@@ -675,13 +675,13 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Insert an object.
 - [ ] Insert a caption.
 - [ ] Insert AutoText.
-- [x] Insert alt text.
+- [ ] Insert alt text.
 
 #### Q87. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?
 
 - [ ] Insert a column break at the beginning of the second page.
 - [ ] Insert a page break at the end of the first page.
-- [x] Insert a section break at the end of the first page.
+- [ ] Insert a section break at the end of the first page.
 - [ ] Insert a text wrapping break at the beginning of the second page.
 
 #### Q88. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
@@ -694,18 +694,18 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] D
 - [ ] A or B
 - [ ] C or D
-- [x] A, B, or C
+- [ ] A, B, or C
 
 #### Q89. You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?
 
-- [x] Continuous
+- [ ] Continuous
 - [ ] Even Page
 - [ ] Next Page
 - [ ] Odd Page
 
 #### Q90. Which function allows you to treat multiple objects as a single object for the purpose of manipulating their display or placement within a document?
 
-- [x] Group
+- [ ] Group
 - [ ] Merge
 - [ ] Copy
 - [ ] Combine
@@ -713,13 +713,13 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 #### Q91. Which function turns a document into a webpage?
 
 - [ ] Style
-- [x] Format
+- [ ] Format
 - [ ] Translate
 - [ ] Transform
 
 #### Q92. Which is not a text wrapping option for a picture?
 
-- [x] justify
+- [ ] justify
 - [ ] through
 - [ ] behind text
 - [ ] tight
@@ -727,20 +727,20 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 #### Q93. You are editing a paragraph that begins on one page and ends on the next after selecting the entire paragraph, how can you display it on one page?
 
 - [ ] In paragraph settings, click Indent and Spacing > pagination and select Keep with next
-- [x] In paragraph settings, click Line and Page Break > pagination and select Keep with next
+- [ ] In paragraph settings, click Line and Page Break > pagination and select Keep with next
 - [ ] In paragraph settings, click Line and Page Break > pagination and select keep lines together
 - [ ] In paragraph settings, click Line and Page Break > pagination and select Widow/Orphan control
 
 #### Q94. Double clicking in the left margin will \_ the paragraph to the right.
 
 - [ ] double indent
-- [x] select
+- [ ] select
 - [ ] delete
 - [ ] underline
 
 #### Q95. When using Track Changes, what formatting indicates that text has been deleted?
 
-- [x] strikethrough
+- [ ] strikethrough
 - [ ] wavy line
 - [ ] italic
 - [ ] underline
@@ -749,7 +749,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] Pin to list
 - [ ] Add to chooser
-- [x] Mark as favorite
+- [ ] Mark as favorite
 - [ ] Drag to Home tab
 
 #### Q97. When you create a macro, you can assign it to a **\_**. (Select all that apply.)
@@ -760,7 +760,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
     D. group on the ribbon
 
 - [ ] D
-- [x] A
+- [ ] A
 - [ ] A, C, D
 - [ ] A, B, C
 
@@ -773,7 +773,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Bring to front
 - [ ] WordArt
 - [ ] Group
-- [x] Send to back
+- [ ] Send to back
 
 #### Q99. Which selecton handle should you drag to rotate the object?
 
@@ -781,35 +781,35 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] G
 - [ ] E
-- [x] A
+- [ ] A
 - [ ] C
 
 #### Q100. You and your colleagues are asked to reply to some comments in a documents you have addressed your comments. Which choice is not a good way to indicate that you have taken care of the comments before sending the file to the next person?
 
 - [ ] Insert a new comment
 - [ ] Reply to the comment
-- [x] Delete the comment
+- [ ] Delete the comment
 - [ ] Resolve the comment
 
 #### Q101. What action allow you to quickly access a specific docuemnt from your list of saved file?
 
 - [ ] List
 - [ ] Go to file
-- [x] Bookmark
+- [ ] Bookmark
 - [ ] Jump
 
 #### Q102. Which page orientation should you select to accomdate a wide chart or table?
 
 - [ ] Wide
 - [ ] Potrait
-- [x] Landscape
+- [ ] Landscape
 - [ ] None of the above
 
 #### Q103. For what task can you not use the style inspector?
 
 - [ ] displaying the paragraph formatting at the insertion point
 - [ ] resestting or clearing paragraph or text-level formatting
-- [x] recommending style changes for improved accessibility
+- [ ] recommending style changes for improved accessibility
 - [ ] displaying the text-level formatting at the insertion point
 
 #### Q104. Your industry uses a lot of terminology that is not included in regular dictionaries, so document checking is both inaccurate and laborious. How can you modify Word to make document checking more efficient and accurate?
@@ -817,7 +817,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] In the Word proofing options, enable Suggest (Windows) or Select (Mac) from main dictionary only
 - [ ] Add your terminology to the default Word dictionary
 - [ ] In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)
-- [x] Create a custom dictionary that includes your specific terminology
+- [ ] Create a custom dictionary that includes your specific terminology
 
 [Reference](https://support.microsoft.com/en-us/office/add-or-edit-words-in-a-spell-check-dictionary-56e5c373-29f8-4d11-baf6-87151725c0dc)
 
@@ -826,25 +826,25 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] The comment is deleted
 - [ ] There is no change to the comment
 - [ ] A reply is added to the comment
-- [x] The comment appears dimmed
+- [ ] The comment appears dimmed
 
 #### Q106. Using the Styles group in Word lets you quickly **\_\_**?
 
 - [ ] apply frames and artistic effects to graphics
 - [ ] modify page margins
 - [ ] apply a different theme
-- [x] apply styles for heading levels, body text, and titles
+- [ ] apply styles for heading levels, body text, and titles
 
 #### Q107. You need to direct a reader from specific text to a related graphic that clarifies the content in another place in your document. Which command can you use to set this up?
 
 - [ ] Citation
 - [ ] Table of Contents
-- [x] Cross-Reference
+- [ ] Cross-Reference
 - [ ] Table of Figures
 
 #### Q108. When are mirrored margins typically used?
 
-- [x] when printing on both sides of the paper
+- [ ] when printing on both sides of the paper
 - [ ] when the document has a header or a footer
 - [ ] when the text is formatted into multiple columns
 - [ ] when you need all the margins to be the same size
@@ -857,7 +857,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ]Save a copy of the file and type over it for each new letter.
 - [ ]Set the file as default theme.
 - [ ]Use the Format Painter to apply the format to new letters.
-- [x]Create a template by saving the file as a .dot file.
+- [ ]Create a template by saving the file as a .dot file.
 
 explain:
 
@@ -869,7 +869,7 @@ explain:
 - [ ] table
 - [ ] hybrid
 - [ ] character
-- [x] paragraph
+- [ ] paragraph
 
 [Reference](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563)
 [Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)
@@ -878,7 +878,7 @@ explain:
 
 - [ ] No Markup
 - [ ] Compare
-- [x] Version History
+- [ ] Version History
 - [ ] Track Changes
 
 * Explain
@@ -891,7 +891,7 @@ explain:
     C. Save the file as a template(.dotx) file.
     D. Open the template and use it.
 
-- [x] A, C
+- [ ] A, C
 - [ ] A, B, C, D
 - [ ] A, B, C
 - [ ] B, C, D

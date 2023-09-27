@@ -11,7 +11,7 @@ cp -R ~/"photo dir" /backups #method3
 - [ ] Ninguno de los tres métodos se expandirá al directorio de inicio del usuario. Solo usando `"$HOME/photo dir"`tendrá éxito.
 - [ ] Sólo el método 1 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
 - [ ] Sólo el método 2 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
-- [x] Sólo el método 3 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
+- [ ] Sólo el método 3 se expandirá `"~/"` al directorio principal del usuario y, a continuación, agregue el nombre del directorio citado que incluye un espacio.
 
 #### P2. Si se ejecuta script.sh en el directorio actual, se producirá un error. ¿Por qué?
 
@@ -29,13 +29,13 @@ done
 ```
 
 - [ ] ls: no se puede acceder a un archivo inexistentearchivo: No existe tal archivo o directorio
-- [x] El bucle for se dividirá en los límites de las palabras y beach photo1.jpg tiene un espacio en él.
+- [ ] El bucle for se dividirá en los límites de las palabras y beach photo1.jpg tiene un espacio en él.
 - [ ] El comando mv fallará porque el corchete rizado es un carácter especial en Bash y no se puede usar en los nombres de los archivos.
 - [ ] La ejecución de script.sh se realizará correctamente ya que el comando ls crea una lista de archivos en el directorio actual y para bucles a través de esa lista, cambie el nombre de los archivos con una extensión .bak.
 
 #### P3. Para ejecutar un comando copy en un subshell, ¿qué sintaxis usaría?
 
-- [x] `( command )`
+- [ ] `( command )`
 - [ ] `sh command`
 - [ ] `{ command; }`
 - [ ] `(( command ))`
@@ -46,7 +46,7 @@ done
 echo "1 2 3" | awk '{for (i=1; i<=NF; i++) s=s+$i};END {print s}'
 ```
 
-- [x] 6
+- [ ] 6
 - [ ] 123
 - [ ] 3
 - [ ] 600
@@ -58,13 +58,13 @@ find / -name "finance.db" 1>results.txt 2>/dev/null
 ```
 
 - [ ] los nombres de los archivos que no coinciden con las finanzas.db
-- [x] información enviada al error estándar, por ejemplo, errores que el comando find muestra a medida que se ejecuta
+- [ ] información enviada al error estándar, por ejemplo, errores que el comando find muestra a medida que se ejecuta
 - [ ] los nombres de los archivos que coinciden con las finanzas.db
 - [ ] información enviada a la salida estándar, es decir, la ruta de acceso a los archivos que ha localizado el comando find
 
 #### P6. Para eliminar permanentemente las líneas vacías de un archivo llamado textfile, ¿qué comando podría usar?
 
-- [x] `sed -i '/^$/d' textfile`
+- [ ] `sed -i '/^$/d' textfile`
 - [ ] `sed '/^$/d' textfile`
 - [ ] `cat textfile | sed '/^$/d`
 - [ ] `sed -i 's/^$//' textfile`
@@ -78,20 +78,20 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [ ] Mostraría el nombre de usuario, el UID y el directorio de inicio del usuario1 separados por dos puntos.
 - [ ] Imprimiría el UID, GID y el directorio de inicio del usuario1 separados por guiones.
 - [ ] Imprimiría el UID, el comentario y el directorio de inicio del usuario1 separados por guiones.
-- [x] Mostraría el nombre de usuario, el UID y el directorio de inicio del usuario1 separados por guiones.
+- [ ] Mostraría el nombre de usuario, el UID y el directorio de inicio del usuario1 separados por guiones.
 
 #### P8. ¿Qué sucede si utiliza el `"set -e"` en un script Bash?
 
 - [ ] Hará que Bash salga si una función o subshell devuelve un código de estado distinto de cero.
 - [ ] Hará que Bash salga si un condicional devuelve un código de estado distinto de cero.
 - [ ] Hará que Bash se cierre si las asignaciones locales, declaradas o tipográficas devuelven un código de estado distinto de cero.
-- [x] Hará que Bash salga si un comando, una lista de comandos, un comando compuesto o potencialmente una canalización devuelve un código de estado distinto de cero.
+- [ ] Hará que Bash salga si un comando, una lista de comandos, un comando compuesto o potencialmente una canalización devuelve un código de estado distinto de cero.
 
 #### P9. El **\_** keyword pausa el script para obtener entrada de la entrada estándar.
 
 - [ ] obtener
 - [ ] argumento
-- [x] leer
+- [ ] leer
 - [ ] entrada
 
 #### P10. Si file.sql contiene instrucciones SQL para ser ejecutadas, ¿qué habrá en file.txt?
@@ -103,7 +103,7 @@ mysql < file.sql > file.txt
 - [ ] una copia del contenido del archivo.sql
 - [ ] un error que indica que esta es una sintaxis no válida
 - [ ] el resultado de error del comando MySQL
-- [x] la salida sin error del comando MySQL
+- [ ] la salida sin error del comando MySQL
 
 **Nota:** consulte la siguiente pregunta para obtener una variante.
 
@@ -114,7 +114,7 @@ mysql < file.sql > out.txt
 ```
 
 - [ ] La salida en la pantalla será idéntica a la salida.txt
-- [x] No habrá salida en la pantalla ya que se está redirigiendo a out.txt.
+- [ ] No habrá salida en la pantalla ya que se está redirigiendo a out.txt.
 - [ ] La salida en la pantalla será idéntica a out.txt más números de línea.
 - [ ] El archivo out.txt contendrá STDERR y STDOUT irá a la pantalla.
 
@@ -124,14 +124,14 @@ mysql < file.sql > out.txt
 
 - [ ] Cuando el comando crea archivos, estos serán propiedad del propietario del grupo del comando.
 - [ ] El bit SUID permite a cualquiera ejecutar el comando sin importar qué otros permisos se establezcan.
-- [x] Cuando se ejecuta el comando, sus privilegios de ejecución se elevan al usuario propietario del comando.
+- [ ] Cuando se ejecuta el comando, sus privilegios de ejecución se elevan al usuario propietario del comando.
 - [ ] Cuando se ejecuta el comando, sus privilegios de ejecución se elevan al propietario del grupo del comando.
 
 #### P13. Para extraer texto de la primera columna del archivo llamada textfile, ¿qué comando usaría?
 
 - [ ] `cat {$1,textfile}`
 - [ ] `cat textfile | awk [print $1]`
-- [x] `cat textfile | awk '{print $1}'`
+- [ ] `cat textfile | awk '{print $1}'`
 - [ ] `awk textfile {print $1}`
 
 #### P14. ¿Cuál es el método abreviado de teclado para llamar a la búsqueda del historial de Bash como se muestra a continuación?
@@ -142,7 +142,7 @@ mysql < file.sql > out.txt
 
 - [ ] Esc + R
 - [ ] Ctrl + H
-- [x] Ctrl + R
+- [ ] Ctrl + R
 - [ ] Alt + R
 
 #### P15. ¿Qué expresión aritmética dará la respuesta más precisa?
@@ -150,7 +150,7 @@ mysql < file.sql > out.txt
 - [ ] `var=$( expr 10 / 8 )`
 - [ ] `(( var= 10 /8 ))`
 - [ ] `var=$(( 10 / 8 ))`
-- [x] `var=$(echo 'scale=2; 10 / 8' | bc)`
+- [ ] `var=$(echo 'scale=2; 10 / 8' | bc)`
 
 #### P16. ¿Cuál es el resultado de este script?
 
@@ -162,7 +162,7 @@ txt=Penguins
 - [ ] 0, que representa 'true', porque la variable "txt" contiene ocho letras
 - [ ] 0, que representa 'verdadero', ¡porque todo el mundo ama a los pingüinos!
 - [ ] 1, que representa 'false', porque la variable "txt" es más larga que ocho caracteres
-- [x] 1, que representa 'false', porque la variable "txt" no contiene ocho letras minúsculas entre a y z
+- [ ] 1, que representa 'false', porque la variable "txt" no contiene ocho letras minúsculas entre a y z
 
 #### P17. ¿Cómo cambiaría su mensaje de shell bash a lo siguiente?
 
@@ -172,7 +172,7 @@ HAL>
 
 - [ ] `SHELL="HAL\>"`
 - [ ] `SHELL="HAL>"`
-- [x] `export PS1="HAL>"`
+- [ ] `export PS1="HAL>"`
 - [ ] `PS1="HAL\>"`
 
 #### P18. ¿Cuál es la salida de este código?
@@ -182,7 +182,7 @@ VAR="/var/www/html/website.com/html/"
 echo "${VAR#*/html}"
 ```
 
-- [x] `/website.com/html/`
+- [ ] `/website.com/html/`
 - [ ] `/html/website.com/html/`
 - [ ] `/var/www/html/website.com/`
 - [ ] Nada se hará eco en la pantalla.
@@ -191,12 +191,12 @@ echo "${VAR#*/html}"
 
 - [ ] Ctrl + A (Windows) o Comando + A (Mac)
 - [ ] Ctrl + E (Windows) o Comando + E (Mac)
-- [x] Ctrl + D (Windows) o Comando + D (Mac)
+- [ ] Ctrl + D (Windows) o Comando + D (Mac)
 - [ ] Ctrl + Z (Windows) o Comando + Z (Mac)
 
 #### P20. Para que un script Bash se ejecute como un comando del sistema operativo, debe comenzar con una línea shebang. ¿Cómo es esto?
 
-- [x] `#!/usr/bin/env bash`
+- [ ] `#!/usr/bin/env bash`
 - [ ] `~/usr/bin/env bash`
 - [ ] `'$!/usr/bin/env bash`
 - [ ] `#/usr/bin/env bash`
@@ -210,7 +210,7 @@ The date is: Sun Mar 24 12:30:06 CST 2019!
 - [ ] `echo "The date is: !"`
 - [ ] `echo "The date is: date!"`
 - [ ] `echo "The date is: (date)!"`
-- [x] `echo "The date is: $(date)!"`
+- [ ] `echo "The date is: $(date)!"`
 
 #### P22. Supongamos que su directorio de trabajo actual es su directorio de inicio. ¿Cómo podría ejecutar el script demo.sh que se encuentra en su directorio principal? Encuentra tres respuestas correctas.
 
@@ -222,7 +222,7 @@ D. bash /home/demo.sh
 E. bash demo.sh
 ```
 
-- [x] B, C, E
+- [ ] B, C, E
 - [ ] A, B, C
 - [ ] C, D, E
 - [ ] B, D, E
@@ -232,7 +232,7 @@ E. bash demo.sh
 - [ ] `find . -type html`
 - [ ] `find . -name *.html`
 - [ ] `find *.html`
-- [x] `find . -name \*.html -print`
+- [ ] `find . -name \*.html -print`
 
 El segundo parece estar bien, pero expandirá el \* si hay algún archivo de .html en su directorio de trabajo.
 
@@ -244,7 +244,7 @@ cat < in.txt > out.txt
 
 - [ ] La salida de la línea de comandos. Por defecto, STDIN proviene del teclado.
 - [ ] Nada porque no puede redirigir desde el archivo (in.txt) a otro archivo (out.txt). Solo puede redirigir desde un comando a un archivo.
-- [x] Sería el contenido de in.txt.
+- [ ] Sería el contenido de in.txt.
 - [ ] Nada. La redirección creará un nuevo archivo vacío, pero no habrá ninguna salida del comando cat para redirigir.
 
 #### P25. ¿Qué hace esta declaración bash?
@@ -255,13 +255,13 @@ echo $?
 ```
 
 - [ ] Se repite entre los valores de `$a` y `$b`.
-- [x] Prueba si los valores de las variables `$a` y `$b` son iguales.
+- [ ] Prueba si los valores de las variables `$a` y `$b` son iguales.
 - [ ] Vuelve `$b` si es mayor que `$a`.
 - [ ] Vuelve `$a` si es mayor que `$b`.
 
 #### P26. ¿Qué usas en una declaración de caso para decirle a Bash que has terminado con una prueba específica?
 
-- [x] `; ;`
+- [ ] `; ;`
 - [ ] `: :`
 - [ ] `done`
 - [ ] `$$`
@@ -283,7 +283,7 @@ case $num in
 esac
 ```
 
-- [x] un caso que coincide con cualquier valor, proporcionando una opción predeterminada si nada más captura ese valor
+- [ ] un caso que coincide con cualquier valor, proporcionando una opción predeterminada si nada más captura ese valor
 - [ ] un caso solo para lo que sucede cuando el carácter del asterisco se pasa al guión
 - [ ] la acción de todos los demás asuntos combinados
 - [ ] una acción que se realiza para cualquier entrada, incluso si coincide con una condición especificada
@@ -292,13 +292,13 @@ esac
 
 - [ ] `touch file{1+10}.txt`
 - [ ] `touch file{1-10}.txt`
-- [x] `touch file{1..10}.txt`
+- [ ] `touch file{1..10}.txt`
 - [ ] `touch file(1..10).txt`
 
 #### P29. ¿Qué variable comprobaría para comprobar que el último comando se ejecutó correctamente?
 
 - [ ] `$$`
-- [x] `$?`
+- [ ] `$?`
 - [ ] `$!`
 - [ ] `$@`
 
@@ -312,7 +312,7 @@ echo ${!fname}
 ```
 
 - [ ] juan
-- [x] tomás
+- [ ] tomás
 - [ ] Error de sintaxis
 - [ ] en blanco
 
@@ -324,7 +324,7 @@ echo ${!fname}
 
 - [ ] `A` ![A](images/Q30/A.png?raw=png)
 - [ ] `B` ![B](images/Q30/B.png?raw=png)
-- [x] `C` ![C](images/Q30/C.png?raw=png)
+- [ ] `C` ![C](images/Q30/C.png?raw=png)
 - [ ] `D` ![D](images/Q30/D.png?raw=png)
 
 Aquí hay una versión basada en texto de Q.30:
@@ -368,7 +368,7 @@ ll | sed -e 's,file,text,g'
     -rw-r--r-- 1 frankmolev staff 68    Jun 3 19:30 .
     -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
 
-- [x] D
+- [ ] D
 
 <!---->
 
@@ -390,7 +390,7 @@ fi
 
 - [ ] Si el valor de PET no coincide con dog, el script devolverá un código de estado distinto de cero.
 - [ ] No hay nada de malo en ello. La condición comprueba perfectamente el valor del PET.
-- [x] Fallará si el usuario presiona la tecla Enter (Return) sin ingresar un nombre de mascota cuando se le solicite.
+- [ ] Fallará si el usuario presiona la tecla Enter (Return) sin ingresar un nombre de mascota cuando se le solicite.
 - [ ] La declaración de entonces debe estar en una línea separada.
 
 #### P33. ¿Cómo se puede reunir la historia de varios terminales?
@@ -398,11 +398,11 @@ fi
 - [ ] Simplemente funciona por defecto.
 - [ ] `history --shared`
 - [ ] `history --combined`
-- [x] `shopt -s histappend`
+- [ ] `shopt -s histappend`
 
 #### P34. ¿Cuál es la diferencia entre las variables $@ y $\*?
 
-- [x] `$@` trata cada argumento citado como una entidad separada. `$*` trata toda la cadena de argumentos como una entidad.
+- [ ] `$@` trata cada argumento citado como una entidad separada. `$*` trata toda la cadena de argumentos como una entidad.
 - [ ] `$*` trata cada argumento citado como una entidad separada. `$@` trata toda la cadena de argumentos como una entidad.
 - [ ] `$*` se utiliza para contar los argumentos pasados a un script, `$@` proporciona todos los argumentos en una cadena.
 - [ ] `$*` es el comodín que incluye todos los argumentos con división de palabras, `$@` contiene los mismos datos pero en una matriz.
@@ -417,7 +417,7 @@ fi
 
 - [ ] `/usr/bin/test`
 - [ ] `/usr/bin/[`
-- [x] `the built-in [ command`
+- [ ] `the built-in [ command`
 - [ ] `/usr/bin/[[`
 
 #### P36. ¿Cuál será el resultado de este script?
@@ -434,12 +434,12 @@ echo "${Linux[@]}"
 - [ ] Debian Redhat Ubuntu Android Fedora Suse
 - [ ] Android
 - [ ] Fedora Suse
-- [x] Debian Redhat Ubuntu Fedora Suse
+- [ ] Debian Redhat Ubuntu Fedora Suse
 
 #### P37. ¿Qué archivo le permite guardar modificaciones en el entorno de shell en todas las sesiones?
 
 - [ ] `/etc/bash.conf`
-- [x] `~/.profile`
+- [ ] `~/.profile`
 - [ ] `/etc/bashprofile`
 - [ ] `~/profile`
 
@@ -452,7 +452,7 @@ total 0
 ```
 
 - [ ] No, está claro que user2 no tiene permisos de lectura, escritura y ejecución.
-- [x] Sí, el `+` al final de la cadena de permisos de 10 dígitos significa que hay una lista de control de acceso. Esto podría dar a user2 permisos no visibles por `ls -l`.
+- [ ] Sí, el `+` al final de la cadena de permisos de 10 dígitos significa que hay una lista de control de acceso. Esto podría dar a user2 permisos no visibles por `ls -l`.
 - [ ] Es posible que SELinux proporcione permisos de lectura, escritura y ejecución para el usuario2 que no son visibles con `ls -l`.
 - [ ] Sí, el `+` al final de la cadena de permisos de 10 dígitos significa que hay un conjunto de atributos extendido. Esto podría otorgar a user2 permisos para leer, escribir y ejecutar datos.txt.
 
@@ -469,7 +469,7 @@ done
 ```
 
 - [ ] Ordena la matriz asociativa denominada ARRAY y almacena los resultados en una matriz indexada denominada KEYS. A continuación, utiliza esta matriz ordenada para recorrer la matriz asociativa ARRAY.
-- [x] Usando un estilo C para el bucle, recorre la matriz asociativa denominada ARRAY utilizando las claves de la matriz asociativa y genera tanto la clave como los valores de cada elemento.
+- [ ] Usando un estilo C para el bucle, recorre la matriz asociativa denominada ARRAY utilizando las claves de la matriz asociativa y genera tanto la clave como los valores de cada elemento.
 - [ ] Crea una matriz indexada de la matriz asociativa denominada ARRAY. A continuación, utiliza un estilo C para el bucle y la matriz indexada para recorrer todos los elementos de la matriz asociativa, emitiendo la clave y el valor de cada elemento de la matriz utilizando el número de índice.
 - [ ] Crea una matriz asociativa llamada ARRAY, que recorre utilizando un estilo C para bucle y los números de índice de cada elemento en las claves de la matriz asociativa, emitiendo el valor de cada elemento.
 
@@ -482,7 +482,7 @@ ls Hello[[.vertical-line.]]World
 - [ ] Nada, este es un archivo glob no válido.
 - [ ] `Hello.vertical-line.World`
 - [ ] `Hello[[.vertical-line.]]World`
-- [x] `Hello|World`
+- [ ] `Hello|World`
 
 #### P41. ¿Qué habrá fuera.txt?
 
@@ -492,7 +492,7 @@ ls nonexistentfile | grep "No such file" > out.txt
 
 - [ ] No existe tal archivo
 - [ ] ls: no se puede acceder a un archivo inexistentearchivo: No existe tal archivo o directorio
-- [x] Nada, fuera.txt estará vacío.
+- [ ] Nada, fuera.txt estará vacío.
 - [ ] Será el contenido del archivo inexistente.
 
 #### P42. Para que el script imprima "Es numérico" en la pantalla, ¿qué tendría que ingresar el usuario cuando se le solicite?
@@ -510,27 +510,27 @@ fi
 - [ ] Cualquier secuencia de caracteres que incluya un entero
 - [ ] El usuario tendría que introducir la secuencia de caracteres de `^[0-9]]+$` Solo esto demostrará ser cierto y "Es numérico" se imprimirá en la pantalla debido a una sintaxis incorrecta. Al encapsular la expresión regular entre comillas dobles, todas las coincidencias fallarán, excepto la cadena de texto `^[0-9]+$`
 - [ ] Uno o más caracteres que solo incluyen enteros
-- [x] Debido a un error de sintaxis es imposible conseguir que el script imprima "Es numérico"
+- [ ] Debido a un error de sintaxis es imposible conseguir que el script imprima "Es numérico"
 
 El regex no debe ser cotizado para funcionar correctamente.
 
 #### P43. ¿Cómo encontraría el último comando de copia ejecutado en su historial?
 
 - [ ] historia | encontrar cp
-- [x] | de historia grep cp
+- [ ] | de historia grep cp
 - [ ] historia de grep cp
 - [ ] historia de cp
 
 #### P44. Para escribir un script que itera a través de los archivos en un directorio, ¿cuál de los siguientes podría usar?
 
-- [x] `bash for i in $(ls); do ... done`
+- [ ] `bash for i in $(ls); do ... done`
 - [ ] `bash for $(ls); do ... done`
 - [ ] `bash for i in $ls; do ... done`
 - [ ] `bash for $ls; do ... done`
 
 #### P45. Al ejecutar un comando y pasar la salida de ese comando a otro comando, ¿qué carácter le permite encadenar estos comandos?
 
-- [x] |
+- [ ] |
 - [ ] ->
 - [ ] #
 - [ ] @
@@ -546,13 +546,13 @@ echo $greeting, everybody!
 - [ ] un comando
 - [ ] un bucle
 - [ ] un parámetro
-- [x] una variable
+- [ ] una variable
 
 #### P47. ¿Qué instrucción comprueba si la variable num es mayor que cinco?
 
 - [ ] `(( num -gt 5 ))`
 - [ ] `[[$num -lt 5]]`
-- [x] `(( num > 5 ))`
+- [ ] `(( num > 5 ))`
 - [ ] `num > 5`
 
 [referencia](https://tldp.org/LDP/abs/html/dblparens.html)
@@ -571,7 +571,7 @@ $ shopt -s extglob
 $ ls -l @(ba*(na)|a+(p)le)
 ```
 
-- [x] a
+- [ ] a
 
 ```bash
 apple
@@ -613,7 +613,7 @@ pineapple
 
 #### Pregunta 49. Cuando se usa desde dentro de un script, ¿qué variable contiene el nombre del script?
 
-- [x] $0
+- [ ] $0
 - [ ] $# // número de parámetros posicionales
 - [ ] $$ // pid de la cáscara actual
 - [ ] $@ // Construcción tipo matriz de todos los parámetros posicionales
@@ -627,7 +627,7 @@ ls -l
 
 - [ ] Existe un contexto de seguridad selinux
 - [ ] El bit pegajoso está configurado y el archivo permanecerá en la RAM para mayor velocidad
-- [x] Hay una lista de control de acceso
+- [ ] Hay una lista de control de acceso
 - [ ] Hay un atributo extendido como conjunto inmutable
 
 #### Pregunta 51. En Bash, ¿qué hace el comentario a continuación?
@@ -636,7 +636,7 @@ ls -l
 cd -
 ```
 
-- [x] Te mueve al directorio en el que estabas anteriormente.
+- [ ] Te mueve al directorio en el que estabas anteriormente.
 - [ ] Lo mueve a su carpeta de inicio (sea cual sea su directorio de trabajo actual).
 - [ ] Elimina el directorio actual
 - [ ] Te mueve un directorio por encima de tu directorio de trabajo actual.
@@ -647,7 +647,7 @@ cd -
 cat > notes -
 ```
 
-- [x] Acepta texto de entrada estándar y lo coloca en "notas"
+- [ ] Acepta texto de entrada estándar y lo coloca en "notas"
 - [ ] Crea "notas" y sale
 - [ ] Genera el contenido de las notas y lo elimina
 - [ ] Añade texto a las "notas" existentes
@@ -659,7 +659,7 @@ VAR="This old man came rolling"
 echo "\${VAR//man/rolling}"
 ```
 
-- [x] Este viejo rollo vino rodando
+- [ ] Este viejo rollo vino rodando
 - [ ] Este anciano vino hombre
 - [ ] Este anciano vino rodando
 - [ ] Este viejo vino
@@ -667,7 +667,7 @@ echo "\${VAR//man/rolling}"
 #### Pregunta 54. El shell examina el contenido de una variable en particular para identificar qué programas puede ejecutar. ¿Cuál es el nombre de esta variable?
 
 - [ ] $INCLUDE
-- [x] $PATH
+- [ ] $PATH
 - [ ] $PROGRAM
 - [ ] $PATHS
 
@@ -677,7 +677,7 @@ echo "\${VAR//man/rolling}"
 
 - [ ] `echo "Shall we play a game? yes/\no"`
 - [ ] `echo "Shall we play a game\? yes\\no"`
-- [x] `echo "Shall we play a game? yes\\no"`
+- [ ] `echo "Shall we play a game? yes\\no"`
 - [ ] `echo "Shall we play a game? yes\no"`
 
 #### Pregunta 56. Dado un directorio con estos siete archivos, ¿qué quedaría después de ejecutar estos comandos?
@@ -721,7 +721,7 @@ textfile2.txt
 
 Todos estos archivos serán eliminados
 
-- [x] d:
+- [ ] d:
 
 ```bash
 image1.gif
@@ -742,7 +742,7 @@ fi
 
 - [ ] No habrá resultados inesperados. Este script funciona tal cual y la salida será "8 es mayor que 5".
 - [ ] La comparación no podrá manejar números de coma flotante, ya que Bash solo maneja enteros. Por lo tanto, este ejemplo generará un mensaje de error si el valor de $var se cambia a "8.8".
-- [x] Habrá un archivo en el directorio actual denominado 5.
+- [ ] Habrá un archivo en el directorio actual denominado 5.
 - [ ] La variable $var no se cita, lo que conducirá a la división de palabras. Este script fallará con un mensaje de "operador unario esperado" si cambia el valor de
 
 #### Pregunta 58. ¿Cuál es el resultado de este script?
@@ -751,12 +751,12 @@ fi
 
 - [ ] Elimina el directorio 'foo' y los archivos contenidos en él.
 - [ ] Elimina todos los archivos excepto los del directorio actual.
-- [x] Elimina todos los archivos del directorio actual.
+- [ ] Elimina todos los archivos del directorio actual.
 - [ ] Elimina todos los archivos excepto los del directorio 'foo'.
 
 #### Pregunta 59. ¿Cuál es la verdadera?
 
-- [x] Las reglas de la política de SELinux se comprueban después de las reglas de DAC.
+- [ ] Las reglas de la política de SELinux se comprueban después de las reglas de DAC.
 - [ ] Las reglas de la política de SELinux se comprueban antes de las reglas de DAC
 - [ ] Las reglas de la política de SELinux nunca se comprueban después de las reglas de DAC.
 - [ ] Ninguno de estos
@@ -770,7 +770,7 @@ w
 ```
 
 - [ ] No muestra información sobre los usuarios actualmente en la máquina.
-- [x] Muestra información sobre los usuarios actualmente en la máquina.
+- [ ] Muestra información sobre los usuarios actualmente en la máquina.
 - [ ] Muestra información sobre los usuarios actualmente en la otra máquina.
 - [ ] Ninguno de estos
 
@@ -783,7 +783,7 @@ var="A constant is a variable that is a variable that isn't variable"
 echo "$var" | sed _____
 ```
 
-- [x] s/(.\*)variable(.\*variable)/\1rock\2/'
+- [ ] s/(.\*)variable(.\*variable)/\1rock\2/'
 - [ ] s/variable/roca/'
 - [ ] s/variable/roca/g'
 - [ ] s/(.\*)variable(.\*variable)/\1rock\2/'
@@ -791,13 +791,13 @@ echo "$var" | sed _____
 #### P62. Para hacer que un script Bash llamado script.sh ejecutable, ¿qué debe ejecutar?
 
 - [ ] script.sh ejecutiva
-- [x] chmod +x script.sh
+- [ ] chmod +x script.sh
 - [ ] bash script.sh
 - [ ] fuente script.sh
 
 #### P63. ¿Cómo se puede crear un terminal compartido en un shell Bash?
 
-- Pantalla \[x]
+- Pantalla \[ ]
 - [ ] pantalla -X
 - [ ] pantalla --compartida
 - [ ] terminal -compartido
@@ -806,13 +806,13 @@ echo "$var" | sed _____
 
 - [ ] ls < lista de archivos.txt
 - [ ] ls ¦ lista de archivos.txt
-- [x] lista de archivos de > ls.txt
+- [ ] lista de archivos de > ls.txt
 - [ ] ls - lista de archivos.txt
 
 #### Pregunta 65. Al comparar los ítems con el caso, ¿qué afirmación indica el fin del bloque de evaluación?
 
 - [ ] parada
-- [x] esac
+- [ ] esac
 - [ ] hecho
 - [ ] salida
 
@@ -821,7 +821,7 @@ echo "$var" | sed _____
 - [ ] comando sh1; comando2
 - [ ] { comando1; comando2; }
 - [ ] (( comando1; comando2 ))
-- [x] comando1; comando2
+- [ ] comando1; comando2
 
 #### Pregunta 67. ¿Cuáles son los resultados del comando con un usuario llamado jon?
 
@@ -831,19 +831,19 @@ echo 'Hello, $(whoami)!'
 
 - [ ] ¡Hola, $(jon)!
 - [ ] ¡Hola, jon!
-- [x] ¡Hola, $(whoami)!
+- [ ] ¡Hola, $(whoami)!
 - [ ] ¡Hola, whoami!
 
 #### Pregunta 68. ¿Cómo se puede copiar un directorio a otro sistema con compresión?
 
 - [ ] tar -ssh user@192.158.1.1 /bin/newfile
-- [x] tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"
+- [ ] tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"
 - [ ] No se puede comprimir la secuencia
 - [ ] Directorio scp -r user@192.168.1.1:/tmp
 
 #### Pregunta 69. Para asignar el comando `ls -lah` al comando de acceso directo `lh`, ¿qué comando debe usar?
 
-- [x] alias lh='ls -lah'
+- [ ] alias lh='ls -lah'
 - [ ] enlace lh='ls -lah'
 - [ ] alias 'ls -lah'=lh
 - [ ] lh | ls -lah
@@ -852,12 +852,12 @@ echo 'Hello, $(whoami)!'
 
 - [ ] buscar $USER_DIR -name "\*.csv" 2>/dev/null
 - [ ] buscar $HOME -name "\*.csv" 1>/dev/null
-- [x] buscar $HOME -name "\*.csv" 2>/dev/null
+- [ ] buscar $HOME -name "\*.csv" 2>/dev/null
 - [ ] encontrar HOME -name "\*.csv" 1>/dev/null
 
 #### P71. En Bash, ¿qué indica un # al final de la cadena de solicitud predeterminada?
 
-- [x] que el usuario está actuando como root
+- [ ] que el usuario está actuando como root
 - [ ] que el directorio de trabajo actual es la raíz del sistema de archivos
 - [ ] que hay actualizaciones disponibles para el sistema
 - [ ] que el usuario no tiene privilegios
@@ -875,7 +875,7 @@ filec.txt
 $ ls -l file[^abc]*.txt
 ```
 
-- [x] A
+- [ ] A
 
 ```bash
 file1.txt
@@ -935,7 +935,7 @@ This is line 3.
 ------------------------This is line 1.This is line 2.This is line 3.------------------------
 ```
 
-- [x] C
+- [ ] C
 
 ```bash
 ------------------------
@@ -969,7 +969,7 @@ exec 3>&-
 
 - [ ] 123446789
 - [ ] el símbolo de guión (-)
-- [x] 123456789
+- [ ] 123456789
 - [ ] el número 5, que se escribe en el archivo usando echo
 
 Ver [Redirección de E/S](https://tldp.org/LDP/abs/html/io-redirection.html)
@@ -981,7 +981,7 @@ Ver también: [¿Cuál es la diferencia entre "eco" y "eco -n"?](https://stackov
 - [ ] $ID
 - [ ] $ #
 - [ ] $ @
-- [x] $$
+- [ ] $$
 
 #### Pregunta 76. Al combinar el globbing extendido y la expansión de parámetros, ¿cuál sería el valor del VAR?
 
@@ -1005,5 +1005,5 @@ Referencias:
 
 - [ ] !
 - [ ] &&
-- [x] y
+- [ ] y
 - [ ] $

@@ -4,20 +4,20 @@
 
 - [ ] Yapılandırılmış CPU değerini artırın
 - [ ] Yapılandırılmış zaman aşımı değerini artırın
-- [x] Yapılandırılmış bellek değerini artırın
+- [ ] Yapılandırılmış bellek değerini artırın
 - [ ] Yapılandırılmış eşzamanlılık değerini artırın
 
 #### S2. Lambda'nız için ek kod veya içerik nasıl sağlanabilir??
 
 - [ ] bloklar
-- [x] katmanlar
+- [ ] katmanlar
 - [ ] diğer adlar
 - [ ] işleyiciler
 
 #### S3. Adım Fonksiyonları Lambda'ları nasıl çağırabilir??
 
 - [ ] sırayla
-- [x] bu cevapların ikisi de
+- [ ] bu cevapların ikisi de
 - [ ] bu cevapların hiçbiri
 - [ ] paralel olarak
 
@@ -25,7 +25,7 @@
 
 - [ ] aws lambda invoke --function ReturnBucketName outputfile.txt
 - [ ] aws lambda execute --function-name ReturnBucketName outputfile.txt
-- [x] aws lambda invoke --function-name ReturnBucketName outputfile.txt
+- [ ] aws lambda invoke --function-name ReturnBucketName outputfile.txt
 - [ ] aws lambda execute --function ReturnBucketName outputfile.txt
 
 #### S5. Lambda'ya izleme özellikleri ekleyen şey?
@@ -33,40 +33,40 @@
 - [ ] AWS Trace
 - [ ] CloudStack
 - [ ] CloudTrail
-- [x] AWS X-Ray
+- [ ] AWS X-Ray
 
 #### S6. Bir dizi Lambda için sürekli bir entegrasyon/dağıtım işlem hattı oluşturmanız gerekiyor. Ne yapmalısınız?
 
 - [ ] AWS CodePipeline kullanarak yapılandırma dosyaları oluşturma ve bunları dağıtma.
 - [ ] CloudFormation şablonları oluşturma ve AWS CodeBuild kullanarak bunları dağıtma
 - [ ] AWS CodeBuild kullanarak yapılandırma dosyası oluşturma ve dağıtma
-- [x] CloudFormation şablonları oluşturma ve AWS CodePipeline kullanarak bunları dağıtma.
+- [ ] CloudFormation şablonları oluşturma ve AWS CodePipeline kullanarak bunları dağıtma.
 
 #### S7. İşlev çağrılarını izlemek için ne kullanabilirsiniz?
 
 - [ ] API Ağ Geçidi
 - [ ] S3
 - [ ] SAS
-- [x] CLoudTrail
+- [ ] CLoudTrail
 
 #### S8. Lambda günlüğünü bu yöntemlerden hangisiyle etkinleştirmek AWS'nin en iyi uygulamasıdır.
 
 - [ ] S3 ölçümlerini ve CloudWatch alarmlarını kullanın
 - [ ] Lambda kodunuz içinde özel metrikler oluşturun.
 - [ ] CloudWatch kodunuz içinde özel metrikler oluşturun.
-- [x] Lambda metriklerini ve CloudWatch alarmlarını kullanın.
+- [ ] Lambda metriklerini ve CloudWatch alarmlarını kullanın.
 
 #### S9. Ortam değişkenleri için neler sağlanabilir?
 
 - [ ] bir SSL sertifikası
 - [ ] bir bit maskesi
-- [x] bir AWS KMS anahtarı
+- [ ] bir AWS KMS anahtarı
 - [ ] bir HTTP protokolü
 
 #### S10. Lambdalar başka hangi şeylerin çalıştırılmasına izin verir?
 
 - [ ] ikili dosyalar.
-- [x] tüm bu cevaplar
+- [ ] tüm bu cevaplar
 - [ ] yürütülebilir dosyalar
 - [ ] Shell dosya komutları
 
@@ -74,13 +74,13 @@
 
 - [ ] MVC
 - [ ] sanal
-- [x] durumsuz
+- [ ] durumsuz
 - [ ] protokol
 
 #### S12. Bir geliştirici Lambda kodunu nasıl sağlayabilir?
 
 - [ ] bir .zip dosyası yükleyerek
-- [x] tüm bu cevaplar
+- [ ] tüm bu cevaplar
 - [ ] satır içi düzenleme yaparak
 - [ ] bir S3 kovasından
 
@@ -89,18 +89,18 @@
 - [ ] CLoudWatch günlükleri
 - [ ] DynamoDB günlükleri
 - [ ] S3 günlükleri
-- [x] Lambda günlükleri.
+- [ ] Lambda günlükleri.
 
 #### S14. Lambda'ların sürekli teslimatını ne kolaylaştırır?
 
 - [ ] CodeStack
 - [ ] ElasticStack
 - [ ] Mobil Merkez
-- [x] CodeDeploy
+- [ ] CodeDeploy
 
 #### S15. Bilgi işlem kaynakları Lambda'lara nasıl tahsis edilir?
 
-- [x] orantılı olarak
+- [ ] orantılı olarak
 - [ ] eşit olarak
 - [ ] periyodik olarak
 - [ ] günlük olarak
@@ -108,13 +108,13 @@
 #### S16. Bir IAM ilkesinde hangi iki öğeyi belirterek bir kullanıcının izinlerinin kapsamını kısıtlayabilirsiniz?
 
 - [ ] kaynaklar ve kullanıcılar
-- [x] kaynaklar ve koşullar
+- [ ] kaynaklar ve koşullar
 - [ ] olaylar ve kullanıcılar
 - [ ] olaylar ve koşullar
 
 #### S17. Lambda günlük kaydı neleri içerir?
 
-- [x] günlük akışları
+- [ ] günlük akışları
 - [ ] dönen akışlar
 - [ ] olayları günlüğe kaydetme
 - [ ] ilerleyen günlük grupları
@@ -122,28 +122,28 @@
 #### S18. AWS Amplify bir Lambda için ne YAPAMAZ?
 
 - [ ] bir Lambda oluşturmak
-- [x] bir olay kaynağı olmak
+- [ ] bir olay kaynağı olmak
 - [ ] bir IAM rolü atamak
 - [ ] bir Lambda silmek
 
 #### S19. AWS'nin desteklemediği bir programlama dilinde bir Lambda'yı nasıl yazarsınız?
 
 - [ ] Özel bir çalışma zamanına sahip bir Lambda işlevi oluşturun ve Lambda'nızda bu işleve referans verin
-- [x] Özel bir çalışma zamanına sahip bir Lambda katmanı oluşturun ve lambda'nızda bu katmana referans verin
+- [ ] Özel bir çalışma zamanına sahip bir Lambda katmanı oluşturun ve lambda'nızda bu katmana referans verin
 - [ ] Bu durumda Lambda kullanamazsınız
 - [ ] Özel çalışma zamanına sahip bir Lambda işlevi oluşturma
 
 #### S20. Listelenen aşağı akış kaynakları neye dayanmaktadır?
 
 - [ ] yürütme politikası
-- [x] Lambda yapılandırması
+- [ ] Lambda yapılandırması
 - [ ] Lambda düğümleri
 - [ ] IAM kullanıcısı
 
 #### S21. Hangisi bir Lambda çifti için eşdeğer ve geçerli bir etikettir?
 
 - [ ] department:Sales,department:Sales
-- [x] department:Sales,department:sales
+- [ ] department:Sales,department:sales
 - [ ] aws:demo;aws:demo
 - [ ] aws:demo;aws:DEMO
 
@@ -152,20 +152,20 @@
 - [ ] bu cevapların hiçbiri
 - [ ] UDP/IP
 - [ ] TCP/IP
-- [x] bu cevapların ikisi de
+- [ ] bu cevapların ikisi de
 
 #### S23. CloudWatch eylemleri nasıl yapılandırılır?
 
 - [ ] otomatik olarak
 - [ ] bu cevapların hiçbiri
-- [x] manual olarak
+- [ ] manual olarak
 - [ ] ad hoc
 
 #### S24. Akış tabanlı uygulamanızı ve ilgili Lambda'yı test ediyorsunuz. AWS'nin en iyi uygulamaları neyi değiştirerek test etmenizi önerir?
 
 - [ ] stream and record sizes
 - [ ] stream ve shard boyutları
-- [x] yığın ve kayıt boyutları
+- [ ] yığın ve kayıt boyutları
 - [ ] batch ve shard boyutları
 
 #### S25. Lambda'nızı birden fazla VPC'deki hizmetler için kullanılabilir hale getirmeniz gerekir. Ne yapmalısınız?
@@ -173,25 +173,25 @@
 - [ ] Her alt ağı bir VPC'ye yerleştirin. Tüm alt ağları Lambda'nızla ilişkilendirin.
 - [ ] Tüm alt ağları bir VPC'ye yerleştirin. Tüm alt ağları Lambda'nızla ilişkilendirin.
 - [ ] Lambda'nızı birden fazla VPC'de kullanılabilir olacak şekilde yapılandırın.
-- [x] Tüm uygulama VPC'lerini gözetlenecek şekilde yapılandırın.
+- [ ] Tüm uygulama VPC'lerini gözetlenecek şekilde yapılandırın.
 
 #### S26. Lambda fonksiyonu ile ilişkili maliyet nasıl hesaplanır?
 
 - [ ] fonksiyon çağrı sayısı
 - [ ] çalıştırılan kod miktarı
-- [x] hesaplama süresi
+- [ ] hesaplama süresi
 - [ ] kullanılan altyapı miktarı
 
 #### S27. Lambda ile çalışmaya başlamanın en hızlı yolu nedir?
 
 - [ ] Sıfırdan bir Lambda yazın.
-- [x] Bir plan kullanın.
+- [ ] Bir plan kullanın.
 - [ ] Bir .zip dağıtım paketi kullanın.
 - [ ] Sunucusuz uygulama deposunu kullanın.
 
 #### S28. Lambda işlevleri için disk alanı nerede ayrılır?
 
-- [x] /tmp
+- [ ] /tmp
 - [ ] /default
 - [ ] /temp
 - [ ] /ds
@@ -199,13 +199,13 @@
 #### S29. Özyinelemeli bir döngüde takılı kalmış çalışan bir Lambda'yı nasıl durdurursunuz?
 
 - [ ] Fonksiyonu silin.
-- [x] Kodu güncellerken işlev eşzamanlı yürütme sınırını 0 olarak ayarlayın.
+- [ ] Kodu güncellerken işlev eşzamanlı yürütme sınırını 0 olarak ayarlayın.
 - [ ] Fonksiyonu sıfırlayın.
 - [ ] Kodu güncellerken işlev eşzamanlı yürütme sınırını 100 olarak ayarlayın.
 
 #### S30. Lambda yapılandırması için AWS'nin en iyi uygulaması nedir?
 
-- [x] İşlevlerinizi daha hızlı çalıştırmak ve maliyetlerinizi azaltmak için belleği aşırı sağlayın. İşlev zaman aşımı ayarlarınızı aşırı sağlamayın.
+- [ ] İşlevlerinizi daha hızlı çalıştırmak ve maliyetlerinizi azaltmak için belleği aşırı sağlayın. İşlev zaman aşımı ayarlarınızı aşırı sağlamayın.
 - [ ] İşlevlerinizi daha hızlı çalıştırmak ve maliyetlerinizi azaltmak için belleği ve işlev zaman aşımı ayarlarınızı aşırı sağlayın.
 - [ ] Belleğe aşırı kaynak ayırmayın. İşlevlerinizi daha hızlı çalıştırmak ve maliyetleri azaltmak için işlev zaman aşımı ayarlarınızı aşırı sağlayın..
 - [ ] Bellek için aşırı kaynak ayırmayın. İşlevlerinizi daha hızlı çalıştırmak ve maliyetleri düşürmek için işlev zaman aşımı ayarlarınızı fazla sağlamayın.
@@ -215,26 +215,26 @@
 - [ ] removing log groups
 - [ ] none of these answers
 - [ ] creating log groups
-- [x] updating log groups
+- [ ] updating log groups
 
 #### S32. Ortam değişkenleri nasıl saklanır?
 
 - [ ] DynamoDB tabloları
-- [x] anahtar-değer çiftleri
+- [ ] anahtar-değer çiftleri
 - [ ] S3 kovası
 - [ ] bu cevapların hiçbiri
 
 #### S33. Web sitenize arka uç mantığı sağlamak için bir Lambda kullanmanız gerekiyor. Lambda'nızı web sitenizde kullanılabilir hale getirmek için hangi hizmeti kullanıyorsunuz?
 
 - [ ] S3
-- [x] API Gateway
+- [ ] API Gateway
 - [ ] X-Ray
 - [ ] DynamoDB
 
 #### S34. Bir S3 kovasındaki dosyalarda yapılan değişiklikleri tetiklemek için bir Lambda oluşturuyorsunuz. Kova adını nereye koymalısınız?
 
 - [ ] Lambda fonksiyon kodunda
-- [x] Lambda ortam değişkeninde
+- [ ] Lambda ortam değişkeninde
 - [ ] Lambda etiketlerinde
 - [ ] başka bir S3 kovasında
 
@@ -243,19 +243,19 @@
 - [ ] Lambda'yı dağıtın
 - [ ] Fonksiyonu dışa aktarın
 - [ ] bu cevapların hiçbiri
-- [x] Bir test etkinliği yapılandırma
+- [ ] Bir test etkinliği yapılandırma
 
 #### S36. Lambda'lar için Node.js ile ne tür paketler kullanabilirsiniz?
 
 - [ ] Fleece
-- [x] NPM
+- [ ] NPM
 - [ ] bu cevapların hiçbiri
 - [ ] Pod
 
 #### S37. Lambda'lar varsayılan olarak hangi servis kullanılarak izlenir?
 
 - [ ] CloudTrail
-- [x] CloudWatch
+- [ ] CloudWatch
 - [ ] CloudFormation
 - [ ] LogWatch
 
@@ -264,20 +264,20 @@
 - [ ] bir tablo tanımı
 - [ ] kuyruk izolasyonu
 - [ ] STS Yazma
-- [x] bir SNS konusu
+- [ ] bir SNS konusu
 
 #### S39. Başka bir S3 kovasından kovanıza veri eklendiğinde yanıt vermek için Lambda'nızda bir S3 olay tetikleyicisi ayarlamanız gerekir. Hangi olay türünü yapılandırırsınız?
 
 - [ ] POST
 - [ ] "Tüm nesne oluşturma olayları"
-- [x] PUT
+- [ ] PUT
 - [ ] COPY
 
 #### S40. Lambda'ları daha test edilebilir hale getirmek için, aşağıdakilerden hangisini ayırmak AWS'nin en iyi uygulamasıdır?
 
 - [ ] Günlük kodundan Lambda yapılandırması
 - [ ] Günlük kodundan Lambda işleyicisi
-- [x] Çekirdek mantıktan Lambda işleyicisi
+- [ ] Çekirdek mantıktan Lambda işleyicisi
 - [ ] Çekirdek mantığından Lambda yapılandırması
 
 #### S41. Dışa aktarılan bir Lambda dağıtım paketine neler dahildir?
@@ -285,40 +285,40 @@
 - [ ] YAML tanımı
 - [ ] CloudFormation yığın yapılandırması
 - [ ] SAML dağıtım yığını
-- [x] İlgili tüm dosyaların zip dosyası
+- [ ] İlgili tüm dosyaların zip dosyası
 
 #### S42. Bir Lambda'nın yürütme rolünü ne zaman değiştirebilirsiniz?
 
 - [ ] sadece oluştururken
 - [ ] sadece konuşlandırmadan önce
 - [ ] asla
-- [x] yapılandırma aracılığıyla her zaman
+- [ ] yapılandırma aracılığıyla her zaman
 
 #### S43. SAM şablonu ile CloudFormation şablon dosyaları arasındaki ilişki nedir?
 
 - [ ] SAM şablonları, CloudFormation şablonlarının bir üst kümesidir. SAM şablonları ek kaynak türleri içerir.
 - [ ] SAM şablonlarının CloudFormation şablonlarıyla bazı örtüşmeleri vardır. Hem SAM hem de CloudFormation şablonları, diğer şablon türünde olmayan kaynak türlerini içerir.
-- [x] CloudFormation şablonları SAM şablonlarının bir üst kümesidir. CloudFormation şablonları ek kaynak türleri içerir.
+- [ ] CloudFormation şablonları SAM şablonlarının bir üst kümesidir. CloudFormation şablonları ek kaynak türleri içerir.
 - [ ] SAM şablonları, CloudFormation şablonları için farklı bir isimdir. Her iki şablon türü de aynı kaynak türlerini içerir.
 
 #### S44. Lambdas'ı bölgesel olarak hangi hizmet dağıtır?
 
 - [ ] EdgeCloud
 - [ ] CloudEdge
-- [x] CloudFront
+- [ ] CloudFront
 - [ ] CloudStack
 
 #### S45. AWS Lambda hangi programlama dilini destekliyor?
 
 - [ ] özel
-- [x] bütün cevaplar
+- [ ] bütün cevaplar
 - [ ] Java
 - [ ] Ruby
 
 #### S46. Lambda eşzamanlılığında bir artış olduğunda sizi bilgilendirecek kontrolleri devreye sokmak için bir mekanizma kurmanız gerekir. Ne yapmalısınız?
 
 - [ ] İşlev ölçümleri eşiğinizi aştığında sizi bilgilendiren bir CloudTrail alarmı dağıtın. Maliyetleri izlemek için bir AWS bütçesi oluşturun.
-- [x] İşlev ölçümleri eşiğinizi aştığında sizi bilgilendiren bir CloudWatch alarmı dağıtın. Maliyetleri izlemek için bir AWS bütçesi oluşturun.
+- [ ] İşlev ölçümleri eşiğinizi aştığında sizi bilgilendiren bir CloudWatch alarmı dağıtın. Maliyetleri izlemek için bir AWS bütçesi oluşturun.
 - [ ] İşlev ölçümleri eşiğinizi aştığında sizi bilgilendiren bir CloudWatch alarmı dağıtın. Maliyetleri izlemek için bir AWS CostMonitor oluşturun.
 - [ ] İşlev ölçümleri eşiğinizi aştığında sizi bilgilendiren bir CloudTrail alarmı dağıtın. Maliyetleri izlemek için bir AWS CostMonitor oluşturun.
 
@@ -333,7 +333,7 @@
 
 #### S48. Lambda kodu ne zaman şifrelenmiş olarak saklanır?
 
-- [x] dinlenirken
+- [ ] dinlenirken
 - [ ] çalışma zamanında
 - [ ] konuşlandırmada
 - [ ] bu cevapların hiçbiri
@@ -352,7 +352,7 @@
 - [ ] Kinesis, S3, and SQS
 - [ ] Kinesis, S3, and SNS
 - [ ] Kinesis, DynamoDB, and SNS
-- [x] Kinesis, DynamoDB, and SQS
+- [ ] Kinesis, DynamoDB, and SQS
 
 **Açıklama**
 
@@ -360,7 +360,7 @@
 
 #### S51. Bir Lambda ne ile adlandırılabilir?
 
-- [x] tüm bu cevaplar
+- [ ] tüm bu cevaplar
 - [ ] bir DynamoDB tetikleyicisi
 - [ ] bir API Gateway
 - [ ] bir S3 kova olayı

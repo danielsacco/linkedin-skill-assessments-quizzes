@@ -5,7 +5,7 @@
 ![Q1](images/001.jpg)
 
 - [ ] en el `Components` tablero
-- [x] en el `Layers` tablero
+- [ ] en el `Layers` tablero
 - [ ] en el `Property Inspector`
 - [ ] en modo Compartir
 
@@ -14,7 +14,7 @@
 ![Q2](images/002.jpg)
 
 - [ ] 30
-- [x] 20
+- [ ] 20
 - [ ] 43
 - [ ] 0
 
@@ -25,11 +25,11 @@
 - [ ] Cambie el disparador.
 - [ ] Elija un destino.
 - [ ] Añadir una nueva interacción.
-- [x] Agregue un nuevo estado.
+- [ ] Agregue un nuevo estado.
 
 #### P4. Quieres compartir tu proyecto en un blog o redes sociales. ¿Cómo lograrías esto?
 
-- [x] Enlace al proyecto desde su cuenta de Creative Cloud.
+- [ ] Enlace al proyecto desde su cuenta de Creative Cloud.
 - [ ] Utilice el enlace prototipo.
 - [ ] Añadir el enlace prototipo a un blog.
 - [ ] Añade tus cuentas de redes sociales a tu lista de invitaciones.
@@ -64,7 +64,7 @@
 
 #### P9. Ha creado un botón y lo ha convertido en un componente para que el botón sea interactivo. Cuando abre el área Componente (maestro) en el Inspector de propiedades y hace clic en Estado predeterminado, observa que el botón ya tiene un estado aplicado. ¿Qué estado se aplica?
 
-- [x] Desplazarse
+- [ ] Desplazarse
 - [ ] Arrastrar
 - [ ] Voz
 - [ ] Toca
@@ -95,7 +95,7 @@
 ![Q13](images/004.jpg)
 
 - [ ] destino.
-- [x] interacción.
+- [ ] interacción.
 - [ ] disparador
 - [ ] animación.
 
@@ -103,7 +103,7 @@
 
 ![Q14](images/005.jpg)
 
-- [x] La vista previa cambia a la vista de mesa de trabajo.
+- [ ] La vista previa cambia a la vista de mesa de trabajo.
 - [ ] La vista previa cambia al flujo de usuario.
 - [ ] La vista previa cambia a la vista de desarrollador.
 - [ ] Se muestran las propiedades de la mesa de trabajo
@@ -111,7 +111,7 @@
 #### P15. ¿Qué método para llevar el contenido de Illustrator a XD no es posible?
 
 - [ ] Arrastre un archivo de Illustrator (. Al) en un proyecto XD.
-- [x] Copie y pegue contenido de Illustrator a XD.
+- [ ] Copie y pegue contenido de Illustrator a XD.
 - [ ] Abrir un archivo de Illustrator (. Al) en XD para convertirlo en un proyecto XD.
 - [ ] Importar un archivo de Illustrator (. Al) en un proyecto XD.
 

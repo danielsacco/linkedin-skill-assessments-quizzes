@@ -2,7 +2,7 @@
 
 #### Q1. What do you need for two functions to be the same type?
 
-- [x] They should share the same signatures, including parameter types and return types.
+- [ ] They should share the same signatures, including parameter types and return types.
 - [ ] They should share the same parameter types but can return different types.
 - [ ] All functions should be the same type.
 - [ ] The functions should not be a first class type.
@@ -12,7 +12,7 @@
 #### Q2. What does the `len()` function return if passed a UTF-8 encoded string?
 
 - [ ] the number of characters
-- [x] the number of bytes
+- [ ] the number of bytes
 - [ ] It does not accept string types.
 - [ ] the number of code points
 
@@ -20,7 +20,7 @@
 
 #### Q3. Which is _not_ a valid loop construct in Go?
 
-- [x] &shy;
+- [ ] &shy;
 
 ```go
       do { ... } while i < 5
@@ -70,7 +70,7 @@ values := []int{1, 1, 2}
       append(values, 3)
 ```
 
-- [x] &shy;
+- [ ] &shy;
 
 ```go
       values = append(values, 3)
@@ -89,7 +89,7 @@ const (
 ```
 
 - [ ] 0
-- [x] 1
+- [ ] 1
 - [ ] 2
 - [ ] a random value
 
@@ -115,7 +115,7 @@ const (
       import "../template"
 ```
 
-- [x] &shy;
+- [ ] &shy;
 
 ```go
       import "github.com/gin-gonic/gin"
@@ -134,7 +134,7 @@ func main() {
 ```
 
 - [ ] It would not compile because `GlobalFlag` was never initialized.
-- [x] It would compile and print `[]`.
+- [ ] It would compile and print `[]`.
 - [ ] It would compile and print nothing because `"[" +nil+"]"` is also `nil`.
 - [ ] It would compile but then panic because `GlobalFlag` was never initialized.
 
@@ -143,7 +143,7 @@ func main() {
 
 #### Q8. From where is the variable `myVar` accessible if it is declared outside of any functions in a file in package `myPackage` located inside module `myModule`?
 
-- [x] It can be accessed anywhere inside `myPackage`, not the rest of myModule.
+- [ ] It can be accessed anywhere inside `myPackage`, not the rest of myModule.
 - [ ] It can be accessed by any application that imports `myModule`.
 - [ ] It can be accessed from anywhere in `myModule`.
 - [ ] It can be accessed by other packages in `myModule` as long as they import `myPackage`
@@ -156,7 +156,7 @@ See also an example of [Exported names](https://tour.golang.org/basics/3) in the
 - [ ] `go test`
 - [ ] `go test -x`
 - [ ] `go test --verbose`
-- [x] `go test -v`
+- [ ] `go test -v`
 
 [test package](https://pkg.go.dev/cmd/go/internal/test)
 
@@ -181,7 +181,7 @@ func main() {
 
 - [ ] use `json.Decoder`
 - [ ] Pass a pointer to `data`
-- [x] Make `X` and `Y` exported (uppercase)
+- [ ] Make `X` and `Y` exported (uppercase)
 - [ ] Use field tags
 
 1. [How to Parse JSON in Golang?](https://www.geeksforgeeks.org/how-to-parse-json-in-golang/)
@@ -191,7 +191,7 @@ func main() {
 
 - [ ] all goroutines
 - [ ] any other call to lock that `Mutex`
-- [x] any reads or writes of the variable it is locking
+- [ ] any reads or writes of the variable it is locking
 - [ ] any writes to the variable it is locking
 
 1. [Mutex in GoLang](https://golangdocs.com/mutex-in-golang), sync.Mutex locks so only one goroutine at a time can access the locked variable.
@@ -202,7 +202,7 @@ func main() {
 - [ ] Pass an `int` and `Mutex` to each and count when they return.
 - [ ] Loop over a `select` statement.
 - [ ] Sleep for a safe amount of time.
-- [x] `sync.WaitGroup`
+- [ ] `sync.WaitGroup`
 
 **Explanation:** this is exactly what `sync.WaitGroup` is designed for - [Use sync.WaitGroup in Golang](https://nanxiao.me/en/use-sync-waitgroup-in-golang/)
 
@@ -211,7 +211,7 @@ func main() {
 - [ ] It blocks the other channels.
 - [ ] It is meant to be used in select statements without side effects.
 - [ ] It blocks the `select` statement until the time has passed.
-- [x] The goroutine does not end until the time passes.
+- [ ] The goroutine does not end until the time passes.
 
 > Note: it doesn't block `select` and does not block other channels.
 
@@ -224,7 +224,7 @@ func main() {
 - [ ] executing a function concurrently
 - [ ] executing a different case based on the type of a variable
 - [ ] executing a different case based on the value of a variable
-- [x] executing a different case based on which channel returns first
+- [ ] executing a different case based on which channel returns first
 
 [Select statement in GoLang](https://golangdocs.com/select-statement-in-golang)
 
@@ -257,7 +257,7 @@ func Add(a, b int) {
   }
   ```
 
-- [x] C
+- [ ] C
 
   ```go
   // Add returns the sum of a and b
@@ -283,7 +283,7 @@ func Add(a, b int) {
 
 - [ ] `myVal` must be an integer type, such as `int`, `int64`, `int32`, etc.
 - [ ] `myVal` must be able to be asserted as an `int`.
-- [x] `myVal` must be an interface.
+- [ ] `myVal` must be an interface.
 - [ ] `myVal` must be a numeric type, such as `float64` or `int64`.
 
 **Explanation**: This kind of type casting (using `.(type)`) is used on interfaces only.
@@ -296,7 +296,7 @@ func Add(a, b int) {
 #### Q17. What is a channel?
 
 - [ ] a global variable
-- [x] a medium for sending values between goroutines
+- [ ] a medium for sending values between goroutines
 - [ ] a dynamic array of values
 - [ ] a lightweight thread for concurrent programming
 
@@ -307,7 +307,7 @@ func Add(a, b int) {
 - [ ] Check runtime.GOOS.
 - [ ] Add a // +build windows comment anywhere in the file.
 - [ ] Add a \_ prefix to the file name.
-- [x] Add a // +build windows comment at the top of the file.
+- [ ] Add a // +build windows comment at the top of the file.
 
 1. [How to use conditional compilation with the go build tool, Oct 2013](https://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool)
 2. [go commands Build constraints](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
@@ -333,7 +333,7 @@ data := "A group of Owls is called a parliament"
       resp, err := http.Post("https://httpbin.org/post", "text/plain", data)
 ```
 
-- [x] &shy;
+- [ ] &shy;
 
 ```go
       resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))
@@ -353,7 +353,7 @@ data := "A group of Owls is called a parliament"
 - [ ] Saveable
 - [ ] SaveInterface
 - [ ] ISave
-- [x] Saver
+- [ ] Saver
 
 [Effective Go, Interface names](https://golang.org/doc/effective_go#interface-names)
 
@@ -361,7 +361,7 @@ data := "A group of Owls is called a parliament"
 
 - [ ] does not create; creates
 - [ ] does not create; does not create
-- [x] creates; creates
+- [ ] creates; creates
 - [ ] creates; does not create
 
 [Go Language Core technology (Volume one) 1.5-scope](https://topic.alibabacloud.com/a/go-language-core-technology-volume-one-15-font-colorredscopefont_1_38_30923325.html)
@@ -372,7 +372,7 @@ Relevant excerpt from the article:
 
 #### Q22. What is the default case sensitivity of the JSON `Unmarshal` function?
 
-- [x] The default behavior is case insensitive, but it can be overridden.
+- [ ] The default behavior is case insensitive, but it can be overridden.
 - [ ] Fields are matched case sensitive.
 - [ ] Fields are matched case insensitive.
 - [ ] The default behavior is case sensitive, but it can be overridden.
@@ -388,7 +388,7 @@ Relevant excerpt from the article:
 - [ ] Time.Add() is for performing addition while Time.Sub() is for nesting timestamps.
 - [ ] Time.Add() always returns a later time while time.Sub always returns an earlier time.
 - [ ] They are opposites. Time.Add(x) is the equivalent of Time.Sub(-x).
-- [x] Time.Add() accepts a Duration parameter and returns a Time while Time.Sub() accepts a Time parameter and returns a Duration.
+- [ ] Time.Add() accepts a Duration parameter and returns a Time while Time.Sub() accepts a Time parameter and returns a Duration.
 
 1. [time#Time.Add](https://pkg.go.dev/time#Time.Add)
 2. [time#Time.Sub](https://pkg.go.dev/time#Time.Sub)
@@ -396,7 +396,7 @@ Relevant excerpt from the article:
 #### Q24. What is the risk of using multiple field tags in a single struct?
 
 - [ ] Every field must have all tags to compile.
-- [x] It tightly couples different layers of your application.
+- [ ] It tightly couples different layers of your application.
 - [ ] Any tags after the first are ignored.
 - [ ] Missing tags panic at runtime.
 
@@ -407,7 +407,7 @@ Relevant excerpt from the article:
 
 - [ ] in the main function
 - [ ] immediately after a line that might panic
-- [x] inside a deferred function
+- [ ] inside a deferred function
 - [ ] at the beginning of a function that might panic
 
 [Example of Recover Function in Go (Golang)](https://golangbot.com/panic-and-recover/#recoveringfromapanic)
@@ -420,7 +420,7 @@ Relevant excerpt from the article:
 
 - [ ] `println(message)`
 - [ ] `log.New(os.Stderr, "", 0).Println(message)`
-- [x] `fmt.Errorf("%s\n", message)`
+- [ ] `fmt.Errorf("%s\n", message)`
 - [ ] `fmt.Fprintln(os.Stderr, message)`
 
 1. [func println](https://pkg.go.dev/builtin#println): writes the result to _standard error_.
@@ -432,7 +432,7 @@ Relevant excerpt from the article:
 
 - [ ] Use a proxy.
 - [ ] Change the import path.
-- [x] Use a replace directive in go.mod.
+- [ ] Use a replace directive in go.mod.
 - [ ] Use a replace directory.
 
 1. [Call your code from another module](https://go.dev/doc/tutorial/call-module-code): chapter 5., `go mod edit -replace example.com/greetings=../greetings`.
@@ -443,7 +443,7 @@ Relevant excerpt from the article:
 - [ ] `go test all`
 - [ ] `go run --all`
 - [ ] `go test .`
-- [x] `go test ./...`
+- [ ] `go test ./...`
 
 1. [Example of testing in Go (Golang)](https://pkg.go.dev/testing)
 2. [Example of cmd in Go (Golang)](https://pkg.go.dev/cmd/go)
@@ -457,7 +457,7 @@ Relevant excerpt from the article:
 - [ ] any, it accepts arbitary bytes
 - [ ] any Unicode format
 - [ ] UTF-8 or ASCII
-- [x] UTF-8
+- [ ] UTF-8
 
 1. [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
 
@@ -475,7 +475,7 @@ Relevant excerpt from the article:
 
 - [ ] There is no difference.
 - [ ] t.Fatal does not crash the test harness, preserving output messages.
-- [x] t.Fatal stops execution of the subtest and continues with other test cases.
+- [ ] t.Fatal stops execution of the subtest and continues with other test cases.
 - [ ] t.Fatal stops all tests and contains extra information about the failed subtest.
 
 1. [Reference:](https://go.dev/play/p/gtne3iRL9AX)
@@ -491,7 +491,7 @@ Relevant excerpt from the article:
 
 - [ ] It raises a panic.
 - [ ] It prints the log and then raises a panic.
-- [x] It prints the log and then safely exits the program.
+- [ ] It prints the log and then safely exits the program.
 - [ ] It exits the program.
 
 [Example of func Fatal in Go (Golang)](https://pkg.go.dev/log#Fatal)
@@ -502,7 +502,7 @@ Relevant excerpt from the article:
 
 #### Q32. Which is a valid Go time format literal?
 
-- [x] "2006-01-02"
+- [ ] "2006-01-02"
 - [ ] "YYYY-mm-dd"
 - [ ] "y-mo-d"
 - [ ] "year-month-day"
@@ -526,7 +526,7 @@ AM/PM mark: "PM"
 #### Q33. How should you log an error (err)
 
 - [ ] `log.Error(err)`
-- [x] `log.Printf("error: %v", err)`
+- [ ] `log.Printf("error: %v", err)`
 - [ ] `log.Printf(log.ERROR, err)`
 - [ ] `log.Print("error: %v", err)`
 
@@ -537,7 +537,7 @@ AM/PM mark: "PM"
 - [ ] any that starts with `test`
 - [ ] any files that include the word `test`
 - [ ] only files in the root directory that end in `_test.go`
-- [x] any that ends in `_test.go`
+- [ ] any that ends in `_test.go`
 
 1. [Test packages in go command in Go](https://pkg.go.dev/cmd/go#hdr-Test_packages): _'Go test' recompiles each package along with any files with names matching the file pattern "\*\_test.go"._
 2. [Add a test in Go](https://go.dev/doc/tutorial/add-a-test)
@@ -552,7 +552,7 @@ fmt.Println(val)
 ```
 
 - [ ] 0
-- [x] It will deadlock
+- [ ] It will deadlock
 - [ ] It will not compile
 - [ ] 2.718
 
@@ -579,7 +579,7 @@ fmt.Println(val)
 
 - [ ] It will deadlock
 - [ ] It will panic
-- [x] 0
+- [ ] 0
 - [ ] NaN
 
 [Go Playground share](https://go.dev/play/p/DjXq9wzJm5M), output:
@@ -599,7 +599,7 @@ fmt.Printf("%f\n", price)
 ```
 
 - [ ] 0
-- [x] 0.000000
+- [ ] 0.000000
 - [ ] The code will panic
 - [ ] NaN
 
@@ -613,7 +613,7 @@ Program exited.
 
 #### Q38. What is the common way to have several executables in your project?
 
-- [x] Have a cmd directory and a directory per executable inside it.
+- [ ] Have a cmd directory and a directory per executable inside it.
 - [ ] Comment out main.
 - [ ] Use build tags.
 - [ ] Have a pkg directory and a directory per executable inside it.
@@ -627,7 +627,7 @@ Program exited.
 - [ ] Set GOOS to **arm64** and GOARCH to **darwin**.
 - [ ] Set GOOS to **osx** and GOARCH to **arm64**.
 - [ ] Set GOOS to **arm64** and GOARCH to **osx**.
-- [x] Set GOOS to **darwin** and GOARCH to **arm64**.
+- [ ] Set GOOS to **darwin** and GOARCH to **arm64**.
 
 [documentation](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
 
@@ -635,14 +635,14 @@ Program exited.
 
 - [ ] `go(fmt.Println("Hello Gopher!"))`
 - [ ] `go func() { fmt.Println("Hello Gopher!") }`
-- [x] `go fmt.Println("Hello Gopher!")`
+- [ ] `go fmt.Println("Hello Gopher!")`
 - [ ] `Go fmt.Println("Hello Gopher!")`
 
 [Example of start a goroutine](https://go.dev/play/p/KGgnAWpZMrS)
 
 #### Q41. If you iterate over a map in a for range loop, in which order will the key:value pairs be accessed?
 
-- [x] in pseudo-random order that cannot be predicted
+- [ ] in pseudo-random order that cannot be predicted
 - [ ] in reverse order of how they were added, last in first out
 - [ ] sorted by key in ascending order
 - [ ] in the order they were added, first in first out
@@ -653,7 +653,7 @@ Program exited.
 
 - [ ] There is no customizing the string representation of a type.
 - [ ] Build it in pieces each time by calling individual fields.
-- [x] Implement a method `String()` string
+- [ ] Implement a method `String()` string
 - [ ] Create a wrapper function that accepts your type and outputs a string.
 
 [Reference](https://go.dev/doc/effective_go#printing)
@@ -677,7 +677,7 @@ func findUser(ctx context.Context, login string) (*User, error) {
 ```
 
 - [ ] Use a sync.WaitGroup.
-- [x] Make ch a buffered channel.
+- [ ] Make ch a buffered channel.
 - [ ] Add a default case to the select.
 - [ ] Use runtime.SetFinalizer.
 
@@ -695,7 +695,7 @@ i += 10
 fmt.Println(i)
 ```
 
-- [x] -126
+- [ ] -126
 - [ ] 0
 - [ ] NaN
 - [ ] 130
@@ -732,7 +732,7 @@ go func() {
 } ()
 ```
 
-- [x] &shy;
+- [ ] &shy;
 
 ```go
 go func() {
@@ -758,7 +758,7 @@ type FilePermission int
 type userID int
 ```
 
-- [x] FilePermission
+- [ ] FilePermission
 - [ ] none of these answers
 - [ ] FilePermission and userID
 - [ ] userID
@@ -771,13 +771,13 @@ type userID int
 - [ ] Structure is another user defined data type available in Go programming, which allows you to combine data items of different kinds.
 - [ ] Structures are used to represent a record
 - [ ] To define a structure, you must use type and struct statements.
-- [x] All of the above
+- [ ] All of the above
 
 #### Q48. What does the built-in `generate` command of the Go compiler do?
 
 - [ ] It provides subcommands `sql`, `json`, `yaml`, and switches `--schema` and `--objects` to generate relevant code.
 - [ ] It looks for files with names that end with `_generate.go`, and then compiles and runs each of these files individually.
-- [x] It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies.
+- [ ] It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies.
 - [ ] It has subcommands `mocks` and `tests` to generate relevant `.go` source files.
 
 [Generate Go files by processing source](https://pkg.go.dev/cmd/go#hdr-Generate_Go_files_by_processing_source)
@@ -787,14 +787,14 @@ type userID int
 - [ ] `time.Now().Add(90)`
 - [ ] `time.Now() + (90 * time.Minute)`
 - [ ] `time.Now() + 90`
-- [x] `time.Now().Add(90 * time.Minute)`
+- [ ] `time.Now().Add(90 * time.Minute)`
 
 [func (Time) Add example](https://pkg.go.dev/time#example-Time.Add)
 
 #### Q50. A program uses a channel to print five integers inside a goroutine while feeding the channel with integers from the main routine, but it doesn't work as is. What do you need to change to make it work?
 
 - [ ] Add a `close(ch)` immediately after `wg.Wait()`.
-- [x] Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`.
+- [ ] Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`.
 - [ ] Remove the use of unnecessary `WaitGroup` calls, e.g. all lines that start with `wg`.
 - [ ] Move the 7-line goroutine immediately after `wg.Add(1)` to a line immediately before `wg.Wait()`.
 
@@ -809,7 +809,7 @@ Relevant excerpt from the article:
 - [ ] `encoding.json.Marshal`
 - [ ] `encoding/json.Marshal`
 - [ ] `Marshal`
-- [x] `json.Marshal`
+- [ ] `json.Marshal`
 
 [encoding/json#Marshal example](https://pkg.go.dev/encoding/json#example-Marshal)
 
@@ -854,7 +854,7 @@ func main() {
       req.AttachContext(ctx)
 ```
 
-- [x] &shy;
+- [ ] &shy;
 
 ```go
       ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()
@@ -891,7 +891,7 @@ func main() {
   public default = &Client()
   ```
 
-- [x] &shy;
+- [ ] &shy;
 
   ```go
   var Default = &Client{}
@@ -949,7 +949,7 @@ func main() {
   })
   ```
 
-- [x] C
+- [ ] C
 
   ```go
   // add this to the package `main`
@@ -988,7 +988,7 @@ func main() {
 }
 ```
 
-- [x] A
+- [ ] A
 
   ```go
   func (cc *Clients) Append(c *Client) {
@@ -1026,7 +1026,7 @@ func main() {
 
 - [ ] Use `try{ ... }` to wrap the code calling the function and then handle the error within the `catch{ ... }`.
 
-- [x] Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function.
+- [ ] Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function.
 
 - [ ] Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function.
 
@@ -1037,7 +1037,7 @@ var n int
 fmt.Println (n)
 ```
 
-- [x] 0
+- [ ] 0
 - [ ] nil
 - [ ] a random value
 - [ ] 1
@@ -1046,7 +1046,7 @@ fmt.Println (n)
 
 #### Q58. When creating a formatted string, which verb should you use to call the String () string method of a custom type?
 
-- [x] %s
+- [ ] %s
 - [ ] %b
 - [ ] %v
 - [ ] %string
@@ -1058,14 +1058,14 @@ fmt.Println (n)
 - [ ] time.REC3339
 - [ ] "1970-01-01"
 - [ ] "Jan 2nd 2006"
-- [x] time.Kitchen
+- [ ] time.Kitchen
 
 > The time.Kitchen constant is not a valid value for layout when calling time.Now().Format(layout). The time.Kitchen constant is used to format a time value in a 12-hour clock format with seconds, such as 3:04:05PM.
 
 #### Q60. How would you signal to the Go compiler that the Namespace struct must implement the JSONConverter interface? This question assumes the answer would be included in the same package where Namespace is declared.
 
 - [ ] var_JSONConverter = nil. (\*Namespace)
-- [x] var_JSONConverter = (\*Namespace) (nil)
+- [ ] var_JSONConverter = (\*Namespace) (nil)
 - [ ] type Namespace struct {
       implements JSONConverter
       // The rest of the struct declaration goes here
@@ -1080,7 +1080,7 @@ fmt.Println (n)
 #### Q61. Which statement about typing and interfaces is false?
 
 - [ ] A method signature is the combination of a method name and the type(s) of its declared parameter(s) and return value(s).
-- [x] A struct must explicitly declare using the implements keyword that its instances can be used wherever a variable, parameter, and/or
+- [ ] A struct must explicitly declare using the implements keyword that its instances can be used wherever a variable, parameter, and/or
       return value is typed for the declared interface.
 - [ ] An interface declares a list of methods and their signatures that a type must implement to be compatible with values typed for that interface.
 - [ ] Variable, parameters, and return values must be "typed" as one of 1) a built-in type, 2) a type alias, 3) a derived type, 4) a composite type, or
@@ -1175,7 +1175,7 @@ func main() {
 #3: games[g.GameId] = g
 ```
 
-- [x] &shy;
+- [ ] &shy;
 
 ```go
 #1: games := make(map[int]*Game, 0)
@@ -1195,7 +1195,7 @@ func main() {
       <br/>writing functions with names matching `^Subtest`
       <br/>calling `testing.AssertionFailed`
 
-- [x] end in `_test.go`
+- [ ] end in `_test.go`
       <br/>function names matching `^Test[A-Z]`
       <br/>calling `t.Run()`
       <br/>calling `t.Errorf()`
@@ -1214,7 +1214,7 @@ func main() {
 
 - [ ] char
 - [ ] byte
-- [x] int32
+- [ ] int32
 - [ ] string
 
 1. [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
@@ -1229,7 +1229,7 @@ Relevant excerpt from the article:
 x, err := myFunc()
 ```
 
-- [x] if it at least has not been declared in that lexical block
+- [ ] if it at least has not been declared in that lexical block
 - [ ] at all times, as it will overwrite existing variables
 - [ ] if no variables of those names is accessible
 - [ ] if none of the variables exist in that lexical block
@@ -1239,13 +1239,13 @@ x, err := myFunc()
 #### Q66. How can You view the profiler output in cpu.pprof in the broswer?
 
 - [ ] go pprof -to SVG cpu.prof
-- [x] go tool pprof -http=:8080 cpu.pprof (true)
+- [ ] go tool pprof -http=:8080 cpu.pprof (true)
 - [ ] go tool pprof cpu.pprof
 - [ ] go tool trace cpu.pprof
 
 #### Q67. When does a variable of type interface{} evaluate to nil?
 
-- [x] It has been assingned a dynamic type whose value is nil. (true)
+- [ ] It has been assingned a dynamic type whose value is nil. (true)
 - [ ] It has been explicitly set to nil.
 - [ ] It has not been assigned a dynamic type.
 - [ ] It can not evaluate to nil.
@@ -1255,13 +1255,13 @@ x, err := myFunc()
 - [ ] nil
 - [ ] undefined
 - [ ] null
-- [x] ""
+- [ ] ""
 
 > If a string variable has been allocated but not assigned a value, its default value is an empty string "". In Go, uninitialized string variables are automatically assigned the zero value for their respective type, which for strings is an empty string.
 
 #### Q69. Which built-in function is used to stop a program from continuing?
 
-- [x] panic
+- [ ] panic
 - [ ] There is no such function.
 - [ ] raiseException
 - [ ] exit
@@ -1276,7 +1276,7 @@ b,c:= 3, 4
 fmt.Println(a, b, c)
 ```
 
-- [x] 1 3 4
+- [ ] 1 3 4
 - [ ] 1 2 3
 - [ ] 1 2 4
 - [ ] It will not compile.
@@ -1287,5 +1287,5 @@ fmt.Println(a, b, c)
 
 - [ ] \+
 - [ ] and
-- [x] &&
+- [ ] &&
 - [ ] ||

@@ -4,7 +4,7 @@
 
 - [ ] nonclustered
 - [ ] unique
-- [x] heap
+- [ ] heap
 - [ ] hash
 
 #### Q2. The keywords `AND`, `IN`, `LIKE`, and between all belong to a category called what?
@@ -12,7 +12,7 @@
 - [ ] joining operations
 - [ ] linking operations
 - [ ] criteria operations
-- [x] logical operations
+- [ ] logical operations
 
 #### Q3. What is the result of this series of statements?
 
@@ -25,7 +25,7 @@ SELECT 'Bar' AS Result;
 END CATCH
 ```
 
-- [x] Foo
+- [ ] Foo
 - [ ] FooBar
 - [ ] Foo Bar
 - [ ] Bar
@@ -33,16 +33,16 @@ END CATCH
 #### Q4. Given these two tables, which query generates a listing showing student names and the department office location where you could reach each student?
 
 - [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students, Departments;`
-- [x] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments ON Students.department = Departments.department;`
+- [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments ON Students.department = Departments.department;`
 - [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments;`
 - [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students ON Students.department = Departments.department;`
 
 #### Q5. What is an example of a DDL command in SQL?
 
-- [x] `TRUNCATE TABLE`
+- [ ] `TRUNCATE TABLE`
 - [ ] `DELETE`
 - [ ] `MERGE`
-- [x] `DROP`
+- [ ] `DROP`
 
 #### Q6. Given the Games table pictured, which query generates the results shown?
 
@@ -55,7 +55,7 @@ END CATCH
   ORDER BY MaxPlayers, GameType;
 ```
 
-- [x] :
+- [ ] :
 
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
@@ -90,13 +90,13 @@ END CATCH
 ```
 
 - [ ] 1
-- [x] bb261196-66a5-43af-815d-123fc593cf3a
+- [ ] bb261196-66a5-43af-815d-123fc593cf3a
 - [ ] z350mpj1-62lx-40ww-9ho0-4u1875rt2mx4
 - [ ] 0x2400001155F04846674AD4590F832C0
 
 #### Q8. You need to find all students that are not on the "Chemistry Cats" team. Which query does NOT work for this task?
 
-- [x] :
+- [ ] :
 
 ```SELECT * FROM Students
    WHERE team NOT 'Chemistry Cats';
@@ -124,14 +124,14 @@ END CATCH
 
 - [ ] `WHERE LastName = A*`
 - [ ] `WHERE LastName = LIKE '%A%'`
-- [x] `WHERE LastName LIKE 'A%'`
+- [ ] `WHERE LastName LIKE 'A%'`
 - [ ] `WHERE LastName IN ('A*')`
 
 #### Q10. Which query shows the first name, department, and team of all students with the two lowest points?
 
 - [ ] `SELECT LIMIT(2) first_name, department, team FROM Students ORDER BY points ASC;`
 - [ ] `SELECT TOP(2) first_name, deprtment, team FROM Students ORDER BY points DESC;`
-- [x] `SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;`
+- [ ] `SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;`
 - [ ] `SELECT BOTTOM(2) first_name, department, team FROM Students ORDER BY points ASC;`
 
 > the picture of table is important here and there it can be seen that there are only two value with min points. Secondly, the previous answer was wrong because order by `DESC` will put highest points into the beginning of result list and `TOP(2)` will take first two highest points, and we need the lowest points.
@@ -144,7 +144,7 @@ SELECT FLOOR(-1234.321)
 
 - [ ] -1234.3
 - [ ] -1234
-- [x] -1235
+- [ ] -1235
 - [ ] 1234.321
 
 #### Q12. Which is the best approach to update the last name of the student Donette Figgins to Smith
@@ -152,11 +152,11 @@ SELECT FLOOR(-1234.321)
 - [ ] `UPDATE Students SET last_name = 'Smith' WHERE email = 'dfiggins@rouxacademy.com';`
 - [ ] `UPDATE Students SET last_name = 'Figgins' WHERE email = 'dfiggins@rouxacademy.com';`
 - [ ] `UPDATE Students SET last_name = 'Figgins' WHERE last_name = 'Smith' AND first-name = 'Donette';`
-- [x] `UPDATE Students SET last_name = 'Smith' WHERE last_name = 'Figgins' AND first-name = 'Donette';`
+- [ ] `UPDATE Students SET last_name = 'Smith' WHERE last_name = 'Figgins' AND first-name = 'Donette';`
 
 #### Q13. Which of these data types is an approximate numeric?
 
-- [x] real
+- [ ] real
 - [ ] bit
 - [ ] decimal
 - [ ] numeric
@@ -164,7 +164,7 @@ SELECT FLOOR(-1234.321)
 #### Q14. You need to remove all data from a table name Products. Which query fully logs the removal of each record?
 
 - [ ] `TRUNCATE FROM Products *;`
-- [x] `DELETE FROM Products;`
+- [ ] `DELETE FROM Products;`
 - [ ] `DELETE * FROM Products;`
 - [ ] `TRUNCATE TABLE Products;`
 
@@ -176,14 +176,14 @@ SELECT 1 / 2 AS Result;
 
 - [ ] 0.5
 - [ ] error
-- [x] 0
+- [ ] 0
 - [ ] 2
 
 #### Q16. which data type will most efficiently store a person's age in years?
 
 - [ ] `float`
 - [ ] `int`
-- [x] `tinyint`
+- [ ] `tinyint`
 - [ ] `bigint`
 
 #### Q17. What is the result of this query?
@@ -194,13 +194,13 @@ def' AS Result;
 ```
 
 - [ ] abc\def
-- [x] abcdef
+- [ ] abcdef
 - [ ] error
 - [ ] abc def
 
 #### Q18. To select a random student from the table, which statement could you use?
 
-- [x] `SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();`
+- [ ] `SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();`
 - [ ] `SELECT TOP(1) RAND(first_name, last_name) FROM Student;`
 - [ ] `SELECT TOP(1) first_name, last_name FROM Student;`
 - [ ] `SELECT TOP(1) first_name, last_name FROM RAND(Student);`
@@ -216,7 +216,7 @@ GO
 SELECT @MyVariable;
 ```
 
-- [x] error
+- [ ] error
 - [ ] 1
 - [ ] null
 - [ ] @MyVariable
@@ -226,14 +226,14 @@ SELECT @MyVariable;
 - [ ] `ALTER USER Sharon WITH DEFAULT_SCHEMA = Sales;`
 - [ ] `ALTER USER Sharon SET SCHEMA Sales;`
 - [ ] `CREATE SCHEMA Sales SET OWNER Sharon;`
-- [x] `CREATE SCHEMA Sales AUTHORIZATION Sharon;`
+- [ ] `CREATE SCHEMA Sales AUTHORIZATION Sharon;`
 
 [Reference link](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-schema-transact-sql?view=sql-server-ver15)
 
 #### Q21. The result of a `CROSS JOIN` between a table with 4 rows, and one with 5 rows, will give with \_ rows.
 
 - [ ] 1024
-- [x] 20
+- [ ] 20
 - [ ] 0
 - [ ] 9
 
@@ -247,7 +247,7 @@ FROM Products______ ;
 - [ ] `WHERE SerialNumber LIKE '%10_3'`
 - [ ] `WHERE SerialNumber LIKE ('%10'+'_'+'3')`
 - [ ] `WHERE SerialNumber LIKE '%10"_"3'`
-- [x] `WHERE SerialNumber LIKE '%10[_]3'`
+- [ ] `WHERE SerialNumber LIKE '%10[_]3'`
 
 > The underscore will match any single character, therefore you need to wrap the literal `_` with square brackets, otherwise, it may return a serial number ending with '1013', '10A3', etc.
 
@@ -255,7 +255,7 @@ FROM Products______ ;
 
 #### Q23. When no join type between multiple tables in a query's `FROM` clause is specified, what type of join is assumed?
 
-- [x] `INNER`
+- [ ] `INNER`
 - [ ] `RIGHT`
 - [ ] `LEFT`
 - [ ] `FULL`
@@ -264,7 +264,7 @@ FROM Products______ ;
 
 - [ ] 1 byte
 - [ ] 2 bytes
-- [x] 4 bytes
+- [ ] 4 bytes
 - [ ] 8 bytes
 
 #### Q25. What does a `RIGHT JOIN` ensure?
@@ -272,7 +272,7 @@ FROM Products______ ;
 - [ ] that only records from the rightmost table will be displayed
 - [ ] that no records from the rightmost table are displayed if the records dont have corresponding records in the left table
 - [ ] that records from the rightmost table will be displayed only if the records have a corresponding value in the leftmost table
-- [x] that all records from the rightmost table are represented in the result, even if there are no corresponding records in the left table
+- [ ] that all records from the rightmost table are represented in the result, even if there are no corresponding records in the left table
 
 #### Q26. You execute the following three queries. What is the result?
 
@@ -291,7 +291,7 @@ select * from students;
       studentid firstname lastname
       1 1 mark twain
 
-- [x] studentid firstname lastname
+- [ ] studentid firstname lastname
       1 1000 mark twain
 
 - [ ] &shy;
@@ -308,7 +308,7 @@ Grade int );
 
 - [ ] `SELECT StudentName FROM Students WHERE Grade = MAX(Grade);`
 - [ ] `SELECT TOP(1) StudentName FROM Students ORDER BY Grade;`
-- [x] `SELECT TOP(1) WITH TIES StudentName FROM Students ORDER BY Grade DESC;`
+- [ ] `SELECT TOP(1) WITH TIES StudentName FROM Students ORDER BY Grade DESC;`
 - [ ] `SELECT StudentName, MAX(Grade) FROM Students ORDER BY Grade DESC;`
 
 > `top(1)` with ties will take the highest grade and all other students with the same grade (because they are order by grade) and matches the highest grade.
@@ -320,7 +320,7 @@ select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;
 ```
 
 - [ ] you only want to see results from books currently in inventory
-- [x] it instructs the query engine to find the books table in the inventory schema
+- [ ] it instructs the query engine to find the books table in the inventory schema
 - [ ] it instructs the query engine to find the books table in the inventory database
 - [ ] it instructs the query engine to join the books table to the inventory schema
 
@@ -328,14 +328,14 @@ select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;
 
 #### Q29. What is the result of an `INNER JOIN` between table1 and table2?
 
-- [x] Only records that have corresponding entries in table1 and table2 are displayed.
+- [ ] Only records that have corresponding entries in table1 and table2 are displayed.
 - [ ] No records from table1 are ever displayed.
 - [ ] All records from table1 are displayed, regardless of whether the records have a corresponding row in table2
 - [ ] Only records that have no corresponding records in table1 or table2 are displayed.
 
 #### Q30. To remove all of the content from the Students table but keep the schema, which statement should you use?
 
-- [x] `TRUNCATE TABLE Students;`
+- [ ] `TRUNCATE TABLE Students;`
 - [ ] `TRUNCATE * FROM Students;`
 - [ ] `DROP TABLE Students;`
 - [ ] `REMOVE * FROM Students;`
@@ -353,7 +353,7 @@ CREATE TABLE Books (
 - [ ] `NO DUPLICATES`
 - [ ] `UNIQUE CONSTRAINT AK_Books_BookISBN`
 - [ ] `DUPLICATE CONSTRAINT (AK_Books_BookISBN)`
-- [x] `CONSTRAINT AK_Books_BookISBN UNIQUE`
+- [ ] `CONSTRAINT AK_Books_BookISBN UNIQUE`
 
 #### Q32. Given a table with the following structure, which query will not return the lowest grade earned by any student?
 
@@ -387,7 +387,7 @@ SELECT MIN(Grade)
 FROM Students
 ```
 
-- [x] :
+- [ ] :
 
 ```tsql
 SELECT MIN(Grade)
@@ -397,7 +397,7 @@ ORDER BY Grade;
 
 **Explanation:** Column `Students.Grade` is invalid in the `ORDER BY` clause because it is not contained in either an aggregate function or the `GROUP BY` clause.
 
-- [x] :
+- [ ] :
 
 ```tsql
 SELECT MIN(Grade)
@@ -414,13 +414,13 @@ GROUP BY Grade;
 - [ ] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id='56295';`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;`
-- [x] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
+- [ ] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 
 #### Q34. You would like to have a record added to a TableB every time a record is modified in TableA. What technique should you look at implementing?
 
 - [ ] You should create a DML trigger on the server.
 - [ ] You should create a DDL trigger on the database.
-- [x] You should create a DML trigger on TableA.
+- [ ] You should create a DML trigger on TableA.
 - [ ] You should create a DML trigger on TableB.
 
 #### Q35. What is the problem with this code?
@@ -436,14 +436,14 @@ END;
 
 - [ ] There is no END WHILE statement;
 - [ ] The local varaible is not available to the WHILE block.
-- [x] The query causes an infinite loop.
+- [ ] The query causes an infinite loop.
 - [ ] "Counter" is an invalid variable name.
 
 #### Q36. Which is the right query to change the name of the Philosophy Pandas team to the Philosophy Parrots?
 
 ![T-SQL-Q36](images/Q36.jpg)
 
-- [x] `UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';`
+- [ ] `UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';`
 - [ ] `UPDATES Students SET team = `Philosophy Parrots`WHERE team =`Philosophy Pandas;`
 - [ ] `UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";`
 - [ ] `UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;`
@@ -457,14 +457,14 @@ SELECT 123+'123' AS Result;
 - [ ] error
 - [ ] '123''123'
 - [ ] 123123
-- [x] 246
+- [ ] 246
 
 #### Q38. To combine the results of two or more `SELECT` statements, removing duplicates, which keyword can you use?
 
 - [ ] DEDUPE
 - [ ] SELECT
 - [ ] MERGE
-- [x] UNION
+- [ ] UNION
 
 #### Q39. You run this series of statements. What is the final result?
 
@@ -478,7 +478,7 @@ END;
 SELECT MyValue AS Result FROM MyTable;
 ```
 
-- [x] 5
+- [ ] 5
 - [ ] error
 - [ ] 1
 - [ ] 6
@@ -493,7 +493,7 @@ GROUP BY OrderID
 ORDER BY OrderID;
 ```
 
-- [x] Yes, a `WHERE` clause cannot be used with an aggregate function.
+- [ ] Yes, a `WHERE` clause cannot be used with an aggregate function.
 - [ ] Yes, you cannot `GROUP BY` and `ORDER BY` the same field.
 - [ ] No, there is nothing wrong with this query.
 - [ ] Yes, the `WHERE` clause should use the `SubTotal` alias.
@@ -521,7 +521,7 @@ FOREIGN KEY (PublisherID)
 REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
 
-- [x] :
+- [ ] :
 
 ```tsql
 ALTER TABLE Books
@@ -550,7 +550,7 @@ REFERENCES Books (PublisherID) CASCADE DELETE
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
 
-- [x] `ALTER SCHEMA Products TRANSFER Warehouse.Inventory;`
+- [ ] `ALTER SCHEMA Products TRANSFER Warehouse.Inventory;`
 - [ ] `ALTER TABLE Warehouse.Inventory TRANSFER Products.Inventory;`
 - [ ] `ALTER TABLE Warehouse.Inventory ADD SCHEMA Products;`
 - [ ] `ALTER SCHEMA Warehouse ADD TABLE Inventory;`
@@ -568,13 +568,13 @@ _______
 - [ ] `INDEX ON PersonID (PRIMARY KEY PK_People)`
 - [ ] `ADD NONCLUSTERED PRIMARY KEY CONSTRAINT PK_People ON PersonID`
 - [ ] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
-- [x] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
+- [ ] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
 
 #### Q44. Which statement could you use to select a random student from this table?
 
 ![T-SQL-Q36](images/Q36.jpg)
 
-- [x] `SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();`
+- [ ] `SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();`
 - [ ] `SELECT TOP(1) RAND(first_name, last_name) FROM Student;`
 - [ ] `SELECT TOP(1) first_name, last_name FROM Student;`
 - [ ] `SELECT TOP(1) first_name, last_name FROM RAND(Student);`
@@ -584,18 +584,18 @@ _______
 - [ ] `BACKUP MyDatabase TO LOCATION = 'Z:\Backups\MyDatabase.bak';`
 - [ ] `CREATE BACKUP (DATABASE = 'MyDatabase' TO DISK = 'Z:\Backups\MyDatabase. bak');`
 - [ ] `BACKUP DATABASE MyDatabase ON 'Z:\Backups\MyDatabase.bak';`
-- [x] `BACKUP DATABASE MyDatabase TO DISK = 'z:\Backups\MyDatabase.bak';`
+- [ ] `BACKUP DATABASE MyDatabase TO DISK = 'z:\Backups\MyDatabase.bak';`
 
 #### Q46. Suppose you want to have the name of a transaction called myTransaction recorded in the transaction log. Which statement represents the best way to accomplish this?
 
 - [ ] `BEGIN TRAN myTransaction BEGIN LOG;`
 - [ ] `BEGIN TRAN myTransaction WITH LOG;`
-- [x] `BEGIN TRAN myTransaction WITH MARK;`
+- [ ] `BEGIN TRAN myTransaction WITH MARK;`
 - [ ] `BEGIN TRAN WITH MARK myTransaction;`
 
 #### Q47. Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?
 
-- [x] `All statements must end with a semicolon.`
+- [ ] `All statements must end with a semicolon.`
 - [ ] `All statements must operate on a table of data.`
 - [ ] `All statements must always be written in uppercase letters.`
 - [ ] `All statements must include more than one variable.`
@@ -603,7 +603,7 @@ _______
 #### Q48. Which is the best approach to update the last name and email address of a student with ID 56295?
 
 - [ ] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id='56295';`
-- [x] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
+- [ ] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';`
 
@@ -616,7 +616,7 @@ SELECT 123+'abc' AS Result;
 - [ ] 123abc
 - [ ] 123'abc'
 - [ ] '123abc'
-- [x] error
+- [ ] error
 
 > Conversion failed when converting the varchar value 'abc' to data type int.
 
@@ -633,7 +633,7 @@ SELECT bal FROM Account WHERE acct='12345';
 ```
 
 - [ ] 100
-- [x] 200
+- [ ] 200
 - [ ] 300
 - [ ] `You will get an error because ROLLBACK deletes the row that was update`
 
@@ -645,7 +645,7 @@ SELECT bal FROM Account WHERE acct='12345';
 
 - [ ] `SELECT first_name, email FROM Students WHERE department = Humanities;`
 - [ ] `SELECT first_name, email FROM Students WHERE department = "Humanities";`
-- [x] `SELECT first_name, email FROM Students WHERE department = 'Humanities';`
+- [ ] `SELECT first_name, email FROM Students WHERE department = 'Humanities';`
 - [ ] `SELECT 'first_name', 'email' FROM 'Students' WHERE 'department' = "Humanities";`
 
 #### Q52. Which statement deletes a table named Inventory from the Products database?
@@ -656,7 +656,7 @@ SELECT bal FROM Account WHERE acct='12345';
   DROP TABLE Products.Inventory;
 ```
 
-- [x] :
+- [ ] :
 
 ```tsql
   USE Products;
@@ -684,11 +684,11 @@ SELECT bal FROM Account WHERE acct='12345';
 - [ ] GROUP BY
 - [ ] HAVING
 - [ ] WHERE
-- [x] ORDER BY
+- [ ] ORDER BY
 
 #### Q54. Which data type should you choose when you nedd to store dates and times that include time zone information?
 
-- [x] datetimeoffset
+- [ ] datetimeoffset
 - [ ] smalldatetime
 - [ ] datetime
 - [ ] datetime2
@@ -701,7 +701,7 @@ SELECT 123+'123' AS Result;
 
 - [ ] 123'123'
 - [ ] error
-- [x] 246
+- [ ] 246
 - [ ] 123123
 
 #### Q56. What is the result of these three commands?
@@ -718,7 +718,7 @@ SELECT * FROM MyNumbers;
 
 - [ ] A
 - [ ] B
-- [x] C
+- [ ] C
       ![Image of footer](images/Q56c.png?raw=png)
 - [ ] D
 
@@ -726,7 +726,7 @@ SELECT * FROM MyNumbers;
 
 ![T-SQL-Q55](images/Q55.jpg)
 
-- [x] Select Department, COUNT(\*) FROM Students GROUP BY Department;
+- [ ] Select Department, COUNT(\*) FROM Students GROUP BY Department;
 - [ ] SELECT COUNT(\*) FROM Students;
 - [ ] SELECT Student BY Department;
 - [ ] SELECT COUNT(\*) FROM Students ORDER BY Department;
@@ -734,6 +734,6 @@ SELECT * FROM MyNumbers;
 #### Q58. What is an example of a DDL command in SQL ?
 
 - [ ] merge
-- [x] drop
+- [ ] drop
 - [ ] delete
 - [ ] truncate table

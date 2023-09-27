@@ -12,7 +12,7 @@ export class UserDetailsComponent {
 }
 ```
 
-- [x] It provides access from within the component class to the ElementRef object for the `<p>` tag that has the bio template reference variable in the component's template view.
+- [ ] It provides access from within the component class to the ElementRef object for the `<p>` tag that has the bio template reference variable in the component's template view.
 - [ ] It indicates that the `<p>` tag be rendered as a child of the parent view that uses this component.
 - [ ] It makes the `<p>` tag in the template support content projection.
 - [ ] It makes the `<p>` tag visible in the final render. If the #bio was used in the template and the @ViewChild was not used in the class, then Angular would automatically hide the `<p>` tag that has #bio on it.
@@ -23,7 +23,7 @@ export class UserDetailsComponent {
 
 - [ ] Add the string name given to the FormControl to an attribute named controls on the `<form>` element to indicate what fields it should include.
 - [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
-- [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
+- [ ] Use the formControlName directive and set the value equal to the string name given to the FormControl.
 - [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
 
 [Angular.io - Reactive Form Groups](https://angular.io/guide/reactive-forms#creating-nested-form-groups)
@@ -33,7 +33,7 @@ export class UserDetailsComponent {
 - [ ] The paramMap is an object literal of the parameters in a route's URL path. The queryParamMap is an Observable of those same parameters.
 - [ ] The paramMap is an Observable that contains the parameter values that are part of a route's URL path. The queryParamMap is a method that takes in an array of keys and is used to find specific parameters in the paramMap.
 - [ ] paramMap is the legacy name from Angular 3. The new name is queryParamMap.
-- [x] Both are Observables containing values from the requested route's URL string. The paramMap contains the parameter values that are in the URL path and the queryParamMap contains the URL query parameters.
+- [ ] Both are Observables containing values from the requested route's URL string. The paramMap contains the parameter values that are in the URL path and the queryParamMap contains the URL query parameters.
 
 [StackOverflow](https://stackoverflow.com/a/49617621)
 
@@ -50,7 +50,7 @@ export class UserDetailsComponent {
 
 - [ ] None. The async pipe does not subscribe automatically.
 - [ ] None. The template syntax is not correct.
-- [x] Three. There is one for each async pipe.
+- [ ] Three. There is one for each async pipe.
 - [ ] One. The async pipe caches Observables by type internally.
 
 [UltimateCourses](https://ultimatecourses.com/blog/angular-ngfor-async-pipe)
@@ -70,14 +70,14 @@ export class OrderService {
 - [ ] `this.httpClient.url(this.orderUrl).post(order);`
 - [ ] `this.httpClient.send(this.orderUrl, order);`
 - [ ] `this.httpClient.post<Order>(this.orderUrl, order);`
-- [x] `this.httpClient.post<Order>(this.orderUrl, order).subscribe();`
+- [ ] `this.httpClient.post<Order>(this.orderUrl, order).subscribe();`
 
 [Angular.io - Sending data to server](https://angular.io/guide/http#sending-data-to-a-server)
 
 #### Q6. What is the RouterModule.forRoot method used for?
 
 - [ ] Registering any providers that you intend to use in routed components.
-- [x] Registering route definitions at the root application level.
+- [ ] Registering route definitions at the root application level.
 - [ ] Indicating that Angular should cheer on your routes to be successful.
 - [ ] Declaring that you intend to use routing only at the root level.
 
@@ -94,7 +94,7 @@ export class OrderService {
 
 - [ ] Any element with the attribute app-user-card, such as `<div app-user-card></div>`.
 - [ ] The first instance of `<app-user-card></app-user-card>`.
-- [x] All instances of `<app-user-card></app-user-card>`.
+- [ ] All instances of `<app-user-card></app-user-card>`.
 - [ ] All instances of `<user-card></user-card>`.
 
 [Angular.io - Component Metadata](https://angular.io/guide/architecture-components#component-metadata)
@@ -117,7 +117,7 @@ export class OrderService {
   </ul>
   ```
 
-- [x] C
+- [ ] C
 
   ```html
   <ul>
@@ -142,7 +142,7 @@ export class OrderService {
 - [ ] viewEncapsulation and viewEncapsulationFiles.
 - [ ] There is only one and it is the property named css.
 - [ ] css and cssUrl.
-- [x] styles and styleUrls.
+- [ ] styles and styleUrls.
 
 [Angular.io - Component Styles](https://angular.io/guide/component-styles)
 
@@ -159,7 +159,7 @@ class TitleCardComponent {
 ```
 
 - [ ] `{{ 'title' }}`
-- [x] `{{ title }}`
+- [ ] `{{ title }}`
 - [ ] `[title]`
 - [ ] A class field cannot be displayed in a template via the template syntax.
 
@@ -170,14 +170,14 @@ class TitleCardComponent {
 - [ ] It is used to configure what values are allowed for the control.
 - [ ] It is used to change the value of a control to a new value. You would call that method and pass in the new value for the form field. It even supports passing in an array of values that can be set over time.
 - [ ] It returns a Boolean based on if the value of the control is different from the value with which it was initialized.
-- [x] It is an observable that emits every time the value of the control changes, so you can react to new values and make logic decisions at that time.
+- [ ] It is an observable that emits every time the value of the control changes, so you can react to new values and make logic decisions at that time.
 
 [Angular.io - Displaying a from control value](https://angular.io/guide/reactive-forms#displaying-a-form-control-value)
 
 #### Q12. What directive is used to link an `<a>` tag to routing?
 
 - [ ] routeTo
-- [x] routerLink
+- [ ] routerLink
 - [ ] routePath
 - [ ] appLink
 
@@ -197,7 +197,7 @@ export class ShoppingCartComponent {
 
 - [ ] It makes the `itemTotalChanged` class field public.
 - [ ] It provides a way to bind values to the `itemTotalChanged` class field, like so: `<app-shopping-cart [itemTotalChanged]="newTotal"></app-shopping-cart>`.
-- [x] It provides a way to bind events to the `itemTotalChanged` class field, like so: `<app-shopping-cart (itemTotalChanged)="logNewTotal($event)"></app-shopping-cart>`.
+- [ ] It provides a way to bind events to the `itemTotalChanged` class field, like so: `<app-shopping-cart (itemTotalChanged)="logNewTotal($event)"></app-shopping-cart>`.
 - [ ] It is simply a way to put a comment in front of a class field for documentation.
 
 [Angular.io - Sending data to parent component](https://angular.io/guide/inputs-outputs#sending-data-to-a-parent-component)
@@ -211,7 +211,7 @@ export class ShoppingCartComponent {
 
 - [ ] The `ngIf` is shorthand for the other example. When Angular processes that directive, it writes a div element to the DOM with the hidden property.
 - [ ] They are fundamentally the same.
-- [x] The `ngIf` directive does not render the div in the DOM if the expression is false. The `hidden` property usage hides the div content in the browser viewport, but the div is still in the DOM.
+- [ ] The `ngIf` directive does not render the div in the DOM if the expression is false. The `hidden` property usage hides the div content in the browser viewport, but the div is still in the DOM.
 - [ ] The `ngIf` is valid, but the use of the `hidden` property is wrong and will throw an error.
 
 [StackOverflow](https://stackoverflow.com/a/39778145)
@@ -232,7 +232,7 @@ export class ShoppingCartComponent {
   <button (click)="submit(userForm.value)" disable="userForm.invalid">Save</button>
   ```
 
-- [x] B
+- [ ] B
 
   ```html
   <button (click)="submit(userForm.value)" [disabled]="userForm.invalid">Save</button>
@@ -254,7 +254,7 @@ export class ShoppingCartComponent {
 
 #### Q16. You want to see what files would be generated by creating a new contact-card component. Which command would you use?
 
-- [x] ng generate component contact-card --dry-run
+- [ ] ng generate component contact-card --dry-run
 - [ ] ng generate component contact-card --no-files
 - [ ] ng generate component component --dry
 - [ ] ng generate component --exclude
@@ -275,7 +275,7 @@ export class TitleCardComponent {
 
 - [ ] `<h1 data-title="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 title="titleText">{{ titleText }}</h1>`
-- [x] `<h1 [title]="titleText">{{ titleText }}</h1>`
+- [ ] `<h1 [title]="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 titleText>{{ titleText }}</h1>`
 
 [Angular.io - String Interpolation](https://angular.io/guide/interpolation)
@@ -285,7 +285,7 @@ export class TitleCardComponent {
 - [ ] loggers for tracking the health of an Angular app
 - [ ] providers that can be used to track the instances of components
 - [ ] built-in pipes that can be used in templates for DOM events
-- [x] reserved named methods for components and directives that Angular will call during set times in its execution, and can be used to tap into those lifecycle moments
+- [ ] reserved named methods for components and directives that Angular will call during set times in its execution, and can be used to tap into those lifecycle moments
 
 [Angular.io - Lifecycle hooks](https://angular.io/guide/lifecycle-hooks)
 
@@ -296,7 +296,7 @@ export class TitleCardComponent {
 ```
 
 - [ ] The ? is shorthand for the async pipe. The job value must be an Observable.
-- [x] It is using the safe navigation operator (?) on the job field. If the job field is undefined, the access to the bossName will be ignored and no error will occur.
+- [ ] It is using the safe navigation operator (?) on the job field. If the job field is undefined, the access to the bossName will be ignored and no error will occur.
 - [ ] There is an error in the template syntax. The ? is not valid here.
 - [ ] It is diplaying the job value if it has one; otherwise it is displaying the bossName.
 
@@ -304,7 +304,7 @@ export class TitleCardComponent {
 
 #### Q20. How would you configure a route definition for a UserDetailComponent that supports the URL path user/23 (where 23 represents the id of the requested user)?
 
-- [x] `{ path: 'user/:id', component: UserDetailComponent }`
+- [ ] `{ path: 'user/:id', component: UserDetailComponent }`
 - [ ] `{ url: 'user/:id', routedComponent: UserDetailComponent }`
 - [ ] `{ routedPath: 'user/:id', component: UserDetailComponent }`
 - [ ] `{ destination: new UserDetailComponent(), route: 'user/:id' }`
@@ -332,7 +332,7 @@ export class CalloutDirective {
 }
 ```
 
-- [x] They are setting the CalloutDirective.fontWeight field based on whether or not the mouse is over the DOM element. The HostListener then sets the font-weight CSS property to the fontWeight value.
+- [ ] They are setting the CalloutDirective.fontWeight field based on whether or not the mouse is over the DOM element. The HostListener then sets the font-weight CSS property to the fontWeight value.
 - [ ] They are setting up the directive to check the DOM element that it is on. If it has event bindings added for mouse enter and leave it will use this code. Otherwise nothing will happen.
 - [ ] This is an incorrect use of HostListener and HostBinding. The HostListener and HostBinding decorators do not do anything on directives; they work only when used on components.
 - [ ] If the DOM element that this directive is placed on has the CSS property font-weight set on it, the mouseenter and mouseleave events will get raised.
@@ -346,7 +346,7 @@ export class CalloutDirective {
 <span *ngIf="">Invalid field data</span>
 ```
 
-- [x] You can make use of a template reference variable and the exportAs feature that the ngModel directive has.
+- [ ] You can make use of a template reference variable and the exportAs feature that the ngModel directive has.
 - [ ] You can use the ngModel directive in combination with the input field name.
 - [ ] You can use a template reference variable for the HTML input element and then check the valid property off of that.
 - [ ] It is not possible to get access to the field value with template-driven forms. You must use reactive forms for that.
@@ -360,7 +360,7 @@ export class CalloutDirective {
 <h1 #headerText>User List</h1>
 ```
 
-- [x] an Angular ElementRef, a wrapper around a native element
+- [ ] an Angular ElementRef, a wrapper around a native element
 - [ ] the inner text of the `<h1>` element
 - [ ] a header component class
 - [ ] the native DOM element type of HTMLHeadingElement
@@ -374,7 +374,7 @@ export class CalloutDirective {
 ```
 
 - [ ] They are the same. Both will result in a new instance of Logger that is bound to the FormattedLogger token.
-- [x] The useClass syntax tells the injector to make a new instance of Logger and bind that instance to the FormattedLogger token. The useExisting syntax refers to an already existing object instance declared as Logger.
+- [ ] The useClass syntax tells the injector to make a new instance of Logger and bind that instance to the FormattedLogger token. The useExisting syntax refers to an already existing object instance declared as Logger.
 - [ ] Both of them are wrong. A strong type connot be used for useClass or useExisting.
 - [ ] They are the same. Both will result in the FormattedLogger token being an alias for the instance of Logger.
 
@@ -392,7 +392,7 @@ export class CalloutDirective {
 ```
 
 - [ ] a key/value mapping for setting @Input values on the routed component instance
-- [x] a way to include static, read-only data associated with the route that can be retrieved from the ActivatedRoute
+- [ ] a way to include static, read-only data associated with the route that can be retrieved from the ActivatedRoute
 - [ ] a property on the route that can be used to load dynamic data for the route
 - [ ] an object that will get auto-injected into the routed component's constructor.
 
@@ -414,7 +414,7 @@ export class ProductComponent {
 - [ ] The `<div>` acts as a placeholder. If the product class field is "truthy," the `<div>` will get replaced by just the `product.name` value; if not, then nothing will get rendered.
 - [ ] The `<div>` will always be rendered, and if the product field is "truthy," the `<div>` element will contain the `product.name` value; otherwise it will render the `<div>` element with no value in it.
 - [ ] It produces an error, since ngIf is not a built-in structural directive.
-- [x] If the product class field is "truthy," then the rendered DOM will include the `<div>` with the value of the `product.name` field. If it is not "truthy,' the rendered DOM will not contain the `<div>` element.
+- [ ] If the product class field is "truthy," then the rendered DOM will include the `<div>` with the value of the `product.name` field. If it is not "truthy,' the rendered DOM will not contain the `<div>` element.
 
 [Reference (angular.io)](https://angular.io/api/common/NgIf)
 
@@ -434,7 +434,7 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 - [ ] It executes a unit test for an NgModule.
 - [ ] It provides a way to code the document structure of an Angular application. The @NgModule is a form of inline code commenting that gets ignored by the TypeScript compiler but will show up with special formatting in code editor applications.
 - [ ] It declares an Angular module named AppModule and makes it available for lazy loading throughout the application.
-- [x] It declares an Angular module named AppModule that contains a bootstrapped component named AppComponent. Then it registers that module with Angular, so the app can start up.
+- [ ] It declares an Angular module named AppModule that contains a bootstrapped component named AppComponent. Then it registers that module with Angular, so the app can start up.
 
 [Angular.io - The basic NgModule](https://angular.io/guide/ngmodules#the-basic-ngmodule)
 
@@ -450,7 +450,7 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 }
 ```
 
-- [x] Prior to loading the _UserComponent_, the router will subscribe to the _Observable_ returned by a _resolve_ method in the _UserResolverService_. This technique can be used to get preloaded data for a _route_.
+- [ ] Prior to loading the _UserComponent_, the router will subscribe to the _Observable_ returned by a _resolve_ method in the _UserResolverService_. This technique can be used to get preloaded data for a _route_.
 - [ ] After the _route_ is done resolving, and the component is loaded and rendered, the _UserResolverService_ will have a method named _user_ run that will clean up any open data connections.
 - [ ] There is an error. The correct property name is _onResolve_.
 - [ ] The _UserComponent_ will have a parameter in its constructor for _user_, and the _router_ will handle injecting in a value for that from a call to a _user_ method in the _UserResolverService_.
@@ -471,7 +471,7 @@ export class TabsListComponent {
 
 - [ ] If any _TabsComponent_ elements are added to the _TabsListComponent_ template, they will get put into the `<ng-content>` element at runtime.
 - [ ] It creates _TabComponent_ components in the _TabsListComponent_ template when a _TabsListComponent_ is instantiated.
-- [x] It provides access from within the component class to any _TabComponent_ components that were content projected into the `<ng-content>` for this component.
+- [ ] It provides access from within the component class to any _TabComponent_ components that were content projected into the `<ng-content>` for this component.
 - [ ] It restricts the allowed elements that can be put into a _TabsListComponent_ element to allow only _TabComponent_ elements.
 
 [betterprogramming.pub](https://betterprogramming.pub/understanding-contentchildren-with-an-example-e76ce78968db)
@@ -481,7 +481,7 @@ export class TabsListComponent {
 - [ ] within a script tag in the index.html file
 - [ ] in an NgModule decorator metadata tag named _components_
 - [ ] No registration is needed simply include the component files in an app directory.
-- [x] in an NgModule decorator metadata property named _declarations_
+- [ ] in an NgModule decorator metadata property named _declarations_
 
 [angular.io](https://angular.io/guide/ngmodule-api#ngmodule-metadata)
 
@@ -502,7 +502,7 @@ expect(fixture.nativeElement.querySelector('h1').textContent).toContain(
 
 - [ ] It tracks any potential Ul changes and will fail the unit test if any are made.
 - [ ] It is used to ensure component template stability across multiple unit tests in the entire test suite.
-- [x] It forces Angular to perform change detection, which will render the _UserCardComponent_ before you can validate its template.
+- [ ] It forces Angular to perform change detection, which will render the _UserCardComponent_ before you can validate its template.
 - [ ] It is used to log change-detection events to the console during unit test runs.
 
 [angular.io](https://angular.io/api/core/testing/ComponentFixture#detectChanges)
@@ -518,7 +518,7 @@ export class ToolsComponent {
 }
 ```
 
-- [x] /user/15
+- [ ] /user/15
 - [ ] /user?id=15
 - [ ] /user:15
 - [ ] /user;id=15
@@ -527,7 +527,7 @@ export class ToolsComponent {
 
 #### Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the injector provide to constructors in the lazy-loaded module?
 
-- [x] A new instance of that service is created when the module is lazy loaded.
+- [ ] A new instance of that service is created when the module is lazy loaded.
 - [ ] Providing a service of the same type at a lazy-loaded module level is not allowed.
 - [ ] If an instance of the service has not been created at the root level yet. it will create one there and then use it.
 - [ ] A single instance of that service is always instantiated at root and is the only one ever used, including within lazy modules.
@@ -543,7 +543,7 @@ export class HighlightDirective {
 }
 ```
 
-- [x] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
+- [ ] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
 - [ ] HostBinding does not do anything on directives, only on components.
 - [ ] It is specifying if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to true; and if it is not added on the host it will get set to false.
 - [ ] It is creating an inline style on the host element with a CSS property named highlight set to true.
@@ -554,7 +554,7 @@ export class HighlightDirective {
 
 - [ ] `FormArray`
 - [ ] `FormControl`
-- [x] `FormGroup`
+- [ ] `FormGroup`
 - [ ] `all of these answers`
 
 #### Q36. Assuming the username FormControl has been configured with a minLength validator, how can you set up an error display in the following reactive forms markup for the username field?
@@ -586,7 +586,7 @@ export class HighlightDirective {
   </span>
   ```
 
-- [x] D
+- [ ] D
 
   ```html
   <input type="text" formControlName="username" #userName="ngModer" />
@@ -601,7 +601,7 @@ export class HighlightDirective {
 
 - [ ] It renders the CSS exactly how you wrote it without any changes.
 - [ ] It makes use of shadow DOM markup and CSS.
-- [x] It creates unique attributes for DOM elements and scopes the CSS selectors you write to those attribute ids.
+- [ ] It creates unique attributes for DOM elements and scopes the CSS selectors you write to those attribute ids.
 - [ ] It renders all of the CSS rules you write as inline CSS on all of the DOM elements you use them on in the template.
 
 [Angular.io](https://angular.io/guide/view-encapsulation#inspecting-generated-css)
@@ -617,7 +617,7 @@ let fixture = TestBed.createComponent(UserCardComponent);
 
 - [ ] `fixture.componentTemplate`
 - [ ] `fixture.getComponentHtml()`
-- [x] `fixture.nativeElement`
+- [ ] `fixture.nativeElement`
 - [ ] `fixture.componentInstance.template `
 
 1. [StackOverflow](https://stackoverflow.com/a/56504773)
@@ -642,7 +642,7 @@ export class BioComponent { }
 <app-card><app-bio>Been around for four years.</app-bio></app-card>
 ```
 
-- [x] A
+- [ ] A
 
   ```html
   <app-card>
@@ -698,7 +698,7 @@ export class BioComponent { }
 <app-user-card></app-user-card>
 ```
 
-- [x] A
+- [ ] A
 
   ```html
   <app-user-card>
@@ -746,7 +746,7 @@ constructor(@Inject('Logger') private logger) { }
   providers: [Logger];
   ```
 
-- [x] B
+- [ ] B
 
   ```ts
   providers: [{ provide: 'Logger', useClass: Logger }];
@@ -789,7 +789,7 @@ getSettings()
 - [ ] The RxJs pipe method is an alias for the subscribe method, so a call to `getSettings` will execute the get query. The retry operator is used to tell the pipe call to retry the get query three times.
 - [ ] It will produce an error at runtime because the pipe method is not available off of the `Httpclient.get` call.
 - [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
-- [x] When the result of the getSettings method is subscribed to, the HTTP GET call will be made; if it fails, it will be retried up to three times before it gives up and returns an error.
+- [ ] When the result of the getSettings method is subscribed to, the HTTP GET call will be made; if it fails, it will be retried up to three times before it gives up and returns an error.
 
 1. [learnrxjs.io](https://www.learnrxjs.io/learn-rxjs/operators/error_handling/retry)
 2. [dev.to](https://dev.to/gparlakov/how-does-rxjs-retry-work-412p)
@@ -797,7 +797,7 @@ getSettings()
 #### Q43. When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
 
 - [ ] Put the logic of that service method into the service constructor instead.
-- [x] Use a factory provider at the root AppModule level that depends on the service to call that service method.
+- [ ] Use a factory provider at the root AppModule level that depends on the service to call that service method.
 - [ ] it is not possible to do it at application start; you can do it only at a component level.
 - [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
 
@@ -816,7 +816,7 @@ const userService = TestBed.get(UserService);
 
 - [ ] The TestBed is required anytime you want to make use of a spy object in a unit test for an Angular provider.
 - [ ] The TestBed is being used to test a component's view.
-- [x] The TestBed scaffolds an NgModule with two providers and handles any dependency injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
+- [ ] The TestBed scaffolds an NgModule with two providers and handles any dependency injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
 - [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
 - `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
   `Although it will work when multiple providers in this configuration are asserted against in a single test.`
@@ -825,7 +825,7 @@ const userService = TestBed.get(UserService);
 
 - [ ] A component uses a selector metadata property and a directive does not.
 - [ ] A directive can be used for adding custom events to the DOM and a component cannot.
-- [x] A component has a template and a directive does not.
+- [ ] A component has a template and a directive does not.
 - [ ] A directive can target only native DOM elements.
 
 [StackOverflow](https://stackoverflow.com/a/34616190)
@@ -844,7 +844,7 @@ export class TruncateDirective {
 <p [appTruncate]="10">Some very long text here</p>
 ```
 
-- [x] `@Input() appTruncate: number;`
+- [ ] `@Input() appTruncate: number;`
 - [ ] `@Output() appTruncate;`
 - [ ] `constructor(maxLength: number) { }`
 - [ ] `Nothing. The directive selector cannot be used to pass in values to the directive.`
@@ -866,7 +866,7 @@ export class OrderService {
 
 - [ ] A `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
 - [ ] B `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
-- [x] C
+- [ ] C
 
   ```ts
   const options = { params: new HttpParams().set('year', year) };
@@ -897,7 +897,7 @@ export class OrderHistoryComponent {
 ```
 
 - [ ] It is declaring that the `OrderHistoryComponent` will have its own version of a `DataService` and that it should never use any existing instances. The `DataService` would need to be instantiated within the class as a private field for this code to be complete and working.
-- [x] When Angular creates a new instance of the `OrderHistoryComponent`, the injector will provide an instance of a `DataService` class to the component constructor's first argument. The constructor's `dataService` parameter will be used to set a private instance field with the same name on the instance.
+- [ ] When Angular creates a new instance of the `OrderHistoryComponent`, the injector will provide an instance of a `DataService` class to the component constructor's first argument. The constructor's `dataService` parameter will be used to set a private instance field with the same name on the instance.
 - [ ] It provides a way to do component testing only; the constructor has no usage in the actual run of the Angular application.
 - [ ] It enables the custom element that the component targets to have a custom property named `dataService` that can be used to bind an existing `DataService` instance to.
 
@@ -930,7 +930,7 @@ export class OrderHistoryComponent {
   </ng-template>
   ```
 
-- [x] D
+- [ ] D
 
   ```html
   <ng-template #inactive>
@@ -951,7 +951,7 @@ export class OrderHistoryComponent {
   }
   ```
 
-- [x] B
+- [ ] B
 
   ```ts
   {
@@ -1000,7 +1000,7 @@ export class UserFormControl implements OnInit {
 - [ ] The `FormControl` for `username` is getting configured to exclude three validators from the validators that it is allowed to use.
 - [ ] The `FormControl` for `username` is getting configured to allow three possible validators to be used: `required, maxLength`, and a custom one named `unique`. To enable these `validators`, a validator directive would need to be put on the form fields in the markup.
 - [ ] Validation cannot be set up this way in reactive forms.
-- [x] The `FormControl` for `username` is getting configured with three validators: the `required` and `minLength` validators that come from Angular, and a custom validator function named `unique` that checks for the value not equal to the string `admin`.
+- [ ] The `FormControl` for `username` is getting configured with three validators: the `required` and `minLength` validators that come from Angular, and a custom validator function named `unique` that checks for the value not equal to the string `admin`.
 
 1. [Angular.io - Form Validation](https://angular.io/guide/form-validation)
 2. [Angular University Blog](https://blog.angular-university.io/angular-custom-validators/)
@@ -1015,7 +1015,7 @@ export class DataService { }
 ```
 
 - [ ] It registers a provider for the service that is available only at the root module level, not to any children modules.
-- [x] It registers a provider for the service in the root application injector, making a single instance of it available throughout the application.
+- [ ] It registers a provider for the service in the root application injector, making a single instance of it available throughout the application.
 - [ ] It makes it so the service can be injected only in the bootstrapped component for the application.
 - [ ] It sets up a compile time rule that allows you to put the service type only in the providers metadata property of the root NgModule.
 
@@ -1032,7 +1032,7 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 ```
 
 - [ ] The InjectionToken is adding an instance of the AppSettings to the root provider via the InjectionToken constructor call, making it automatically available to all NgModules, services and components throughout the Angular application without the need to inject it anywhere.
-- [x] The InjectionToken is used to create a provider token for a non-class dependency. An Object literal can be provider as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc ..
+- [ ] The InjectionToken is used to create a provider token for a non-class dependency. An Object literal can be provider as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc ..
 - [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be used on constructor parameters via an @AppSettings decorator.
 - [ ] This code has an error since you cannot use a TypeScript interface for the generic type on the InjectionToken
 
@@ -1045,7 +1045,7 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 </form>
 ```
 
-- [x] submit(form.value)
+- [ ] submit(form.value)
 - [ ] submit($event)
 - [ ] submit(ngForm.value)
 - [ ] submit(FirstName, lastName)
@@ -1063,7 +1063,7 @@ RouterModule.forRoot(
 - [ ] It enables the option to flag individual routes for preloading.
 - [ ] It preloads all dependencies for routes, creating instances of services when the app first starts up
 - [ ] It ensures all modules get built into a single app module bundle file.
-- [x] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
+- [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
 
 References:
 
@@ -1080,7 +1080,7 @@ References:
 ```
 
 - [ ] title="userName"
-- [x] title="{{ userName }}"
+- [ ] title="{{ userName }}"
 - [ ] title="{{ 'userName' }}"
 - [ ] The only way to do it is by using the square brackets.
 
@@ -1102,7 +1102,7 @@ export class UsersComponent implements OnInit {
 
 - [ ] It is doing nothing, since the async pipe cannot be used in an `ngFor` statement.
 - [ ] It is configuring the `ngFor` iteration to support multiple lists of users at the same time.
-- [x] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
+- [ ] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
 - [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.
 
 #### Q58. How would you make use of this directive in markup based on its selector value
@@ -1115,7 +1115,7 @@ export class TruncateDirective{  . . .
 ```
 
 - [ ] `html <p data-directive="appTruncate">Some long text </p> `
-- [x] `html <p appTruncate>Some long text</p> `
+- [ ] `html <p appTruncate>Some long text</p> `
 - [ ] `html <p app-truncate>Some long text</p> `
 - [ ] `html <app-truncate>Some long text</app-truncate> `
 
@@ -1124,7 +1124,7 @@ export class TruncateDirective{  . . .
 - [ ] ngOnInit
 - [ ] ngChanges
 - [ ] ngAfterInputChange
-- [x] ngOnChanges
+- [ ] ngOnChanges
 
 [How to detect when an @Input() value changes in Angular?](https://stackoverflow.com/a/44686085/1573267)
 
@@ -1141,7 +1141,7 @@ export class TruncatePipe implements PipeTransform {
 ```
 
 - [ ] `{{ 'some long text' | truncate:10 }}`
-- [x] `'some long text' | truncate:10:true`
+- [ ] `'some long text' | truncate:10:true`
 - [ ] `{{ 'some long text' | truncate }}`
 - [ ] all of these answers
 
@@ -1150,7 +1150,7 @@ export class TruncatePipe implements PipeTransform {
 #### Q61. Which Angular CLI command would you run to generate a UsersComponent and add it to the SharedModule (in file shared.module.ts in your application)?
 
 - [ ] ng generate component --newModule=shared
-- [x] ng generate component users --module=shared
+- [ ] ng generate component users --module=shared
 - [ ] ng generate component users --shared
 - [ ] ng generate component --add=shared
 
@@ -1191,7 +1191,7 @@ export class TruncatePipe implements PipeTransform {
   </div>
   ```
 
-- [x] D
+- [ ] D
 
   ```html
   <ng-container *ngIf="location">
@@ -1212,21 +1212,21 @@ export interface AppSettings {
 - [ ] This code as an error since you cannot use a TypeScript interface for the generic type on the InjectionToken.
 - [ ] The InjectionToken is used to create a provider token for a non-class dependency. An object lieteral can be provided as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc.
 - [ ] The InjectionToken is adding an instance of the AppSettings to the roote provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and componentts throughtout the Angular application without the need to inject it anywhere.
-- [x] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
+- [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
 
 #### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
 
 - [ ] By.css() helper method is needed
 - [ ] A text fixture is required to run the service for the unit test.
 - [ ] None. A service can be instantiated and unit tested on its own.
-- [x] The TestBed class iss needed to instantiate the service.
+- [ ] The TestBed class iss needed to instantiate the service.
 
 [Angular unit tests](https://angular.io/guide/testing-services) - recheck answers
 
 #### Q65. What is the difference between the CanActivate and the CanLoad route guards?
 
 - [ ] CanActivate is used to check access. CanLoad is used to preload data for the route.
-- [x] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested.
+- [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested.
 - [ ] CanActivate and CanLoad do the exact same thing.
 - [ ] CanLoad prevents an entire NgModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule, but that module is still loaded.
 
@@ -1241,7 +1241,7 @@ export interface AppSettings {
 
 - [ ] it will locate all instancess of `<document-box>` in the DOM and inser a DocumentComponent element into them on route navigation.
 - [ ] It declares that the DocumentComponent can be used as a child to a `<document-box>` element in addition ot being routed to.
-- [x] It us used to target a `<router-outlet>` element with the name attribute matching the string value as the location for the DocumentComponent to be rendered when routed to.
+- [ ] It us used to target a `<router-outlet>` element with the name attribute matching the string value as the location for the DocumentComponent to be rendered when routed to.
 - [ ] It is a source of power for the router. (definitely not the answer :P)
 
 [Angular-outlet](https://angular.io/api/router/RouterOutlet) - recheck answer
@@ -1255,7 +1255,7 @@ export interface AppSettings {
 - [ ] `*ngFor="let item of items; let uniqueItem"`
 - [ ] `*ngFor="let item of items.distinct()"`
 - [ ] `*ngFor="let item of items: let i = index"`
-- [x] `*ngFor="let item of items; trackBy: trackById"`
+- [ ] `*ngFor="let item of items; trackBy: trackById"`
 
 [StackOverflow - How to use `trackBy` with `ngFor`](https://stackoverflow.com/a/58025894)
 
@@ -1268,14 +1268,14 @@ ng build --configuration=production --progress=false
 - [ ] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and logs progress output to the console.
 - [ ] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and watching files for changes.
 - [ ] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and disables watching files for changes.
-- [x] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and prevents progress output to the console.
+- [ ] It builds the Angular application, setting the build configuration to the "production" target specified in the angular.json file, and prevents progress output to the console.
 
 [Angular documentation - `ng build`](https://angular.io/cli/build#:~:text=%2D%2D-,progress,-Log%20progress%20to)
 
 #### Q69. Service classes can be registered as providers via which decorators?
 
 - [ ] @Injectable, @NgModule, @Component, and @Directive.
-- [x] @Injectable only.
+- [ ] @Injectable only.
 - [ ] @Injectable and @NgModule only.
 - [ ] @Service and @NgModule only.
 
@@ -1289,7 +1289,7 @@ export class ProductNameComponent {  @Input() productName: string
 ```
 
 - [ ] It is used simply to put a comment in front of a class field for documentation.
-- [x] It provides a way to bind values to the productName field by using the component selector.
+- [ ] It provides a way to bind values to the productName field by using the component selector.
 - [ ] It autogenerates an `html
 <input type='text' id='productName'>` Dom element in the component template.
 - [ ] It provides a way to bind values to the productName instance field,just like native DOM element property bindings.
@@ -1297,7 +1297,7 @@ export class ProductNameComponent {  @Input() productName: string
 
 #### Q71. Which route guard can be used to mediate navigation to a route?
 
-- [x] all of these answers.
+- [ ] all of these answers.
 - [ ] CanDeactivate.
 - [ ] CanLoad
 - [ ] CanActivate.
@@ -1305,7 +1305,7 @@ export class ProductNameComponent {  @Input() productName: string
 
 #### Q72. How can you configure the injector to use an existing object for a token instead of having it instantiate a class instance?
 
-- [x] Use the `useValue` provider configuration and set that equal to an existing object or an object literal.
+- [ ] Use the `useValue` provider configuration and set that equal to an existing object or an object literal.
 - [ ] It is not possible. Providers can be configured only with class types.
 - [ ] Simply add the object instance or literal to the providers array.
 - [ ] Make use of the `asValue` provider configuration property, setting it to true.
@@ -1318,7 +1318,7 @@ export class ProductNameComponent {  @Input() productName: string
 {path: 'user/:id', component: UserDetailComponent }
 ```
 
-- [x] ActivatedRoute
+- [ ] ActivatedRoute
 - [ ] CurrentRoute
 - [ ] UrlPath
 - [ ] @Inject('id')
@@ -1336,7 +1336,7 @@ export class ProductNameComponent {  @Input() productName: string
 
 - [ ] neither of these answers
 - [ ] Add (click)="onSubmit()" to the `<button>` element.
-- [x] Add (ngSubmit )="onSubmit ()" to the `<form>` element.
+- [ ] Add (ngSubmit )="onSubmit ()" to the `<form>` element.
 - [ ] both of these answers
 
 [Angular - Forms](https://angular.io/guide/forms)
@@ -1348,7 +1348,7 @@ export class ProductNameComponent {  @Input() productName: string
 ```
 
 - [ ] `<div active-item>Item One</div>`
-- [x] `<div class="active-item">Item One</div>`
+- [ ] `<div class="active-item">Item One</div>`
 - [ ] `<div class="is-active">Item One</div>`
 - [ ] `<div class="active-item isActive">Item One</div>`
 
@@ -1361,7 +1361,7 @@ export class ProductNameComponent {  @Input() productName: string
 ```
 
 - [ ] It is conditionally displaying the input element if the user.name property has a value.
-- [x] It is the two-way data binding syntax. The input element value property will be bound to the user.name property, and the value change event for the form element will update the user.name property value.
+- [ ] It is the two-way data binding syntax. The input element value property will be bound to the user.name property, and the value change event for the form element will update the user.name property value.
 - [ ] There is a typo in the code. It should have only the square brackets.
 - [ ] It is binding the value of the user.name property to the input element's val property to set its initial value.
 
@@ -1370,7 +1370,7 @@ export class ProductNameComponent {  @Input() productName: string
 #### Q77. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
 
 - [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
-- [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
+- [ ] Use the formControlName directive and set the value equal to the string name given to the FormControl.
 - [ ] Add the string name given to the FormControl to an attribute named controls on the `<form>` element to indicate what fields it should include.
 - [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
 
@@ -1390,7 +1390,7 @@ export class ProductNameComponent {  @Input() productName: string
   </span>
   ```
 
-- [x] B
+- [ ] B
 
   ```html
   <span [class.active]="isActive" [class.can-toggle]="canToggle"> Employed </span>
@@ -1426,7 +1426,7 @@ export class CustomValidatorDirective implements Validator {}
 
 - [ ] It indicates that the CustomValidatorDirective can be used on multiple form element types.
 - [ ] It allows for multiple instances of the CustomValidatorDirective to be instantiated. Without multi, the CustomValidatorDirective would be a singleton for the entire app.
-- [x] It allows the registration of different providers for the single NG_VALIDATORS token. In this case, it is adding the CustomValidatorDirective to the list of form validators available.
+- [ ] It allows the registration of different providers for the single NG_VALIDATORS token. In this case, it is adding the CustomValidatorDirective to the list of form validators available.
 - [ ] It indicates that there will be multiple classes that handle the logic implementation for the custom validator.
 
 [StackOverflow](https://stackoverflow.com/questions/38144641/what-is-multi-provider-in-angular2)
@@ -1436,25 +1436,25 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] ng test --single-run=false
 - [ ] ng test --watch-files
 - [ ] ng test --progress
-- [x] ng test
+- [ ] ng test
 
 #### Q81. What is the most common use for the ngOnDestory lifecle hook?
 
 - [ ] Remove dome elements from the components's view
 - [ ] All of theses answers
 - [ ] Delete any injected serviced the
-- [x] Unsubscribe from obervables and detach
+- [ ] Unsubscribe from obervables and detach
 
 #### Q82. What NgModule decorator metadata property is leverage to allow other ....?
 
 - [ ] public
 - [ ] experts
 - [ ] Shared
-- [x] declarations
+- [ ] declarations
 
 #### Q83. What is the difference between the CanActivate and the CanLoad rout guards?
 
 - [ ] CanLoad Prevents an entire NGModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule , but the module is still loaded.
 - [ ] CanActivate and CanLoad do the exact same thing.
-- [x] CanActivate is used to check access. CanLoad is used to preload data for the route.
+- [ ] CanActivate is used to check access. CanLoad is used to preload data for the route.
 - [ ] CanLoad is used at app startup to allow or deny routes to be added to the route table . CanActivate is used to manage access to routes at the time they are requested

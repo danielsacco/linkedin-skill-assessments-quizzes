@@ -3,7 +3,7 @@
 #### Q1. Comment ouvrir un fichier sélectionné dans Lightroom CC pour le retoucher dans Photoshop CC ?
 
 - [ ] Double-cliquez sur le fichier
-- [x] Choisissez Fichier > Modifier dans Photoshop
+- [ ] Choisissez Fichier > Modifier dans Photoshop
 - [ ] Choisissez Fichier > Enregistrer dans Photoshop
 - [ ] Appuyez sur Cmd/Ctrl+E
 
@@ -12,7 +12,7 @@
 #### Q2. Comment annuler une ou plusieurs modifications qui viennent d’être apportées à une image ?
 
 - [ ] Utilisez le raccourci clavier Cmd/Ctrl+Z
-- [x] Cliquez sur un état dans le panneau Historique
+- [ ] Cliquez sur un état dans le panneau Historique
 - [ ] Choisissez Fichier > Annuler
 - [ ] Appuyez sur Cmd/Ctrl+U
 
@@ -21,7 +21,7 @@
 #### Q3. Comment sélectionner un calque spécifique ? (trouver tout ce qui s’applique)
 
 - [ ] Cliquez sur l’icône en forme d’œil dans le panneau Calques
-- [x] Utiliser l’outil Déplacer avec la sélection automatique activée
+- [ ] Utiliser l’outil Déplacer avec la sélection automatique activée
 - [ ] Cliquez avec le bouton droit sur l’image et sélectionnez le calque
 - [ ] Appuyez sur Cmd/Ctrl et cliquez sur le calque
 
@@ -34,7 +34,7 @@
 - [ ] Choisissez la méthode cylindrique.
 - [ ] Choisissez la méthode Perspective.
 - [ ] Ajustez le curseur Déformation des frontières.
-- [x] Sélectionnez Recadrage automatique.
+- [ ] Sélectionnez Recadrage automatique.
 
 [Référence](https://helpx.adobe.com/uk/lightroom-classic/help/panorama.html)
 
@@ -42,13 +42,13 @@
 
 - [ ] Désactivez la zone Supprimer les pixels recadrés.
 - [ ] Sélectionnez la case Supprimer les pixels recadrés.
-- [x] Utilisez l’outil Recadrage intelligent.
+- [ ] Utilisez l’outil Recadrage intelligent.
 - [ ] Maintenez la touche Alt (Windows) ou Option (Mac) enfoncée.
 
 #### Q6. Quelle fonctionnalité devriez-vous utiliser pour simuler les recettes de développement en caméra appliquées par les fabricants avec vos propres fichiers bruts ?
 
 - [ ] préréglages
-- [x] Profils de correspondance de caméra
+- [ ] Profils de correspondance de caméra
 - [ ] étalonnage
 - [ ] instantanés
 
@@ -56,13 +56,13 @@
 
 - [ ] Couleurs échantillonnées
 - [ ] Tons de peau
-- [x] Touche (Noirs)
+- [ ] Touche (Noirs)
 - [ ] Hors gamme
 
 #### Q8. Comment accéder à la boîte de dialogue Options de correction automatique des couleurs ?
 
 - [ ] Sélectionnez Image > Ton automatique.
-- [x] Sélectionnez Image > Couleur automatique.
+- [ ] Sélectionnez Image > Couleur automatique.
 - [ ] Cliquez tout en maintenant la touche Alt (Option enfoncée) sur le bouton Auto du panneau Propriétés lorsqu’un calque de réglage Niveaux ou Courbes est ciblé dans le panneau Calques.
 - [ ] Maintenez la touche Alt (Option) enfoncée et sélectionnez Image > Auto Color.
 
@@ -78,21 +78,21 @@ E. Perspective Warp
 
 - [ ] C,D
 - [ ] D,E
-- [x] B,C
+- [ ] B,C
 - [ ] C,E
 
 [Référence](https://helpx.adobe.com/photoshop/using/free-transformations-images-shapes-paths.html#:~:text=The%20Free%20Transform%20command%20lets,to%20switch%20between%20transformation%20types)
 
 #### Q10. Quel est le DPI minimum pour l’impression jet d’encre de qualité photographique ?
 
-- [x] 300
+- [ ] 300
 - [ ] 100
 - [ ] 1,000
 - [ ] 72
 
 #### Q11. Quel type de scanner est capable de produire les scans de la plus haute résolution ?
 
-- [x] scanner à plat
+- [ ] scanner à plat
 - [ ] scanner de diapositives
 - [ ] unité tout-en-un
 - [ ] scanner à tambour
@@ -100,7 +100,7 @@ E. Perspective Warp
 #### Q12. Quel format ne prend PAS en charge un canal alpha ?
 
 - [ ] DSP
-- [x] PNG
+- [ ] PNG
 - [ ] TIFF
 - [ ] PGB
 
@@ -108,20 +108,20 @@ E. Perspective Warp
 
 - [ ] Enregistrez d’abord chaque fichier PDF séparément, puis combinez-les.
 - [ ] Vérifiez si Acrobat Professional est installé.
-- [x] Utilisez la commande Présentation PDF.
+- [ ] Utilisez la commande Présentation PDF.
 - [ ] Cliquez sur Fichier > Exporter > Exporter des calques vers des fichiers.
 
 #### Q14. Quelle option ne peut pas être ajustée avec la commande Imprimer directement dans la fenêtre Imprimer ?
 
 - [ ] taille de l’image
 - [ ] position sur la page
-- [x] qualité du papier
+- [ ] qualité du papier
 - [ ] stratégies de gestion des couleurs
 
 #### Q15. Quelle instruction décrit le mieux la fonctionnalité De masque rapide ?
 
 - [ ] Il vous permet d’utiliser l’outil Plume pour modifier une sélection
-- [x] Il vous permet d’utiliser l’outil Pinceau pour créer ou affiner une sélection
+- [ ] Il vous permet d’utiliser l’outil Pinceau pour créer ou affiner une sélection
 - [ ] Il vous permet de dupliquer un masque rapidement.
 - [ ] Il vous permet de convertir un masque vectoriel en masque de fusion.
 
@@ -131,7 +131,7 @@ E. Perspective Warp
 
 - [ ] Calque de réglage noir et blanc
 - [ ] Postériser
-- [x] Seuil
+- [ ] Seuil
 - [ ] Mode > image > niveaux de gris
 
 #### Q17. Dans l’image montrée, pourquoi Sharpen Edges est-il grisé ?
@@ -141,13 +141,13 @@ E. Perspective Warp
 - [ ] Le filtre ne fonctionne pas sur une image 16 bits.
 - [ ] Le serveur de fichiers n’est pas correctement installé.
 - [ ] Le filtre ne fonctionne pas sur une image 32 bits.
-- [x] Le filtre nécessite une sélection préalable.
+- [ ] Le filtre nécessite une sélection préalable.
 
 #### Q18. Dans l’image montrée, quelle fonctionnalité Camera Raw a été utilisée pour restreindre le filtre gradué afin d’éviter la statue ?
 
 ![In the image shown, which Camera Raw feature was used to restrict the graduated filter to avoid the statue?](images/010.png?raw=true)
 
-- [x] Pinceau de réglage
+- [ ] Pinceau de réglage
 - [ ] Masque de plage de profondeur
 - [ ] Masque de plage de luminance
 - [ ] Masque de plage de couleurs
@@ -157,13 +157,13 @@ E. Perspective Warp
 - [ ] ensembles d’outils
 - [ ] préférences
 - [ ] touches de modification
-- [x] préréglages d’outils
+- [ ] préréglages d’outils
 
 #### Q20. Quelle méthode de transformation Camera Raw est utilisée dans l’exemple illustré ?
 
 ![Which Camera Raw Transform method is being used in the example shown?](images/011.png?raw=true)
 
-- [x] Guidé
+- [ ] Guidé
 - [ ] Verticale
 - [ ] Niveau
 - [ ] Complet
@@ -172,13 +172,13 @@ E. Perspective Warp
 
 - [ ] Suréchantillonner de grandes images
 - [ ] Convertir des images 8 bits en images 16 bits
-- [x] Appliquer la compression au document
+- [ ] Appliquer la compression au document
 - [ ] toutes ces réponses
 
 #### Q22. Quel réglage d’image est **non** disponible en tant que couche de réglage ?
 
 - [ ] Niveaux
-- [x] Ombres/Tons clairs
+- [ ] Ombres/Tons clairs
 - [ ] Courbes
 - [ ] Teinte/Saturation
 
@@ -187,13 +187,13 @@ E. Perspective Warp
 - [ ] regroupé avec l’outil Pipette
 - [ ] Mode > image > red eye
 - [ ] Modifier > Red Eye
-- [x] regroupé avec l’outil Pinceau de guérison ponctuelle
+- [ ] regroupé avec l’outil Pinceau de guérison ponctuelle
 
 #### Q24. Quelle option était **non** sélectionné dans l’outil Baguette magique pour créer une sélection comme celle illustrée ci-dessous ?
 
 ![Which option was not selected in the Magic Wand tool to create a selection like the one shown below?](images/012.png?raw=true)
 
-- [x] Contigu
+- [ ] Contigu
 - [ ] Anti-alias
 - [ ] Amélioration automatique
 - [ ] Échantillonner tous les calques
@@ -204,26 +204,26 @@ E. Perspective Warp
 
 - [ ] A
 - [ ] B
-- [x] C
+- [ ] C
 - [ ] D
 
 #### Q26. Quelle option utiliseriez-vous pour cloner tout en respectant les plans de perspective ?
 
 - [ ] Correctif
-- [x] Point de fuite
+- [ ] Point de fuite
 - [ ] Tampon de clonage
 - [ ] Brosse de guérison
 
 #### Q27. Pour exécuter un filtre sur un fichier vidéo entier, que devez-vous faire en premier?
 
 - [ ] Convertissez le fichier vidéo en séquence d’images.
-- [x] Convertissez le fichier vidéo en objet dynamique.
+- [ ] Convertissez le fichier vidéo en objet dynamique.
 - [ ] En fait, vous ne pouvez pas utiliser de filtres sur les fichiers vidéo.
 - [ ] Convertissez le fichier vidéo en gif animé.
 
 #### Q28. Quel format de fichier fait **non** couches de support?
 
-- [x] Photoshop EPS
+- [ ] Photoshop EPS
 - [ ] Photoshop PDF
 - [ ] Grand format de document
 - [ ] Photoshop PSD
@@ -232,7 +232,7 @@ E. Perspective Warp
 
 - [ ] JPEG
 - [ ] GIF
-- [x] PNG
+- [ ] PNG
 - [ ] Photoshop EPS
 
 #### Q30. Qu’indique le petit triangle noir dans le coin inférieur droit d’un outil ?
@@ -240,11 +240,11 @@ E. Perspective Warp
 - [ ] que l’outil est actuellement désélectionné
 - [ ] options de l’outil
 - [ ] que l’outil est actuellement sélectionné
-- [x] outils groupés ou masqués
+- [ ] outils groupés ou masqués
 
 #### Q31. Quelle commande facilite le réglage des zones de couleur sélectionnées dans deux images afin de les rendre similaires ?
 
-- [x] Couleur de correspondance
+- [ ] Couleur de correspondance
 - [ ] Remplacer la couleur
 - [ ] Teinte/Saturation
 - [ ] Niveaux
@@ -253,12 +253,12 @@ E. Perspective Warp
 
 - [ ] Inverser
 - [ ] Seuil
-- [x] Inverser
+- [ ] Inverser
 - [ ] Inverse
 
 #### Q33. Une recette de filtre peut être enregistrée en tant qu’action et définie sur votre bureau pour une utilisation par glisser-déposer en convertissant la recette de filtre en un `___`.
 
-- [x] gouttelette
+- [ ] gouttelette
 - [ ] lot
 - [ ] scriptlet
 - [ ] processus d’image
@@ -267,7 +267,7 @@ E. Perspective Warp
 
 - [ ] Affiner l’arête
 - [ ] Sélection rapide
-- [x] Baguette magique
+- [ ] Baguette magique
 - [ ] Lasso
 
 [Référence](https://helpx.adobe.com/photoshop/using/select-mask.html#tools)
@@ -277,12 +277,12 @@ E. Perspective Warp
 - [ ] Mélange
 - [ ] Fondu enchaîné
 - [ ] Lisse
-- [x] Mélange
+- [ ] Mélange
 
 #### Q36. Quel réglage d’image est optimisé pour les images 32 bits ?
 
 - [ ] Exposition
-- [x] Recherche de couleur
+- [ ] Recherche de couleur
 - [ ] Luminosité/Contraste
 - [ ] Courbes
 
@@ -293,32 +293,32 @@ E. Perspective Warp
 - [ ] Fenêtre > Espace de travail > Grille
 - [ ] Afficher > Afficher les tranches >
 - [ ] Afficher > Afficher > bords de sélection
-- [x] Afficher > Afficher > grille de pixels
+- [ ] Afficher > Afficher > grille de pixels
 
 #### Q38. Pour enregistrer une disposition de panneau, que devez-vous créer ?
 
 - [ ] Un ensemble d’outils
 - [ ] Un jeu de calques
 - [ ] Un raccourci clavier
-- [x] Un espace de travail
+- [ ] Un espace de travail
 
 #### Q39. Quel filtre utiliser pour créer des flous photoréalistes ?
 
 - [ ] Flou gaussien
-- [x] Flou de l’objectif
+- [ ] Flou de l’objectif
 - [ ] Flou de forme
 - [ ] Flou de surface
 
 #### Q40. Lorsque vous utilisez l’outil Texte, comment appelez-vous l’espace entre les lignes ?
 
-- [x] Échelle verticale
+- [ ] Échelle verticale
 - [ ] Crénage
 - [ ] Plomb
 - [ ] Suivi
 
 #### Q41. Si vous voulez le plus de contrôle sur la couleur lors de l’impression à jet d’encre, quelle option devriez-vous sélectionner?
 
-- [x] Gestion des couleurs : Photoshop gère les couleurs
+- [ ] Gestion des couleurs : Photoshop gère les couleurs
 - [ ] Séparations
 - [ ] Gestion des couleurs : l’imprimante gère les couleurs
 - [ ] Épreuvage dur
@@ -327,12 +327,12 @@ E. Perspective Warp
 
 - [ ] Vous devez d’abord ajouter une couche de tons directs
 - [ ] Vous devez d’abord supprimer toutes les couleurs existantes par les réglages de > d’image > désaturer
-- [x] Les duotones nécessitent un seul canal, vous devez donc d’abord convertir en niveaux de gris
+- [ ] Les duotones nécessitent un seul canal, vous devez donc d’abord convertir en niveaux de gris
 - [ ] Les duotons nécessitent deux canaux, vous devez donc d’abord supprimer l’un des canaux RVB dans le panneau Canaux
 
 #### Q43. Pour des bords plus lisses et incurvés sur une sélection, assurez-vous d’activer le `___` option.
 
-- [x] anti-alias
+- [ ] anti-alias
 - [ ] fondu
 - [ ] mélange
 - [ ] courbe
@@ -341,7 +341,7 @@ E. Perspective Warp
 
 - [ ] GIF
 - [ ] PNG-8
-- [x] PNG-24
+- [ ] PNG-24
 - [ ] JPEG
 
 [Référence](https://helpx.adobe.com/photoshop-elements/using/optimizing-images-png-24-format.html)
@@ -350,7 +350,7 @@ E. Perspective Warp
 
 ![You're trying to use the Healing Brush tool, but don't see results. What is the problem?](images/006.png?raw=true)
 
-- [x] Vous avez oublié de cliquer tout en maintenant la touche Maj enfoncée pour définir le point source de l’outil
+- [ ] Vous avez oublié de cliquer tout en maintenant la touche Maj enfoncée pour définir le point source de l’outil
 - [ ] Vous avez oublié de cliquer sur alt (Windows) ou option (Mac) pour définir le point source de l’outil
 - [ ] Vous avez oublié de double-cliquer pour définir le point source de l’outil
 - [ ] Vous avez oublié de cliquer sur Ctrl (Windows) ou Commande (Mac) pour définir le point source de l’outil
@@ -360,7 +360,7 @@ E. Perspective Warp
 - [ ] Adobe RVB
 - [ ] ProPhoto RVB
 - [ ] RVB
-- [x] sRGB
+- [ ] sRGB
 
 [Référence](https://helpx.adobe.com/ca/photoshop/using/color-settings.html#:~:text=sRGB%20is%20recommended%20when%20you,as%20their%20default%20color%20space.)
 
@@ -369,7 +369,7 @@ E. Perspective Warp
 ![Which option do you use with the Dodge and Burn tools to prevent unwanted color changes like those shown in the image?](images/001.png?raw=true)
 
 - [ ] Échantillonner tous les calques
-- [x] Protéger les tonalités
+- [ ] Protéger les tonalités
 - [ ] Pression d’utilisation pour la taille
 - [ ] Protéger les couleurs
 
@@ -382,7 +382,7 @@ E. Perspective Warp
 - [ ] Modifier le contenu
 - [ ] Remplacer le contenu
 - [ ] Lien vers le fichier
-- [x] Exporter le contenu
+- [ ] Exporter le contenu
 
 #### Q49. Dans l’image montrée, quelle méthode Blur est utilisée pour contrôler la mise au point avec une série de broches ?
 
@@ -391,7 +391,7 @@ E. Perspective Warp
 - [ ] Flou de tracé
 - [ ] Flou Tilt-Shift
 - [ ] Flou d’iris
-- [x] Flou de champ
+- [ ] Flou de champ
 
 #### Q50. Dans l’image montrée, que représentent les zones bleues ?
 
@@ -399,14 +399,14 @@ E. Perspective Warp
 
 - [ ] Couleur coulée
 - [ ] Détail de l’ombre découpée
-- [x] Détails surexposés
+- [ ] Détails surexposés
 - [ ] Détail de surbrillance coupé
 
 #### Q51. Que montre l’image en niveaux de gris de cette figure ?
 
 ![What does the grayscale image in this figure show?](images/014.png?raw=true)
 
-- [x] les bords affectés par la commande Accentuer, tels qu’affinés par le curseur Masquage
+- [ ] les bords affectés par la commande Accentuer, tels qu’affinés par le curseur Masquage
 - [ ] les arêtes affectées par la commande Accentuer telles qu’affinées par le curseur Rayon
 - [ ] les bords affectés par la commande Accentuer, tels qu’affinés par le curseur Détail
 - [ ] les arêtes affectées par la commande Accentuer telles qu’affinées par le curseur Montant
@@ -417,19 +417,19 @@ E. Perspective Warp
 
 - [ ] A
 - [ ] C
-- [x] D
+- [ ] D
 - [ ] B
 
 #### Q53. Où trouvez-vous des pinceaux à médias naturels?
 
 - [ ] Photoshop n’a pas de pinceaux multimédias naturels.
 - [ ] Dans le **Brosses** , sélectionnez un pinceau, puis sélectionnez **Convertir en média naturel**.
-- [x] Dans le **Brosses** , sélectionnez **Pinceaux hérités**.
+- [ ] Dans le **Brosses** , sélectionnez **Pinceaux hérités**.
 - [ ] dans le **Présentations d’outils** panneau.
 
 #### Q54. La barre d’options, qui se trouve normalement au-dessus de la zone de travail, n’est pas visible. Où iriez-vous pour le rouvrir?
 
-- [x] Afficher > Afficher > Afficher les options supplémentaires
+- [ ] Afficher > Afficher > Afficher les options supplémentaires
 - [ ] Préréglages de l’outil > fenêtre
 - [ ] Options de > fenêtre
 - [ ] Modifier > barre d’outils
@@ -438,12 +438,12 @@ E. Perspective Warp
 
 - [ ] Outil Crayon
 - [ ] Point de fuite
-- [x] Outil Plume
+- [ ] Outil Plume
 - [ ] Filtre Trace Contour
 
 #### Q56. Comment parcourir les images sur votre disque dur à l’aide de l’application compagnon incluse dans les formules Adobe Creative Cloud ?
 
-- [x] Cliquez sur `File > Browse in Bridge`
+- [ ] Cliquez sur `File > Browse in Bridge`
 - [ ] Cliquez sur `File > Browse in Lightroom Classic CC.`
 - [ ] Utilisez l’application Creative Cloud.
 - [ ] Cliquez sur `File > Browse in Lightroom CC`.
@@ -451,7 +451,7 @@ E. Perspective Warp
 #### Q57. Quelle commande vous permet de combiner plusieurs canaux dans un nouveau canal de sélection ?
 
 - [ ] Aplatir
-- [x] Calculs
+- [ ] Calculs
 - [ ] Multiplier
 - [ ] Fusionner
 
@@ -460,14 +460,14 @@ E. Perspective Warp
 #### Q58. Comment recadrer une image de manière non destructive sans supprimer définitivement les pixels ?
 
 - [ ] Faites une sélection et cliquez sur **Recadrage de l’image >**.
-- [x] Effacez le **Pixels recadrés supprimés** case à cocher.
+- [ ] Effacez le **Pixels recadrés supprimés** case à cocher.
 - [ ] Cliquez sur **Image > Découpage** et sélectionnez **Pixels transparents**.
 - [ ] Sélectionnez le **Supprimer les pixels recadrés** case à cocher.
 
 #### Q59. Quelle étape est la plus efficace pour faire apparaître une image à travers une autre pour imiter une double exposition traditionnelle à partir d’un effet de photographie argentique?
 
 - [ ] Appliquez le mode de fusion Multiplier à l’image du bas.
-- [x] Appliquez le mode de fusion d’écran à l’image supérieure.
+- [ ] Appliquez le mode de fusion d’écran à l’image supérieure.
 - [ ] Appliquez le mode de fusion Teinte à l’image supérieure.
 - [ ] Appliquez le mode de fusion Saturation à l’image supérieure.
 
@@ -475,7 +475,7 @@ E. Perspective Warp
 
 - [ ] société de couche
 - [ ] calque de remplissage
-- [x] Calque de réglage
+- [ ] Calque de réglage
 - [ ] Masque de fusion
 
 #### Q61. Pourquoi pouvez-vous mettre à l’échelle de manière non destructive un objet intelligent ?
@@ -489,13 +489,13 @@ E. Perspective Warp
 
 - [ ] Pinceau
 - [ ] Sélection d’objets
-- [x] Affiner l’arête
+- [ ] Affiner l’arête
 - [ ] Sélection rapide
 
 #### Q63. Quelle est la différence entre l’outil Lasso et l’outil Lasso polygonal ?
 
 - [ ] Vous pouvez dessiner une sélection de forme libre avec l’outil Lasso, mais vous devez créer des courbes de Bézier avec l’outil Lasso polygonal.
-- [x] L’outil Lasso effectue des sélections de forme libre. L’outil Lasso polygonal effectue une sélection avec une série de segments de ligne connectés.
+- [ ] L’outil Lasso effectue des sélections de forme libre. L’outil Lasso polygonal effectue une sélection avec une série de segments de ligne connectés.
 - [ ] Vous pouvez dessiner une sélection de forme libre avec l’outil Lasso. Vous cliquez et faites glisser avec l’outil Lasso polygonal pour créer des sélections de rectangle de sélection rectangulaire.
 - [ ] L’outil Lass peut sélectionner n’importe quoi, y compris des parties jointes d’images ou de formes raster, mais l’outil Lasso polygonal ne peut sélectionner que des formes.
 
@@ -510,14 +510,14 @@ E. Perspective Warp
 
 - [ ] Grand angle adaptatif
 - [ ] Flou de l’objectif
-- [x] Correction de l’objectif
+- [ ] Correction de l’objectif
 - [ ] Spherize
 
 #### Q66. Quel mode d’image les imprimantes offset professionnelles utilisent-elles habituellement ?
 
 - [ ] RVB
 - [ ] Bitmap
-- [x] CMJN
+- [ ] CMJN
 - [ ] Couleur de laboratoire
 
 #### Q67. Comment pouvez-vous supprimer un seul guide de règle tout en laissant les autres en place?
@@ -530,26 +530,26 @@ E. Perspective Warp
 #### Q68. Si vous souhaitez modifier la résolution d’une image à l’aide de l’icône **Paramètre Pixels par pouce**, quelle commande utilisez-vous ?
 
 - [ ] Calculs
-- [x] Taille de l’image
+- [ ] Taille de l’image
 - [ ] Taille de la toile
 - [ ] Appliquer l’image
 
 #### Q69. Quel outil pouvez-vous utiliser pour assombrir manuellement une zone d’une image
 
-- [x] L’outil de gravure
+- [ ] L’outil de gravure
 
 #### Q70. Combien de masques de fusion peuvent être ajoutés à une image ?
 
-- [x] jusqu’à 8000
+- [ ] jusqu’à 8000
 
 #### Q71. Quelle méthode est un algorithme de mise à l’échelle de haute qualité pour agrandir l’image?
 
-- [x] bicubique
+- [ ] bicubique
 
 #### Q72. Comment pouvez-vous faire en sorte que l’outil baguette magique sélectionne moins de variations d’une couleur?
 
-- [x] décochez Contigu
+- [ ] décochez Contigu
 
 #### Q73. Pour des bords incurvés plus lisses sur une sélection, quelle sélection devriez-vous choisir ?
 
-- [x] anticrénelage
+- [ ] anticrénelage

@@ -3,7 +3,7 @@
 #### P1. ¿Cómo se puede abrir un archivo seleccionado en Lightroom CC para retocarlo en Photoshop CC?
 
 - [ ] Haga doble clic en el archivo
-- [x] Elija archivo > editar en Photoshop
+- [ ] Elija archivo > editar en Photoshop
 - [ ] Elija Archivo > Guardar en Photoshop
 - [ ] Presione Cmd/Ctrl+E
 
@@ -12,7 +12,7 @@
 #### P2. ¿Cómo se pueden deshacer uno o más cambios que se acaban de realizar en una imagen?
 
 - [ ] Utilice el método abreviado de teclado Cmd/Ctrl+Z
-- [x] Haga clic en un estado del panel historial
+- [ ] Haga clic en un estado del panel historial
 - [ ] Elija Archivo > Deshacer
 - [ ] Presione Cmd/Ctrl+U
 
@@ -21,7 +21,7 @@
 #### P3. ¿Cómo se puede seleccionar una capa específica? (encuentra todo lo que corresponda)
 
 - [ ] Haga clic en el icono del ojo en el panel capas
-- [x] Utilice la herramienta Mover con la selección automática habilitada
+- [ ] Utilice la herramienta Mover con la selección automática habilitada
 - [ ] Haga clic con el botón derecho en la imagen y seleccione la capa
 - [ ] Pulse Cmd/Ctrl y haga clic en la capa
 
@@ -34,7 +34,7 @@
 - [ ] Elija el método cilíndrico.
 - [ ] Elija el método Perspective.
 - [ ] Ajuste el control deslizante Deformación de límites.
-- [x] Seleccione Recorte automático.
+- [ ] Seleccione Recorte automático.
 
 [Referencia](https://helpx.adobe.com/uk/lightroom-classic/help/panorama.html)
 
@@ -42,13 +42,13 @@
 
 - [ ] Desactive el cuadro Eliminar píxeles recortados.
 - [ ] Seleccione el cuadro Eliminar píxeles recortados.
-- [x] Utilice la herramienta Recorte inteligente.
+- [ ] Utilice la herramienta Recorte inteligente.
 - [ ] Mantenga pulsada la tecla Alt (Windows) u Opción (Mac).
 
 #### P6. ¿Qué característica debe utilizar para simular las recetas de desarrollo en la cámara aplicadas por los fabricantes con sus propios archivos raw?
 
 - [ ] ajustes preestablecidos
-- [x] Perfiles coincidentes de cámara
+- [ ] Perfiles coincidentes de cámara
 - [ ] calibración
 - [ ] instantáneas
 
@@ -56,13 +56,13 @@
 
 - [ ] Colores muestreados
 - [ ] Tonos de piel
-- [x] Llave (Negros)
+- [ ] Llave (Negros)
 - [ ] Fuera de la gama
 
 #### P8. ¿Cómo se accede al cuadro de diálogo Opciones de corrección automática de color?
 
 - [ ] Seleccione Imagen > Tono automático.
-- [x] Seleccione Imagen > Color automático.
+- [ ] Seleccione Imagen > Color automático.
 - [ ] Pulse Alt (Opción + clic) en el botón Automático del panel Propiedades cuando tenga una capa de ajuste Niveles o Curvas destinada al panel Capas.
 - [ ] Mantenga presionada la tecla Alt (Opción) y seleccione Imagen > Color automático.
 
@@ -78,21 +78,21 @@ E. Perspective Warp
 
 - [ ] C,D
 - [ ] D,E
-- [x] B,C
+- [ ] B,C
 - [ ] C,E
 
 [Referencia](https://helpx.adobe.com/photoshop/using/free-transformations-images-shapes-paths.html#:~:text=The%20Free%20Transform%20command%20lets,to%20switch%20between%20transformation%20types)
 
 #### P10. ¿Cuál se considera el DPI mínimo para la impresión de inyección de tinta con calidad fotográfica?
 
-- [x] 300
+- [ ] 300
 - [ ] 100
 - [ ] 1,000
 - [ ] 72
 
 #### P11. ¿Qué tipo de escáner es capaz de producir los escaneos de mayor resolución?
 
-- [x] escáner de cama plana
+- [ ] escáner de cama plana
 - [ ] escáner de diapositivas
 - [ ] unidad todo en uno
 - [ ] escáner de tambor
@@ -100,7 +100,7 @@ E. Perspective Warp
 #### P12. ¿Qué formato NO admite un canal alfa?
 
 - [ ] DSP
-- [x] PNG
+- [ ] PNG
 - [ ] TIFF
 - [ ] BMP
 
@@ -108,20 +108,20 @@ E. Perspective Warp
 
 - [ ] Guarde primero cada PDF por separado y luego combínelos.
 - [ ] Compruebe si tiene instalado Acrobat Professional.
-- [x] Utilice el comando Presentación PDF.
+- [ ] Utilice el comando Presentación PDF.
 - [ ] Haga clic en Archivo > Exportar > Exportar capas a archivos.
 
 #### P14. ¿Qué opción no se puede ajustar con el comando Imprimir directamente en la ventana Imprimir?
 
 - [ ] tamaño de la imagen
 - [ ] posición en la página
-- [x] calidad del papel
+- [ ] calidad del papel
 - [ ] políticas de gestión del color
 
 #### P15. ¿Qué declaración describe mejor la función máscara rápida?
 
 - [ ] Le permite usar la herramienta Pluma para editar una selección
-- [x] Le permite utilizar la herramienta Pincel para crear o refinar una selección
+- [ ] Le permite utilizar la herramienta Pincel para crear o refinar una selección
 - [ ] Le permite duplicar una máscara rápidamente.
 - [ ] Le permite convertir una máscara vectorial en una máscara de capa.
 
@@ -131,7 +131,7 @@ E. Perspective Warp
 
 - [ ] Capa de ajuste en blanco y negro
 - [ ] Posterizar
-- [x] Umbral
+- [ ] Umbral
 - [ ] Modo de > de imagen > escala de grises
 
 #### P17. En la imagen que se muestra, ¿por qué Sharpen Edges aparece atenuado?
@@ -141,13 +141,13 @@ E. Perspective Warp
 - [ ] El filtro no funciona en una imagen de 16 bits.
 - [ ] El archivador no está instalado correctamente.
 - [ ] El filtro no funciona en una imagen de 32 bits.
-- [x] El filtro requiere que primero se haga una selección.
+- [ ] El filtro requiere que primero se haga una selección.
 
 #### P18. En la imagen mostrada, ¿qué función Camera Raw se utilizó para restringir el filtro graduado para evitar la estatua?
 
 ![In the image shown, which Camera Raw feature was used to restrict the graduated filter to avoid the statue?](images/010.png?raw=true)
 
-- [x] Pincel de ajuste
+- [ ] Pincel de ajuste
 - [ ] Máscara de rango de profundidad
 - [ ] Máscara de rango de luminancia
 - [ ] Máscara de gama de colores
@@ -157,13 +157,13 @@ E. Perspective Warp
 - [ ] conjuntos de herramientas
 - [ ] preferencias
 - [ ] teclas modificadoras
-- [x] ajustes preestablecidos de herramientas
+- [ ] ajustes preestablecidos de herramientas
 
 #### P20. ¿Qué método Camera Raw Transform se está utilizando en el ejemplo que se muestra?
 
 ![Which Camera Raw Transform method is being used in the example shown?](images/011.png?raw=true)
 
-- [x] Guiado
+- [ ] Guiado
 - [ ] Vertical
 - [ ] Nivel
 - [ ] Completo
@@ -172,13 +172,13 @@ E. Perspective Warp
 
 - [ ] Muestrear imágenes grandes
 - [ ] Convertir imágenes de 8 bits a 16 bits
-- [x] Aplicar compresión al documento
+- [ ] Aplicar compresión al documento
 - [ ] todas estas respuestas
 
 #### P22. Qué ajuste de imagen es **no** disponible como capa de ajuste?
 
 - [ ] Niveles
-- [x] Sombras/Resaltados
+- [ ] Sombras/Resaltados
 - [ ] Curvas
 - [ ] Tono/Saturación
 
@@ -187,13 +187,13 @@ E. Perspective Warp
 - [ ] agrupado con la herramienta Cuentagotas
 - [ ] Modo de > de imagen > ojo rojo
 - [ ] Editar > Ojo Rojo
-- [x] agrupado con la herramienta Pincel de curación puntual
+- [ ] agrupado con la herramienta Pincel de curación puntual
 
 #### P24. ¿Qué opción era **no** seleccionado en la herramienta Varita mágica para crear una selección como la que se muestra a continuación?
 
 ![Which option was not selected in the Magic Wand tool to create a selection like the one shown below?](images/012.png?raw=true)
 
-- [x] Contiguo
+- [ ] Contiguo
 - [ ] Anti-alias
 - [ ] Mejora automática
 - [ ] Muestree todas las capas
@@ -204,26 +204,26 @@ E. Perspective Warp
 
 - [ ] A
 - [ ] B
-- [x] C
+- [ ] C
 - [ ] D
 
 #### P26. ¿Qué opción usarías para clonar respetando los planos de perspectiva?
 
 - [ ] Parche
-- [x] Punto de fuga
+- [ ] Punto de fuga
 - [ ] Sello de clonación
 - [ ] Cepillo curativo
 
 #### P27. Para ejecutar un filtro en un archivo de video completo, ¿qué debe hacer primero?
 
 - [ ] Convierta el archivo de vídeo en una secuencia de imágenes.
-- [x] Convierta el archivo de vídeo en un objeto inteligente.
+- [ ] Convierta el archivo de vídeo en un objeto inteligente.
 - [ ] En realidad, no puede usar filtros en archivos de video.
 - [ ] Convierta el archivo de vídeo en un gif animado.
 
 #### P28. ¿Qué formato de archivo hace **no** capas de soporte?
 
-- [x] Photoshop EPS
+- [ ] Photoshop EPS
 - [ ] PDF de Photoshop
 - [ ] Formato de documento grande
 - [ ] Photoshop PSD
@@ -232,7 +232,7 @@ E. Perspective Warp
 
 - [ ] JPEG
 - [ ] GIF
-- [x] PNG
+- [ ] PNG
 - [ ] Photoshop EPS
 
 #### P30. ¿Qué indica el pequeño triángulo negro en la esquina inferior derecha de una herramienta?
@@ -240,11 +240,11 @@ E. Perspective Warp
 - [ ] que la herramienta está actualmente deseleccionada
 - [ ] opciones de herramienta
 - [ ] que la herramienta está seleccionada actualmente
-- [x] herramientas agrupadas u ocultas
+- [ ] herramientas agrupadas u ocultas
 
 #### P31. ¿Qué comando facilita el ajuste de las áreas de color seleccionadas en dos imágenes para que sean similares?
 
-- [x] Color de coincidencia
+- [ ] Color de coincidencia
 - [ ] Reemplazar color
 - [ ] Tono/Saturación
 - [ ] Niveles
@@ -253,12 +253,12 @@ E. Perspective Warp
 
 - [ ] Reverso
 - [ ] Umbral
-- [x] Invertir
+- [ ] Invertir
 - [ ] Inverso
 
 #### P33. Una receta de filtro se puede guardar como una acción y configurarse en el escritorio para su uso de arrastrar y soltar convirtiendo la receta de filtro en una `___`.
 
-- [x] gota
+- [ ] gota
 - [ ] lote
 - [ ] scriptlet
 - [ ] proceso de imagen
@@ -267,7 +267,7 @@ E. Perspective Warp
 
 - [ ] Refinar borde
 - [ ] Selección rápida
-- [x] Varita mágica
+- [ ] Varita mágica
 - [ ] Lazo
 
 [Referencia](https://helpx.adobe.com/photoshop/using/select-mask.html#tools)
@@ -277,12 +277,12 @@ E. Perspective Warp
 - [ ] Mezcla
 - [ ] Desvanecimiento
 - [ ] Suave
-- [x] Mezcla
+- [ ] Mezcla
 
 #### P36. ¿Qué ajuste de imagen está optimizado para imágenes de 32 bits?
 
 - [ ] Exposición
-- [x] Búsqueda de color
+- [ ] Búsqueda de color
 - [ ] Brillo/Contraste
 - [ ] Curvas
 
@@ -293,32 +293,32 @@ E. Perspective Warp
 - [ ] Ventana > espacio de trabajo > cuadrícula
 - [ ] Ver > Mostrar > sectores
 - [ ] Ver > Mostrar bordes de selección de >
-- [x] Ver > Mostrar cuadrícula de > píxeles
+- [ ] Ver > Mostrar cuadrícula de > píxeles
 
 #### P38. Para guardar una disposición de diseño de panel, ¿qué debe crear?
 
 - [ ] Un conjunto de herramientas
 - [ ] Un conjunto de capas
 - [ ] Un atajo de teclado
-- [x] Un espacio de trabajo
+- [ ] Un espacio de trabajo
 
 #### P39. ¿Qué filtro debes usar para crear desenfoques fotorrealistas?
 
 - [ ] Desenfoque gaussiano
-- [x] Desenfoque de la lente
+- [ ] Desenfoque de la lente
 - [ ] Desenfoque de forma
 - [ ] Desenfoque de la superficie
 
 #### P40. Cuando se utiliza la herramienta Texto, ¿cómo se llama al espacio entre líneas?
 
-- [x] Escala vertical
+- [ ] Escala vertical
 - [ ] Kerning
 - [ ] Líderes
 - [ ] Seguimiento
 
 #### P41. Si desea el mayor control sobre el color al imprimir con inyección de tinta, ¿qué opción debe seleccionar?
 
-- [x] Manejo del color: Photoshop administra los colores
+- [ ] Manejo del color: Photoshop administra los colores
 - [ ] Separaciones
 - [ ] Manejo del color: la impresora administra los colores
 - [ ] Pruebas sólidas
@@ -327,12 +327,12 @@ E. Perspective Warp
 
 - [ ] Primero debe agregar un canal de tinta plana
 - [ ] Debe eliminar todo el color existente mediante Ajustes de > de imagen > Desaturar primero
-- [x] Los duotonos requieren un solo canal, por lo que primero debe convertir a escala de grises
+- [ ] Los duotonos requieren un solo canal, por lo que primero debe convertir a escala de grises
 - [ ] Los duotonos requieren dos canales, por lo que primero debe eliminar uno de los canales RGB en el panel Canales
 
 #### P43. Para bordes más suaves y curvos en una selección, asegúrese de habilitar el `___` opción.
 
-- [x] anti-alias
+- [ ] anti-alias
 - [ ] desvanecimiento
 - [ ] mezcla
 - [ ] curva
@@ -341,7 +341,7 @@ E. Perspective Warp
 
 - [ ] GIF
 - [ ] PNG-8
-- [x] PNG-24
+- [ ] PNG-24
 - [ ] JPEG
 
 [Referencia](https://helpx.adobe.com/photoshop-elements/using/optimizing-images-png-24-format.html)
@@ -350,7 +350,7 @@ E. Perspective Warp
 
 ![You're trying to use the Healing Brush tool, but don't see results. What is the problem?](images/006.png?raw=true)
 
-- [x] Olvidó hacer clic en Mayús para establecer el punto de origen de la herramienta
+- [ ] Olvidó hacer clic en Mayús para establecer el punto de origen de la herramienta
 - [ ] Olvidó hacer clic en Alt (Windows) u Opción y hacer clic (Mac) para establecer el punto de origen de la herramienta
 - [ ] Olvidó hacer doble clic para establecer el punto de origen de la herramienta
 - [ ] Olvidó hacer clic con Ctrl (Windows) o Comando y clic (Mac) para establecer el punto de origen de la herramienta
@@ -360,7 +360,7 @@ E. Perspective Warp
 - [ ] Adobe RGB
 - [ ] ProPhoto RGB
 - [ ] RGB
-- [x] sRGB
+- [ ] sRGB
 
 [Referencia](https://helpx.adobe.com/ca/photoshop/using/color-settings.html#:~:text=sRGB%20is%20recommended%20when%20you,as%20their%20default%20color%20space.)
 
@@ -369,7 +369,7 @@ E. Perspective Warp
 ![Which option do you use with the Dodge and Burn tools to prevent unwanted color changes like those shown in the image?](images/001.png?raw=true)
 
 - [ ] Muestree todas las capas
-- [x] Proteger tonos
+- [ ] Proteger tonos
 - [ ] Use presión para el tamaño
 - [ ] Proteger colores
 
@@ -382,7 +382,7 @@ E. Perspective Warp
 - [ ] Editar contenido
 - [ ] Reemplazar contenido
 - [ ] Volver a vincular al archivo
-- [x] Exportar contenido
+- [ ] Exportar contenido
 
 #### Pregunta 49. En la imagen que se muestra, ¿qué método Blur se está utilizando para controlar el enfoque con una serie de pines?
 
@@ -391,7 +391,7 @@ E. Perspective Warp
 - [ ] Desenfoque de ruta
 - [ ] Desenfoque tilt-shift
 - [ ] Desenfoque del iris
-- [x] Desenfoque de campo
+- [ ] Desenfoque de campo
 
 #### Pregunta 50. En la imagen mostrada, ¿qué representan las áreas azules?
 
@@ -399,14 +399,14 @@ E. Perspective Warp
 
 - [ ] Reparto de color
 - [ ] Detalle de sombra recortada
-- [x] Detalles sobreexpuestos
+- [ ] Detalles sobreexpuestos
 - [ ] Detalle de resaltado recortado
 
 #### Pregunta 51. ¿Qué muestra la imagen en escala de grises de esta figura?
 
 ![What does the grayscale image in this figure show?](images/014.png?raw=true)
 
-- [x] los bordes afectados por el comando Sharpen según lo refinado por el control deslizante Enmascaramiento
+- [ ] los bordes afectados por el comando Sharpen según lo refinado por el control deslizante Enmascaramiento
 - [ ] las aristas afectadas por el comando Sharpen según lo refinado por el control deslizante Radio
 - [ ] las aristas afectadas por el comando Sharpen según lo refinado por el control deslizante Detalle
 - [ ] las aristas afectadas por el comando Sharpen según lo refinado por el control deslizante Cantidad
@@ -417,19 +417,19 @@ E. Perspective Warp
 
 - [ ] A
 - [ ] C
-- [x] D
+- [ ] D
 - [ ] B
 
 #### Pregunta 53. ¿Dónde encuentras los cepillos de medios naturales?
 
 - [ ] Photoshop no tiene pinceles multimedia naturales.
 - [ ] En el **Cepillos** , seleccione un pincel y, a continuación, seleccione **Convertir a medios naturales**.
-- [x] En el **Cepillos** , seleccione **Pinceles heredados**.
+- [ ] En el **Cepillos** , seleccione **Pinceles heredados**.
 - [ ] en el **Presenta la herramienta** tablero.
 
 #### Pregunta 54. La barra de opciones, que normalmente está encima del lienzo, no es visible. ¿A dónde irías para reabrirlo?
 
-- [x] Ver > Mostrar > Mostrar opciones adicionales
+- [ ] Ver > Mostrar > Mostrar opciones adicionales
 - [ ] Ajustes preestablecidos de herramientas de > de ventana
 - [ ] Opciones de > de ventana
 - [ ] Editar barra de herramientas >
@@ -438,12 +438,12 @@ E. Perspective Warp
 
 - [ ] Herramienta lápiz
 - [ ] Punto de fuga
-- [x] Herramienta pluma
+- [ ] Herramienta pluma
 - [ ] Filtro de contorno de traza
 
 #### Pregunta 56. ¿Cómo se exploran las imágenes en el disco duro con la aplicación complementaria que se incluye con los planes de Adobe Creative Cloud?
 
-- [x] Haga clic en `File > Browse in Bridge`
+- [ ] Haga clic en `File > Browse in Bridge`
 - [ ] Haga clic en `File > Browse in Lightroom Classic CC.`
 - [ ] Utilice la aplicación Creative Cloud.
 - [ ] Haga clic en `File > Browse in Lightroom CC`.
@@ -451,7 +451,7 @@ E. Perspective Warp
 #### Pregunta 57. ¿Qué comando le permite combinar varios canales en un nuevo canal de selección?
 
 - [ ] Aplanar
-- [x] Cálculos
+- [ ] Cálculos
 - [ ] Multiplicar
 - [ ] Fusionar
 
@@ -460,14 +460,14 @@ E. Perspective Warp
 #### Pregunta 58. ¿Cómo se recorta una imagen de forma no destructiva sin descartar permanentemente los píxeles?
 
 - [ ] Haga una selección y haga clic en **Recorte de > de imagen**.
-- [x] Borrar el **Píxeles recortados eliminados** casilla de verificación.
+- [ ] Borrar el **Píxeles recortados eliminados** casilla de verificación.
 - [ ] Haga clic en **Recorte de > de imagen** y selecciona **Píxeles transparentes**.
 - [ ] Seleccione la opción **Eliminar píxeles recortados** casilla de verificación.
 
 #### Pregunta 59. ¿Qué paso es el más efectivo para hacer que una imagen se muestre a través de otra para emular un efecto tradicional de doble exposición de la fotografía de película?
 
 - [ ] Aplique el modo multiplicar mezcla a la imagen inferior.
-- [x] Aplique el modo de fusión de pantalla a la imagen superior.
+- [ ] Aplique el modo de fusión de pantalla a la imagen superior.
 - [ ] Aplique el modo de fusión de tonos a la imagen superior.
 - [ ] Aplique el modo de mezcla de saturación a la imagen superior.
 
@@ -475,7 +475,7 @@ E. Perspective Warp
 
 - [ ] empresa de capas
 - [ ] capa de relleno
-- [x] Capa de ajuste
+- [ ] Capa de ajuste
 - [ ] máscara de capa
 
 #### P61. ¿Por qué se puede escalar de forma no destructiva un objeto inteligente?
@@ -489,13 +489,13 @@ E. Perspective Warp
 
 - [ ] Pincel
 - [ ] Selección de objetos
-- [x] Refinar borde
+- [ ] Refinar borde
 - [ ] Selección rápida
 
 #### P63. ¿Cuál es la diferencia entre la herramienta Lazo y la herramienta Lazo poligonal?
 
 - [ ] Puede dibujar una selección de forma libre con la herramienta Lazo, pero debe hacer curvas de Bézier con la herramienta Lazo poligonal.
-- [x] La herramienta Lazo hace selecciones de forma libre. La herramienta Lazo poligonal hace una selección con una serie de segmentos de línea conectados.
+- [ ] La herramienta Lazo hace selecciones de forma libre. La herramienta Lazo poligonal hace una selección con una serie de segmentos de línea conectados.
 - [ ] Puede dibujar una selección de forma libre con la herramienta Lazo. Haga clic y arrastre con la herramienta Lazo poligonal para crear selecciones de recuadro rectangular.
 - [ ] La herramienta Lazo puede seleccionar cualquier cosa, incluidas las partes adjuntas de imágenes o formas ráster, pero la herramienta Lazo poligonal solo puede seleccionar formas.
 
@@ -510,14 +510,14 @@ E. Perspective Warp
 
 - [ ] Gran angular adaptativo
 - [ ] Desenfoque de la lente
-- [x] Corrección de lentes
+- [ ] Corrección de lentes
 - [ ] Esferizar
 
 #### Pregunta 66. ¿Qué modo de imagen suelen utilizar las impresoras offset profesionales?
 
 - [ ] RGB
 - [ ] Mapa de bits
-- [x] CMYK
+- [ ] CMYK
 - [ ] Color de laboratorio
 
 #### Pregunta 67. ¿Cómo puede eliminar una sola guía de regla mientras deja otras en su lugar?
@@ -530,26 +530,26 @@ E. Perspective Warp
 #### Pregunta 68. Si desea cambiar la resolución de una imagen utilizando el comando **Configuración de píxeles por pulgada**, ¿qué comando utiliza?
 
 - [ ] Cálculos
-- [x] Tamaño de la imagen
+- [ ] Tamaño de la imagen
 - [ ] Tamaño del lienzo
 - [ ] Aplicar imagen
 
 #### Pregunta 69. ¿Qué herramienta puede utilizar para oscurecer manualmente un área de una imagen?
 
-- [x] La herramienta burn
+- [ ] La herramienta burn
 
 #### Pregunta 70. ¿Cuántas máscaras de capa se pueden agregar a una imagen?
 
-- [x] hasta 8000
+- [ ] hasta 8000
 
 #### P71. ¿Qué método es un algoritmo de escalado de alta calidad para ampliar la imagen?
 
-- [x] bicúbico
+- [ ] bicúbico
 
 #### P72. ¿Cómo puedes hacer que la herramienta de varita mágica seleccione menos variaciones de un color?
 
-- [x] desmarque Contiguo
+- [ ] desmarque Contiguo
 
 #### Pregunta 73. Para bordes curvos de aspecto más suave en una selección, ¿qué selección debe elegir?
 
-- [x] suavizado
+- [ ] suavizado

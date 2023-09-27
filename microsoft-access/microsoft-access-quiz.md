@@ -3,20 +3,20 @@
 #### Q1. Which form view mode allows you to preview live data while you work on the design of the form?
 
 - [ ] **Preview** view
-- [x] **Layout** view
+- [ ] **Layout** view
 - [ ] **Design** view
 - [ ] **Form** view
 
 #### Q2. How can you add multiple button controls to a form at once?
 
 - [ ] Double-click the button control to lock it on, then left-click in the form to add each button
-- [x] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
+- [ ] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
 - [ ] Select the Multiple Object check box in the Design tab before selecting the button control
 - [ ] Left-click the button control to select it, then add multiples to the form by right-clicking in the position you'd like to add them
 
 #### Q3. What is the Access string operator that joins or concatenates text strings together?
 
-- [x] `&`
+- [ ] `&`
 - [ ] `!`
 - [ ] `#`
 - [ ] `-`
@@ -28,7 +28,7 @@
 
 <p align="center"><img src="./images/question_4.png"></p>
 
-- [x] lookup
+- [ ] lookup
 - [ ] reference integrity
 - [ ] pick list
 - [ ] validation rule
@@ -38,11 +38,11 @@
 - [ ] Sort on month number, then sort on month name
 - [ ] Sort on month number, then group on month name
 - [ ] Group on month number, then sort by month name
-- [x] Group on month number, then sort on month number
+- [ ] Group on month number, then sort on month number
 
 #### Q6. What kind of query will display data with both column headers and row headers?
 
-- [x] crosstab
+- [ ] crosstab
 - [ ] select
 - [ ] simple
 - [ ] spreadsheet
@@ -52,7 +52,7 @@
 #### Q7. What currency format displays a thousands separator, but not a currency symbol, such as $ or €?
 
 - [ ] Scientific
-- [x] Standard
+- [ ] Standard
 - [ ] General Number
 - [ ] Fixed
 
@@ -63,21 +63,21 @@
 - [ ] removes the ribbon interface
 - [ ] removes all ribbon tabs except Home and Print Preview
 - [ ] disable the right-click menu when working with objects
-- [x] removes the **Design** view contextual tabs, which forces most design changes to be made in **Layout** view
+- [ ] removes the **Design** view contextual tabs, which forces most design changes to be made in **Layout** view
 
 [Reference](https://support.microsoft.com/en-us/office/allowfullmenus-property-d1cf24ab-ca65-4450-8917-93d83319b678)
 
 #### Q9. You want to create a form to view a customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?
 
 - [ ] Use a form to display the customer details with a subform linked to their order information
-- [x] Create a split form that displays the customer information at the top and the order history in the table below
+- [ ] Create a split form that displays the customer information at the top and the order history in the table below
 - [ ] Create a navigation form that includes a form for the customer details and a separate form for the order history
 - [ ] Create a continous form that uses a query to gather all of the customer details and order history in a single record source
 
 #### Q10. You want a form to appear automatically, whenever the database starts. How do you do this?
 
 - [ ] In the **Access Options** dialog box, click **Current Database**, then select the form you want to open in the **Display Form** property
-- [x] Open the form you want to display automatically in **Design** view. Then in the property sheet, set **Open on Launch** to **true**
+- [ ] Open the form you want to display automatically in **Design** view. Then in the property sheet, set **Open on Launch** to **true**
 - [ ] Right-click the form you want to open automatically and select **Startup Form**
 - [ ] On the **Database Tools** tab, click **Database Options**, then set the form you want to open as the **Initial View** object
 
@@ -88,27 +88,27 @@
 - [ ] **Page Layout**
 - [ ] **View** section
 - [ ] Form body
-- [x] **Detail** section
+- [ ] **Detail** section
 
 #### Q12. What tool builds a report containing detailed information about the object in the database?
 
 - [ ] Object dependencies
 - [ ] Table analyzer
 - [ ] Access database manager
-- [x] Database documenter
+- [ ] Database documenter
 
 [Reference](https://support.microsoft.com/en-gb/office/learn-the-structure-of-an-access-database-001a5c05-3fea-48f1-90a0-cccaa57ba4af?rs=en-gb#bm1)
 
 #### Q13. You want to validate a proposed modification to a record's value before the table is saved to the database. What data macro can you add to the table to do this?
 
 - [ ] After Insert
-- [x] Before Change
+- [ ] Before Change
 - [ ] After Update
 - [ ] Before Delete
 
 #### Q14. When you add a group to a report, what automatically gets added to the structure?
 
-- [x] a group header
+- [ ] a group header
 - [ ] nothing
 - [ ] a group header and footer
 - [ ] a group footer
@@ -131,14 +131,14 @@
 
 - [ ] 1
 - [ ] 3
-- [x] 2
+- [ ] 2
 - [ ] Normal
 
 #### Q16. What program flow function evaluates a condition and either returns a truepart or a falsepart?
 
 - [ ] `Switch()`
 - [ ] `IsError()`
-- [x] `IIf()`
+- [ ] `IIf()`
 - [ ] `Choose()`
 
 [Reference](https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-647539c764e3)
@@ -146,7 +146,7 @@
 #### Q17. The display for numerical data defaults to a **\_alignment, and text data defaults to **\_aligntment
 
 - [ ] left; right
-- [x] right; left
+- [ ] right; left
 - [ ] left; left
 - [ ] right; right
 
@@ -155,7 +155,7 @@
 
 #### Q18. Which data type is a modern replacement for the OLE Object data type?
 
-- [x] Attachment
+- [ ] Attachment
 - [ ] Replication ID
 - [ ] BLOB
 - [ ] Hyperlink
@@ -167,7 +167,7 @@
 - [ ] Set the Indexed property to No
 - [ ] Set the Required property to Yes (Unique Values)
 - [ ] Set the Validation Rule property to No Duplicates
-- [x] Set the Indexed property to Yes (No Duplicates)
+- [ ] Set the Indexed property to Yes (No Duplicates)
 
 [Reference](https://support.microsoft.com/en-us/office/prevent-duplicate-values-in-a-table-field-using-an-index-b5eaace7-6161-4edc-bb90-39d1a1bc5576)
 
@@ -176,14 +176,14 @@
 - [ ] Database Documenter
 - [ ] Compact and Repair Database
 - [ ] Database Splitter Wizard
-- [x] Table Analyzer Wizard
+- [ ] Table Analyzer Wizard
 
 [Reference](https://support.microsoft.com/en-us/office/normalize-your-data-using-the-table-analyzer-8edbb763-5bab-4fbc-b62d-c17b1a40bbe2)
 
 #### Q21. When backing up an Access database, what is added to the file name automatically?
 
 - [ ] `A serialized backup number, such as "_Backup_2"`
-- [x] `The current date, such as "_2019-08-21"`
+- [ ] `The current date, such as "_2019-08-21"`
 - [ ] `The characters "_bu"`
 - [ ] `The word "_Archive"`
 
@@ -191,21 +191,21 @@
 
 - [ ] Popup Text
 - [ ] Description
-- [x] Caption
+- [ ] Caption
 - [ ] Tool Tip
 
 [Reference](https://support.microsoft.com/en-us/office/introduction-to-data-types-and-field-properties-30ad644f-946c-442e-8bd2-be067361987c#typereference)
 
 #### Q23. Which form control property creates a small pop-up flag that contains text when a user hovers the mouse cursor over the object?
 
-- [x] ControlTip Text
+- [ ] ControlTip Text
 - [ ] Status Text
 - [ ] Tool Text
 - [ ] Help Text
 
 #### Q24. The expression values <=, <>, and > are found in what expression category?
 
-- [x] comparison operators
+- [ ] comparison operators
 - [ ] logical operators
 - [ ] string operators
 - [ ] arithmetic operators
@@ -214,7 +214,7 @@
 
 #### Q25. Which section of a report appears at the top of every page in the printed report?
 
-- [x] page header
+- [ ] page header
 - [ ] group header
 - [ ] detail header
 - [ ] report header
@@ -223,7 +223,7 @@
 
 #### Q26. When would you use a left join query?
 
-- [x] When you want to retrieve every record from the left table, plus any matching information from the right table where it exists
+- [ ] When you want to retrieve every record from the left table, plus any matching information from the right table where it exists
 - [ ] When you want to retrieve all of the records from the right table that have matching records in the left table
 - [ ] When you want to retrieve just the records from the left table that have matching records in the right table
 - [ ] When you want to retrieve just the records from the left table that do not have any matching records in the right table
@@ -232,13 +232,13 @@
 
 - [ ] Use an If container in the macro.
 - [ ] Call the submacro with the [MacroName]![SubMacroName] syntax.
-- [x] Use a RunMacro or OnError macro action.
+- [ ] Use a RunMacro or OnError macro action.
 - [ ] Expand the macro in the **Navigation Pane** and double-click the submacro name.
 
 #### Q28. Which combo box property defines what values appear when the user clicks the drop-down arrow?
 
 - [ ] Control Source
-- [x] Row Source
+- [ ] Row Source
 - [ ] Value List
 - [ ] Data Source
 
@@ -246,37 +246,37 @@
 
 - [ ] the current system date
 - [ ] the current system date, time, and time zone
-- [x] the current system date and time
+- [ ] the current system date and time
 - [ ] the current system time
 
 #### Q30. Certain words have special meaning to Access, and you should avoid using them as table or field names. What are these words called?
 
 - [ ] discouraged terms
-- [x] reserved words
+- [ ] reserved words
 - [ ] retired objects
 - [ ] system names
 
 #### Q30. What is the operator for "not equal to"
 
-- [x] < >
+- [ ] < >
 
 #### Q31. You need to email a report to a coworker that maintains all formatting and page layout attributes. Which file format should you choose from the **Print Preview** ribbon?
 
 - [ ] Excel
 - [ ] HTML
 - [ ] Word
-- [x] PDF
+- [ ] PDF
 
 #### Q32. Which section can a form _not_ contain?
 
-- [x] Group Header & Footer
+- [ ] Group Header & Footer
 - [ ] Form Header & Footer
 - [ ] Detail
 - [ ] Page Header & Footer
 
 #### Q33. The **Run** button and the **View Datasheet** button do exactly the same thing for which query type?
 
-- [x] select
+- [ ] select
 - [ ] append
 - [ ] make table
 - [ ] delete
@@ -284,20 +284,20 @@
 #### Q34. You have a database file that generates an error from a custom macro immediately after opening. How can you open the database and bypass the startup options to prevent the macro from running so that you can fix the error?
 
 - [ ] In the **Open File** dialog box, click the down arrow on the **Open** button and select **Disable Macros**.
-- [x] Hold the Shift key while double-clicking the **database** icon.
+- [ ] Hold the Shift key while double-clicking the **database** icon.
 - [ ] Right-click the database icon and select **Run as Administrator**.
 - [ ] From the **File** menu, select **Open as Read-Only**.
 
 #### Q35. You want to ensure that a query recordset is read-only and cannot modify the underlying data tables it references. How can you do that?
 
-- [x] Set the Recordset Type property to Snapshot.
+- [ ] Set the Recordset Type property to Snapshot.
 - [ ] Set the Output All Fields property to No.
 - [ ] Set the Link Master Fields property to No.
 - [ ] Set the Recordset Type property to Dynaset (Inconsistent Updates).
 
 #### Q36. Which form control object contains a number of option buttons, check boxes, or toggle buttons, and allows the user to make only a single selection?
 
-- [x] option group
+- [ ] option group
 - [ ] switch control
 - [ ] bound selection
 - [ ] object selector
@@ -305,7 +305,7 @@
 #### Q37. Which query criteria will return records for "Debra" and "Donna" but not "Daniel"?
 
 - [ ] `Like "*n*"`
-- [x] `Like "*[ro]*"`
+- [ ] `Like "*[ro]*"`
 - [ ] `Like "De* or Do*"`
 - [ ] `Like "D*"`
 
@@ -348,7 +348,7 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Debra, Donna, D
 
 #### Q38. When using the **Expression Builder** to create a calculated column in a table, which statement is _not_ true?
 
-- [x] The calculation cannot use custom Visual Basic functions.
+- [ ] The calculation cannot use custom Visual Basic functions.
 - [ ] The calculation can include built-in functions.
 - [ ] The calculation can use fields from a related table.
 - [ ] The calculation can include fields from the same table.
@@ -360,7 +360,7 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Debra, Donna, D
 #### Q39. You are implementing an OnError action and want the macro to continue on to the following step if it encounters an error. What should you set as the Go To argument?
 
 - [ ] Skip
-- [x] Next
+- [ ] Next
 - [ ] Fail
 - [ ] Macro Name
 
@@ -371,13 +371,13 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Debra, Donna, D
 - [ ] Select the unformatted labels, click the Format Painter tool, then click the formatted label.
 - [ ] Select the formatted label, click the Format Painter tool, then drag a box around the unformatted labels.
 - [ ] Select all of the labels and then click the Format Painter tool.
-- [x] Select the formatted label, double-click the Format Painter tool, then click each of the unformatted labels.
+- [ ] Select the formatted label, double-click the Format Painter tool, then click each of the unformatted labels.
 
 [Format Painter](https://www.youtube.com/watch?v=nyAZ-O_odbY)
 
 #### Q41.When adding a picture to a form, which Picture Size Mode property will keep the image at 100% of its original size, even if the bounding box is smaller?
 
-- [x] Clip
+- [ ] Clip
 - [ ] Locked
 - [ ] Stretch
 - [ ] Zoom
@@ -388,7 +388,7 @@ SELECT first_name FROM table_name WHERE first_name Like "D*"; -- Debra, Donna, D
 
 ![img](https://drive.google.com/uc?export=view&id=1jbRn8vijxlaozB52Mtjoivamt-9S4NTs)
 
-- [x] `Or ("Houston","Boston","Chicago")`
+- [ ] `Or ("Houston","Boston","Chicago")`
 - [ ] `In ("Houston","Boston","Chicago")`
 - [ ] `"Houston" Or "Boston" Or "Chicago"`
 - [ ] `"houston" Or "boston" Or "chicago"`
@@ -438,7 +438,7 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 
 #### Q43. When designing a form, you add a horizontal line object that is the full width of the Detail section. Yet when you view the form, the line goes only part way across the screen. How can you make the line extend to the edges of the screen?
 
-- [x] From the **Anchoring** menu, select **Stretch Across Top**.
+- [ ] From the **Anchoring** menu, select **Stretch Across Top**.
 - [ ] From the **Align** menu, select **Full Justify**.
 - [ ] From the **Anchoring** menu, select **Top Right**.
 - [ ] From the **Size/Space** menu, select **To Fit**.
@@ -449,7 +449,7 @@ SELECT City FROM Customers WHERE City = "houston" Or "boston" Or "chicago"; -- e
 
 - [ ] three
 - [ ] eight
-- [x] two
+- [ ] two
 - [ ] five
 
 [Precision, Scale](https://learn.microsoft.com/en-us/sql/t-sql/data-types/precision-scale-and-length-transact-sql)

@@ -4,20 +4,20 @@
 
 - [ ] Increase the configured CPU value
 - [ ] Increase the configured timeout value
-- [x] Increase the configured memory value
+- [ ] Increase the configured memory value
 - [ ] Increase the configured concurrency value
 
 #### Q2. How can additional code or content be provided for your Lambda?
 
 - [ ] blocks
-- [x] layers
+- [ ] layers
 - [ ] aliases
 - [ ] handlers
 
 #### Q3. How can Step Functions call Lambdas?
 
 - [ ] in sequence
-- [x] both of these answers
+- [ ] both of these answers
 - [ ] neither of these answers
 - [ ] in parallel
 
@@ -25,7 +25,7 @@
 
 - [ ] aws lambda invoke --function ReturnBucketName outputfile.txt
 - [ ] aws lambda execute --function-name ReturnBucketName outputfile.txt
-- [x] aws lambda invoke --function-name ReturnBucketName outputfile.txt
+- [ ] aws lambda invoke --function-name ReturnBucketName outputfile.txt
 - [ ] aws lambda execute --function ReturnBucketName outputfile.txt
 
 #### Q5. What adds tracing capabilities to a Lambda?
@@ -33,40 +33,40 @@
 - [ ] AWS Trace
 - [ ] CloudStack
 - [ ] CloudTrail
-- [x] AWS X-Ray
+- [ ] AWS X-Ray
 
 #### Q6. You need to build a continuous integration/deployment pipeline for a set of Lambdas. What should you do?
 
 - [ ] Create configuration files and deploy them using AWS CodePipeline.
 - [ ] Create CloudFormation templates and deploy them using AWS CodeBuild
 - [ ] Create configuration file and deploy using AWS CodeBuild
-- [x] Create CloudFormation templates and deploy them using AWS CodePipeline.
+- [ ] Create CloudFormation templates and deploy them using AWS CodePipeline.
 
 #### Q7. What can you use to monitor function invocations?
 
 - [ ] API Gateway
 - [ ] S3
 - [ ] SAS
-- [x] CloudTrail
+- [ ] CloudTrail
 
 #### Q8. It is AWS best practice to enable Lambda logging by which of these methods.
 
 - [ ] Use S3 metrics and CloudWatch alarms
 - [ ] Create custom metrics within your Lambda code.
 - [ ] Create custom metrics within your CloudWatch code.
-- [x] Use Lambda metrics and CloudWatch alarms.
+- [ ] Use Lambda metrics and CloudWatch alarms.
 
 #### Q9. What may be provided for environment variables?
 
 - [ ] an SSL certificate
 - [ ] a bitmask
-- [x] an AWS KMS key
+- [ ] an AWS KMS key
 - [ ] an HTTP protocol
 
 #### Q10. Lambdas allow for running of what other things?
 
 - [ ] binaries.
-- [x] all of these answers
+- [ ] all of these answers
 - [ ] executables
 - [ ] Shell scripts
 
@@ -74,13 +74,13 @@
 
 - [ ] MVC
 - [ ] virtual
-- [x] stateless
+- [ ] stateless
 - [ ] protocol
 
 #### Q12. How can a developer provide Lambda code?
 
 - [ ] by uploading a .zip file
-- [x] all of these answers
+- [ ] all of these answers
 - [ ] by editing inline
 - [ ] from an S3 bucket
 
@@ -89,18 +89,18 @@
 - [ ] CLoudWatch logs
 - [ ] DynamoDB logs
 - [ ] S3 logs
-- [x] Lambda logs.
+- [ ] Lambda logs.
 
 #### Q14. What facilitates continuous delivery of Lambdas?
 
 - [ ] CodeStack
 - [ ] ElasticStack
 - [ ] Mobile Hub
-- [x] CodeDeploy
+- [ ] CodeDeploy
 
 #### Q15. How are computing resources allocated to Lambdas?
 
-- [x] proportionally
+- [ ] proportionally
 - [ ] equally
 - [ ] periodically
 - [ ] daily
@@ -108,13 +108,13 @@
 #### Q16. You can restrict the scope of a user's permissions by specifying which two items in an IAM policy?
 
 - [ ] resources and users
-- [x] resources and conditions
+- [ ] resources and conditions
 - [ ] events and users
 - [ ] events and conditions
 
 #### Q17. What does Lambda logging include?
 
-- [x] logging streams
+- [ ] logging streams
 - [ ] rotating streams
 - [ ] logging events
 - [ ] advancing log groups
@@ -122,28 +122,28 @@
 #### Q18. What can AWS Amplify NOT do for a Lambda?
 
 - [ ] create a Lambda
-- [x] be an event source
+- [ ] be an event source
 - [ ] assign an IAM role
 - [ ] delete a Lambda
 
 #### Q19. How do you author a Lambda in a programming language that AWS does not support?
 
 - [ ] Create a Lambda function with a custom runtime and reference the function in your Lambda
-- [x] Create a Lambda layer with a custom runtime and reference the layer in your lambda
+- [ ] Create a Lambda layer with a custom runtime and reference the layer in your lambda
 - [ ] You cannot use Lambda in this situation
 - [ ] Create a Lambda function with a custom runtime
 
 #### Q20. What are listed downstream resources based on?
 
 - [ ] the execution policy
-- [x] the Lambda configuration
+- [ ] the Lambda configuration
 - [ ] the Lambda nodes
 - [ ] the IAM user
 
 #### Q21. Which is an equivalent and valid tag for a pair of Lambdas?
 
 - [ ] department:Sales,department:Sales
-- [x] department:Sales,department:sales
+- [ ] department:Sales,department:sales
 - [ ] aws:demo;aws:demo
 - [ ] aws:demo;aws:DEMO
 
@@ -152,20 +152,20 @@
 - [ ] neither of these answers
 - [ ] UDP/IP
 - [ ] TCP/IP
-- [x] both of these answers
+- [ ] both of these answers
 
 #### Q23. How are CloudWatch actions configured?
 
 - [ ] automatically
 - [ ] none of these answers
-- [x] manually
+- [ ] manually
 - [ ] ad hoc
 
 #### Q24. You are testing your stream-based application and the associated Lambda. AWS best practice advises you to test by varying what?
 
 - [ ] stream and record sizes
 - [ ] stream and shard sizes
-- [x] batch and record sizes
+- [ ] batch and record sizes
 - [ ] batch and shard sizes
 
 #### Q25. You need to make your Lambda available to services in multiple VPCs. What do you do?
@@ -173,25 +173,25 @@
 - [ ] Place each subnet in a VPC. Associate all subnets to your Lambda.
 - [ ] Place all subnets in a VPC. Associate all subnets to your Lambda.
 - [ ] Configure your Lambda to be available to multiple VPCs.
-- [x] Configure all application VPCs to be peered.
+- [ ] Configure all application VPCs to be peered.
 
 #### Q26. How is the cost associated with Lambda function calculated?
 
 - [ ] number of function calls
 - [ ] amount of code run
-- [x] compute time
+- [ ] compute time
 - [ ] amount of infrastructure used
 
 #### Q27. What is the fastest way to get started with Lambda?
 
 - [ ] Author a Lambda from scratch.
-- [x] Use a blueprint.
+- [ ] Use a blueprint.
 - [ ] Use a .zip deployment package.
 - [ ] Use the serverless app repository.
 
 #### Q28. Where is the disk space allocated for Lambda functions?
 
-- [x] /tmp
+- [ ] /tmp
 - [ ] /default
 - [ ] /temp
 - [ ] /ds
@@ -199,13 +199,13 @@
 #### Q29. How do you stop a running Lambda that is stuck in a recursive loop?
 
 - [ ] Delete the function.
-- [x] Set the function concurrent execution limit to 0 while you update the code.
+- [ ] Set the function concurrent execution limit to 0 while you update the code.
 - [ ] Reset the function.
 - [ ] Set the function concurrent execution limit to 100 while you update the code.
 
 #### Q30. What is AWS best practice for Lambda configuration?
 
-- [x] Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings.
+- [ ] Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings.
 - [ ] Overprovision memory and your function timeout settings to run your functions faster and reduce your costs.
 - [ ] Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs.
 - [ ] Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs.
@@ -215,26 +215,26 @@
 - [ ] removing log groups
 - [ ] none of these answers
 - [ ] creating log groups
-- [x] updating log groups
+- [ ] updating log groups
 
 #### Q32. How are environment variables stored?
 
 - [ ] DynamoDB tables
-- [x] key-value pairs
+- [ ] key-value pairs
 - [ ] S3 buckets
 - [ ] none of these answers
 
 #### Q33. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?
 
 - [ ] S3
-- [x] API Gateway
+- [ ] API Gateway
 - [ ] X-Ray
 - [ ] DynamoDB
 
 #### Q34. You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?
 
 - [ ] in the Lambda function code
-- [x] in a Lambda environment variable
+- [ ] in a Lambda environment variable
 - [ ] in the Lambda tags
 - [ ] in another S3 bucket
 
@@ -243,19 +243,19 @@
 - [ ] Deploy the Lambda
 - [ ] Export the function
 - [ ] none of these answers
-- [x] Configure a test event
+- [ ] Configure a test event
 
 #### Q36. What kind of packages can you use with Node.js for Lambdas?
 
 - [ ] Fleece
-- [x] NPM
+- [ ] NPM
 - [ ] none of these answers
 - [ ] Pod
 
 #### Q37. Lambdas are monitored by default using which service?
 
 - [ ] CloudTrail
-- [x] CloudWatch
+- [ ] CloudWatch
 - [ ] CloudFormation
 - [ ] LogWatch
 
@@ -264,20 +264,20 @@
 - [ ] a table definition
 - [ ] queue isolation
 - [ ] STS Write
-- [x] an SNS topic
+- [ ] an SNS topic
 
 #### Q39. You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?
 
 - [ ] POST
 - [ ] "All object create events"
-- [x] PUT
+- [ ] PUT
 - [ ] COPY
 
 #### Q40. To make Lambdas more testable, it is AWS best practice to separate which of these?
 
 - [ ] Lambda configuration from logging code
 - [ ] Lambda handler from logging code
-- [x] Lambda handler from core logic
+- [ ] Lambda handler from core logic
 - [ ] Lambda configuration from core logic
 
 #### Q41. What is included in an exported Lambda deployment package?
@@ -285,46 +285,46 @@
 - [ ] YAML definition
 - [ ] CloudFormation stack configuration
 - [ ] SAML deployment stack
-- [x] Zip file of all related files
+- [ ] Zip file of all related files
 
 #### Q42. When can you change the execution role of a Lambda?
 
 - [ ] only at creation
 - [ ] only before deployment
 - [ ] never
-- [x] anytime via configuration
+- [ ] anytime via configuration
 
 #### Q43. What is the relationship between SAM template and CloudFormation template files?
 
 - [ X] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
 - [ ] SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template.
-- [x] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
+- [ ] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
 - [ ] SAM templates are a different name for CloudFormation templates. Both template types include the same resource types.
 
 #### Q44. What service deploys Lambdas regionally?
 
 - [ ] EdgeCloud
 - [ ] CloudEdge
-- [x] CloudFront
+- [ ] CloudFront
 - [ ] CloudStack
 
 #### Q45. What programming language does AWS Lambda support?
 
 - [ ] custom
-- [x] all of these answers
+- [ ] all of these answers
 - [ ] Java
 - [ ] Ruby
 
 #### Q46. You need to setup a mechanism to put controls in place to notify you when you have a spike in Lambda concurrency. What should you do?
 
 - [ ] Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.
-- [x] Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.
+- [ ] Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.
 - [ ] Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs.
 - [ ] Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs.
 
 #### Q47. You want to minimize cold start time for your Lambda. What do you do?
 
-- [x] Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.
+- [ ] Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.
 - [ ] Add extra code to check if the permanent cache, or the /cache directory, has the data that you stored.
 - [ ] Do nothing. AWS minimizes cols start time by default.
 - [ ] Create a warm-up Lambda that calls your Lambda every minute
@@ -333,7 +333,7 @@
 
 #### Q48. When is Lambda code stored encrypted?
 
-- [x] at rest
+- [ ] at rest
 - [ ] at runtime
 - [ ] at deployment
 - [ ] non of these answers
@@ -344,7 +344,7 @@
 
 - [ ] at the function level
 - [ ] at the alias or function level
-- [x] at the version, alias, or function level
+- [ ] at the version, alias, or function level
 - [ ] at the version or function level
 
 [Reference](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html)
@@ -354,7 +354,7 @@
 - [ ] Kinesis, S3, and SQS
 - [ ] Kinesis, S3, and SNS
 - [ ] Kinesis, DynamoDB, and SNS
-- [x] Kinesis, DynamoDB, and SQS
+- [ ] Kinesis, DynamoDB, and SQS
 
 **Explanation**
 
@@ -362,7 +362,7 @@
 
 #### Q51. Via what can a Lambda be called?
 
-- [x] all of these answers
+- [ ] all of these answers
 - [ ] a DynamoDB trigger
 - [ ] an API Gateway
 - [ ] an S3 bucket event
@@ -377,14 +377,14 @@
 
 - [ ] Image processing
 - [ ] web application
-- [x] both
+- [ ] both
 - [ ] Neither 1st and 2nd
 
 #### Q53. Events are AWS resources that trigger the Lambda function. What data type is the SAM file Events property?
 
 - [ ] Integer
 - [ ] Float
-- [x] Array
+- [ ] Array
 - [ ] String
 
 #### Q54. A company is using an API built using Amazon Lambda, Amazon API Gateway, and Amazon DynamoDB in production. The developer has observed high latency during peak periods. Which approach would best resolve the issue?
@@ -392,11 +392,11 @@
 - [ ] Increase the Lambda function timeout
 - [ ] Route traffic to API Gateway using a Route 53 alias
 - [ ] Disable payload compression for the API
-- [x] Enable API Gateway stage-level caching
+- [ ] Enable API Gateway stage-level caching
 
 #### Q55. The AWS Serverless Application Model (AWS SAM) is a model that \_\_\_\_ .
 
-- [x] defines serverless applications
+- [ ] defines serverless applications
 - [ ] associates permissions policies
 - [ ] creates Lambda functions
 - [ ] packages deployment artifacts
@@ -406,25 +406,25 @@
 - [ ] the event source
 - [ ] the downstream resource
 - [ ] the log stream
-- [x] the Lambda function
+- [ ] the Lambda function
 
 #### Q57. A developer has created a Lambda function to scrub real-time data of extraneous information and then send the scrubbed data to Kinesis for further processing and storage. Some of the data showing up in Kinesis seems to be inaccurate. What's the best way for the developer to debug this?
 
 - [ ] Look directly at the Lambda Logs in CloudWatch
 - [ ] Send the Lambda failures to a Dead Letter Queue
-- [x] Use AWS X-Ray to step through the function
+- [ ] Use AWS X-Ray to step through the function
 - [ ] Use Kinesis to write their own custom logging tool
 
 #### Q58. Lambdas can be created **\_**.
 
-- [x] All of these answers
+- [ ] All of these answers
 - [ ] From scratch
 - [ ] From the app repository
 - [ ] Using a blueprint
 
 #### Q59. You need to quickly understand execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?
 
-- [x] Enable tracing, rerun the lambdas, and view in the lambda console
+- [ ] Enable tracing, rerun the lambdas, and view in the lambda console
 - [ ] View the logs in CloudTrail
 - [ ] View the logs in CloudWatch
 - [ ] Enable tracing, rerun the Lambdas, and view in the X-Ray console
@@ -434,12 +434,12 @@
 - [ ] AWS SAM
 - [ ] AWS CLI
 - [ ] AWS CloudFormation
-- [x] AWS SAM CLI
+- [ ] AWS SAM CLI
 
 #### Q61. Your function failed to execute due to a timeout. What type of error is this?
 
 - [ ] Caller
-- [x] Runtime
+- [ ] Runtime
 - [ ] Request
 - [ ] Account
 
@@ -447,7 +447,7 @@
 
 - [ ] Enable Auto Scaling Groups for AWS Lambda to ensure that enough Lambda functions are ready to handle the incoming requests
 - [ ] Throttle Lambda functions by configuring reserved concurrency, sending the excess traffic to Dead Letter Queues (DLQ) that will be handled when the request volume reduces.
-- [x] Look at service limits for Amazon API Gateway and Lambda functions used in order to identify potential bottlenecks and balance performance requirements, costs, and business impact
+- [ ] Look at service limits for Amazon API Gateway and Lambda functions used in order to identify potential bottlenecks and balance performance requirements, costs, and business impact
 - [ ] Do nothing. API Gateway and AWS Lambda are managed services that have built-in horizontal scaling, security, and high availability to handle unlimited amount of requests
 
 **Explanation**

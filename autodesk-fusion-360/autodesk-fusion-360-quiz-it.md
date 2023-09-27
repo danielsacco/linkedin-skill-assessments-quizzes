@@ -3,20 +3,20 @@
 #### D1. Come è possibile modificare una funzionalità?
 
 - [ ] Selezionare la feature, premere CANC, quindi creare una nuova feature.
-- [x] Fate clic con il pulsante destro del mouse sulla feature e selezionate Modifica feature (Edit Feature).
+- [ ] Fate clic con il pulsante destro del mouse sulla feature e selezionate Modifica feature (Edit Feature).
 - [ ] Continua a fare clic su Annulla fino a quando la funzione non è scomparsa.
 - [ ] Individuare la funzionalità nel browser, selezionare Rimuovi, quindi creare una nuova funzionalità.
 
 #### D2. Quale strumento crea un piano normale a un tracciato o a uno spigolo di sketch?
 
 - [ ] Piano attraverso due spigoli
-- [x] Piano lungo il percorso
+- [ ] Piano lungo il percorso
 - [ ] Piano ad angolo
 - [ ] Piano attraverso tre punti
 
 #### D3. Quale strumento misura la distanza precisa tra due punti e crea dimensioni parallele alla posizione degli oggetti?
 
-- [x] Quota allineata
+- [ ] Quota allineata
 - [ ] Dimensione lineare
 - [ ] Quota angolare
 - [ ] Quota di ordinata
@@ -25,7 +25,7 @@
 
 ![image](images/question_4.png?raw=true)
 
-- [x] 1
+- [ ] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
@@ -39,7 +39,7 @@
 - [ ] senza attrito
 - [ ] spostamento prescritto
 - [ ] pin
-- [x] fisso
+- [ ] fisso
 
 #### D6. Nell'area di lavoro CAM, quale strategia rimuove la cavità interna di una parte?
 
@@ -64,7 +64,7 @@
 
 #### D9. Quale tipo di foro inserisce automaticamente un valore di diametro in base al tipo di elemento di fissaggio che ospiterà?
 
-- [x] Gioco
+- [ ] Gioco
 - [ ] Semplice
 - [ ] Forato
 - [ ] Attraverso
@@ -79,7 +79,7 @@
 #### D11. Cosa è necessario per invitare altre persone nella cartella del progetto?
 
 - [ ] un nome
-- [x] un indirizzo e-mail
+- [ ] un indirizzo e-mail
 - [ ] un indirizzo IP
 - [ ] un numero di telefono
 
@@ -94,12 +94,12 @@
 
 - [ ] cursore
 - [ ] revolute
-- [x] planare
+- [ ] planare
 - [ ] pin-slot
 
 #### D14. Quale vista mostra una parte di disegno in scala ingrandita?
 
-- [x] vista di dettaglio
+- [ ] vista di dettaglio
 - [ ] vista sezione
 - [ ] vista di base
 - [ ] vista proiettata
@@ -107,7 +107,7 @@
 #### D15. Quale tipo di file non è un output di disegno?
 
 - [ ] File DWG
-- [x] File CSV
+- [ ] File CSV
 - [ ] File STEP
 - [ ] File PDF
 
@@ -120,7 +120,7 @@
 
 #### D17. Quale traduttore converte il percorso utensile dello schermo in un linguaggio compreso dalla macchina CNC?
 
-- [x] un postprocessore
+- [ ] un postprocessore
 - [ ] Codice G
 - [ ] Codice NC
 - [ ] un processore di codice
@@ -134,7 +134,7 @@
 
 #### D19. Qual è la vista iniziale posizionata in un disegno chiamato?
 
-- [x] vista di base
+- [ ] vista di base
 - [ ] vista dettaglio
 - [ ] vista sezione
 - [ ] vista principale
@@ -144,7 +144,7 @@
 - [ ] Bozza
 - [ ] Stampa
 - [ ] Tirare
-- [x] Combina
+- [ ] Combina
 - [ ] Scala
 
 #### D21. Nell'area di lavoro CAM, quale strategia rimuove la cavità interna di una parte?
@@ -156,7 +156,7 @@
 
 #### D22. A cosa serve lo strumento Zebra Analysis?
 
-- [x] Controlla la continuità di un corpo.
+- [ ] Controlla la continuità di un corpo.
 - [ ] Divide i corpi a parte.
 - [ ] Fissa i corpi.
 - [ ] Applica un rendering metallico.
@@ -165,13 +165,13 @@
 
 - [ ] Animazione
 - [ ] Maglia
-- [x] Simulazione
+- [ ] Simulazione
 - [ ] Rendering
 
 #### D24. Quale tipo di raccordo applica due o più valori di raggio a uno spigolo selezionato?
 
 - [ ] G2
-- [x] Raggio variabile
+- [ ] Raggio variabile
 - [ ] Lunghezza dell'accordo
 - [ ] Liscio
 
@@ -200,7 +200,7 @@
 
 ![image](images/question_28.png?raw=png)
 
-- [x] Due
+- [ ] Due
 - [ ] Tre
 - [ ] Nessuno
 - [ ] Uno
@@ -209,12 +209,12 @@
 
 - [ ] Uniforme
 - [ ] Riparazione corpo
-- [x] Modalità di visualizzazione
+- [ ] Modalità di visualizzazione
 - [ ] Migliora le prestazioni
 
 #### D30. Quale comando divide un corpo utilizzando le superfici generate dalle sue curve di contorno?
 
-- [x] Corpo diviso
+- [ ] Corpo diviso
 - [ ] Componente diviso
 - [ ] Silhouette Split
 - [ ] Faccia divisa
@@ -224,19 +224,19 @@
 - [ ] Vincoli di assieme
 - [ ] Motion Link
 - [ ] Controllo del movimento
-- [x] Articolazioni
+- [ ] Articolazioni
 
 #### D32. Quale comando unisce le superfici per creare un unico corpo di superficie?
 
 - [ ] Combina
 - [ ] Unisci
-- [x] Unisciti
+- [ ] Unisciti
 - [ ] Punto
 
 #### D33. Quale comando utilizza una curva di sketch aperta per creare una feature sottile?
 
 - [ ] Discussione
-- [x] Costola
+- [ ] Costola
 - [ ] Loft
 - [ ] spazzare
 
@@ -252,18 +252,18 @@
 - [ ] Addensare
 - [ ] Aperto
 - [ ] Offset
-- [x] Conchiglia
+- [ ] Conchiglia
 
 #### D36. Quale strumento di analisi genera una vista di taglio del modello su un singolo piano?
 
 - [ ] Segmento
-- [x] Sezione
+- [ ] Sezione
 - [ ] Dettaglio
 - [ ] Proiezione
 
 #### D36. Quale non è un tipo di aspetto disponibile nell'area di lavoro Rendering?
 
-- [x] Corpi
+- [ ] Corpi
 - [ ] Plastica
 - [ ] Legno
 - [ ] Metallo

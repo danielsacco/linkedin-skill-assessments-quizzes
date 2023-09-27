@@ -5,7 +5,7 @@
 ![Q1](images/001.jpg)
 
 - [ ] nella sezione `Components` pannello
-- [x] nella casella `Layers` pannello
+- [ ] nella casella `Layers` pannello
 - [ ] nella sezione `Property Inspector`
 - [ ] in modalità Condividi
 
@@ -14,7 +14,7 @@
 ![Q2](images/002.jpg)
 
 - [ ] 30
-- [x] 20
+- [ ] 20
 - [ ] 43
 - [ ] 0
 
@@ -25,11 +25,11 @@
 - [ ] Modificare il trigger.
 - [ ] Scegli una destinazione.
 - [ ] Aggiungi una nuova interazione.
-- [x] Aggiungere un nuovo stato.
+- [ ] Aggiungere un nuovo stato.
 
 #### D4. Vuoi condividere il tuo progetto su un blog o sui social media. Come ci riusciresti?
 
-- [x] Collegamento al progetto dall'account Creative Cloud.
+- [ ] Collegamento al progetto dall'account Creative Cloud.
 - [ ] Utilizzare il collegamento prototipo.
 - [ ] Aggiungi il link del prototipo a un blog.
 - [ ] Aggiungi i tuoi account di social media alla tua lista di inviti.
@@ -64,7 +64,7 @@
 
 #### D9. È stato creato un pulsante e convertito in un componente per renderlo interattivo. Quando si apre l'area Componente (Master) in Impostazioni proprietà e si fa clic su Stato predefinito, si nota che al pulsante è già applicato uno stato. Quale stato viene applicato?
 
-- [x] Passa il mouse
+- [ ] Passa il mouse
 - [ ] Trascina
 - [ ] Voce
 - [ ] Tocca
@@ -95,7 +95,7 @@
 ![Q13](images/004.jpg)
 
 - [ ] destinazione.
-- [x] interazione.
+- [ ] interazione.
 - [ ] trigger
 - [ ] animazione.
 
@@ -103,7 +103,7 @@
 
 ![Q14](images/005.jpg)
 
-- [x] L'anteprima passa alla vista tavola da disegno.
+- [ ] L'anteprima passa alla vista tavola da disegno.
 - [ ] L'anteprima passa al flusso utente.
 - [ ] L'anteprima passa alla visualizzazione sviluppatore.
 - [ ] Vengono visualizzate le proprietà della tavola da disegno
@@ -111,7 +111,7 @@
 #### D15. Quale metodo per portare i contenuti di Illustrator in XD non è possibile?
 
 - [ ] Trascinate un file di Illustrator (. Al) in un progetto XD.
-- [x] Copia e incolla il contenuto da Illustrator a XD.
+- [ ] Copia e incolla il contenuto da Illustrator a XD.
 - [ ] Aprite un file illustrator (. Al) in XD per convertirlo in un progetto XD.
 - [ ] Importare un file illustrator (. Al) in un progetto XD.
 

@@ -7,7 +7,7 @@ NSMutableString *s = [NSMutableString stringWithString: @"123"];
 [s appendString: @"456"];
 ```
 
-- [x] 123456
+- [ ] 123456
 - [ ] 123
 - [ ] 123
 - [ ] 456
@@ -21,7 +21,7 @@ NSInteger i = str.integerValue;
 ```
 
 - [ ] nil
-- [x] 0 (technically `nil` == 0 but i will have a literal value of `0` and not the `void*` value of `nil`)
+- [ ] 0 (technically `nil` == 0 but i will have a literal value of `0` and not the `void*` value of `nil`)
 - [ ] -1
 - [ ] This code crashes.
 
@@ -29,7 +29,7 @@ NSInteger i = str.integerValue;
 
 `NSString str = "test" + " " + "more";`
 
-- [x] This code contains an error
+- [ ] This code contains an error
 - [ ] test
 - [ ] nil
 - [ ] test more
@@ -45,21 +45,21 @@ NSInteger i = str.integerValue;
     NSLog(@"%@", n2.firstObject);
 ```
 
-- [x] 2
+- [ ] 2
 - [ ] 1,2,3
 - [ ] 1,2
 - [ ] Nothing, since this code contains an error.
 
 #### Q5. Property defaults include \_?
 
-- [x] atomic/strong
+- [ ] atomic/strong
 - [ ] atomic/weak
 - [ ] nonatomic/weak
 - [ ] nonatomic/strong
 
 #### Q6. What is the key difference between NSDictionary and NSMutableDictionary?
 
-- [x] NSMutableDictionary's values can change
+- [ ] NSMutableDictionary's values can change
 - [ ] NSMutableDictionary has not initializers.
 - [ ] NSDictionary can't be copied.
 - [ ] NSDictionary's values can change.
@@ -68,7 +68,7 @@ NSInteger i = str.integerValue;
 
 `-(float)foo;`
 
-- [x] A function with a return type of float.
+- [ ] A function with a return type of float.
 - [ ] This code contains an error.
 - [ ] A variable declaration of type float.
 - [ ] A property of type float.
@@ -77,7 +77,7 @@ NSInteger i = str.integerValue;
 
 `#import "NSString+NameHelper.h"`
 
-- [x] NameHelper is a category of NSString.
+- [ ] NameHelper is a category of NSString.
 - [ ] NameHelper is a subclass of NSString.
 - [ ] NSString implements the NameHelper protocol.
 - [ ] NSString has a helper class.
@@ -86,7 +86,7 @@ NSInteger i = str.integerValue;
 
 `float x = 5.;`
 
-- [x] Nothing is wrong with this code.
+- [ ] Nothing is wrong with this code.
 - [ ] Declarations do not need semicolons.
 - [ ] x=5 is an invalid float.
 - [ ] Variables can't be declared and initialized in the same state.
@@ -99,7 +99,7 @@ for (int x=0; x<100; x++) {
 }
 ```
 
-- [x] 50
+- [ ] 50
 - [ ] 99
 - [ ] 100
 - [ ] This code contains an error.
@@ -108,14 +108,14 @@ for (int x=0; x<100; x++) {
 
 `[self addObserver: self forKeyPath: @"val" options:0 context: nil];`
 
-- [x] Key-Value Observing
+- [ ] Key-Value Observing
 - [ ] Class Value Observing
 - [ ] Key-Data Observing
 - [ ] KeyPath Observing
 
 #### Q12. What does ARC stand for?
 
-- [x] Automatic Reference Counting
+- [ ] Automatic Reference Counting
 - [ ] Automatic Retain Checking
 - [ ] Async Retain Cycles
 - [ ] Automatic Release Code
@@ -128,14 +128,14 @@ val = 1.5;
 printf("%d", val);
 ```
 
-- [x] 1
+- [ ] 1
 - [ ] 2
 - [ ] 0
 - [ ] This code contains an error.
 
 #### Q14. What best describes class inheritance in Objective-C?
 
-- [x] single inheritance but multiple protocol implementation
+- [ ] single inheritance but multiple protocol implementation
 - [ ] Objective-C doesn't support inheritance
 - [ ] dual class inheritance
 - [ ] unlimited class inheritance and protocol adherence
@@ -144,7 +144,7 @@ printf("%d", val);
 
 `NSDictionary *dict = [[NSDictionary alloc] initWithObjectsAndKeys: @"b", @"e", @"a", @"r", nil];`
 
-- [x] 2
+- [ ] 2
 - [ ] 4
 - [ ] 5
 - [ ] This code contains an error.
@@ -157,7 +157,7 @@ NSMutableDictionary *dict1 = [NSMutableDictionary dictionaryWithCapacity:5];
 ```
 
 - [ ] The key and value items are mixed
-- [x] Nothing is wrong with it
+- [ ] Nothing is wrong with it
 - [ ] You can't set the capacity of a dictionary
 - [ ] NSMutableDictionary doesn't have a :setValue:forKey function.
 
@@ -168,7 +168,7 @@ NSData *data = [@"print" dataUsingEncoding:NSASCIIStringEncoding];
 NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]);
 ```
 
-- [x] print
+- [ ] print
 - [ ] This code is invalid
 - [ ] Nothing is printed from this code.
 - [ ] nil
@@ -177,7 +177,7 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
 
 `+(void)doSomething;`
 
-- [x] It is static
+- [ ] It is static
 - [ ] It is abstract.
 - [ ] It is inline.
 - [ ] This code contains an error.
@@ -186,7 +186,7 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
 
 - [ ] functions
 - [ ] initializers
-- [x] fields
+- [ ] fields
 - [ ] all of these answers
 
 #### Q20. What is wrong with this code?
@@ -197,7 +197,7 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
   @end
 ```
 
-- [x] There is nothing wrong with this code.
+- [ ] There is nothing wrong with this code.
 - [ ] There is not read-only directive.
 - [ ] MyClass doesn't implement NSObject.
 - [ ] Properties are declared in the implementation.
@@ -206,21 +206,21 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
 
 `typedef enum { Foo1, Foo2} Foo;`
 
-- [x] There is no base type.
+- [ ] There is no base type.
 - [ ] NSObject
 - [ ] int
 - [ ] NSNumber
 
 #### Q22. If you want to store a small amount of information (e.g., user settings), whats the best, built-in way to go?
 
-- [x] UserDefaults
+- [ ] UserDefaults
 - [ ] plist file
 - [ ] CoreData
 - [ ] TextFile
 
 #### Q23. What are categories used for?
 
-- [x] to extend other classes
+- [ ] to extend other classes
 - [ ] to manage access control
 - [ ] to coordinate objects
 - [ ] to group classes
@@ -232,7 +232,7 @@ if ([keyPath isInstanceOf:[NSString class]]) {
 }
 ```
 
-- [x] This code contains an error
+- [ ] This code contains an error
 - [ ] if keyPath is an instance of NSString
 - [ ] if keyPath's baseclass is the same as NSString's baseclass
 - [ ] if keyPath implements the same methods as NSString
@@ -243,7 +243,7 @@ if ([keyPath isInstanceOf:[NSString class]]) {
 
 - [ ] an Extension
 - [ ] a Generic
-- [x] a block of code
+- [ ] a block of code
 - [ ] an abstract class
 
 #### Q26. For observing changes to a property, which of these two statements cause the related method to be called and why?
@@ -253,7 +253,7 @@ if ([keyPath isInstanceOf:[NSString class]]) {
 2. self.val= 100;
 ```
 
-- [x] Statement 2, since it calls the auto-created setter on the property.
+- [ ] Statement 2, since it calls the auto-created setter on the property.
 - [ ] Statement 1, since it uses the property directly.
 - [ ] Statement 2, since it specifies the class instance to use.
 - [ ] Statement 1, since it calls the auto-created setter on the property.
@@ -271,11 +271,11 @@ foo(5);
 - [ ] Ints and floats can't be multiplied.
 - [ ] The parameter isn't declared correctly.
 - [ ] x is not in the right scope.
-- [x] Nothing is wrong with this code.
+- [ ] Nothing is wrong with this code.
 
 #### Q28. What's the difference between an array and a set?
 
-- [x] Arrays are ordered, non-unique values.
+- [ ] Arrays are ordered, non-unique values.
 - [ ] Arrays are stored sorted.
 - [ ] Sets are ordered, unique values.
 - [ ] Sets can contain nils.
@@ -284,7 +284,7 @@ foo(5);
 
 - [ ] nothing, as they're never used in Objective-C
 - [ ] function calls only
-- [x] property getter/setter
+- [ ] property getter/setter
 - [ ] parameter delimiters
 
 #### Q30. What is the value of newVals after this code is executed?
@@ -295,7 +295,7 @@ NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF.intValue > 1"];
 NSArray *newVals = [vals filteredArrayUsingPredicate:pred];
 ```
 
-- [x] 2,3
+- [ ] 2,3
 - [ ] nil
 - [ ] This code contains an error
 - [ ] 2,"3"
@@ -307,7 +307,7 @@ NSArray *newVals = [vals filteredArrayUsingPredicate:pred];
 - [ ] self.foo(5, b:10);
 - [ ] This code contains an error.
 - [ ] [self foo:5:10:20];
-- [x] [self foo:5 b:10];
+- [ ] [self foo:5 b:10];
 
 #### Q32. What is the type of the error return value stored in json?
 
@@ -319,7 +319,7 @@ id json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllo
 
 - [ ] NSString
 - [ ] NSArray
-- [x] id
+- [ ] id
 - [ ] NSDictionary
 
 #### Q33. What is significant about this function declaration?
@@ -331,7 +331,7 @@ id json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllo
 - [ ] The parameter is passed by value and can not be changed
 - [ ] \*\* is not allowed on a parameter
 - [ ] The parameter may be nil
-- [x] The parameter is passed by reference and may be changed
+- [ ] The parameter is passed by reference and may be changed
 
 #### Q34. What is printed from this code execution?
 
@@ -349,7 +349,7 @@ typedef enum {
 ```
 
 - [ ] 0
-- [x] 1
+- [ ] 1
 - [ ] thing2
 - [ ] This code does not print anything
 
@@ -358,7 +358,7 @@ typedef enum {
 - [ ] non-atomic
 - [ ] strong
 - [ ] weak
-- [x] atomic
+- [ ] atomic
 
 #### Q36. What is wrong with this line of code?
 
@@ -369,7 +369,7 @@ int temp = 1==1;
 - [ ] `temp` is a keyword.
 - [ ] 1==1 is invalid.
 - [ ] 1==1 evaluates to a Boolean.
-- [x] Nothing is wrong with it.
+- [ ] Nothing is wrong with it.
 
 #### Q37. What is special about the code within this block?
 
@@ -379,7 +379,7 @@ dispatch_async(dispatch_get_main_queue(), ^{
 });
 ```
 
-- [x] It executes on the main queue.
+- [ ] It executes on the main queue.
 - [ ] It is the last code to run before the app goes inactive.
 - [ ] It executes on a background thread.
 - [ ] It is queued to execute in the background.
@@ -394,7 +394,7 @@ NSMutableSet *set1 = [NSMutableSet setWithObjects: @1,@2, @3, @4, @5, nil];
 - [ ] zero
 - [ ] six
 - [ ] one
-- [x] five
+- [ ] five
 
 #### Q39. What is wrong with this code?
 
@@ -404,7 +404,7 @@ NSlog(@"d1: %@", d1);
 ```
 
 - [ ] NSDictionary cannot be printed this way.
-- [x] The last key is missing a value.
+- [ ] The last key is missing a value.
 - [ ] Dictionaries cannot have mixed types as values.
 - [ ] d1 is assigned an NSArray of values.
 
@@ -417,11 +417,11 @@ NSlog(@"d1: %@", d1);
 - [ ] 8
 - [ ] nil
 - [ ] -1
-- [x] undefined
+- [ ] undefined
 
 #### Q41. Which thread should UI updates be processed on to avoid crashes and application lag?
 
-- [x] UI
+- [ ] UI
 - [ ] dispatch
 - [ ] background
 - [ ] main
@@ -435,7 +435,7 @@ BOOL tf = val.boolValue;
 
 - [ ] This code is invalid
 - [ ] YES
-- [x] NO
+- [ ] NO
 - [ ] 1
 
 #### Q43. In this code, what does ThatOne refer to?
@@ -446,7 +446,7 @@ BOOL tf = val.boolValue;
 
 - [ ] the parent class of TestClass
 - [ ] the name of the category being created for ThisOne
-- [x] a protocoL impLemented by ThisOne
+- [ ] a protocoL impLemented by ThisOne
 - [ ] a helper file's name
 
 #### Q44. What is the value of result after this code is executed?
@@ -458,7 +458,7 @@ NSString *result = [Ftest"
 
 - [ ] ""
 - [ ] "es"
-- [x] "test"
+- [ ] "test"
 - [ ] none of these answers
 
 #### Q45. When will self receive the notification based on this code?
@@ -472,7 +472,7 @@ MyClass .classObj = [[MyClass allot] init];
 - [ ] none of these answers
 - [ ] class0bj will recieve the notification, not self.
 - [ ] when class0bj is set to "name"
-- [x] when the name property in the class0bj instance changes
+- [ ] when the name property in the class0bj instance changes
 
 #### Q46. What is wrong with this code?
 
@@ -481,7 +481,7 @@ MyClass .classObj = [[MyClass allot] init];
 ```
 
 - [ ] String literal are not created with\*.
-- [x] NSString doesn't have a boolValue function.
+- [ ] NSString doesn't have a boolValue function.
 - [ ] "true" has no meaning.
 - [ ] There is nothing wrong with this code.
 
@@ -496,7 +496,7 @@ for (int i=0; i>loopVal; i--){
 
 - [ ] an infinite number of times
 - [ ] This code is invalid.
-- [x] zero
+- [ ] zero
 - [ ] one
 
 #### Q48. What will this code print?
@@ -507,7 +507,7 @@ NSLog(@"%lu", @"test".length);
 
 - [ ] "test"
 - [ ] Nothing, this code is invalid.
-- [x] 4
+- [ ] 4
 - [ ] 0
 
 #### Q49. What is the value of numVtoInt after this code is executed?
@@ -520,7 +520,7 @@ int numVtoInt = numV.intValue;
 - [ ] 6
 - [ ] 0
 - [ ] 6.7
-- [x] 7
+- [ ] 7
 
 #### Q50. What does this code print?
 
@@ -529,7 +529,7 @@ NSString *val = @"1.23";
 NSLog(@"%.04f", val.floatValue);
 ```
 
-- [x] 1.2300
+- [ ] 1.2300
 - [ ] .04
 - [ ] This code is invalid
 - [ ] 1
@@ -541,6 +541,6 @@ int r1 = arc4random() % 10;
 ```
 
 - [ ] 0
-- [x] 9
+- [ ] 9
 - [ ] 1
 - [ ] 10

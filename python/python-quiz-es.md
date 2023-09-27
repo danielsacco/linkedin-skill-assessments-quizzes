@@ -5,14 +5,14 @@
 - [ ] Una clase abstracta es el nombre de cualquier clase desde la que puede instanciar un objeto.
 - [ ] Las clases abstractas deben redefinirse cada vez que se crea una instancia de un objeto a partir de ellas.
 - [ ] Las clases abstractas deben heredar de las clases concretas.
-- [x] Una clase abstracta existe solo para que otras clases "concretas" puedan heredar de la clase abstracta.
+- [ ] Una clase abstracta existe solo para que otras clases "concretas" puedan heredar de la clase abstracta.
 
 [referencia](https://www.geeksforgeeks.org/abstract-classes-in-python/)
 
 #### P2. ¿Qué sucede cuando usa la función incorporada `any()` en una lista?
 
 - [ ] La función `any()` devolverá aleatoriamente cualquier elemento de la lista.
-- [x] La función `any()` devuelve True si algún elemento de la lista se evalúa como True. De lo contrario, devuelve False.
+- [ ] La función `any()` devuelve True si algún elemento de la lista se evalúa como True. De lo contrario, devuelve False.
 - [ ] La función `any()` toma como argumentos la lista a verificar dentro y el elemento a verificar. Si "cualquiera" de los elementos de la lista coincide con el elemento a comprobar, la función devuelve True.
 - [ ] La función `any()` devuelve un valor booleano que responde a la pregunta "¿Hay algún elemento en esta lista?"
 
@@ -26,7 +26,7 @@ if any([True, False, False, False]) == True:
 
 #### P3. ¿A qué estructura de datos degenera un árbol binario si no está equilibrado correctamente?
 
-- [x] lista enlazada
+- [ ] lista enlazada
 - [ ] cola
 - [ ] establecer
 - [ ] dictado ordenado
@@ -37,7 +37,7 @@ if any([True, False, False, False]) == True:
 
 - [ ] Los métodos estáticos se llaman estáticos porque siempre devuelven `None`.
 - [ ] Los métodos estáticos pueden vincularse a una clase oa una instancia de una clase.
-- [x] Los métodos estáticos sirven principalmente como métodos de utilidad o métodos auxiliares, ya que no pueden acceder ni modificar el estado de una clase.
+- [ ] Los métodos estáticos sirven principalmente como métodos de utilidad o métodos auxiliares, ya que no pueden acceder ni modificar el estado de una clase.
 - [ ] Los métodos estáticos pueden acceder y modificar el estado de una clase o una instancia de una clase.
 
 [referencia](https://www.geeksforgeeks.org/class-method-vs-static-method-python)
@@ -45,7 +45,7 @@ if any([True, False, False, False]) == True:
 #### P5. ¿Qué son los atributos?
 
 - [ ] Los atributos son una versión larga de una declaración `if/else`, que se usa cuando se prueba la igualdad entre objetos.
-- [x] Los atributos son una forma de contener datos o describir un estado para una clase o una instancia de una clase.
+- [ ] Los atributos son una forma de contener datos o describir un estado para una clase o una instancia de una clase.
 - [ ] Los atributos son cadenas que describen las características de una clase.
 - [ ] Los argumentos de función se denominan "atributos" en el contexto de métodos de clase y métodos de instancia.
 
@@ -56,7 +56,7 @@ if any([True, False, False, False]) == True:
 `recuento, fruta, precio = (2, 'manzana', 3,5)`
 
 - [ ] `asignación de tupla`
-- [x] `desempaquetado de tuplas`
+- [ ] `desempaquetado de tuplas`
 - [ ] `coincidencia de tuplas`
 - [ ] `duplicación de tuplas`
 
@@ -65,7 +65,7 @@ if any([True, False, False, False]) == True:
 - [ ] Método `.delete()`
 - [ ] `pop(mi_lista)`
 - [ ] `del(mi_lista)`
-- [x] método `.pop()`
+- [ ] método `.pop()`
 
 **ejemplo**
 
@@ -78,7 +78,7 @@ my_list
 
 #### P8. ¿Cuál es uno de los usos más comunes de la biblioteca sys de Python?
 
-- [x] para capturar los argumentos de la línea de comandos proporcionados en el tiempo de ejecución de un archivo
+- [ ] para capturar los argumentos de la línea de comandos proporcionados en el tiempo de ejecución de un archivo
 - [ ] para conectar varios sistemas, como conectar una interfaz web, un servicio API, una base de datos y una aplicación móvil
 - [ ] para tomar una instantánea de todos los paquetes y bibliotecas en su entorno virtual
 - [ ] para escanear la salud de su ecosistema de Python mientras está dentro de un entorno virtual
@@ -88,11 +88,11 @@ my_list
 - [ ] O(n), también llamado tiempo lineal.
 - [ ] O(log n), también llamado tiempo logarítmico.
 - [ ] O(n^2), también llamado tiempo cuadrático.
-- [x] O(1), también llamado tiempo constante.
+- [ ] O(1), también llamado tiempo constante.
 
 #### P10. ¿Cuál es la sintaxis correcta para definir una clase llamada Game, si hereda de una clase padre llamada LogicGame?
 
-- [x] `class Game(LogicGame): pass`
+- [ ] `class Game(LogicGame): pass`
 - [ ] `def Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 - [ ] `class Game.LogicGame(): pass`
@@ -115,7 +115,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x] B
+- [ ] B
 
 ```python
 def sum(a, b):
@@ -162,7 +162,7 @@ def sum(a, b):
 #### P12. ¿Qué tipo de datos integrado de Python se usa comúnmente para representar una pila (stack en Inglés [Referencia](https://docs.python.org/es/3/tutorial/datastructures.html?highlight=list%20stack#using-lists-as-stacks))?
 
 - [ ] `set`
-- [x] `list`
+- [ ] `list`
 - [ ] `None`
 - [ ] `dictionary`
 - [ ] `Solo puedes construir una pila desde cero.`
@@ -177,13 +177,13 @@ return list(enumerate(college_years, 2019))
 - [ ] `[('Freshman', 2019), ('Sophomore', 2020), ('Junior', 2021), ('Senior', 2022)]`
 - [ ] `[(2019, 2020, 2021, 2022), ('Freshman', 'Sophomore', 'Junior', 'Senior')]`
 - [ ] `[('Freshman', 'Sophomore', 'Junior', 'Senior'), (2019, 2020, 2021, 2022)]`
-- [x] `[(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]`
+- [ ] `[(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]`
 
 #### P14. ¿Cuál es el propósito de la palabra clave "self" al definir o llamar a métodos de instancia?
 
 - [ ] `self` significa que no es necesario pasar ningún otro argumento al método.
 - [ ] No hay un propósito real para el método `self`; es solo una jerga informática histórica que Python mantiene para mantenerse consistente con otros lenguajes de programación.
-- [x] `self` se refiere a la instancia cuyo método fue llamado.
+- [ ] `self` se refiere a la instancia cuyo método fue llamado.
 - [ ] `self` se refiere a la clase de la que se heredó para crear el objeto usando `self`.
 
 **Ejemplo sencillo**
@@ -203,13 +203,13 @@ instance.password
 - [ ] Puede asignar un nombre a cada uno de los miembros de `namedtuple` y referirse a ellos de esa manera, de manera similar a como accedería a las claves en el `dictionary`.
 - [ ] Cada miembro de un objeto de tupla con nombre se puede indexar directamente, como en una `tuple` normal.
 - [ ] Las `namedtuples` son tan eficientes en memoria como las `tuple` regulares.
-- [x] No se necesita importar para usar `namedtuples` porque están disponibles en la biblioteca estándar.
+- [ ] No se necesita importar para usar `namedtuples` porque están disponibles en la biblioteca estándar.
 
 **Necesitamos importarlo usando**:`from collections import namedtuple`
 
 #### P16. ¿Qué es un método de instancia?
 
-- [x] Los métodos de instancia pueden modificar el estado de una instancia o el estado de su clase principal.
+- [ ] Los métodos de instancia pueden modificar el estado de una instancia o el estado de su clase principal.
 - [ ] Los métodos de instancia contienen datos relacionados con la instancia.
 - [ ] Un método de instancia es cualquier método de clase que no acepta ningún argumento.
 - [ ] Un método de instancia es una función normal que pertenece a una clase, pero debe devolver `Ninguno`.
@@ -219,7 +219,7 @@ instance.password
 - [ ] Protege los datos de interferencias externas.
 - [ ] Se encapsula una clase principal y ningún dato de la clase principal pasa a la clase secundaria.
 - [ ] Mantiene los datos y los métodos que pueden manipular esos datos en un solo lugar.
-- [x] Solo permite cambiar los datos por métodos.
+- [ ] Solo permite cambiar los datos por métodos.
 
 [Referencia](https://www.scaler.com/topics/python/encapsulation-in-python/)
 
@@ -227,7 +227,7 @@ instance.password
 
 - [ ] Le dice a la computadora qué fragmento de código ejecutar si las instrucciones que codificaste son incorrectas.
 - [ ] Ejecuta un fragmento de código si todas las importaciones fueron exitosas y otro fragmento de código si las importaciones no fueron exitosas.
-- [x] Ejecuta un trozo de código si una condición es verdadera, pero un trozo de código diferente si la condición es falsa.
+- [ ] Ejecuta un trozo de código si una condición es verdadera, pero un trozo de código diferente si la condición es falsa.
 - [ ] Le dice a la computadora qué fragmento de código ejecutar si hay suficiente memoria para manejarlo, y qué fragmento de código ejecutar si no hay suficiente memoria para manejarlo.
 
 [Referencia](https://www.scaler.com/topics/python/python-if-else-statement/)
@@ -237,19 +237,19 @@ instance.password
 - [ ] diccionario
 - [ ] conjuntos (`set` en Inglés [Referencia](https://docs.python.org/es/3/library/stdtypes.html#set)
 - [ ] Ninguna. Solo puede crear una cola desde cero.
-- [x] lista
+- [ ] lista
 
 #### P20. ¿Cuál es la sintaxis correcta para instanciar un nuevo objeto del tipo Juego?
 
 - [ ] `mi_juego = class.Juego()`
 - [ ] `mi_juego = class(Juego)`
-- [x] `mi_juego = Juego()`
+- [ ] `mi_juego = Juego()`
 - [ ] `mi_juego = Juego.create()`
 
 #### P21. ¿Qué hace la función integrada `map()`?
 
 - [ ] Crea una ruta desde múltiples valores en un iterable a un solo valor.
-- [x] Aplica una función a cada elemento en un iterable y devuelve el valor de esa función.
+- [ ] Aplica una función a cada elemento en un iterable y devuelve el valor de esa función.
 - [ ] Convierte un tipo de valor complejo en tipos de valor más simples.
 - [ ] Crea un mapeo entre dos elementos diferentes de diferentes iterables.
 
@@ -266,20 +266,20 @@ area
 #### P22. Si no devuelve explícitamente un valor de una función, ¿qué sucede?
 
 - [ ] La función devolverá un RuntimeError si no devuelve un valor.
-- [x] Si la palabra clave de retorno está ausente, la función devolverá `None`.
+- [ ] Si la palabra clave de retorno está ausente, la función devolverá `None`.
 - [ ] Si la palabra clave de retorno está ausente, la función devolverá `True`.
 - [ ] La función entrará en un bucle infinito porque no sabrá cuándo dejar de ejecutar su código.
 
 #### P23. ¿Cuál es el propósito de la instrucción `pass` en Python?
 
 - [ ] Se utiliza para omitir la declaración `yield` de un generador y devolver un valor de Ninguno.
-- [x] Es una operación nula utilizada principalmente como marcador de posición en funciones, clases, etc.
+- [ ] Es una operación nula utilizada principalmente como marcador de posición en funciones, clases, etc.
 - [ ] Se utiliza para pasar el control de un bloque de instrucciones a otro.
 - [ ] Se utiliza para omitir el resto de un ciclo `while` o `for` y volver al inicio del ciclo.
 
 #### P24. ¿Cuál es el término que se usa para describir los elementos que se pueden pasar a una función?
 
-- [x] argumentos
+- [ ] argumentos
 - [ ] paradigmas
 - [ ] atributos
 - [ ] decoradores
@@ -287,7 +287,7 @@ area
 #### P25. ¿Qué tipo de colección se utiliza para asociar valores con claves únicas?
 
 - [ ] `slot`
-- [x] `dictionary`
+- [ ] `dictionary`
 - [ ] `queue`
 - [ ] `sorted list`
 
@@ -295,12 +295,12 @@ area
 
 - [ ] cuando encuentra un bucle infinito
 - [ ] cuando encuentra una declaración if/else que contiene una palabra clave break
-- [x] cuando ha evaluado cada elemento en el iterable en el que está trabajando o se encuentra una palabra clave de interrupción
+- [ ] cuando ha evaluado cada elemento en el iterable en el que está trabajando o se encuentra una palabra clave de interrupción
 - [ ] cuando el tiempo de ejecución del ciclo excede O(n^2)
 
 #### P27. Suponiendo que el nodo está en una lista de enlaces únicos, ¿cuál es la complejidad del tiempo de ejecución de buscar un nodo específico dentro de una lista de enlaces únicos?
 
-- [x] El tiempo de ejecución es O(n) porque, en el peor de los casos, el nodo que está buscando es el último nodo y se deben visitar todos los nodos de la lista enlazada.
+- [ ] El tiempo de ejecución es O(n) porque, en el peor de los casos, el nodo que está buscando es el último nodo y se deben visitar todos los nodos de la lista enlazada.
 - [ ] El tiempo de ejecución es O(nk), donde n representa el número de nodos yk representa la cantidad de tiempo que lleva acceder a cada nodo en la memoria.
 - [ ] El tiempo de ejecución no se puede determinar a menos que sepa cuántos nodos hay en la lista de enlaces individuales.
 - [ ] El tiempo de ejecución es O(1) porque puede indexar directamente a un nodo en una lista enlazada individualmente.
@@ -335,7 +335,7 @@ output.append(fruit_tuple)
 return output
 ```
 
-- [x] B
+- [ ] B
 
 ```python
 i = 0
@@ -379,7 +379,7 @@ return output
 - [ ] La función `all()` devuelve un valor booleano que responde a la pregunta "¿Son iguales todos los elementos de esta lista?
 - [ ] La función `all()` devuelve True si todos los elementos de la lista se pueden convertir en cadenas. De lo contrario, devuelve False.
 - [ ] La función `all()` devolverá todos los valores de la lista.
-- [x] La función `all()` devuelve True si todos los elementos de la lista se evalúan como True. De lo contrario, devuelve False.
+- [ ] La función `all()` devuelve True si todos los elementos de la lista se evalúan como True. De lo contrario, devuelve False.
 
 **Explicación** - `all()` devuelve verdadero si todo en la lista es Verdadero, vea el ejemplo a continuación
 
@@ -396,7 +396,7 @@ else:
 
 _(El formato de respuesta puede variar. Game and roll (o dice_roll) deben llamarse sin parámetros)._
 
-- [x] A
+- [ ] A
 
 ```python
 >>> dice = Game()
@@ -429,11 +429,11 @@ _(El formato de respuesta puede variar. Game and roll (o dice_roll) deben llamar
 - [ ] retroceso
 - [ ] programación dinámica
 - [ ] disminuir y conquistar
-- [x] divide y vencerás
+- [ ] divide y vencerás
 
 #### P32. ¿Cuál es la complejidad del tiempo de ejecución del método integrado `.append()` de la lista?
 
-- [x] O(1), también llamado tiempo constante
+- [ ] O(1), también llamado tiempo constante
 - [ ] O(log n), también llamado tiempo logarítmico
 - [ ] O(n^2), también llamado tiempo cuadrático
 - [ ] O(n), también llamado tiempo lineal
@@ -443,12 +443,12 @@ _(El formato de respuesta puede variar. Game and roll (o dice_roll) deben llamar
 - [ ] Un conjunto es una colección ordenada de elementos únicos. Una lista es una colección desordenada de elementos no únicos.
 - [ ] Los elementos se pueden recuperar de una lista pero no se pueden recuperar de un conjunto.
 - [ ] Un conjunto es una colección ordenada de elementos no únicos. Una lista es una colección desordenada de elementos únicos.
-- [x] Un conjunto es una colección desordenada de elementos únicos. Una lista es una colección ordenada de elementos no únicos.
+- [ ] Un conjunto es una colección desordenada de elementos únicos. Una lista es una colección ordenada de elementos no únicos.
 
 #### P34. ¿Cuál es la definición de abstracción aplicada a Python orientado a objetos?
 
 - [ ] Abstracción significa que se puede usar un estilo de código diferente, ya que el programa ya conoce muchos detalles entre bastidores.
-- [x] Abstracción significa que la implementación está oculta para el usuario y solo se muestran los datos o la información relevante.
+- [ ] Abstracción significa que la implementación está oculta para el usuario y solo se muestran los datos o la información relevante.
 - [ ] Abstracción significa que los datos y la funcionalidad de una clase se combinan en una sola entidad.
 - [ ] Abstracción significa que una clase puede heredar de más de una clase padre.
 
@@ -464,7 +464,7 @@ def print_alpha_nums(abc_list, num_list):
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
 
-- [x] A
+- [ ] A
 
 ```python
 a 1
@@ -529,7 +529,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -562,14 +562,14 @@ def sum(a, b):
 - [ ] Al instanciar un objeto, el objeto no hereda ninguno de los métodos de la clase principal.
 - [ ] Al crear una instancia de un objeto, el objeto heredará los métodos de la clase principal que tenga más métodos.
 - [ ] Al crear una instancia de un objeto, el programador debe especificar de qué clase principal heredará los métodos.
-- [x] Una instancia de la clase Game heredará los métodos que tengan las clases BoardGame y LogicGame.
+- [ ] Una instancia de la clase Game heredará los métodos que tengan las clases BoardGame y LogicGame.
 
 #### P38. ¿Qué devuelve llamar a namedtuple en un tipo de colección?
 
 - [ ] una clase de objeto genérico con campos de parámetros iterables
 - [ ] una clase de objeto genérico con campos con nombre no iterables
 - [ ] una subclase de tupla con campos de parámetros no iterables
-- [x] una subclase de tupla con campos iterables con nombre
+- [ ] una subclase de tupla con campos iterables con nombre
 
 **Ejemplo**
 
@@ -597,7 +597,7 @@ desde colecciones importar namedtuple
 
 - [ ] `&&`
 - [ ] `=`
-- [x] `==`
+- [ ] `==`
 - [ ] `||`
 
 #### P40. Revise el código a continuación. ¿Cuál es la sintaxis correcta para cambiar el precio a 1,5?
@@ -610,7 +610,7 @@ fruit_info = {
 }
 ```
 
-- [x] `fruit_info ['price'] = 1.5`
+- [ ] `fruit_info ['price'] = 1.5`
 - [ ] `my_list [3.5] = 1.5`
 - [ ] `1.5 = fruit_info ['price]`
 - [ ] `my_list['price'] == 1.5`
@@ -621,7 +621,7 @@ fruit_info = {
 
 - [ ] `yes`
 - [ ] `False`
-- [x] `True`
+- [ ] `True`
 - [ ] `None`
 
 **Explicación** - `!=` es equivalente a **no igual a** en python
@@ -630,7 +630,7 @@ fruit_info = {
 
 - [ ] Hace que las clases se reconozcan entre sí si se define más de una clase en un solo archivo de código.
 - [ ] Se incluye para preservar la compatibilidad con versiones anteriores de Python 3 a Python 2, pero ya no necesita usarse en Python 3.
-- [x] Es un método que actúa como constructor y se llama automáticamente cada vez que se crea un nuevo objeto a partir de una clase. Determina el estado inicial de un objeto nuevo.
+- [ ] Es un método que actúa como constructor y se llama automáticamente cada vez que se crea un nuevo objeto a partir de una clase. Determina el estado inicial de un objeto nuevo.
 - [ ] Inicializa cualquier importación que haya incluido en la parte superior de su archivo.
 
 **Ejemplo:**
@@ -648,12 +648,12 @@ t1 = test()
 
 - [ ] `Cuántos microprocesadores se necesitarían para ejecutar su código en menos de un segundo`
 - [ ] `Cuántas líneas de código hay en su archivo de código`
-- [x] `La cantidad de espacio ocupado en la memoria en función del tamaño de entrada`
+- [ ] `La cantidad de espacio ocupado en la memoria en función del tamaño de entrada`
 - [ ] `¿Cuántas copias del archivo de código caben en 1 GB de memoria`
 
 #### P44. ¿Cuál es la sintaxis correcta para crear una variable vinculada a un diccionario?
 
-- [x] `info_fruta = {'fruta': 'manzana', 'recuento': 2, 'precio': 3.5}`
+- [ ] `info_fruta = {'fruta': 'manzana', 'recuento': 2, 'precio': 3.5}`
 - [ ] `info_fruta =('fruta': 'manzana', 'recuento': 2,'precio': 3.5 ).dict()`
 - [ ] `info_fruta = ['fruta': 'manzana', 'recuento': 2, 'precio': 3.5 ].dict()`
 - [ ] `info_fruta = to_dict('fruta': 'manzana', 'recuento': 2, 'precio': 3.5)`
@@ -664,7 +664,7 @@ t1 = test()
 
 - [ ] `nombres_de_frutas = [x en fruit.keys() for x]`
 - [ ] `nombres_de_frutas = para x en fruit.keys() *`
-- [x] `nombres_de_frutas = [x por x en fruit.keys()]`
+- [ ] `nombres_de_frutas = [x por x en fruit.keys()]`
 - [ ] `nombres_de_frutas = x para x en fruit.keys()`
 
 #### P46. ¿Cuál es el propósito de la palabra clave `self` al definir o llamar a métodos en una instancia de un objeto?
@@ -672,14 +672,14 @@ t1 = test()
 - [ ] `self` se refiere a la clase de la que se heredó para crear el objeto usando `self`.
 - [ ] No hay un propósito real para el método `self`. Es solo una jerga informática heredada que Python mantiene para mantenerse consistente con otros lenguajes de programación.
 - [ ] `self` significa que no es necesario pasar ningún otro argumento al método.
-- [x] `self` se refiere a la instancia cuyo método fue llamado.
+- [ ] `self` se refiere a la instancia cuyo método fue llamado.
 
 **Explicación:** - Intente ejecutar el ejemplo de Q42 sin pasar el argumento `self` dentro de `__init__`, comprenderá el motivo. Obtendrá un error como este `__init__() toma 0 argumentos posicionales pero se le dio 1`, esto significa que algo va adentro incluso si no se ha especificado, que es la instancia misma.
 
 #### P47. ¿Qué afirmación sobre los métodos de clase es verdadera?
 
 - [ ] Un método de clase es una función regular que pertenece a una clase, pero debe devolver Ninguno.
-- [x] Un método de clase puede modificar el estado de la clase, pero no puede modificar directamente el estado de una instancia que hereda de esa clase.
+- [ ] Un método de clase puede modificar el estado de la clase, pero no puede modificar directamente el estado de una instancia que hereda de esa clase.
 - [ ] Un método de clase es similar a una función regular, pero un método de clase no toma ningún argumento.
 - [ ] Un método de clase contiene todos los datos de una clase en particular.
 
@@ -688,14 +688,14 @@ t1 = test()
 - [ ] No usaste muchos conceptos avanzados de programación de computadoras en tu código.
 - [ ] El nivel de dificultad en el que está escrito su código no es tan alto.
 - [ ] Tu programa tardará menos de medio segundo en ejecutarse.
-- [x] La cantidad de tiempo que tarda la función en completarse crece linealmente a medida que aumenta el tamaño de entrada.
+- [ ] La cantidad de tiempo que tarda la función en completarse crece linealmente a medida que aumenta el tamaño de entrada.
 
 #### P49. ¿Cuál es la forma correcta de definir una función?
 
 - [ ] `def getMaxNum(list_of_nums): # el cuerpo de la función va aquí`
 - [ ] `func get_max_num(list_of_nums): # el cuerpo de la función va aquí`
 - [ ] `func getMaxNum(list_of_nums): # el cuerpo de la función va aquí`
-- [x] `def get_max_num(list_of_nums): # el cuerpo de la función va aquí`
+- [ ] `def get_max_num(list_of_nums): # el cuerpo de la función va aquí`
 
 [explicación para 52 y 53](https://www.python.org/dev/peps/pep-0008/)
 
@@ -703,21 +703,21 @@ t1 = test()
 
 - [ ] en mayúsculas y minúsculas sin usar guiones bajos para separar palabras -- p. `valor máximo = 255`
 - [ ] en minúsculas con guiones bajos para separar palabras -- p. `valor_máximo = 255`
-- [x] en mayúsculas con guiones bajos que separan las palabras, p. `VALOR_MAXIMO = 255`
+- [ ] en mayúsculas con guiones bajos que separan las palabras, p. `VALOR_MAXIMO = 255`
 - [ ] en mayúsculas y minúsculas sin utilizar guiones bajos para separar palabras -- p. `Valor máximo = 255`
 
 #### P51. Describe la funcionalidad de un deque.
 
 - [ ] Un deque agrega elementos a un lado y elimina elementos del otro lado.
 - [ ] Un deque agrega elementos a uno o ambos lados, pero solo elimina elementos de la parte superior.
-- [x] Un deque agrega elementos en uno o ambos extremos y elimina elementos en uno o ambos extremos.
+- [ ] Un deque agrega elementos en uno o ambos extremos y elimina elementos en uno o ambos extremos.
 - [ ] Un deque agrega elementos solo en la parte superior, pero los elimina de uno o ambos lados.
 
 **Explicación** - `deque` se usa para crear un canal de bloque y en eso hay un enfoque de _primero en entrar, primero en salir_, lo que significa que el último elemento en entrar será el primero en salir.
 
 #### P52. ¿Cuál es la sintaxis correcta para crear una variable vinculada a un conjunto?
 
-- [x] `mi_conjunto = {0, 'manzana', 3.5}`
+- [ ] `mi_conjunto = {0, 'manzana', 3.5}`
 - [ ] `mi_conjunto = to_set(0, 'manzana', 3.5)`
 - [ ] `mi_conjunto = (0, 'manzana', 3.5).to_set()`
 - [ ] `mi_conjunto = (0, 'manzana', 3.5).conjunto()`
@@ -745,7 +745,7 @@ class __init__():
     pass
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 def __init__(self):
@@ -754,7 +754,7 @@ def __init__(self):
 
 #### P54. ¿Cuál de las siguientes es VERDADERA acerca de cómo se organizarían los datos numéricos en un árbol de búsqueda binaria?
 
-- [x] Para cualquier nodo dado en un árbol de búsqueda binaria, el valor del nodo es mayor que todos los valores en el subárbol izquierdo del nodo y menor que los de su subárbol derecho.
+- [ ] Para cualquier nodo dado en un árbol de búsqueda binaria, el valor del nodo es mayor que todos los valores en el subárbol izquierdo del nodo y menor que los de su subárbol derecho.
 - [ ] Árbol de búsqueda binaria no se puede utilizar para organizar y buscar a través de datos numéricos, dada la complicación que se presenta con árboles muy profundos.
 - [ ] El nodo superior del árbol de búsqueda binaria sería un número arbitrario. Todos los nodos a la izquierda del nodo superior deben ser menores que el número del nodo superior, pero no es necesario que estén ordenados de ninguna manera en particular.
 - [ ] El valor numérico más pequeño iría en el nodo superior. El siguiente número más alto iría en su nodo secundario izquierdo, el siguiente número más alto iría en su nodo secundario derecho. Este patrón continuaría hasta que todos los valores numéricos estuvieran en su propio nodo.
@@ -763,13 +763,13 @@ def __init__(self):
 
 - [ ] Un decorador es similar a una clase y debe usarse si está haciendo programación funcional en lugar de programación orientada a objetos.
 - [ ] Un decorador es un indicador visual para alguien que lee su código de que una parte de su código es crítica y no debe cambiarse.
-- [x] Usas el decorador para alterar la funcionalidad de una función sin tener que modificar el código de funciones.
+- [ ] Usas el decorador para alterar la funcionalidad de una función sin tener que modificar el código de funciones.
 - [ ] Una declaración de importación está precedida por un decorador, python sabe importar la versión más reciente de cualquier paquete o biblioteca que se esté importando.
 
 #### P56. ¿Cuándo usarías un bucle for?
 
 - [ ] Solo en algunas situaciones, ya que los bucles se usan solo para cierto tipo de programación.
-- [x] Cuando necesita verificar cada elemento en un iterable de longitud conocida.
+- [ ] Cuando necesita verificar cada elemento en un iterable de longitud conocida.
 - [ ] Cuando desee minimizar el uso de cadenas en su código.
 - [ ] Cuando desee ejecutar código en un archivo para una función en otro archivo.
 
@@ -797,7 +797,7 @@ def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 def calculate_sales_tax(subtotal):
@@ -808,7 +808,7 @@ def calculate_sales_tax(subtotal):
 
 - [ ] No tiene que alterar el estado del elemento en el que recurre el algoritmo.
 - [ ] Eventualmente obtendría un KeyError cuando la parte recursiva del código se quedara sin elementos para recurrir.
-- [x] Obtendría un RuntimeError: se excedió la profundidad máxima de recursión.
+- [ ] Obtendría un RuntimeError: se excedió la profundidad máxima de recursión.
 - [ ] La función que utiliza la recursividad devolvería Ninguno.
 
 [explicación](https://www.python-course.eu/python3_recursive_functions.php#Definition-of-Recursion)
@@ -817,7 +817,7 @@ def calculate_sales_tax(subtotal):
 
 - [ ] El tiempo de ejecución para buscar en un árbol de búsqueda binario es O(1) porque cada nodo actúa como una clave, similar a un diccionario.
 - [ ] El tiempo de ejecución para buscar en un árbol de búsqueda binario es O(n!) porque cada nodo debe compararse con todos los demás nodos.
-- [x] El tiempo de ejecución para buscar en un árbol de búsqueda binaria es generalmente O(h), donde h es la altura del árbol.
+- [ ] El tiempo de ejecución para buscar en un árbol de búsqueda binaria es generalmente O(h), donde h es la altura del árbol.
 - [ ] El tiempo de ejecución para buscar en un árbol de búsqueda binaria es O(n) porque se deben visitar todos los nodos del árbol.
 
 [explicación](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
@@ -827,21 +827,21 @@ def calculate_sales_tax(subtotal):
 - [ ] Usas un `mixin` para obligar a una función a aceptar un argumento en tiempo de ejecución incluso si el argumento no estaba incluido en la definición de la función.
 - [ ] Usas un `mixin` para permitir que un decorador acepte argumentos de palabras clave.
 - [ ] Usas un `mixin` para asegurarte de que los atributos y métodos de una clase no interfieran con variables y funciones globales.
-- [x] Si tiene muchas clases que necesitan tener la misma funcionalidad, usaría un `mixin` para definir esa funcionalidad.
+- [ ] Si tiene muchas clases que necesitan tener la misma funcionalidad, usaría un `mixin` para definir esa funcionalidad.
 
 [explicación](https://www.youtube.com/watch?v=zVFLBfqV-q0)
 
 #### P61. ¿Cuál es la complejidad del tiempo de ejecución de agregar un elemento a una pila y eliminar un elemento de una pila?
 
 - [ ] Agregue elementos a una pila en tiempo O (1) y elimine elementos de una pila en tiempo O (n).
-- [x] Agregue elementos a una pila en tiempo O (1) y elimine elementos de una pila en tiempo O (1).
+- [ ] Agregue elementos a una pila en tiempo O (1) y elimine elementos de una pila en tiempo O (1).
 - [ ] Agregue elementos a una pila en tiempo O (n) y elimine elementos de una pila en tiempo O (1).
 - [ ] Agregue elementos a una pila en tiempo O (n) y elimine elementos de una pila en tiempo O (n).
 
 #### P62. ¿Qué afirmación describe con precisión cómo se agregan y eliminan elementos de una pila?
 
 - [ ] una pila agrega elementos a un lado y elimina elementos del otro lado.
-- [x] una pila agrega elementos a la parte superior y elimina elementos de la parte superior.
+- [ ] una pila agrega elementos a la parte superior y elimina elementos de la parte superior.
 - [ ] una pila agrega elementos a la parte superior y elimina elementos de cualquier parte de la pila.
 - [ ] una pila agrega elementos a cualquier extremo y elimina elementos de cualquier extremo.
 
@@ -849,7 +849,7 @@ def calculate_sales_tax(subtotal):
 
 #### P63. ¿Qué es un caso base en una función recursiva?
 
-- [x] Un caso base es la condición que permite que el algoritmo deje de repetirse. Por lo general, es un problema que es lo suficientemente pequeño como para resolverlo directamente.
+- [ ] Un caso base es la condición que permite que el algoritmo deje de repetirse. Por lo general, es un problema que es lo suficientemente pequeño como para resolverlo directamente.
 - [ ] El caso base es un resumen del problema general que debe resolverse.
 - [ ] El caso base se pasa como argumento a una función cuyo cuerpo hace uso de la recursividad.
 - [ ] El caso base es similar a una clase base, ya que puede ser heredado por otro objeto.
@@ -859,20 +859,20 @@ def calculate_sales_tax(subtotal):
 - [ ] La palabra clave `with` le permite elegir en qué aplicación abrir el archivo.
 - [ ] La palabra clave `with` actúa como un bucle `for` y te permite acceder a cada línea del archivo una por una.
 - [ ] No hay ningún beneficio en usar la palabra clave `with` para abrir un archivo en Python.
-- [x] Cuando abre un archivo usando la palabra clave `with` en Python, Python se asegurará de que el archivo se cierre, incluso si se produce una excepción o un error.
+- [ ] Cuando abre un archivo usando la palabra clave `with` en Python, Python se asegurará de que el archivo se cierre, incluso si se produce una excepción o un error.
 
 [explicación](https://docs.python.org/3/tutorial/inputoutput.html#lectura-y-escritura-de-archivos)
 
 #### P65. ¿Por qué usarías un entorno virtual?
 
-- [x] Los entornos virtuales crean una "burbuja" alrededor de su proyecto para que las bibliotecas o paquetes que instale dentro de él no afecten a toda su máquina.
+- [ ] Los entornos virtuales crean una "burbuja" alrededor de su proyecto para que las bibliotecas o paquetes que instale dentro de él no afecten a toda su máquina.
 - [ ] Los equipos con empleados remotos usan entornos virtuales para poder compartir código, hacer revisiones de código y colaborar de forma remota.
 - [ ] Los entornos virtuales eran comunes en Python 2 porque aumentaban las funciones que faltaban en el lenguaje. Los entornos virtuales no son necesarios en Python 3 debido a los avances en el lenguaje.
 - [ ] Los entornos virtuales están vinculados a su cuenta de GitHub o Bitbucket, lo que le permite acceder a cualquiera de sus repositorios prácticamente desde cualquier máquina.
 
 #### P66. ¿Cuál es la forma correcta de ejecutar todos los doctests en un archivo dado desde la línea de comando?
 
-- [x] `python3 -m doctest <_nombre_archivo_>`
+- [ ] `python3 -m doctest <_nombre_archivo_>`
 - [ ] `python3 <_nombre_archivo_>`
 - [ ] `python3 <_nombre de archivo_> pruebas de ejecución`
 - [ ] `test de documento de python3`
@@ -884,7 +884,7 @@ def calculate_sales_tax(subtotal):
 - [ ] cualquier función que haga uso de constantes científicas o matemáticas, a menudo representadas por letras griegas en la escritura académica
 - [ ] una función que se ejecuta cuando se usan decoradores
 - [ ] cualquier función cuya definición esté contenida en cinco líneas de código o menos
-- [x] una función pequeña y anónima que puede tomar cualquier cantidad de argumentos pero solo tiene una expresión para evaluar
+- [ ] una función pequeña y anónima que puede tomar cualquier cantidad de argumentos pero solo tiene una expresión para evaluar
 
 [Referencia](https://www.guru99.com/python-lambda-function.html)
 
@@ -895,21 +895,21 @@ def calculate_sales_tax(subtotal):
 #### P68. ¿Cuál es la principal diferencia entre listas y tuplas?
 
 - [ ] Puede acceder a un elemento específico en una lista indexando su posición, pero no puede acceder a un elemento específico en una tupla a menos que itere a través de la tupla
-- [x] Las listas son mutables, lo que significa que puede cambiar los datos que están dentro de ellas en cualquier momento. Las tuplas son inmutables, lo que significa que no puede cambiar los datos que están dentro de ellas una vez que haya creado la tupla.
+- [ ] Las listas son mutables, lo que significa que puede cambiar los datos que están dentro de ellas en cualquier momento. Las tuplas son inmutables, lo que significa que no puede cambiar los datos que están dentro de ellas una vez que haya creado la tupla.
 - [ ] Las listas son inmutables, lo que significa que no puede cambiar los datos que contienen una vez que haya creado la lista. Las tuplas son mutables, lo que significa que puede cambiar los datos que contienen en cualquier momento.
 - [ ] Las listas pueden contener varios tipos de datos dentro de ellas a la vez, pero las tuplas solo pueden contener el mismo tipo de datos si hay varios elementos presentes.
 
 #### P69. ¿Qué devuelve un generador?
 
 - [ ] Ninguna
-- [x] Un objeto iterable
+- [ ] Un objeto iterable
 - [ ] Una estructura de datos de lista enlazada de una lista no vacía
 - [ ] Todas las claves del diccionario dado
 
 #### P70. ¿Cuál es la diferencia entre atributos de clase y atributos de instancia?
 
 - [ ] Los atributos de instancia se pueden cambiar, pero los atributos de clase no se pueden cambiar
-- [x] Los atributos de clase son compartidos por todas las instancias de la clase. Los atributos de instancia pueden serúnico solo para esa instancia
+- [ ] Los atributos de clase son compartidos por todas las instancias de la clase. Los atributos de instancia pueden serúnico solo para esa instancia
 - [ ] No hay diferencia entre atributos de clase y atributos de instancia
 - [ ] Los atributos de clase pertenecen solo a la clase, no a la instancia de esa clase. Los atributos de instancia se comparten entre todas las instancias de una clase
 
@@ -922,7 +922,7 @@ def get_next_card():
   # method body goes here
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 def get_next_card(self):
@@ -945,7 +945,7 @@ def self.get_next_card(self):
 
 #### P72. ¿Cuál es la forma correcta de llamar a una función?
 
-- [x] `get_max_num([57, 99, 31, 18])`
+- [ ] `get_max_num([57, 99, 31, 18])`
 - [ ] `call.(get_max_num)`
 - [ ] `def get_max_num([57, 99, 31, 18])`
 - [ ] `call.get_max_num([57, 99, 31, 18])`
@@ -953,7 +953,7 @@ def self.get_next_card(self):
 #### P73. ¿Cómo se crea un comentario?
 
 - [ ] `-- Esto es un comentario`
-- [x] `# Esto es un comentario`
+- [ ] `# Esto es un comentario`
 - [ ] `/_ Esto es un comentario _\`
 - [ ] `// Esto es un comentario`
 
@@ -964,7 +964,7 @@ my_list = ['kiwi', 'apple', 'banana']
 ```
 
 - [ ] `orange = my_list[1]`
-- [x] `my_list[1] = 'orange'`
+- [ ] `my_list[1] = 'orange'`
 - [ ] `my_list['orange'] = 1`
 - [ ] `my_list[1] == orange`
 
@@ -972,19 +972,19 @@ my_list = ['kiwi', 'apple', 'banana']
 
 - [ ] Nada pasará; su computadora sabe cuándo dejar de ejecutar el código en el ciclo while.
 - [ ] Obtendrá un KeyError.
-- [x] Su código se quedará atascado en un bucle infinito.
+- [ ] Su código se quedará atascado en un bucle infinito.
 - [ ] Obtendrá un WhileLoopError.
 
 #### P76. ¿Describa la funcionalidad de una cola?
 
-- [x] Una cola agrega elementos a cualquier extremo y elimina elementos de cualquier extremo.
+- [ ] Una cola agrega elementos a cualquier extremo y elimina elementos de cualquier extremo.
 - [ ] Una cola agrega elementos a la parte superior y elimina elementos de la parte superior.
 - [ ] Una cola agrega elementos a la parte superior y elimina elementos de cualquier parte de una lista.
 - [ ] Una cola agrega elementos en la parte superior y elimina elementos de cualquier parte de la cola.
 
 #### P77. ¿Qué opción es el ejemplo más sintácticamente correcto de la bifurcación condicional?
 
-- [x] :
+- [ ] :
 
 ```python
 num_people = 5
@@ -1038,13 +1038,13 @@ else;
 
 - [ ] `defaultdict` creará automáticamente un diccionario para usted que tiene claves que son los números enteros 0-10.
 - [ ] `defaultdict` obliga a un diccionario a aceptar solo claves que sean de los tipos especificados cuando creó el `defaultdict` (como cadenas o números enteros).
-- [x] Si intenta leer desde un `defaultdict` con una clave inexistente, se creará un nuevo par clave-valor predeterminado para usted en lugar de generar un `KeyError`.
+- [ ] Si intenta leer desde un `defaultdict` con una clave inexistente, se creará un nuevo par clave-valor predeterminado para usted en lugar de generar un `KeyError`.
 - [ ] `defaultdict` almacena una copia de un diccionario en la memoria que puede usar de forma predeterminada si el original se modifica involuntariamente.
 
 #### P79. ¿Cuál es la sintaxis correcta para agregar una clave llamada `variedad` al diccionario `fruit_info` que tiene un valor de `Red Delicious`?
 
 - [ ] `info_fruta['variedad'] == 'Red Delicious'`
-- [x] `info_fruta['variedad'] = 'Red Delicious'`
+- [ ] `info_fruta['variedad'] = 'Red Delicious'`
 - [ ] `rojo_delicioso = fruit_info['variedad']`
 - [ ] `rojo_delicioso == fruit_info['variedad']`
 
@@ -1052,7 +1052,7 @@ else;
 
 - [ ] cuando desee minimizar el uso de cadenas en su código
 - [ ] cuando desea ejecutar código en un archivo mientras también se está ejecutando código en otro archivo
-- [x] cuando desea que algún código continúe ejecutándose siempre que alguna condición sea verdadera
+- [ ] cuando desea que algún código continúe ejecutándose siempre que alguna condición sea verdadera
 - [ ] cuando necesite ejecutar dos o más fragmentos de código a la vez dentro del mismo archivo
 
 **Ejemplo sencillo**
@@ -1082,7 +1082,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1141,7 +1141,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 1
@@ -1153,7 +1153,7 @@ def count_recursive(n=1):
 
 - [ ] `Intersect`; `union`
 - [ ] `|`; `&`
-- [x] `&`; `|`
+- [ ] `&`; `|`
 - [ ] `&&`; `||`
 
 #### P84. ¿Qué devolverá este fragmento de código?
@@ -1166,7 +1166,7 @@ np.ones([1,2,3,4,5])
 - [ ] Devuelve una matriz de 5x5; cada fila tendrá los valores 1,2,3,4,5.
 - [ ] Devuelve un array con los valores 1,2,3,4,5
 - [ ] Devuelve cinco matrices cuadradas diferentes llenas de unos. El primero es 1x1, el segundo 2x2, y así sucesivamente hasta 5x5
-- [x] Devuelve una matriz de 5 dimensiones de tamaño 1x2x3x4x5 llena de 1s.
+- [ ] Devuelve una matriz de 5 dimensiones de tamaño 1x2x3x4x5 llena de 1s.
 
 [Referencia](https://www.geeksforgeeks.org/numpy-ones-python/)
 
@@ -1174,7 +1174,7 @@ np.ones([1,2,3,4,5])
 
 - [ ] Asegúrese de que el archivo esté en la RUTA del sistema
 - [ ] Crear un enlace simbólico para permitir un mejor acceso al archivo
-- [x] Copie el archivo en el mismo directorio desde donde se ejecuta el script
+- [ ] Copie el archivo en el mismo directorio desde donde se ejecuta el script
 - [ ] Agregue la ruta al archivo a la variable de entorno PYTHONPATH
 
 #### P86. ¿Qué devolverá este comando?
@@ -1183,21 +1183,21 @@ np.ones([1,2,3,4,5])
 {x for x in range(100) if x%3 == 0}
 ```
 
-- [x] un conjunto de todos los múltiplos de 3 menos de 100
+- [ ] un conjunto de todos los múltiplos de 3 menos de 100
 - [ ] un conjunto de todos los números del 0 al 100 multiplicados por 3
 - [ ] una lista de todos los múltiplos de 3 menos de 100
 - [ ] un conjunto de todos los múltiplos de 3 menos de 100 excluyendo 0
 
 #### P87. ¿Qué te permite hacer el operador // en Python 3?
 
-- [x] Realizar división de enteros
+- [ ] Realizar división de enteros
 - [ ] Realizar operaciones sobre exponentes
 - [ ] Encontrar el resto de una operación de división
 - [ ] Realizar división de punto flotante
 
 #### P88. ¿Qué archivo se importa para usar fechas en python?
 
-- [x] fecha y hora
+- [ ] fecha y hora
 - [ ] dia de cita
 - [ ] durante el día
 - [ ] hora Fecha
@@ -1206,7 +1206,7 @@ np.ones([1,2,3,4,5])
 
 - [ ] `def Juego(): pass`
 - [ ] `def Juego: pass`
-- [x] `class Juego: pass`
+- [ ] `class Juego: pass`
 - [ ] `class Juego(): pass`
 
 [referencia aquí](https://docs.python.org/3/tutorial/classes.html)
@@ -1215,7 +1215,7 @@ np.ones([1,2,3,4,5])
 
 - [ ] `my_game = Game(self) self.my_game.roll_dice()`
 - [ ] `my_game = Game() self.my_game.roll_dice()`
-- [x] `my_game = Game() my_game.roll_dice()`
+- [ ] `my_game = Game() my_game.roll_dice()`
 - [ ] `my_game = Game(self) my_game.roll_dice(self)`
 
 #### P91. ¿Cuál es la salida de este código? (NumPy se ha importado como np.)?
@@ -1226,7 +1226,7 @@ print(a[[False, True, False, False]])
 ```
 
 - [ ] `{0,2}`
-- [x] `[2]`
+- [ ] `[2]`
 - [ ] `{2}`
 - [ ] `[0,2,0,0]`
 
@@ -1238,7 +1238,7 @@ len(z)
 ```
 
 - [ ] 17
-- [x] 4
+- [ ] 4
 - [ ] 0
 - [ ] 3
 
@@ -1261,7 +1261,7 @@ print(num_list)
 ```
 
 - [ ] `[1,2,4,5]`
-- [x] `[1,3,4,5]`
+- [ ] `[1,3,4,5]`
 - [ ] `[3,4,5]`
 - [ ] `[1,2,3]`
 
@@ -1284,7 +1284,7 @@ num_list.remove(2)
 - [ ] `reversed(list(range(1,11)))`
 - [ ] `list(reversed(range(1,10)))`
 - [ ] `list(range(10,1,-1))`
-- [x] `list(reversed(range(1,11)))`
+- [ ] `list(reversed(range(1,11)))`
 
 [Referencia](https://www.w3schools.com/python/python_tuples.asp)
 
@@ -1301,7 +1301,7 @@ print(math.pow(2,10)) # prints 2 elevated to the 10th power
 print(2^10)
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 print(2**10)
@@ -1330,7 +1330,7 @@ print(y)
 - [ ] conjuntos solamente; listas o diccionarios; tuplas
 - [ ] listas; conjuntos solamente; tuplas
 - [ ] tuplas; conjuntos o listas; diccionarios
-- [x] listas; diccionarios o juegos; tuplas
+- [ ] listas; diccionarios o juegos; tuplas
 
 [Referencia](https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/)
 
@@ -1344,7 +1344,7 @@ print(table.max(axis=1))
 ```
 
 - [ ] `[2, 4]`
-- [x] `[3, 4]`
+- [ ] `[3, 4]`
 - [ ] `[4]`
 - [ ] `[1,2]`
 
@@ -1357,7 +1357,7 @@ number = 3
 print (f"The number is {number}")
 ```
 
-- [x] `El número es 3`
+- [ ] `El número es 3`
 - [ ] `el número es 3`
 - [ ] `EL NÚMERO ES 3`
 - [ ] Lanza un TypeError porque el entero debe convertirse en una cadena.
@@ -1368,7 +1368,7 @@ print (f"The number is {number}")
 
 - [ ] `mi_tuple tup(2, 'manzana', 3.5) %D`
 - [ ] `mi_tupla [2, 'manzana', 3.5].tuple() %D`
-- [x] `mi_tupla = (2, 'manzana', 3.5)`
+- [ ] `mi_tupla = (2, 'manzana', 3.5)`
 - [ ] `mi_tupla = [2, 'manzana', 3.5]`
 
 [Referencia](https://beginnersbook.com/2018/02/python-tuple/)
@@ -1376,7 +1376,7 @@ print (f"The number is {number}")
 #### Q100. ¿Qué modo no es una forma válida de acceder a un archivo desde un script de Python?
 
 - [ ] `write('w')`
-- [x] `scan('s')`
+- [ ] `scan('s')`
 - [ ] `append('a')`
 - [ ] `read('r')`
 
@@ -1385,7 +1385,7 @@ print (f"The number is {number}")
 
 #### P101. NumPy le permite multiplicar dos matrices sin un bucle for. Esto es un ejemplo de \_.
 
-- [x] vectorización
+- [ ] vectorización
 - [ ] atribuciones
 - [ ] aceleración
 - [ ] programación funcional
@@ -1395,12 +1395,12 @@ print (f"The number is {number}")
 - [ ] `conjunto`
 - [ ] `lista`
 - [ ] `tupla`
-- [x] `diccionario`
+- [ ] `diccionario`
 
 #### P103. ¿Qué función de Python le permite ejecutar comandos de shell de Linux en Python?
 
 - [ ] `sys.exc_info()`
-- [x] `os.system()`
+- [ ] `os.system()`
 - [ ] `os.getcwd()`
 - [ ] `sys.executable`
 
@@ -1416,7 +1416,7 @@ my_dictionary = {
 }
 ```
 
-- [x] <br>
+- [ ] <br>
 
 ```python
 letters = []
@@ -1434,13 +1434,13 @@ for letter in my_dictionary.values():
 #### P105. Cuando una matriz es grande, NumPy no imprimirá la matriz completa cuando se le proporcione la función "imprimir" incorporada. ¿Qué función puede usar dentro de NumPy para forzarlo a imprimir toda la matriz?
 
 - [ ] `set_printparams`
-- [x] `set_printoptions`
+- [ ] `set_printoptions`
 - [ ] `set_fullprint`
 - [ ] `setp_printwhole`
 
 #### P106. ¿Cuándo usarías un bloque try/except en el código?
 
-- [x] Utiliza bloques `try/except` cuando desea ejecutar algún código, pero necesita una forma de ejecutar código diferente si se genera una excepción.
+- [ ] Utiliza bloques `try/except` cuando desea ejecutar algún código, pero necesita una forma de ejecutar código diferente si se genera una excepción.
 - [ ] Usas bloques `try/except` dentro de las pruebas unitarias para que los testículos unitarios siempre pasen.
 - [ ] Usa bloques `try/except` para que pueda demostrar a sus revisores de código que probó un nuevo enfoque, pero si el nuevo enfoque no es lo que estaban buscando, pueden dejar comentarios bajo la palabra clave `except` .
 - [ ] Utiliza bloques `try/except` para que ninguna de sus funciones o métodos devuelva `Ninguno`.
@@ -1449,7 +1449,7 @@ for letter in my_dictionary.values():
 
 #### P107. En Python, ¿cómo puede el compilador identificar el bloque interno de un bucle for?
 
-- [x] `debido al nivel de sangría después del ciclo for`
+- [ ] `debido al nivel de sangría después del ciclo for`
 - [ ] `debido a la palabra clave end al final del bucle for`
 - [ ] `porque el bloque está entre corchetes ({})`
 - [ ] `debido al espacio en blanco al final del cuerpo del bucle for`
@@ -1458,7 +1458,7 @@ for letter in my_dictionary.values():
 
 - [ ] salida estándar del sistema
 - [ ] rastrear
-- [x] advertencias
+- [ ] advertencias
 - [ ] excepciones
 
 #### P109. ¿Cuál será el valor de x después de ejecutar este código?
@@ -1472,7 +1472,7 @@ x.add(6)
 - [ ] `{1, 2, 3, 4, 5, 5, 6}`
 - [ ] `{5, 6, 1, 2, 3, 4, 5, 6}`
 - [ ] `{6, 1, 2, 3, 4, 5}`
-- [x] `{1, 2, 3, 4, 5, 6}`
+- [ ] `{1, 2, 3, 4, 5, 6}`
 
 **Explicación:** El método `.add()` agrega el elemento al conjunto solo si no existe.
 
@@ -1489,7 +1489,7 @@ fruit_info = {
 - [ ] `my_keys = fruit_info.to_keys()`
 - [ ] `my_keys = fruit_info.all_keys()`
 - [ ] `my_keys = fruit_info.keys`
-- [x] `my_keys = fruit_info.keys()`
+- [ ] `my_keys = fruit_info.keys()`
 
 #### P111. ¿Qué tiene de malo esta definición de función?
 
@@ -1500,12 +1500,12 @@ def be_friendly(greet = "How are you!", name):
 
 - [ ] `name` es una palabra reservada.
 - [ ] No se permiten guiones bajos en los nombres de las funciones.
-- [x] Un argumento no predeterminado sigue a un argumento predeterminado.
+- [ ] Un argumento no predeterminado sigue a un argumento predeterminado.
 - [ ] No hay nada malo con esta definición de función.
 
 #### P112. Dado que NumPy se importa como `np`, ¿qué opción devolverá `True`?
 
-- [x] :
+- [ ] :
 
 ```python
 a = np.zeros([3,4])
@@ -1539,7 +1539,7 @@ np.array_equal(a,a)
 #### P113. ¿Cómo se agrega un comentario a un script de Python existente?
 
 - [ ] `// Esto es un comentario`
-- [x] `# Esto es un comentario`
+- [ ] `# Esto es un comentario`
 - [ ] `-- Esto es un comentario`
 - [ ] `/* Esto es un comentario *\`
 
@@ -1576,7 +1576,7 @@ c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
 d = sum(a) + sum(b)
 ```
 
-- [x] D
+- [ ] D
 
 ```python
 c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
@@ -1586,7 +1586,7 @@ d = sum(c)
 
 #### P115. ¿Qué dos funciones dentro de la biblioteca NumPy podrías usar para resolver un sistema de ecuaciones lineales?
 
-- [x] `linalg.eig() y .matmul()`
+- [ ] `linalg.eig() y .matmul()`
 - [ ] `linalg.inv() y .dot()`
 - [ ] `linalg.det() y .dot()`
 - [ ] `linalg.inv() y .eye()`
@@ -1594,7 +1594,7 @@ d = sum(c)
 #### P116. ¿Cuál es la sintaxis correcta para crear una variable vinculada a una lista?
 
 - [ ] `mi_lista = (2, 'manzana', 3.5)`
-- [x] `mi_lista = [2, 'manzana', 3.5]`
+- [ ] `mi_lista = [2, 'manzana', 3.5]`
 - [ ] `mi_lista = [2, 'manzana', 3.5].to_list()`
 - [ ] `mi_lista = to_list(2, 'manzana', 3.5)`
 
@@ -1611,7 +1611,7 @@ num_list[len(num_list) // 2]
 - [ ] modo
 - [ ] promedio
 - [ ] media
-- [x] mediana
+- [ ] mediana
 
 **Explicación:** La mediana es el valor que separa la mitad superior de la mitad inferior de una muestra de datos. Aquí son las 13.
 
@@ -1620,7 +1620,7 @@ num_list[len(num_list) // 2]
 - [ ] Matrices y tramas de datos
 - [ ] Series y Matrices
 - [ ] Matrices y DataFrames
-- [x] Series y DataFrames
+- [ ] Series y DataFrames
 
 [Referencia](https://pandas.pydata.org/docs/user_guide/dsintro.html)
 
@@ -1629,7 +1629,7 @@ num_list[len(num_list) // 2]
 - [ ] `matrix = (vector.shape = (100,100))`
 - [ ] `matrix = vector.to_matrix(100,100)`
 - [ ] `matrix = matrix(vector,100,100)`
-- [x] `matrix = vector.reshape(100, 100)`
+- [ ] `matrix = vector.reshape(100, 100)`
 
 [Referencia](https://www.w3schools.com/python/numpy/numpy_array_reshape.asp)
 
@@ -1638,7 +1638,7 @@ num_list[len(num_list) // 2]
 - [ ] diccionario
 - [ ] lista
 - [ ] conjunto (`set`en Inglés)
-- [x] cadena de caracteres (`string` en Inglés)
+- [ ] cadena de caracteres (`string` en Inglés)
 
 [Referencia](https://www.tutorialspoint.com/python_text_processing/python_string_immutability.htm)
 
@@ -1669,7 +1669,7 @@ Hello, I am from France
 Hello, I am from France
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 Hello, I am from Spain
@@ -1690,7 +1690,7 @@ Hello, I am from France
 - [ ] Clase anónima
 - [ ] Clase principal
 - [ ] Clase anidada
-- [x] Clase abstracta
+- [ ] Clase abstracta
 
 [Referencia](https://www.scaler.com/topics/python/data-abstraction-in-python/)
 
@@ -1698,7 +1698,7 @@ Hello, I am from France
 
 ![Q129](images/Q129.png?raw=png)
 
-- [x] `sum(titanic['Survived'])`
+- [ ] `sum(titanic['Survived'])`
 - [ ] `[x for x in titanic['Survived'] if x == 1]`
 - [ ] `len(titanic["Survived"])`
 - [ ] `sum(titanic['Survived']==0)`
@@ -1716,14 +1716,14 @@ actors = ["Downey", "Holland", "Evans"]
 ```
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
-- [x] `zip(characters, actors)`
+- [ ] `zip(characters, actors)`
 - [ ] &shy;
 
 ```python
 d = {}
 
 for x in range(1, len(characters)):
-    d[x] = actors[x]
+    d[ ] = actors[ ]
 ```
 
 - [ ] `{x:y for x in characters for y in actors}`
@@ -1735,7 +1735,7 @@ for x in range(1, len(characters)):
 ```
 
 - [ ] un diccionario con x como clave y x al cuadrado como su valor; del 1 al 100
-- [x] un diccionario con x como clave y x al cuadrado como su valor; del 1 al 99
+- [ ] un diccionario con x como clave y x al cuadrado como su valor; del 1 al 99
 - [ ] un conjunto de tuplas, compuesto por (x, x al cuadrado); del 1 al 99
 - [ ] una lista con todos los números al cuadrado del 1 al 99
 
@@ -1744,7 +1744,7 @@ for x in range(1, len(characters)):
 ![Q132](images/Q132.png?raw=png)
 
 - [ ] `def jaccard(a, b): return len (a | b) / len (a & b)`
-- [x] `def jaccard(a, b): return len (a & b) / len (a | b)`
+- [ ] `def jaccard(a, b): return len (a & b) / len (a | b)`
 - [ ] `def jaccard(a, b): return len (a && b) / len (a || b)`
 - [ ] `def jaccard(a, b): return a.intersection(b) / a.union(b)`
 
@@ -1755,7 +1755,7 @@ for x in range(1, len(characters)):
 - [ ] Long
 - [ ] Int
 - [ ] Float
-- [x] Double
+- [ ] Double
 
 #### P128. ¿Cuál será la salida de este código?
 
@@ -1764,20 +1764,20 @@ for x in range(1, len(characters)):
 ```
 
 - [ ] `[3,2,3]`
-- [x] `[1, 2, 3, 1, 2, 3, 1, 2, 3]`
+- [ ] `[1, 2, 3, 1, 2, 3, 1, 2, 3]`
 - [ ] Obtendrá un error de tipo.
 - [ ] `[3,6,9]`
 
 #### P129. Dada una lista definida como números = `[1,2,3,4]`, ¿cuál es el valor de `numbers[-2]`?
 
 - [ ] 1
-- [x] 3
+- [ ] 3
 - [ ] 2
 - [ ] Se lanza una excepción IndexError.
 
 #### P130. ¿Qué afirmación sobre las cadenas en Python es verdadera?
 
-- [x] Las cadenas se pueden encerrar entre comillas dobles (") o comillas simples (').
+- [ ] Las cadenas se pueden encerrar entre comillas dobles (") o comillas simples (').
 - [ ] Las cadenas solo se pueden escribir entre comillas simples (').
 - [ ] Las cadenas de un solo carácter deben estar entre comillas simples ('), y el resto debe estar entre comillas dobles (").
 - [ ] Las cadenas solo se pueden escribir entre comillas dobles (").
@@ -1787,7 +1787,7 @@ for x in range(1, len(characters)):
 - [ ] def*init*(self): pass
 - [ ] class*init*(self): pass
 - [ ] class*init*(): pass
-- [x] def*init*(): pass
+- [ ] def*init*(): pass
 
 () -parámetro vacío
 self -se refiere a todas las instancias dentro de una clase
@@ -1798,13 +1798,13 @@ _init_() -siempre se ejecuta cuando se inicia la clase
 
 - [ ] `using math.sin`
 - [ ] `import math.sin`
-- [x] `from math import sin`
+- [ ] `from math import sin`
 - [ ] `import sin from math`
 
 #### P133. ¿Qué obtienes si aplicas numpy.sum() a una lista que contiene solo valores booleanos?
 
 - [ ] `0`
-- [x] `el recuento de todos los valores verdaderos`
+- [ ] `el recuento de todos los valores verdaderos`
 - [ ] `un error de tipo`
 - [ ] `Ninguno`
 
@@ -1815,7 +1815,7 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 ```
 
 - [ ] Verdadero
-- [x] foo
+- [ ] foo
 - [ ] Obtendrá un mensaje de error porque los valores enteros constantes no son clases.
 - [ ] bar
 
@@ -1824,11 +1824,11 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [ ] Si la palabra clave de retorno está ausente, la función devolverá True.
 - [ ] La función entrará en un ciclo infinito porque no saber cuándo dejar de ejecutar su código.
 - [ ] La función devolverá un RuntimeError si no devuelve un valor.
-- [x] Si la palabra clave de retorno está ausente, la función devolverá Ninguno.
+- [ ] Si la palabra clave de retorno está ausente, la función devolverá Ninguno.
 
 #### P136. a menudo ocurre que la biblioteca pandas se usa para datos **_ data y NumPy for _** data.
 
-- [x] string; numerical
+- [ ] string; numerical
 - [ ] unstructured; structured
 - [ ] numerical; tabular
 - [ ] tabular; numerical
@@ -1836,7 +1836,7 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 #### P137. ¿Qué necesita hacer para instalar paquetes adicionales en Python?
 
 - [ ] Use un compilador de C como gcc o clang.
-- [x] Usa un administrador de paquetes como pip o conda.
+- [ ] Usa un administrador de paquetes como pip o conda.
 - [ ] Usa un IDE como Notepad++ o Idle.
 - [ ] Use un administrador de paquetes como NPM o NuGet.
 
@@ -1845,7 +1845,7 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 ![Q132](images/Q138.png?raw=png)
 
 - [ ] `random.uniform(0,50);plt.hist`
-- [x] `random.gauss(50,20);plt.hist`
+- [ ] `random.gauss(50,20);plt.hist`
 - [ ] `random();plt.scatter`
 - [ ] `random.triangular(0,50);plt.bar`
 
@@ -1860,7 +1860,7 @@ a = np.arange(100)
 b = a[50:60:2]
 ```
 
-- [x] a: todos los números enteros del 0 al 99 (inclusive) b: todos los números pares del 50 al 58 (inclusive)
+- [ ] a: todos los números enteros del 0 al 99 (inclusive) b: todos los números pares del 50 al 58 (inclusive)
 - [ ] a: todos los números enteros del 0 al 100 (inclusive) b: todos los números pares del 50 al 60 (inclusive)
 - [ ] a: todos los números enteros del 0 al 99 (inclusive) b: todos los números pares del 50 al 60 (inclusive)
 - [ ] a: todos los números enteros del 0 al 99 (inclusive) b: todos los números impares del 49 al 59 (inclusive)
@@ -1868,14 +1868,14 @@ b = a[50:60:2]
 #### P140. Cuando usa NumPy en Python, ¿cómo verifica la dimensionalidad (número y longitud de las dimensiones) de un objeto llamado my_object?
 
 - [ ] `my_object.get_shape()`
-- [x] `my_object.shape`
+- [ ] `my_object.shape`
 - [ ] `my_object.dim()`
 - [ ] `len(my_object)`
 
 #### P141. Suponga que tiene una lista no vacía llamada _mylist_ y desea buscar un valor específico. ¿El número mínimo de comparación será \_**_ y el número máximo de comparación será _**?
 
 - [ ] `len(milista); len(milista)`
-- [x] `1; len(milista)`
+- [ ] `1; len(milista)`
 - [ ] `2; len(milista)`
 - [ ] `0; len(milista)`
 
@@ -1885,12 +1885,12 @@ b = a[50:60:2]
 
 - [ ] 0
 - [ ] True
-- [x] None
+- [ ] None
 - [ ] False
 
 #### P143. ¿Cuál es un uso común de la biblioteca sys de Python?
 
-- [x] para capturar los argumentos de la línea de comandos proporcionados en el tiempo de ejecución de un archivo
+- [ ] para capturar los argumentos de la línea de comandos proporcionados en el tiempo de ejecución de un archivo
 - [ ] para tomar una instantánea de todos los paquetes y bibliotecas en su entorno virtual
 - [ ] para conectar varios sistemas, como conectar una interfaz web, un servicio API, una base de datos y una aplicación móvil
 - [ ] para escanear la salud de su ecosistema de Python mientras está dentro de un entorno virtual
@@ -1916,7 +1916,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 - [ ] columnsMat1; rowsMat1;
 - [ ] columnsMat1; rowsMat2;
 - [ ] columnsMat1; columnsMat2;
-- [x] columnsMat2; rowsMat1;
+- [ ] columnsMat2; rowsMat1;
 
 #### P145. ¿Cuál es el resultado de esta comprensión?
 
@@ -1925,11 +1925,11 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 - [ ] [(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]
 - [ ] [1,2,3,4,5]
 - [ ] [(1, 2), (2, 3), (3, 4)]
-- [x] [(1, 2), (2, 3), (3, 4), (4, 5)]
+- [ ] [(1, 2), (2, 3), (3, 4), (4, 5)]
 
 #### P146. En Python, un método de clase debe tener \_**\_ como decorador de funciones, y el primer parámetro del método será una referencia a \_\_**.
 
-- [x] @classmethod; the class
+- [ ] @classmethod; the class
 - [ ] inline; the class
 - [ ] static; self
 - [ ] @static; self
@@ -1957,7 +1957,7 @@ king.introduce()
 
 ```
 
-- [x] :
+- [ ] :
 
 ```python
 class Father():
@@ -2031,7 +2031,7 @@ print(animals['b'])
 print(animals['d'])
 ```
 
-- [x] A
+- [ ] A
 
 ```python
       ['beetle', 'bear', 'bat']
@@ -2069,7 +2069,7 @@ print(animals['d'])
 [x*2 for x in range(1,n)]
 ```
 
-- [x] una lista con todos los números pares menores que 2\*n
+- [ ] una lista con todos los números pares menores que 2\*n
 - [ ] un diccionario con todos los números pares menores que 2\*n
 - [ ] una lista con todos los números impares menores que 2\*n
 - [ ] una lista con todos los números pares menores o iguales a 2\*n
@@ -2094,21 +2094,21 @@ else:
 - [ ] C
 - [ ] AB
 - [ ] B
-- [x] A
+- [ ] A
 
 #### P151. Suponga que tiene una variable llamada vector de tipo np.array con 10.000 elementos. ¿Cómo puede convertir un vector en una matriz variable con dimensiones de 100x100?
 
 - [ ] matrix = matrix(vector,100,100)
 - [ ] matrix = vector.to_matrix(100,100)
 - [ ] matrix = (vector.shape = (100,100))
-- [x] matrix = vector.reshape(100,100) Exa
+- [ ] matrix = vector.reshape(100,100) Exa
 
 #### P152. ¿Cuál es la longitud máxima de un identificador de Python?
 
 - [ ] 32
 - [ ] dieciséis
 - [ ] 128
-- [x] No se especifica longitud fija
+- [ ] No se especifica longitud fija
 
 #### P153. ¿Cuál será el valor de la variable i cuando el siguiente ciclo termine su ejecución?
 
@@ -2117,18 +2117,18 @@ para i en el rango (5): pasar
 - [ ] 5
 - [ ] la variable deja de estar disponible
 - [ ] 6
-- [x] 4
+- [ ] 4
 
 #### P154. Las cuerdas f también se llaman:
 
 - [ ] Expresiones de cadena formateadas
 - [ ] Cadenas funcionales
 - [ ] Cadenas con formato Modulo
-- [x] Literales de cadena con formato
+- [ ] Literales de cadena con formato
 
 #### P155. ¿Cuántas CPU (o núcleos) aprovechará la biblioteca de subprocesamiento de Python simultáneamente?
 
-- [x] Uno
+- [ ] Uno
 - [ ] Todas las CPU disponibles
 - [ ] Dos
 - [ ] Tres
@@ -2145,7 +2145,7 @@ y = 1 + (20 if x < 5 else 30)
 - [ ] Falso
 - [ ] 21
 - [ ] 2
-- [x] 31
+- [ ] 31
 
 **Explicación:**
 Si x < 5 ==> y = 1 + 20
@@ -2153,7 +2153,7 @@ De lo contrario y = 1 + 30
 
 #### Q157.¿El proceso de decapado en Python incluye?
 
-- [x] conversión de una jerarquía de objetos de Python en un flujo de bytes
+- [ ] conversión de una jerarquía de objetos de Python en un flujo de bytes
 - [ ] conversión de una tabla de datos en una lista
 - [ ] conversión de un flujo de bytes en la jerarquía de objetos de Python
 - [ ] conversión de una lista en una tabla de datos
@@ -2166,14 +2166,14 @@ Explicación: el decapado es el proceso de esterilización de un objeto de Pytho
 print("codescracker".endswith("er"))
 ```
 
-- [x] Verdadero
+- [ ] Verdadero
 - [ ] 1
 - [ ] 2
 - [ ] Falso
 
 #### P159. ¿La lista es mutable en Python?
 
-- [x] Verdadero
+- [ ] Verdadero
 - [ ] Falso
 
 #### Q160. ¿Cuál es la salida del siguiente programa?
@@ -2182,14 +2182,14 @@ print("programming".center())
 
 - [ ] cr
 - [ ] programación
-- [x] El error dice TypeError: el centro esperaba al menos 1 argumento, obtuvo 0
+- [ ] El error dice TypeError: el centro esperaba al menos 1 argumento, obtuvo 0
 - [ ] Ninguna de las anteriores
 
 #### P161. ¿Quién creó el lenguaje de programación Python?
 
 - [ ] Tim Berners-Lee
 - [ ] Ada Lovelace
-- [x] Guido van Rossum
+- [ ] Guido van Rossum
 - [ ] Alan Turing
 
 #### P162. ¿Qué colección es ordenada, cambiable y permite miembros duplicados?
@@ -2197,7 +2197,7 @@ print("programming".center())
 - [ ] ESTABLECER
 - [ ] TUPLE
 - [ ] DICCIONARIO
-- [x] LISTA
+- [ ] LISTA
 
 #### P163. ¿Qué se imprimirá en la consola si ejecuta este código?
 
@@ -2207,7 +2207,7 @@ print(x**2 == -1)
 ```
 
 - [ ] un error en tiempo de ejecución que le indica que la variable `j` no se ha inicializado
-- [x] Verdadero
+- [ ] Verdadero
 - [ ] 1j
 - [ ] Falso
 
@@ -2219,7 +2219,7 @@ Explicación: La letra `j` actúa como la unidad imaginaria en Python, por lo ta
 print(0xA + 0xB + 0xC)
 ```
 
-- [x] 33
+- [ ] 33
 - [ ] 63
 - [ ] 0xA + 0xB + 0xC
 - [ ] Ninguna
@@ -2238,14 +2238,14 @@ else:
 
 - [ ] 1 2 3 4 5 ¡Listo!
 - [ ] 0 1 2 3 4 5 ¡Listo!
-- [x] 0 1 2 3 4 ¡Listo!
+- [ ] 0 1 2 3 4 ¡Listo!
 - [ ] Obtendrá un error de sintaxis.
 
 #### P166. ¿Qué comparación de listas y tuplas en Python es correcta?
 
 - [ ] Use listas en lugar de tuplas cuando tenga una colección de objetos relacionados pero diferentes.
 - [ ] Use tuplas en lugar de listas cuando tenga una colección común de objetos similares.
-- [x] Use tuplas en lugar de listas para funciones que necesitan devolver múltiples valores.
+- [ ] Use tuplas en lugar de listas para funciones que necesitan devolver múltiples valores.
 - [ ] Utilice listas en lugar de tuplas cuando la posición de los elementos sea importante.
 
 #### P167. Considere el siguiente fragmento de código que usa decoradores para calcular el tiempo de ejecución de la función execution_fn:
@@ -2285,7 +2285,7 @@ MISSING_ARG_2 = rval
 MISSING_ARG_3 = func
 ```
 
-- [x] :
+- [ ] :
 
 ```
 MISSING_ARG_1 = func
@@ -2317,7 +2317,7 @@ MISSING_ARG_3 = func
 
 #### P168. ¿Cuál de las siguientes declaraciones define un nuevo tipo de objeto llamado "Perro" en Python?
 
-- [x] class Perro:
+- [ ] class Perro:
 - [ ] Class de perro:
 - [ ] Perro:
 - [ ] class Perro
@@ -2325,7 +2325,7 @@ MISSING_ARG_3 = func
 #### P169. Para usar canalizaciones en scikit-learn, importe desde el submódulo scikit-learn.**\_**.
 
 - [ ] preprocesamiento
-- [x] tubería (pipeline en Inglés [Referencia](<https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica)>)
+- [ ] tubería (pipeline en Inglés [Referencia](<https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica)>)
 - [ ] filtros
 - [ ] tubo_filtro
 
@@ -2333,14 +2333,14 @@ MISSING_ARG_3 = func
 
 - [ ] fila
 - [ ] columna
-- [x] 1
+- [ ] 1
 - [ ] 0
 
 #### P171. Los puntos de datos en pyplot se llaman
 
 - [ ] punteros
 - [ ] puntos
-- [x] marcadores
+- [ ] marcadores
 - [ ] ninguno de esos
 
 #### P172. ¿Qué imprime este código?
@@ -2354,4 +2354,4 @@ print(c)
 - [ ] `[[3, 4], [5, 6]]`
 - [ ] `[False, False, False, True, True, True]`
 - [ ] `[[0,0], [3, 4], [5, 6]]`
-- [x] `[4 5 6]`
+- [ ] `[4 5 6]`

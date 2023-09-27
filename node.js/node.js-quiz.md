@@ -2,7 +2,7 @@
 
 #### Q1. When a javaScript function is invoked (called) in Node, where is a new frame placed?
 
-- [x] the call stack
+- [ ] the call stack
 - [ ] the event loop
 - [ ] the poll phase
 - [ ] the events queue
@@ -12,7 +12,7 @@
 #### Q2. Which of the following is a core module in Node?
 
 - [ ] webpack
-- [x] crypto
+- [ ] crypto
 - [ ] request
 - [ ] chalk
 
@@ -20,7 +20,7 @@
 
 #### Q3. Which of the following Buffer class methods returns an uninitialized buffer?
 
-- [x] allocUnsafe
+- [ ] allocUnsafe
 - [ ] concat
 - [ ] from
 - [ ] alloc
@@ -29,7 +29,7 @@
 
 #### Q4. Which of the following modules is NOT a built-in module in Node?
 
-- [x] ftp
+- [ ] ftp
 - [ ] events
 - [ ] dgram
 - [ ] http2
@@ -40,7 +40,7 @@
 
 - [ ] read
 - [ ] readFile
-- [x] createReadStream
+- [ ] createReadStream
 - [ ] readFileSync
 
 **Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fscreatereadstreampath-options)
@@ -48,7 +48,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 #### Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
 
-- [x] lookup
+- [ ] lookup
 - [ ] resolve
 - [ ] resolve4
 - [ ] reverse
@@ -57,7 +57,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 #### Q7. How do you check that a value is a date object in Node?
 
-- [x] util.types.isDate(value)
+- [ ] util.types.isDate(value)
 - [ ] assert.isDate(value)
 - [ ] console.isDate(value)
 - [ ] util.date(value)
@@ -67,7 +67,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 #### Q8. Can you create an https web server with Node.js?
 
 - [ ] no, there are no modules supporting it yet
-- [x] yes, with the https or http2 modules
+- [ ] yes, with the https or http2 modules
 - [ ] yes, through the path module
 - [ ] yes, with the http module
 
@@ -77,7 +77,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 - [ ] A-API
 - [ ] Z-API
-- [x] N-API
+- [ ] N-API
 - [ ] X-API
 
 **Explanation:** From official docs: [reference](https://nodejs.org/api/n-api.html#n_api_node_api)
@@ -85,7 +85,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 #### Q10. Which CLI option can you use to debug a node script in Chrome DevTools?
 
 - [ ] --dev-tools
-- [x] --inspect
+- [ ] --inspect
 - [ ] --chrome
 - [ ] --debug
 
@@ -96,7 +96,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] node -p "process.cpus"
 - [ ] node -p "util.cpus().size"
 - [ ] node -p "process.os.cpus"
-- [x] node -p "os.cpus().length"
+- [ ] node -p "os.cpus().length"
 
 **Explanation:** From coderrocketfuel docs: [reference](https://coderrocketfuel.com/article/get-the-number-of-system-cpu-cores-using-node-js)
 
@@ -104,7 +104,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 - [ ] exit
 - [ ] test
-- [x] time
+- [ ] time
 - [ ] print
 
 **Explanation:** From official docs: [reference](https://nodejs.org/api/console.html)
@@ -114,14 +114,14 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] global.cache
 - [ ] module.cache
 - [ ] process.cache
-- [x] require.cache
+- [ ] require.cache
 
 **Explanation:** From official docs: [reference](https://nodejs.org/api/modules.html#modules_require_cache)
 
 #### Q14. What is the command to silence all process warnings?
 
 - [ ] node index.js --trace-warnings
-- [x] node --no-warnings
+- [ ] node --no-warnings
 - [ ] node -trace-warnings
 - [ ] node index.js --no-warnings
 
@@ -131,7 +131,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 - [ ] new Promise(child_process.exec())
 - [ ] util.promisify(child_process.exec())
-- [x] util.promisify(child_process.exec)
+- [ ] util.promisify(child_process.exec)
 - [ ] new Promise(child_process.exec)
 
 **Explanation:** From official docs: [reference](https://nodejs.org/api/child_process.html)
@@ -139,7 +139,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 #### Q16. Which of the following is NOT a Node repl command?
 
 - [ ] .break
-- [x] .history
+- [ ] .history
 - [ ] .editor
 - [ ] .save
 
@@ -151,14 +151,14 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 - [ ] The forked process shares the event loop with the parent process
 - [ ] A new VM instance is created and the two VM instances will be shared between the forked process and the parent process.
-- [x] The forked process will have its own VM instance.
+- [ ] The forked process will have its own VM instance.
 - [ ] The forked process shares the same VM thread with the parent process.
 
 **Explanation:** From official docs: [reference](https://nodejs.org/api/child_process.html#child_process_child_process_fork_modulepath_args_options)
 
 #### Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?
 
-- [x] EventEmitter.emit('change');
+- [ ] EventEmitter.emit('change');
 - [ ] EventEmitter.new().emit('change');
 - [ ] (new EventEmitter()).emit('change');
 - [ ] new EventEmitter('change');
@@ -168,7 +168,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 #### Q19. Which of the following objects is a stream
 
 - [ ] process.uptime
-- [x] process.stdout
+- [ ] process.stdout
 - [ ] process
 - [ ] Buffer
 
@@ -179,12 +179,12 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] `__pathname`
 - [ ] `__location`
 - [ ] `__flder`
-- [x] `__filename`
+- [ ] `__filename`
 
 #### Q21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
 
 - [ ] spawn("ps -ef")
-- [x] exec("ps -ef")
+- [ ] exec("ps -ef")
 - [ ] exec("ps", "-ef")
 - [ ] fork("ps -ef")
 
@@ -193,7 +193,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 #### Q22. Which console method can be used to print the stack trace to the point of its execution?
 
 - [ ] stack
-- [x] trace
+- [ ] trace
 - [ ] debug
 - [ ] print
 
@@ -201,7 +201,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 - [ ] the libuv library
 - [ ] the c-ares library
-- [x] the VM (like V8 or Chakra)
+- [ ] the VM (like V8 or Chakra)
 - [ ] the repl module
 
 #### Q24. Looking at the code below, what does the console show?
@@ -218,13 +218,13 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 - [ ] server running at http://localhost:3000/
 - [ ] server running at port 3000
 - [ ] server running at http://localhost:4000/
-- [x] server running at http://127.0.0.1:3000/
+- [ ] server running at http://127.0.0.1:3000/
 
 **Explanation:** From official docs: [reference](https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener)
 
 #### Q25. What is the purpose of the path module?
 
-- [x] to provide utilities to play with file and directory paths
+- [ ] to provide utilities to play with file and directory paths
 - [ ] to provide utilities to add and remove files
 - [ ] It is a retiring module.
 - [ ] to provide utilities to test files
@@ -235,7 +235,7 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 
 - [ ] server. start
 - [ ] server.activate
-- [x] server.listen
+- [ ] server.listen
 - [ ] server. run
 
 #### Q27. What does the code shown below do?
@@ -247,7 +247,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 );
 ```
 
-- [x] creates a text file hello.txt and appends customized text
+- [ ] creates a text file hello.txt and appends customized text
 - [ ] creates an image file
 - [ ] console logs system information
 - [ ] creates a file named data and append numbers
@@ -256,13 +256,13 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] nodemon start
 - [ ] start index.js
-- [x] node index.js
+- [ ] node index.js
 - [ ] node start
 
 #### Q29. What is the purpose of the file system (fs) module?
 
 - [ ] to provide methods to work with requests and responses
-- [x] to provide methods to work with files
+- [ ] to provide methods to work with files
 - [ ] to provide methods to work with databases
 - [ ] to find new file systems
 
@@ -273,11 +273,11 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] It is the current unstable version and is to be avoided.
 - [ ] It is the version that will be retired soon.
 - [ ] It is the version with the latest features.
-- [x] It is the safest version for long-term support.
+- [ ] It is the safest version for long-term support.
 
 #### Q31. Which of the following is NOT a valid stream in Node?
 
-- [x] process. stdinfo
+- [ ] process. stdinfo
 - [ ] process. stdin
 - [ ] process. stdout
 - [ ] process. stderr
@@ -286,21 +286,21 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 `console.log(arguments);`
 
-- [x] ReferenceError: arguments is not defined
+- [ ] ReferenceError: arguments is not defined
 - [ ] an empty string
 - [ ] undefined
 - [ ] an object representing an array that has five elements
 
 #### Q33. Which choice is not a valid method on event emitters?
 
-- [x] start
+- [ ] start
 - [ ] on
 - [ ] once
 - [ ] off
 
 #### Q34. Which special object is an instance of EventEmitter?
 
-- [x] process
+- [ ] process
 - [ ] Buffer
 - [ ] root
 - [ ] require
@@ -311,12 +311,12 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] node index.js -x
 - [ ] node -v
-- [x] node -h
+- [ ] node -h
 - [ ] node index.js -h
 
 #### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
 
-- [x] http.IncomingMessage
+- [ ] http.IncomingMessage
 - [ ] http.ServerRequest
 - [ ] http.ClientRequest
 - [ ] http.ServerResponse
@@ -326,19 +326,19 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] `exports, __filename, __dirname`
 - [ ] `exports, process, require, module, __filename, __dirname`
 - [ ] `exports, module, __filename, __dirname`
-- [x] `exports, require, module, __filename, __dirname`
+- [ ] `exports, require, module, __filename, __dirname`
 
 #### Q38. Which library provides Node.js with the event loop?
 
 - [ ] V8
 - [ ] c-ares
-- [x] libuv
+- [ ] libuv
 - [ ] events
 
 #### Q39. What does the .node file extension represent?
 
 - [ ] a C++ file that can have a .node extension and that Node will be able to execute directly.
-- [x] a C++ Addon file that is built with node-gyp
+- [ ] a C++ Addon file that is built with node-gyp
 - [ ] a JSON file that can have a .node extension as well as the .json extension
 - [ ] a JavaScript file that can have a .node extension as well as the .js extension
 
@@ -347,25 +347,25 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] only objects.
 - [ ] only functions
 - [ ] only variables and arrays
-- [x] functions, objects, arrays, or anything you assign to the module
+- [ ] functions, objects, arrays, or anything you assign to the module
 
 #### Q41. Which core module in Node can you use to take advantage of multicore systems?
 
 - [ ] os
 - [ ] util
-- [x] cluster
+- [ ] cluster
 - [ ] net
 
 #### Q42. Which core Node module has wrappers for OpenSSL methods?
 
 - [ ] SSL
 - [ ] hash
-- [x] crypto
+- [ ] crypto
 - [ ] TLS
 
 #### Q43. Which line imports a promise-based version of the readFile method?
 
-- [x] const { readFile } = require(fs).promises
+- [ ] const { readFile } = require(fs).promises
 - [ ] const { readFile } = require(fs)
 - [ ] const { readFilePromises: readFile } = require(fs)
 - [ ] const { readFile } = require(promises)
@@ -374,20 +374,20 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] Changes are not backwards compatible.
 - [ ] Changes might not be backward compatible and might break existing code.
-- [x] Changes are just bug fixes and no new features were added.
+- [ ] Changes are just bug fixes and no new features were added.
 - [ ] Changes will add new functionality but will not break any existing code.
 
 #### Q45. What does REPL stand for?
 
 - [ ] run, examine, put, loop
-- [x] read, eval, print, loop
+- [ ] read, eval, print, loop
 - [ ] run, edit, print, loop
 - [ ] read, extend, print, loop
 
 #### Q46. Which file does node-gyp use to read the build configuration of a module?
 
 - [ ] .gyprc
-- [x] binding.gyp
+- [ ] binding.gyp
 - [ ] gyp.json
 - [ ] package.gyp
 
@@ -395,13 +395,13 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] chai
 - [ ] jest
-- [x] assert
+- [ ] assert
 - [ ] mocha
 
 #### Q48. Which core module in Node provides an API to register callbacks to track asynchronous resources created inside a Node.js application?
 
 - [ ] cluster
-- [x] async_hooks
+- [ ] async_hooks
 - [ ] dgram
 - [ ] inspector
 
@@ -411,7 +411,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] buffer
 - [ ] util
-- [x] string_decoder
+- [ ] string_decoder
 - [ ] string_buffer
 
 [Refrence](https://nodejs.org/api/string_decoder.html)
@@ -420,7 +420,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] v8
 - [ ] env
-- [x] process
+- [ ] process
 - [ ] child_process
 
 **Explanation:** \_process is an global object and act like a bridge, the others aren't
@@ -432,14 +432,14 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] Every Node process runs in a single thread, and all the I/O work is run in that same thread.
 - [ ] Every Node process gets four threads that it can share between its JavaScript VM and the event loop.
-- [x] The event loop is single-threaded, but a JavaScript VM can use multiple threads.
+- [ ] The event loop is single-threaded, but a JavaScript VM can use multiple threads.
 - [ ] JavaScript execution in Node.js is single-threaded, but I/O operations are executed using multiple threads.
 
 **Explanation:** _https://www.geeksforgeeks.org/why-node-js-is-a-single-threaded-language/_
 
 #### Q52. Which statement about event emitters is false?
 
-- [x] Event names must be camelCase strings.
+- [ ] Event names must be camelCase strings.
 - [ ] The emit method allows a arbitrary set of arguments to be passed to the listener functions.
 - [ ] Any values returned by the listeners for an emitted events are ignored.
 - [ ] When an event emitter object emits an event, all of the functions attached to that specific event are called synchronously.
@@ -448,14 +448,14 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] sandbox
 - [ ] buffer
-- [x] vm
+- [ ] vm
 - [ ] v8
 
 #### Q54. How would you determine the number of cluster instances to start when using the cluster module?
 
 - [ ] const numInstances = cluster.instances().length;
 - [ ] const numInstances = cluster.instances();
-- [x] const numInstances = require('os').cpus().length;
+- [ ] const numInstances = require('os').cpus().length;
 - [ ] const numInstances = process.cpus().length;
 
 **Explanation:** _From official docs: [https://nodejs.org/api/cluster.html#cluster_cluster](https://nodejs.org/api/cluster.html#cluster_cluster)_
@@ -465,14 +465,14 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] Use regular expressions directly on the file.
 - [ ] Use Promises and async/await to offload the task to libuv.
 - [ ] Copy the file into a database and perform the operations there.
-- [x] Use readline together with streams to read and transform and write the file contents line by line.
+- [ ] Use readline together with streams to read and transform and write the file contents line by line.
 
 **Explanation:** _From official docs: [https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line](https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line)_
 
 #### Q56. Which choice is `not` a Node global object?
 
 - [ ] process
-- [x] exports
+- [ ] exports
 - [ ] setTimeout
 - [ ] Buffer
 
@@ -480,7 +480,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 #### Q57. What is the correct way to pipe a readable stream and a writable stream?
 
-- [x] readableStream.pipe(writableStream)
+- [ ] readableStream.pipe(writableStream)
 - [ ] readableStream.on(pipe, writableStream)
 - [ ] writableStream.pipe(readableStream)
 - [ ] writableStream.on(pipe, readableStream)
@@ -488,7 +488,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 #### Q58. How can you convert path segments into a string using the platform-specific separator as a delimiter?
 
 - [ ] path.concat
-- [x] path.join
+- [ ] path.join
 - [ ] path.format
 - [ ] path.parse
 
@@ -497,7 +497,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 #### Q59. What is the purpose of N-API?
 
 - [ ] to allow users to make requests to the server
-- [x] to insulate Addons from changes in the underlying JavaScript engine
+- [ ] to insulate Addons from changes in the underlying JavaScript engine
 - [ ] to execute multi-threaded code in the Node environment
 - [ ] to provide a quick way for users to create REST APIs
 
@@ -506,7 +506,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] a locally scoped object that provides information about the current node process
 - [ ] a global object that provides information about files
 - [ ] a global object that provides information about the database
-- [x] a global object that provides information about the current node process
+- [ ] a global object that provides information about the current node process
 
 #### Q61. What will this code log to the console?
 
@@ -520,7 +520,7 @@ console.log(person);
 ```
 
 - [ ] `{'Jane'}`
-- [x] `{ name: 'Jane' }`
+- [ ] `{ name: 'Jane' }`
 - [ ] `{}`
 - [ ] `Jane`
 
@@ -538,11 +538,11 @@ console.log(person);
 - [ ] `John`
 - [ ] `Undefined`
 - [ ] `{'John'}`
-- [x] `{}`
+- [ ] `{}`
 
 #### Q63. Is it possible to write tests in Node.js without an external library?
 
-- [x] yes, through the assert module
+- [ ] yes, through the assert module
 - [ ] yes, through the debugger module
 - [ ] yes, through the console module
 - [ ] no
@@ -554,18 +554,18 @@ console.log(person);
 - [ ] fail
 - [ ] doesNotThrow
 - [ ] deepStrictEqual
-- [x] ifError
+- [ ] ifError
 
 #### Q65. Which choice is not a method on the util module?
 
 - [ ] promisify
-- [x] asyncify
+- [ ] asyncify
 - [ ] types
 - [ ] callbackify
 
 #### Q66. Which choice is not a subclass of the Error class?
 
-- [x] GlobalError
+- [ ] GlobalError
 - [ ] TypeError
 - [ ] RangeError
 - [ ] AssertionError
@@ -573,7 +573,7 @@ console.log(person);
 #### Q67. What is Node built on?
 
 - [ ] Python
-- [x] V8 JavaScript engine
+- [ ] V8 JavaScript engine
 - [ ] PHP
 - [ ] c
 
@@ -584,20 +584,20 @@ console.log(person);
 - [ ] As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.
 - [ ] As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.
 - [ ] As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.
-- [x] The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
+- [ ] The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
 
 #### Q69. What is used for parsing and running Javascript in Node.js?
 
 - [ ] EventLoop
 - [ ] Libuv
-- [x] Google V8
+- [ ] Google V8
 - [ ] Express.js
 
 [Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
 
 #### Q70. What is the importance of having good practices around status code in your response?
 
-- [x] It indicates success or failure to the client and helps with testing.
+- [ ] It indicates success or failure to the client and helps with testing.
 - [ ] It is not important to have good practices regarding status codes
 - [ ] Response codes are the only way you can tell what is happening on the server.
 - [ ] It contains information about the current performance of the server.
@@ -605,7 +605,7 @@ console.log(person);
 #### Q71. How can ECMAScript modules be used natively in Node?
 
 - [ ] ECMAScript modules cannot be used natively in Node.
-- [x] ECMAScript modules can be used natively in Node with the .mjs file extension
+- [ ] ECMAScript modules can be used natively in Node with the .mjs file extension
 - [ ] ECMAScript modules can be used natively in Node only by using a compiler like Babel.
 - [ ] ECMAScript modules can be used natively in Node only by using a bundle like webpack.
 
@@ -613,7 +613,7 @@ console.log(person);
 
 #### Q72. When exploring the Node documentation's features, what are the stability ratings?
 
-- [x] They are an indication of the stability of Nodejs modules and usage recommendations.
+- [ ] They are an indication of the stability of Nodejs modules and usage recommendations.
 - [ ] They tell if a feature is ES6 compliant.
 - [ ] They are a Node command to validate stability of your code.
 - [ ] They tell if a feature is LTS (Long Term Supported).
@@ -622,20 +622,20 @@ console.log(person);
 
 - [ ] resolve
 - [ ] reverse
-- [x] lookup
+- [ ] lookup
 - [ ] resolve4
 
 #### Q74. When you `require(something)`, where will Node.js attempt to `resolve(something)`?
 
 - [ ] the local .modules folder, then the parents' node_modules folder
-- [x] the local node_modules folder, then the parents' node_modules folder
+- [ ] the local node_modules folder, then the parents' node_modules folder
 - [ ] the .modules folder under the home directory
 - [ ] a "something.js" file or a "something" folder, which exist on the same level as the requiring file
 
 #### Q75. An external library has its own codebase and license. It is not managed by the Node.js core team. Which choice is an external library that Node.js uses?
 
 - [ ] net
-- [x] openssl
+- [ ] openssl
 - [ ] cluster
 - [ ] events
 
@@ -644,7 +644,7 @@ console.log(person);
 #### Q76. What is the main purpose of the package-lock.json file?
 
 - [ ] to be a system file
-- [x] to provide an exact, single representation of the dependency tree
+- [ ] to provide an exact, single representation of the dependency tree
 - [ ] to serve as a module to export dependencies
 - [ ] to be a log for the application
 
@@ -670,6 +670,6 @@ server.listen(port, hostname, () => {
 - [ ] `server running at port 3000`
 - [ ] `server running at http://localhost:3000/`
 - [ ] `server running at http://localhost:4000/`
-- [x] `Hello World`
+- [ ] `Hello World`
 
 [Refrence](https://nodejs.org/en/docs/guides/getting-started-guide/)

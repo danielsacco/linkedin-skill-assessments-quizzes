@@ -5,7 +5,7 @@
 - [ ] normal
 - [ ] poisson
 - [ ] binomial
-- [x] uniform
+- [ ] uniform
 
 #### Q2. Based on the code below, c is the \_ of a.
 
@@ -15,14 +15,14 @@ b = sort(a);
 c = b(1, ceil(end/2));
 ```
 
-- [x] median
+- [ ] median
 - [ ] mode
 - [ ] mean
 - [ ] margin
 
 #### Q3. What does the Profiler track?
 
-- [x] execution time
+- [ ] execution time
 - [ ] command history
 - [ ] errors
 - [ ] the value of variables
@@ -55,7 +55,7 @@ while a < 5:
     a = a + 1;
 ```
 
-- [x] D
+- [ ] D
 
 ```
 a = 0;
@@ -75,7 +75,7 @@ a =
      1     9    46     6    19
 ```
 
-- [x] A
+- [ ] A
 
 ```
 b =
@@ -101,7 +101,7 @@ b =
 t = cputime(myfun());
 ```
 
-- [x] A
+- [ ] A
 
 ```
 tic;
@@ -127,26 +127,26 @@ t = timer(myfun());
 
 - [ ] argument placeholder
 - [ ] block quotes
-- [x] code sections
+- [ ] code sections
 - [ ] conversion specifier
 
 #### Q8. what is the `.` character NOT used for?
 
 - [ ] structure field access
 - [ ] a decimal point
-- [x] cell array access
+- [ ] cell array access
 - [ ] element-wise operations
 
 #### Q9. Which function could you use for multiple linear regression?
 
 - [ ] polyval
-- [x] regress
+- [ ] regress
 - [ ] solve
 - [ ] polyfit
 
 #### Q10. For which of these arrays do `mean`, `median`, and `mode` return the same value?
 
-- [x] [0 1 1 1 2]
+- [ ] [0 1 1 1 2]
 - [ ] [1 3 5 5 6]
 - [ ] [0 1 1 1 1]
 - [ ] [0 0 5 5 5]
@@ -161,19 +161,19 @@ plot(x, y)
 
 - [ ] Your plot doesn't plot in a figure window because `figure` was not called immediately in advance.
 - [ ] Your `plot` syntax is incorrect.
-- [x] Your plot is in a figure window that was already open, hidden behind other windows on your screen.
+- [ ] Your plot is in a figure window that was already open, hidden behind other windows on your screen.
 - [ ] Your plot was saved to an image file but not displayed.
 
 #### Q12. How do you access the value for the field `name` in structure S?
 
 - [ ] S['name']
-- [x] S.name
+- [ ] S.name
 - [ ] S('name')
 - [ ] S{'name'}
 
 #### Q13. What built-in definition does i have?
 
-- [x] basic imaginary unit
+- [ ] basic imaginary unit
 - [ ] index function
 - [ ] infinity
 - [ ] index variable
@@ -191,14 +191,14 @@ end
 ```
 
 - [ ] b = a\*a;
-- [x] b = a.^2;
+- [ ] b = a.^2;
 - [ ] b = a^2;
 - [ ] b = pow2(a);
 
 #### Q15. You have plotted values of cosine from -10 to 10 and want to change the x-axis tick marks to every pi, from -3*pi to 3*pi. Which statement will do that?
 
 - [ ] xticks(-3*pi:3.14:3*pi)
-- [x] xticks(-3*pi:pi:3*pi)
+- [ ] xticks(-3*pi:pi:3*pi)
 - [ ] xticks(linespace(-3*pi(), 3*pi(), pi()))
 - [ ] xticks(linespace(-3*pi, 3*pi, pi)
 
@@ -211,7 +211,7 @@ c = conv(a,b)
 ```
 
 - [ ] [-1 2 -1]
-- [x] [1 3 6 5 3]
+- [ ] [1 3 6 5 3]
 - [ ] 6
 - [ ] [1 -2 1]
 
@@ -219,12 +219,12 @@ c = conv(a,b)
 
 - [ ] datasample
 - [ ] randi
-- [x] resample
+- [ ] resample
 - [ ] randperm
 
 #### Q18. Which choice is correct syntax for a `switch` statement?
 
-- [x] A
+- [ ] A
 
 ```
 x = 7;
@@ -290,7 +290,7 @@ c =
     NaN
 ```
 
-- [x] C
+- [ ] C
 
 ```
 c =
@@ -307,7 +307,7 @@ c =
 #### Q20. What is true of a handle class object?
 
 - [ ] When you pass a handle object to a function, a new object is made that is independent of the original.
-- [x] All copies of handle objects refer to the same underlying object.
+- [ ] All copies of handle objects refer to the same underlying object.
 - [ ] Handle object cannot reference one another.
 - [ ] Handle object do not have a default `eq` function.
 
@@ -324,7 +324,7 @@ end
 
 - [ ] B
       `f10 = factorial(10)`
-- [x] C
+- [ ] C
 
 ```MATLAB
 f10 = 1;
@@ -349,7 +349,7 @@ round(a * inv(a))
 
 - [ ] B
       `diag(ones(5, 1))`
-- [x] C
+- [ ] C
       `identity(5)`
 - [ ] D
       `eye(5)`
@@ -366,7 +366,7 @@ dog =
 
 - [ ] A
       `dog = struct('name', 'Bindy'; 'breed', 'border collie'; 'weight', 32);`
-- [x] B
+- [ ] B
 
 ```
 dog.name   = 'Bindy';
@@ -409,7 +409,7 @@ a = my_func(a);
 - [ ] 4
 - [ ] 3
 - [ ] 0
-- [x] 1
+- [ ] 1
 
 #### Q25. Which statement could create this cell array?
 
@@ -420,7 +420,7 @@ c =
 
 - [ ] c = {"hello world" {"hello"} "goodbye" [1 2 ]};
 - [ ] c = {"hello world" {"hello"} "goodbye" {[1 2 3]}};
-- [x] c = {"hello world" {"hello"} "goodbye" [1 2 3]};
+- [ ] c = {"hello world" {"hello"} "goodbye" [1 2 3]};
 - [ ] c = {"hello world" {"hello" "hello"} "goodbye" {[1 2 3]}};
 
 #### Q26. Which choice adds `b` to each row of `a`?
@@ -432,7 +432,7 @@ b= [1 2 3 4];
 
 - [ ] a = a + reshape(b, 4, 1);
 - [ ] a = a + b';
-- [x] a = a + repmat(b, 4, 1);
+- [ ] a = a + repmat(b, 4, 1);
 - [ ] a = a + [b b b b];
 
 #### Q27. Which choice replaces all `a`s with `o`s?
@@ -453,7 +453,7 @@ for i = 1:length(fruit)
 end
 ```
 
-- [x] C
+- [ ] C
 
 ```
 for i = 1:length(fruit)
@@ -473,19 +473,19 @@ for i = 1:length(fruit)
 - [ ] poly([1 2 -4])
 - [ ] solve(x^2 + 2x - 4 == 0)
 - [ ] polyfit(x^2 + 2x - 4 == 0)
-- [x] roots([1 2 -4])
+- [ ] roots([1 2 -4])
 
 #### Q29. Which choice is the proper syntax to append a new elements `a` to the end of 1x 2 dimensional cell array `C`?
 
 - [ ] C = {C a};
 - [ ] C = cellcat(C a)
 - [ ] C = cat(2, {a}, C)
-- [x] C{end+1}=a
+- [ ] C{end+1}=a
 
 #### Q30. You have loaded a dataset of people's heights into a 100 x 1 array called `height`. Which statement will return a 100 x 1 array, `sim_height`, with values from a normal distribution with the same mean and variance as your height data?
 
 - [ ] sim_height = std(height) + mean(height) \* randn(100, 1);
-- [x] sim_height = mean(height) + std(height) \* randn(100, 1);
+- [ ] sim_height = mean(height) + std(height) \* randn(100, 1);
 - [ ] sim_height = randn(std(height), mean(height), [100, 1]);
 - [ ] sim_height = randn(mean(height), std(height), [100, 1]);
 
@@ -496,7 +496,7 @@ for i = 1:length(fruit)
 - [ ] menu{strfind(menu, 'burger')}
 - [ ] menu(strfind(menu, 'burger'))
 - [ ] menu{contains(menu, 'burger')}
-- [x] menu(contains(menu, 'burger'))
+- [ ] menu(contains(menu, 'burger'))
 
 #### Q32. What is the set of possible values that `a` may contain?
 
@@ -507,14 +507,14 @@ a(a>2) = 12;
 ```
 
 - [ ] 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-- [x] 1, 2, 12
+- [ ] 1, 2, 12
 - [ ] 2, 11, 12
 - [ ] 1, 12
 
 #### Q33. Which statement is true about the sparse matrices?
 
 - [ ] You can use the `sparse` function to remove empty cells from cell array variables.
-- [x] Sparse matrices always use less memory than their associated full matrices.
+- [ ] Sparse matrices always use less memory than their associated full matrices.
 - [ ] Mixtures of sparse and full matrices can be combined in all of MATLAB's built-in arithmetic operations.
 - [ ] The `sparse` function requires its input to be a full matrix with at least 50% zero elements.
 
@@ -524,7 +524,7 @@ a(a>2) = 12;
 
 - [ ] b = a(a ~= 11)
 - [ ] b = a(a == 1)
-- [x] b = a(a>6 && a<9)
+- [ ] b = a(a>6 && a<9)
 - [ ] b = a(a | 1)
 
 #### Q35. Which statement turns `menu` into the variable `menu_string` below?
@@ -539,14 +539,14 @@ menu_string =
      veggie burger'
 ```
 
-- [x] menu_string = cell2mat(join(menu, newline))
+- [ ] menu_string = cell2mat(join(menu, newline))
 - [ ] menu_string = cell2mat(join(menu, '\n'))
 - [ ] menu_string = join(menu, newline)
 - [ ] menu_string = cell2mat(pad(menu))
 
 #### Q36. Which code snippet sets a new random seed based on the current time and saves the current settings of the random number generator?
 
-- [x] `rng_settings_curr = rng('shuffle');`
+- [ ] `rng_settings_curr = rng('shuffle');`
 - [ ] B
 
 ```
@@ -566,7 +566,7 @@ rng_settings_curr = rng();
 #### Q37. You have a matrix `data` in which each column is mono audio recording from a room in your house. You've noticed that each column has a very different mean and when you plot them all on the same graph, the spread across the y axis make it impossible to see anything. You want to subtract the mean from each column. Which code block will accomplish this?
 
 - [ ] `data_nomean = data - repmat(median(data), size(data, 1), 1);`
-- [x] `data_nomean = bsxfun(@minus, data, mean(data));`
+- [ ] `data_nomean = bsxfun(@minus, data, mean(data));`
 - [ ] .
 
 ```
@@ -601,7 +601,7 @@ for i_C = 1:size(C, 1)
 end
 ```
 
-- [x] .
+- [ ] .
       `b = cellfun(@(m) mean(m(:)), C)`
 
 #### Q39. Which statement creates a logical array that is 1 if the element in `passwords` contains a digit and 0 if it does not?
@@ -610,14 +610,14 @@ end
 
 - [ ] contains(password, '\d')
 - [ ] ~isempty(regexp(passwords, '\d'))
-- [x] cellfun(@(x) ~isempty(regexp(x, '\d')), passwords)
+- [ ] cellfun(@(x) ~isempty(regexp(x, '\d')), passwords)
 - [ ] regexp(passwords, '\d')
 
 #### Q40. Which is NOT a function that adds text to a plot?
 
 - [ ] title
 - [ ] text
-- [x] label
+- [ ] label
 - [ ] legend
 
 #### Q41. Which code block most likely produced this graph?
@@ -634,7 +634,7 @@ surf(r)
 colorbar
 ```
 
-- [x] &shy;
+- [ ] &shy;
 
 ```
 figure
@@ -649,13 +649,13 @@ colorbar
 - [ ] figure files
 - [ ] script files
 - [ ] function files
-- [x] stored variable files
+- [ ] stored variable files
 
 #### Q43. You would like to randomly reorder every element in array a and put the result into another array b. Which code is NOT necessary to do that?
 
 `a = 1:10;`
 
-- [x] :
+- [ ] :
       `b = a(randi(10, 1, 10));`
 - [ ] :
 
@@ -685,7 +685,7 @@ a = 'stand'
 b = "stand"
 ```
 
-- [x] a == b
+- [ ] a == b
 - [ ] ischar(b)
 - [ ] length(a) == length(b)
 - [ ] class(a) == class(b)
@@ -698,7 +698,7 @@ D = {'cow' 'piranha' 'mouse'}
 E = setdiff(C,D)
 ```
 
-- [x] E = {'cat'} {'dog'}
+- [ ] E = {'cat'} {'dog'}
 - [ ] E = {'mouse'}
 - [ ] E = {'cat'} {'cow'} {'dog'} {'piranha'}
 - [ ] E =
@@ -708,7 +708,7 @@ E = setdiff(C,D)
 - [ ] Editor
 - [ ] command window
 - [ ] details
-- [x] workspace
+- [ ] workspace
 
 #### Q47. Given the following x and y coordinates, which choice calculates a linear regression for the x and y coordinates, and which plots the points of the x,y data and the regression line on the same graph?
 
@@ -717,7 +717,7 @@ x = 9.0646 6.4362 7.8266 8.3945 5.6135 4.8186 2.8862 10.9311 1.1908 3.2586
 y = 15.4357 11.0923 14.1417 14.9506 8.7687 8.0416 5.1662 20.5005 1.0978
 ```
 
-- [x] :
+- [ ] :
 
 ```
 coeff_line = polyfit(x,y,1)
@@ -772,7 +772,7 @@ a = [0 1 2 3; 4 5 6 7];
 a = a^2;
 ```
 
-- [x] You are attempting to multiply a non-square matrix by itself, causing a dimension mismatch.
+- [ ] You are attempting to multiply a non-square matrix by itself, causing a dimension mismatch.
 - [ ] MATLAB does not allow you to square all the elements in the matrix in a single operation.
 - [ ] You must use the \*\* operator instead of the ^ operator.
 - [ ] You cannot square matrices that have a 0 as the first element.
@@ -781,7 +781,7 @@ a = a^2;
 
 - [ ] v = {1:10}
 - [ ] v = [1-10]
-- [x] v = 1:10
+- [ ] v = 1:10
 - [ ] v = (10)
 
 #### Q50. For a 5 x 5 array, the two subscript index (4,2) indexes the same location as linear index `___`.
@@ -789,21 +789,21 @@ a = a^2;
 - [ ] 7
 - [ ] 8
 - [ ] 17
-- [x] 9
+- [ ] 9
 
 #### Q51. What is a difference between global variable and persistent variables?
 
 - [ ] Global variables have a higher performance overhead than persistent variables.
 - [ ] Global variables remain in memory after clear all; persistent variables do not.
 - [ ] Global variables can be used to cache data in memory; persistent variables cannot.
-- [x] Global variables are accessible outside the function scope; persistent variables are not.
+- [ ] Global variables are accessible outside the function scope; persistent variables are not.
 
 #### Q52. How is the random seed for MATLAB's random number generator first initializedin a MATLAB Session?
 
 - [ ] Seed is undefined until it is initialized by the user.
 - [ ] Seed is set to a value based on the current time when user first calls rand()
 - [ ] Seed is set to a value based on the current time on startup.
-- [x] Seed is set to a static default value on startup.
+- [ ] Seed is set to a static default value on startup.
 
 [Reference](https://ch.mathworks.com/help/matlab/math/why-do-random-numbers-repeat-after-startup.html)
 
@@ -812,7 +812,7 @@ a = a^2;
 - [ ] functions on the path
 - [ ] built-in functions
 - [ ] functions within the current file
-- [x] functions within the current directory
+- [ ] functions within the current directory
 
 [Reference](https://www.mathworks.com/help/matlab/matlab_env/files-and-folders-that-matlab-accesses.html)
 
@@ -825,7 +825,7 @@ function mystery_func(a) :
     return a
 ```
 
-- [x] :
+- [ ] :
 
 ```
 function b = mystery_func(a)
@@ -869,7 +869,7 @@ a =
     7   4
 ```
 
-- [x] :
+- [ ] :
 
 ```
 a =
@@ -898,14 +898,14 @@ a =
 #### Q56. You've just plotted some data and want to change the color behind the lines you've plotted to black. Which code block will accomplish this?
 
 - [ ] `h_f = figure; set(h_f,'Color', [0 0 0]);`
-- [x] `h_a = gca; set(h_a,'Color', [0 0 0]);`
+- [ ] `h_a = gca; set(h_a,'Color', [0 0 0]);`
 - [ ] `h_a = axes; set(h_a,'Color', [0 0 0]);`
 - [ ] `h_f = gcf; set(h_a,'Color', [0 0 0]);`
 
 #### Q57. Which statement will return all the odd numbers from 1 to 9?
 
 - [ ] `2*[1:5]+1`
-- [x] `1:2:9`
+- [ ] `1:2:9`
 - [ ] `isodd(1:9)`
 - [ ] `1:odd:9`
 
@@ -917,7 +917,7 @@ imshow(imfilter(img,h));
 ```
 
 - [ ] `h` is a Gaussian filter that adds to 1. Its intended effect is to highlight image edges.
-- [x] `h` is an averaging filter uniformly distributed that adds to 1. Its intended effect is to smooth out images (remove noise).
+- [ ] `h` is an averaging filter uniformly distributed that adds to 1. Its intended effect is to smooth out images (remove noise).
 - [ ] `h` is a Laplacian filter that adds up to 0. Its intended effect is to smooth out images (remove noise).
 - [ ] `imfilter` is a function that always blurs the images.
 
@@ -931,7 +931,7 @@ b = repmat(a,2,3);
 - [ ] 1x3
 - [ ] 3x2
 - [ ] 2x3
-- [x] 2x9
+- [ ] 2x9
 
 #### Q60. Which statement reverses vector `a`?
 
@@ -940,7 +940,7 @@ a = [ 1 2 3 4];
 ```
 
 - [ ] reverse(a)
-- [x] a(end:- 1:1)
+- [ ] a(end:- 1:1)
 - [ ] rev(a)
 - [ ] a(::-1)
 
@@ -948,19 +948,19 @@ a = [ 1 2 3 4];
 
 - [ ] `c = [7,8,9]`
 - [ ] `c = [7: 8: 9]`
-- [x] `c = [7; 8; 9]`
+- [ ] `c = [7; 8; 9]`
 - [ ] `c = [7 8 9]`
 
 #### Q62. What do you call in the **command** window to see all the variables in the workspace and their classes?
 
 - [ ] `who`
 - [ ] `vars`
-- [x] `whos`
+- [ ] `whos`
 - [ ] `who all`
 
 #### Q63. You wrote a new function named `snap` in an m-file and when you call it, you're not getting the output you expect. You previously wrote a different function named `snap`, which you think might also be on the search path. Which command can you use to see if the old `snap` function is being called?
 
-- [x] which
+- [ ] which
 - [ ] who
 - [ ] lookfor
 - [ ] what
@@ -969,13 +969,13 @@ a = [ 1 2 3 4];
 
 - [ ] to ensure backward compatibility
 - [ ] to avoid HDF5 overhead in MAT-file
-- [x] to include a variable greater that 2GB
+- [ ] to include a variable greater that 2GB
 - [ ] to use compression by default
 
 #### Q65. Which choice cannot add a directory to the search path?
 
 - [ ] the **path** function
-- [x] the **savepath** function
+- [ ] the **savepath** function
 - [ ] using **Set Path** in the **Environment** menu
 - [ ] the **addpath** function
 
@@ -986,7 +986,7 @@ a = [ 1 2 3 4];
 - [ ] mesh
 - [ ] surf
 - [ ] contour
-- [x] grid
+- [ ] grid
 
 [Reference](https://www.mathworks.com/help/matlab/ref/grid.html)
 
@@ -994,7 +994,7 @@ a = [ 1 2 3 4];
 
 - [ ] to use compression by default
 - [ ] to ensure backward compatibility
-- [x] to include a variable greater than 2GB
+- [ ] to include a variable greater than 2GB
 - [ ] to avoid HDF5 overhead in MAT-file
 
 [Reference](https://www.mathworks.com/matlabcentral/answers/169755-saving-variable-with-v7-3-flag-check)
@@ -1003,7 +1003,7 @@ a = [ 1 2 3 4];
 
 ![MatLab Q41](images/matlab_Q41.png?raw=png)
 
-- [x] `a = randn(1,1000); histogram(a) ylabel('counts')`
+- [ ] `a = randn(1,1000); histogram(a) ylabel('counts')`
 - [ ] `a = rand(1,1000); histogram(a) ylabel('counts')`
 - [ ] `a = randi(1,1000); histogram(a) ylabel('counts')`
 - [ ] `a = rng(1,1000); histogram(a) ylabel('counts')`
@@ -1012,7 +1012,7 @@ a = [ 1 2 3 4];
 
 - [ ] && is a logical operator and & is not.
 - [ ] && is always slower than &
-- [x] && employs short-circuiting behavior and & does not.
+- [ ] && employs short-circuiting behavior and & does not.
 - [ ] && is a bitwise operator and & is not.
 
 [Reference](https://stackoverflow.com/questions/1379415/whats-the-difference-between-and-in-matlab)
@@ -1025,13 +1025,13 @@ s="abcd"; s(3)='x'
 
 - [ ] "abxd"
 - [ ] abxd
-- [x] a 1x 3 string array
+- [ ] a 1x 3 string array
 - [ ] a run-time error
 
 #### Q71. In which case would you use varargin in a function you write?
 
 - [ ] You want to count the number of input arguments.
-- [x] You want to include optional input arguments.
+- [ ] You want to include optional input arguments.
 - [ ] You want the workspace variable names of the input arguments.
 - [ ] You want the data types of the input arguments.
 
@@ -1045,7 +1045,7 @@ e = union(c,d);
 
 - [ ] `e = [0 0 1 9 8 0]`
 - [ ] `e = [9 8 0 0 0 1]`
-- [x] `e = [0 1 8 9]`
+- [ ] `e = [0 1 8 9]`
 - [ ] `e = [1 8 9]`
 
 #### Q73. What does this function print?
@@ -1057,11 +1057,11 @@ for i_loop = 1:6
 end
 ```
 
-- [x] nothing will print
+- [ ] nothing will print
 
 #### Q74. You are debugging a function and have set a breaipoint on the line before the error occurs. You look at the variable values and suspect the cause of the error is that a is 9 but should be 10. The next statement after the breakpoint will use a. Wigh action would help you test if a=10 solves the problem?
 
-- [x] type "a=10;" into the function file, before the statement that's throwing an error. Then click the Run button in the debugger window.
+- [ ] type "a=10;" into the function file, before the statement that's throwing an error. Then click the Run button in the debugger window.
 - [ ] Type "a=10; continue;" into the command window
 - [ ] Type "a=10;" into the command window. Then click the Run button in the debugger window
 - [ ] Type "a=10;" into the function file, before the statement that's throwing an error. Then type "return;" into the command window
@@ -1074,7 +1074,7 @@ b = ['stand' 'alone'];
 
 - [ ] b(7:11)
 - [ ] b(2)
-- [x] b(6:end)
+- [ ] b(6:end)
 - [ ] b(1,2)
 
 #### Q76. Which statement returns the character array 'alone'?
@@ -1134,7 +1134,7 @@ if (a > 1){
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```
 if (a > 1)
@@ -1162,7 +1162,7 @@ a = [9 8 8 19 6 1 9 6 6 19];
 b = unique(a);
 ```
 
-- [x] `b = [1 6 8 9 19]`
+- [ ] `b = [1 6 8 9 19]`
 - [ ] `b = [1 6 8 9]`
 - [ ] `b = [1 6 6 6 8 8 9 9 19 19]`
 - [ ] `b = [1 6 6 8 8 9]`

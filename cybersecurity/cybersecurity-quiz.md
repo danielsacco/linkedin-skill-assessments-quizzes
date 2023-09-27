@@ -3,7 +3,7 @@
 #### Q1. According to the shared responsibility model, which cloud computing model places the most responsibility on the cloud service provider (CSP)?
 
 - [ ] Hybrid Cloud
-- [x] Software as a Service (SaaS)
+- [ ] Software as a Service (SaaS)
 - [ ] Platform as a Service (PaaS)
 - [ ] Infrastructure as a Service (IaaS)
 
@@ -11,12 +11,12 @@
 
 - [ ] PaaS
 - [ ] public cloud
-- [x] private cloud
+- [ ] private cloud
 - [ ] IaaS
 
 #### Q3. Your organization recently implemented a unified messaging solution and VoIP phones on every desktop. You are responsible for researching the vulnerabilities of the VoIP system. Which type of attack are VoIP phones most vulnerable to experiencing?
 
-- [x] denial-of-service
+- [ ] denial-of-service
 - [ ] brute force attacks
 - [ ] malware
 - [ ] buffer overflow
@@ -25,7 +25,7 @@
 
 - [ ] cloud access security broker (CASB)
 - [ ] intrusion prevention system (IPS)
-- [x] intrusion detection system (IDS)
+- [ ] intrusion detection system (IDS)
 - [ ] next generation firewall
 
 **Explanation**: An intrusion detection system (`IDS`) is a device or software application that monitors a network or systems for malicious activity or policy violations.
@@ -36,7 +36,7 @@
 
 - [ ] SIEM
 - [ ] UTM
-- [x] protocol analyzer
+- [ ] protocol analyzer
 - [ ] data sink
 
 #### Q6. Which option tests code while it is in operation?
@@ -44,18 +44,18 @@
 - [ ] code review
 - [ ] code analysis
 - [ ] static analysis
-- [x] dynamic analysis
+- [ ] dynamic analysis
 
 #### Q7. Which option describes testing that individual software developers can conduct on their own code?
 
 - [ ] gray box testing
 - [ ] integration testing
 - [ ] white box testing
-- [x] unit testing
+- [ ] unit testing
 
 #### Q8. In black box penetration testing, what information is provided to the tester about the target environment?
 
-- [x] none
+- [ ] none
 - [ ] limited details of server and network infrastructure
 - [ ] all information
 - [ ] limited details of server infrastructure
@@ -64,7 +64,7 @@
 
 - [ ] intrusion prevention system (IPS)
 - [ ] next generation firewall
-- [x] cloud access security broker (CASB)
+- [ ] cloud access security broker (CASB)
 - [ ] intrusion detection system (IDS)
 
 #### Q10. Which option describes the best defense against collusion?
@@ -72,13 +72,13 @@
 - [ ] monitoring of normal employee system and data access patterns
 - [ ] applying system and application updates regularly
 - [ ] fault tolerant infrastructure and data redundancy
-- [x] separation of duties and job rotation
+- [ ] separation of duties and job rotation
 
 [Stack Exchange](https://security.stackexchange.com/a/114835/249930)
 
 #### Q11. During a penetration test, you find a file containing hashed passwords for the system you are attempting to breach. Which type of attack is most likely to succeed in accessing the hashed passwords in a reasonable amount of time?
 
-- [x] rainbow table attack
+- [ ] rainbow table attack
 - [ ] pass-the-hash attack
 - [ ] password spray attack
 - [ ] brute force attack
@@ -93,7 +93,7 @@
 
 - [ ] 4
 - [ ] 1
-- [x] 2
+- [ ] 2
 - [ ] 3
 
 #### Q13. You configure an encrypted USB drive for a user who needs to deliver a sensitive file at an in-person meeting. What type of encryption is typically used to encrypt the file?
@@ -101,11 +101,11 @@
 - [ ] file hash
 - [ ] asymmetric encryption
 - [ ] digital signature
-- [x] symmetric encryption
+- [ ] symmetric encryption
 
 #### Q14. What is the difference between DRP and BCP
 
-- [x] DRP works to keep a business up and running despite a disaster. BCP works to restore the original business capabilities.
+- [ ] DRP works to keep a business up and running despite a disaster. BCP works to restore the original business capabilities.
 - [ ] BCP works to keep a business up and running despite a disaster. DRP works to restore the original business capabilities.
 - [ ] BCP is part of DRP.
 - [ ] DRP is part of BCP.
@@ -114,12 +114,12 @@
 
 - [ ] non-repudiation
 - [ ] integrity
-- [x] availability
+- [ ] availability
 - [ ] confidentiality
 
 #### Q16. You need to recommend a solution to automatically assess your cloud-hosted VMs against CIS benchmarks to identify deviations from security best practices. What type of solution should you recommend?
 
-- [x] Cloud Security Posture Management (CSPM)
+- [ ] Cloud Security Posture Management (CSPM)
 - [ ] Intrusion Detection and Prevention System (IDPS)
 - [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Access Security Brokers (CASBs)
@@ -127,20 +127,20 @@
 #### Q17. **\_** validates the integrity of data files.
 
 - [ ] Compression
-- [x] Hashing
+- [ ] Hashing
 - [ ] Symmetric encryption
 - [ ] Stenography
 
 #### Q18. Which is an example of privacy regulation at the state government level in the U.S.?
 
-- [x] CCPA
+- [ ] CCPA
 - [ ] GDPR
 - [ ] NIST Privacy Framework
 - [ ] OSPF
 
 #### Q19. what is the term for the policies and technologies implemented to protect, limit, monitor, audit, and govern identities with access to sensitive data and resources?
 
-- [x] identity and access management (IAM)
+- [ ] identity and access management (IAM)
 - [ ] privileged account management (PAM)
 - [ ] authentication and authorization
 - [ ] least privilege
@@ -150,12 +150,12 @@
 - [ ] preventive control
 - [ ] detective control
 - [ ] directive control
-- [x] corrective control
+- [ ] corrective control
 
 #### Q21. What is the name for a short-term interruption in electrical power supply?
 
 - [ ] grayout
-- [x] blackout
+- [ ] blackout
 - [ ] brownout
 - [ ] whiteout
 
@@ -163,13 +163,13 @@
 
 - [ ] Security Information Event Management (SIEM)
 - [ ] Extended Detection and Response (XDR)
-- [x] next generation firewall (NGFW)
+- [ ] next generation firewall (NGFW)
 - [ ] Cloud App Security Broker (CASB)
 
 #### Q23. Which is _not_ a threat modeling methodology?
 
 - [ ] TRIKE
-- [x] TOGAF
+- [ ] TOGAF
 - [ ] STRIDE
 - [ ] MITRE ATT&CK
 
@@ -177,21 +177,21 @@
 
 #### Which strategy should you choose?
 
-- [x] dynamic application security testing
+- [ ] dynamic application security testing
 - [ ] unit testing
 - [ ] white box testing
 - [ ] static application security testing
 
 #### Q25. You need to disable the camera on corporate devices to prevent screen capture and recording of sensitive documents, meetings, and conversations. Which solution would be be suited to the task?
 
-- [x] Mobile Device Management (MDM)
+- [ ] Mobile Device Management (MDM)
 - [ ] Data Loss Prevention (DLP)
 - [ ] Intrusion Detection and Prevention System (IDPS)
 - [ ] Cloud Access Security Broker (CASB)
 
 #### Q26. How many keys would be necessary to accomodate 100 users in an asymmetric cryptography system?
 
-- [x] 200
+- [ ] 200
 - [ ] 400
 - [ ] 100
 - [ ] 300
@@ -201,7 +201,7 @@
 #### Q27. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
 
 - [ ] Federal Information Security Managment Act (FISMA)
-- [x] Payment Card Industry Data Security Standard (PCI-DSS)
+- [ ] Payment Card Industry Data Security Standard (PCI-DSS)
 - [ ] General Data Protection Regulation (GDPR)
 - [ ] International Organization for Standardization and International Electrotechnical Commission (ISO/IEC 27018)
 
@@ -213,7 +213,7 @@
 
 - [ ] Common event format
 - [ ] common weakness enumeration
-- [x] common vulnerabilties and exposures
+- [ ] common vulnerabilties and exposures
 - [ ] common vulnerability scoring system
 
 **Explanation**: The Common Vulnerabilities and Exposures (`CVE`) system provides a reference-method for publicly known information-security vulnerabilities and exposures.
@@ -223,7 +223,7 @@
 - [ ] log server
 - [ ] network scanner
 - [ ] firewall
-- [x] protocol analyzer
+- [ ] protocol analyzer
 
 **Explanation**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel.
 
@@ -232,7 +232,7 @@
 #### Q30. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensitive public data. What type of security issue exists?
 
 - [ ] aggregation
-- [x] inference
+- [ ] inference
 - [ ] SQL injection
 - [ ] cross-origin resouce sharing
 
@@ -242,7 +242,7 @@
 
 - [ ] Zero Trust Security
 - [ ] Role-Based Access Control (RBAC)
-- [x] authorization
+- [ ] authorization
 - [ ] Single Sign-On
 
 [Okata.com](https://www.okta.com/identity-101/authentication-vs-authorization/)
@@ -251,7 +251,7 @@
 
 - [ ] processor
 - [ ] object
-- [x] subject
+- [ ] subject
 - [ ] controller
 
 [Intersoft Consulting](https://gdpr-info.eu/art-4-gdpr/)
@@ -260,7 +260,7 @@
 
 - [ ] use least privilege access
 - [ ] verify explicitly
-- [x] trust but verify
+- [ ] trust but verify
 - [ ] assume breach
 
 **Explanation**: zero trust assumes that the system will be breached and designs security as if there is no perimeter. Hence, don’t trust anything by default.
@@ -271,7 +271,7 @@
 
 - [ ] ARP spoofing
 - [ ] pharming attacks
-- [x] cross-site scripting (XSS)
+- [ ] cross-site scripting (XSS)
 - [ ] DNS poisoning
 
 [White Hat Sec](https://www.whitehatsec.com/glossary/content/input-validation)
@@ -280,19 +280,19 @@
 
 - [ ] IDS
 - [ ] SIEM
-- [x] packet sniffer
+- [ ] packet sniffer
 - [ ] IPS
 
 #### Q36. SQL injection inserts a code fragment that makes a database statement universally true, like **\_**.
 
 - [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
 - [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
-- [x] `SELECT * FROM users WHERE username = " OR 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " OR 1=1--'`
 - [ ] `SELECT * FROM users WHERE username = " OR 1!=1--'`
 
 #### Q37. Which type of security assessment requires access to source code?
 
-- [x] static analysis
+- [ ] static analysis
 - [ ] black box testing
 - [ ] dynamic analysis
 - [ ] penetration testing
@@ -301,7 +301,7 @@
 
 - [ ] Autopsy
 - [ ] Snort
-- [x] Nmap
+- [ ] Nmap
 - [ ] Wireshark
 
 **Explanation**: nmap is a port scanner [https://en.wikipedia.org/wiki/Nmap](https://en.wikipedia.org/wiki/Nmap)
@@ -311,7 +311,7 @@ autopsy is for forensic analysis
 
 #### Q39. When implementing a data loss prevention (DLP) strategy, what is the first step in the process?
 
-- [x] Evaluate the features of available DLP products to determine which best meet your organizations's needs.
+- [ ] Evaluate the features of available DLP products to determine which best meet your organizations's needs.
 - [ ] Examine the flow of sensitive data in your organization to better understand usage patterns.
 - [ ] Conduct an inventory of all the data in your organization to establish classifications based on sensitivity.
 - [ ] Conduct a risk assessment to determine the best data labeling strategy for your organization.
@@ -320,19 +320,19 @@ autopsy is for forensic analysis
 
 - [ ] virus
 - [ ] worm
-- [x] rootkit
+- [ ] rootkit
 - [ ] Trojan horse
 
 #### Q41. Virtual Private Networks (VPNs) use **\_** to create a secure connection between two networks.
 
-- [x] encryption
+- [ ] encryption
 - [ ] a metropolitan area network
 - [ ] a virtual local area network
 - [ ] a wide area network
 
 #### Q42. What is the process of challenging a user to prove their identity?
 
-- [x] authentication
+- [ ] authentication
 - [ ] Single Sign-On
 - [ ] authorization
 - [ ] Role-Based Access Control (RBAC)
@@ -341,19 +341,19 @@ autopsy is for forensic analysis
 
 - [ ] SQL injection
 - [ ] dictionary attack
-- [x] Distributed Denial of Service (DDoS)
+- [ ] Distributed Denial of Service (DDoS)
 - [ ] rainbow table attack
 
 #### Q44. You are a recent cybersecurity hire, and your first assignment is to present on the possible threats to your organization. Which of the following best describes the task?
 
 - [ ] risk mitigation
 - [ ] threat assessment
-- [x] risk management
+- [ ] risk management
 - [ ] enumeration
 
 #### Q45. You are at a coffee shop and connect to a public wireless access point (WAP). What a type of cybersecurity attack are you most likely to experience?
 
-- [x] man-in-the-middle attack
+- [ ] man-in-the-middle attack
 - [ ] back door
 - [ ] logic bomb
 - [ ] virus
@@ -363,25 +363,25 @@ autopsy is for forensic analysis
 - [ ] Extended Detection and Responde (XDR)
 - [ ] Security Information Event Management (SIEM)
 - [ ] Intrusion Detection and Prevention System (IDPS)
-- [x] Mobile Device Management (MDM)
+- [ ] Mobile Device Management (MDM)
 
 #### Q47. Which type of vulnerability cannot be discovered in the course of a typical vulnerability assessment?
 
 - [ ] file permissions
 - [ ] buffer overflow
-- [x] zero-day vulnerability
+- [ ] zero-day vulnerability
 - [ ] cross-site scripting
 
 #### Q48. The DLP project team is about to classify your organization's data. Whats is the primary purpose of classifying data?
 
 - [ ] It identifies regulatory compliance requirements.
 - [ ] It prioritizes IT budget expenditures.
-- [x] It quantifies the potential cost of a data breach.
+- [ ] It quantifies the potential cost of a data breach.
 - [ ] It establishes the value of data to the organization.
 
 #### Q49. You are responsible for managing security of your organization's public cloud infrastructure. You need to implement security to protect the data and applications running in a variety of IaaS and PaaS services, including a new Kubernetes cluster. What type of solution is best suited to this requirement?
 
-- [x] Cloud Workload Protection Platforms (CWPP)
+- [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Security Posture Management (CSPM)
 - [ ] Cloud Access Security Brokers (CASBs)
 - [ ] Intrusion Detection and Prevention System (IDPS)
@@ -391,7 +391,7 @@ autopsy is for forensic analysis
 #### Q50. Sharing account credentials violates the **\_** aspect of access control.
 
 - [ ] identification
-- [x] authorization
+- [ ] authorization
 - [ ] accounting
 - [ ] authentication
 
@@ -400,11 +400,11 @@ autopsy is for forensic analysis
 - [ ] Eradication / Remediation
 - [ ] Certification
 - [ ] Reporting
-- [x] Lessons Learned
+- [ ] Lessons Learned
 
 #### Q52. Which encryption type uses a public and private key pair for encrypting and decrypting data?
 
-- [x] asymmetric
+- [ ] asymmetric
 - [ ] symmetric
 - [ ] hashing
 - [ ] all of these answers
@@ -413,14 +413,14 @@ autopsy is for forensic analysis
 
 - [ ] Reporting
 - [ ] Recovery
-- [x] Eradiction / Remediation
+- [ ] Eradiction / Remediation
 - [ ] Lessons Learned
 
 [Explanation: Pages 29 to 31 ->](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-83r1.pdf)
 
 #### Q54. Which programming language is most susceptible to buffer overflow attacks?
 
-- [x] C
+- [ ] C
 - [ ] Java
 - [ ] Ruby
 - [ ] Python
@@ -430,12 +430,12 @@ autopsy is for forensic analysis
 - [ ] risk acceptance, risk mitigation, risk containment, and risk qualification
 - [ ] risk avoidance, risk transference, risk containment, and risk quantification
 - [ ] risk avoidance, risk mitigation, risk containment, and risk acceptance
-- [x] risk avoidance, risk transference, risk mitigation, and risk acceptance
+- [ ] risk avoidance, risk transference, risk mitigation, and risk acceptance
 
 #### Q56. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
 
 - [ ] asymmetric
-- [x] both symmetric and asymmetric
+- [ ] both symmetric and asymmetric
 - [ ] neither symmetric or asymmetric
 - [ ] symmetric
 
@@ -444,32 +444,32 @@ autopsy is for forensic analysis
 - [ ] trojan
 - [ ] keystroke collector
 - [ ] typethief
-- [x] keylogger
+- [ ] keylogger
 
 #### Q58. How does ransomware affect a victim's files?
 
 - [ ] by destroying them
-- [x] by encrypting them
+- [ ] by encrypting them
 - [ ] by stealing them
 - [ ] by selling them
 
 #### Q59. Your computer has been infected, and is sending out traffic to a targeted system upon receiving a command from a botmaster. What condition is your computer currently in?
 
 - [ ] It has become a money mule.
-- [x] It has become a zombie.
+- [ ] It has become a zombie.
 - [ ] It has become a bastion host.
 - [ ] It has become a botnet.
 
 #### Q60. You choose a cybersecurity framework for your financial organization that implements an effective and auditable set of governance and management processes for IT. Which framework are you choosing?
 
 - [ ] C2M2
-- [x] NIST SP 800-37
+- [ ] NIST SP 800-37
 - [ ] ISO/IEC 27001
 - [ ] COBIT
 
 #### Q61. NIST issued a revision to SP 800-37 in December 2018. It provides a disciplined, structured, and flexible process for managing security and privacy risk. Which type of document is SP 800-37?
 
-- [x] a risk management framework
+- [ ] a risk management framework
 - [ ] a guide to risk assessments
 - [ ] a guideline for vulnerability testing
 - [ ] a step-by-step guide for performing business impact analyses
@@ -478,27 +478,27 @@ autopsy is for forensic analysis
 
 - [ ] duqu
 - [ ] agent BTZ
-- [x] stuxnet
+- [ ] stuxnet
 - [ ] flame
 
 #### Q63. Where would you record risks that have been identified and their details, such as their ID and name, classification of information, and the risk owner?
 
 - [ ] in the risk assessment documentation
-- [x] in the risk register
+- [ ] in the risk register
 - [ ] in the business impact ledger
 - [ ] in the Orange Book
 
 #### Q64. To prevent an incident from overwhelming resources, \_ is necessary.
 
 - [ ] disconnection from the network
-- [x] early containment
+- [ ] early containment
 - [ ] continuation of monitoring for other incidents
 - [ ] eradication of the issues
 
 #### Q65. FUD is expensive and often causes high drama over low risk. Which computer chip exploits were reported by CNN as needing to be completely replaced, but were later fixed with firmware updates?
 
 - [ ] fire and ice exploits
-- [x] meltdown and spectre exploits
+- [ ] meltdown and spectre exploits
 - [ ] Intel and STMicro CPU exploits
 - [ ] super microboard and Apple iPhone exploits
 
@@ -506,7 +506,7 @@ autopsy is for forensic analysis
 
 - [ ] 40 percent
 - [ ] 60 percent
-- [x] 85 percent
+- [ ] 85 percent
 - [ ] 100 percent
 
 #### Q67. You are working in the security operations center analyzing traffic on your network. You detect what you believe to be a port scan. What does this mean?
@@ -514,11 +514,11 @@ autopsy is for forensic analysis
 - [ ] This could be a specific program being run by your accounting department.
 - [ ] This is an in-progress attack and should be reported immediately
 - [ ] This is normal operation for your business.
-- [x] This could be a precursor to an attack.
+- [ ] This could be a precursor to an attack.
 
 #### Q68. How often is the ISF Standard of Good Practice updated?
 
-- [x] annual
+- [ ] annual
 - [ ] biannually
 - [ ] bimonthly
 - [ ] monthly
@@ -526,7 +526,7 @@ autopsy is for forensic analysis
 #### Q69. Your incident response team is unable to contain an incident because they lack authority to take action without management approval. Which critical step in the preparation phase did your team skip?
 
 - [ ] From an incident response committee to oversee any incidents that may occur.
-- [x] Get preauthorized to take unilateral action and make or direct emergency changes.
+- [ ] Get preauthorized to take unilateral action and make or direct emergency changes.
 - [ ] Bring management in as leadership on the incident response team.
 - [ ] Assign a head of the emergency response team who has the correct authority
 
@@ -534,12 +534,12 @@ autopsy is for forensic analysis
 
 - [ ] ISO 27001
 - [ ] NIST SP 800-54
-- [x] ISO 27002
+- [ ] ISO 27002
 - [ ] NIST SP 751-51
 
 #### Q71. Which organization, established by NIST in 1990, runs workshops to foster coordination in incident prevention, stimulate rapid reaction to incidents, and allow experts to share information?
 
-- [x] Forum of Incident Response and Security Teams
+- [ ] Forum of Incident Response and Security Teams
 - [ ] Crest UK Response Teams
 - [ ] Community of Computer Incident Response Teams
 - [ ] NIST Special Publication 800-61 Response Teams
@@ -547,7 +547,7 @@ autopsy is for forensic analysis
 #### Q72. You have implemented controls to mitigate the threats, vulnerabilities, and impact to your business. Which type of risk is left over?
 
 - [ ] inherent risk
-- [x] residual risk
+- [ ] residual risk
 - [ ] applied risk
 - [ ] leftover risk
 
@@ -555,14 +555,14 @@ autopsy is for forensic analysis
 
 #### Q73. There are four possible treatments once an assessment has identified a risk. Which risk treatment implements controls to reduce risk?
 
-- [x] risk mitigation
+- [ ] risk mitigation
 - [ ] risk acceptance
 - [ ] risk avoidance
 - [ ] risk transfer
 
 #### Q74. Which security control scheme do vendors often submit their products to for evaluation, to provide an independent view of product assurance?
 
-- [x] Common Criteria
+- [ ] Common Criteria
 - [ ] risk management certification board
 - [ ] OWASP security evaluation
 - [ ] ISO 27000
@@ -570,7 +570,7 @@ autopsy is for forensic analysis
 #### Q75. Which organization has published the most comprehensive set of controls in its security guideline for the Internet of Things?
 
 - [ ] IoT ISACA
-- [x] IoT Security Foundation
+- [ ] IoT Security Foundation
 - [ ] OWASP
 - [ ] GSMA
 
@@ -579,19 +579,19 @@ autopsy is for forensic analysis
 - [ ] ISO 27001
 - [ ] ISO 27017
 - [ ] Cloud Security Guidelines
-- [x] Cloud Controls Matrix
+- [ ] Cloud Controls Matrix
 
 [Explanation](https://www.cybersaint.io/blog/six-steps-of-the-nist-risk-management-framework)
 
 #### Q77. What are the essential characteristics of the reference monitor?
 
 - [ ] It is versatile, accurate, and operates at a very high speed.
-- [x] It is tamper-proof, can always be invoked, and must be small enough to test.
+- [ ] It is tamper-proof, can always be invoked, and must be small enough to test.
 - [ ] It is restricted, confidential, and top secret
 
 #### Q78. According to NIST, what is the first action required to take advantage of the cybersecurity framework?
 
-- [x] Identify the key business outcomes.
+- [ ] Identify the key business outcomes.
 - [ ] Understand the threats and vulnerabilities.
 - [ ] Conduct a risk assessment.
 - [ ] Analyze and prioritize gaps to create the action plan.
@@ -603,20 +603,20 @@ autopsy is for forensic analysis
 - [ ] the ISACA Cybersecurity Framework
 - [ ] the COBIT Cybersecurity Framework
 - [ ] the ISC2 Cybersecurity Framework
-- [x] the NIST Cybersecurity Framework
+- [ ] the NIST Cybersecurity Framework
 
 #### Q80. In 2014, 4,278 IP addresses of zombie computers were used to flood a business with over one million packets per minute for about one hour. What is this type of attack called?
 
 - [ ] a salami attack
 - [ ] a DoS (Denial of Service) attack
-- [x] a DDoS (Distributed Denial of Service) attack
+- [ ] a DDoS (Distributed Denial of Service) attack
 - [ ] a botnet attack
 
 [Explanation](https://www.forbes.com/sites/parmyolson/2014/11/20/the-largest-cyber-attack-in-history-has-been-hitting-hong-kong-sites/?sh=56e071cd38f6)
 
 #### Q81. The regulatory requirements for notifications of data breaches, particularly the European General Data Protection Regulations, have had what sort of effect on business?
 
-- [x] an increased business liability in the event of a data breach
+- [ ] an increased business liability in the event of a data breach
 - [ ] an increased consumer liability in the event of a data breach
 - [ ] a decreased consumer liability in the event of a data breach
 - [ ] a decreased business liability in the event of a data breach
@@ -626,13 +626,13 @@ autopsy is for forensic analysis
 - [ ] FedRAMP
 - [ ] GDPR
 - [ ] PCI-DSS
-- [x] HIPAA
+- [ ] HIPAA
 
 [Explanation](https://online.maryville.edu/blog/5-important-regulations-in-united-states-healthcare/)
 
 #### Q83. What is the difference between DevOps and DevSecOps?
 
-- [x] DevSecOps requires the inclusion of cybersecurity engineers in the CI/CD process of DevOps.
+- [ ] DevSecOps requires the inclusion of cybersecurity engineers in the CI/CD process of DevOps.
 - [ ] DevSecOps slows down the CI/CD process of DevOps.
 - [ ] DevSecOps places security controls in the CI/CD process of DevOps.
 - [ ] DevSecOps lets cybersecurity engineers dictate the CI/CD process of DevOps.
@@ -641,7 +641,7 @@ autopsy is for forensic analysis
 
 #### Q84. When does static application security testing require access to source code?
 
-- [x] always
+- [ ] always
 - [ ] only when assessing regulatory compliance
 - [ ] only if following the Agile model
 - [ ] never
@@ -658,7 +658,7 @@ Which cloud model is the best option for these requirements?
 
 - [ ] government cloud
 - [ ] public cloud
-- [x] hybrid cloud
+- [ ] hybrid cloud
 - [ ] private cloud
 
 #### Q86. You have just conducted a port scan of a network. There is no well-known port active. How do you find a webserver running on a host, which uses a random port number?
@@ -666,13 +666,13 @@ Which cloud model is the best option for these requirements?
 - [ ] Give up on the current target network and move on to the next one.
 - [ ] Switch to another network scanning tool. Resort to more resource-intensive probing, like launching random attacks to all open ports.
 - [ ] Turn on the stealth mode in your network scanning tool. Check whether you missed any other active ports associated with web servers.
-- [x] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
+- [ ] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
 
 #### Q87. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message.
 
 What are the primary goals of the digital signature in this scenario? (Choose the best answer.)
 
-- [x] integrity and non-repudiation
+- [ ] integrity and non-repudiation
 - [ ] privacy and non-repudiation
 - [ ] privacy and confidentiality
 - [ ] integrity and privacy
@@ -682,13 +682,13 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] MD5
 - [ ] Caesar cipher
 - [ ] symmetric-key encryption
-- [x] asymmetric-key encryption
+- [ ] asymmetric-key encryption
 
 [Explanation:](https://medium.com/geekoffee/ensuring-integrity-authenticity-and-non-repudiation-in-data-transmission-using-node-js-af73c2404153)
 
 #### Q89. Which software development lifecycle approach is most compatible with DevSecOps?
 
-- [x] Agile
+- [ ] Agile
 - [ ] Model-Driven Development
 - [ ] Waterfall
 - [ ] Model-Driven Architecture
@@ -697,14 +697,14 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 - [ ] separation of duties
 - [ ] privileged account management (PAM)
-- [x] defense-in-depth
+- [ ] defense-in-depth
 - [ ] least privilege
 
 [Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)
 
 #### Q91. Which option describes a core principle of DevSecOps?
 
-- [x] Testing and release should be 100% automated
+- [ ] Testing and release should be 100% automated
 - [ ] Role separation is the key to software security
 - [ ] Final responsibility for security rests with the architect of the application
 - [ ] Everyone in the process is responsible for security
@@ -713,41 +713,41 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 - [ ] Security Information Event Management (SIEM)
 - [ ] an Instruction Detection and Prevention System (IDPS) appliance
-- [x] a web application firewall (WAF)
+- [ ] a web application firewall (WAF)
 - [ ] a stateful packet inspection firewall
 
 #### Q93. Which phase of the incident response process happens immediately following identification?
 
 - [ ] Eradication / Remediation
-- [x] Reporting
+- [ ] Reporting
 - [ ] Containment / Mitigation
 - [ ] Recovery
 
 #### Q94. How can a data retention policy reduce your organization's legal liability?
 
 - [ ] by reducing DLP licensing costs
-- [x] by ensuring that data is not retained beyond its necessary retention date
+- [ ] by ensuring that data is not retained beyond its necessary retention date
 - [ ] by destroying data that may implicate company executives in dishonest behavior
 - [ ] by reducing cost associated with data storage and protection
 
 #### Q95. You believe a recent service outage due to a denial-of-service attack from a disgruntled inside source. What is the name for the malicious act this employee has committed?
 
 - [ ] espionage
-- [x] sabotage
+- [ ] sabotage
 - [ ] fraud
 - [ ] confidentiality breach
 
 #### Q96. Which option is a framework widely utilized by organizations in the development of security governance standards?
 
 - [ ] Software Capability Maturity Model (SW-CMM)
-- [x] Control Objectives for Information and Related Technologies (COBIT)
+- [ ] Control Objectives for Information and Related Technologies (COBIT)
 - [ ] The Open Group Architecture Framework (TOGAF)
 - [ ] Software Development Life Cycle (SDLC)
 
 #### Q97. There are connection-oriented and connectionless protocols in networking. What do web browsers use to ensure the integrity of the data it sends and receives?
 
 - [ ] UDP that is connection-oriented
-- [x] TCP that is connection-oriented
+- [ ] TCP that is connection-oriented
 - [ ] UDP that is connectionless
 - [ ] TCP that is connectionless
 
@@ -755,7 +755,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 - [ ] DNS poisoning
 - [ ] CRL trapping
-- [x] ARP spoofing
+- [ ] ARP spoofing
 - [ ] DDoS
 
 #### Q99. You are part of an incident response team at your company. While sifting through log files collected by a SIEM, you discover some suspicious log entries that you want to investigate further. Which type of the following best refers to those recorded activities demanding additional scrutiny?
@@ -763,7 +763,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] attack
 - [ ] information
 - [ ] threat
-- [x] event
+- [ ] event
 
 #### Q100. You are responsible for forensic investigations in your organization.You have been tasked with investigating a compromised virtual application server. Becase a revenue generating application runs on the server, the server needs to be returned to service as quickly as possible.
 
@@ -771,12 +771,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] Restore the server from backup immediately.
 - [ ] Take the server offline until your investigation is complete.
-- [x] Take a snapshot of the compromised virtual server for your investigation.
+- [ ] Take a snapshot of the compromised virtual server for your investigation.
 - [ ] Restart the server. Remediate the issue after business hours.
 
 #### Q101. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _ site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _.
 
-- [x] 192.168.0.1/24
+- [ ] 192.168.0.1/24
 - [ ] 192.168.0.3/24
 - [ ] 10.10.0.0/24
 - [ ] 192.168.0.2/24
@@ -786,14 +786,14 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] EC-Council
 - [ ] ISACA
 - [ ] NIST
-- [x] OWASP
+- [ ] OWASP
 
 [Explanation:](https://www.imperva.com/learn/application-security/application-security/)
 
 #### Q103. Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)
 
 - [ ] adopting a "best-in-suite" approach to security
-- [x] adopting a "trust but verify" approach to security
+- [ ] adopting a "trust but verify" approach to security
 - [ ] adopting a "best-of-breed" approach to security
 - [ ] adopting a "defense-in-depth" approach to security
 
@@ -802,7 +802,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 #### Q104. **\_** attacks can execute the code injected by attackers as part of user inputs.
 
 - [ ] Ping of death
-- [x] Buffer overflow
+- [ ] Buffer overflow
 - [ ] Distributed Denial of Service
 - [ ] Denial of Service
 
@@ -810,7 +810,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] identifying and valuing assets
 - [ ] analyzing risks by criticality and cost
-- [x] discontinuing activities that introduce risk
+- [ ] discontinuing activities that introduce risk
 - [ ] identifying threats and analyzing vulnerabilities
 
 #### Q106. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string: `./../../../var/secrets` What type of attack was most likely attempted against the application?
@@ -818,13 +818,13 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] brute force
 - [ ] session hijacking
 - [ ] cross-site scripting
-- [x] directory traversal
+- [ ] directory traversal
 
 #### Q107. Which quadrant should be the focus of risk management?
 
 - ![Which quadrant should be the focus of risk management?](Q107-risk-quadrant.jpg)
 
-- [x] 2
+- [ ] 2
 - [ ] 1
 - [ ] 3
 - [ ] 4
@@ -832,16 +832,16 @@ What is the next step you should take to best fulfill your responsibilities and 
 #### Q108. Which option will not actively identify a security incident?
 
 - [ ] Extended Detection and Response (XDR)
-- [x] Cloud Security Posture Management (CSPM)
+- [ ] Cloud Security Posture Management (CSPM)
 - [ ] Security Information Event Management (SEIM)
 - [ ] Endpoint Detection and Response (EDR)
 
 #### Q109. A website is asking for a password and also sending an authentication code to your phone. What factors are used in this multi-factor authentication scenario?
 
-- [x] what you have and what you do
+- [ ] what you have and what you do
 - [ ] what you know and what you are
 - [ ] what you have and what you know
-- [x] what you do and what you know
+- [ ] what you do and what you know
 
 [Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)
 
@@ -849,7 +849,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] DBIR
 - [ ] CVE
-- [x] CWE
+- [ ] CWE
 - [ ] CERT
 
 **Explanation**: Common Weakness Enumeration (CWE) is a universal online dictionary of security defects that have been found in computer software.
@@ -858,14 +858,14 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] Plain cryptography
 - [ ] Antivirus
-- [x] Design powerful malicious software
-- [x] Asymmetric backdoor
+- [ ] Design powerful malicious software
+- [ ] Asymmetric backdoor
 
 #### Q112. What does a metamorphic virus do?
 
 - [ ] Static analyser
 - [ ] Antivirus
-- [x] Generates a whole variable code using a variable encryptor
+- [ ] Generates a whole variable code using a variable encryptor
 - [ ] Mutation function
 
 [Explanation:](https://link.springer.com/content/pdf/10.1007/11560647.pdf)
@@ -873,7 +873,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 #### Q113. What is the most common cause of cyber incidents in organisations?
 
 - [ ] Vulnerabilities in softwares
-- [x] Social Engineering
+- [ ] Social Engineering
 - [ ] Ransomware
 - [ ] Phishing
 
@@ -884,16 +884,16 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 #### Q114. Which of the following terms is used to describe a collection of unrelated patches?
 
-- [x] Hotfix
+- [ ] Hotfix
 - [ ] Update
 - [ ] Security Fix
 - [ ] Service Pack
 
 #### Q115. How often should security teams conduct a review of the privileged access that a user has to sensitive systems?
 
-- [x] On a periodic basis
-- [x] When a User leaves the organisation
-- [x] When a User changes roles
+- [ ] On a periodic basis
+- [ ] When a User leaves the organisation
+- [ ] When a User changes roles
 - [ ] On a daily basis
 
 **Explanation**: Privilaged access reviews are one of the most critical components of an organisations security program as they ensure only autherised users have access to the most sensitive systems. They should occur on a fixed periodic basis as well as when ever a privileged user leaves the organisation or changes roles within the organisation
@@ -903,13 +903,13 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Aggregation
 - [ ] Transitivity
 - [ ] Baseline
-- [x] Entitlement
+- [ ] Entitlement
 
 **Explanation**: Entitlement refers to the privileges granted to a user when their account is first provisioned
 
 #### Q117. Who is the father of computer security??
 
-- [x] August Kerckhoffs
+- [ ] August Kerckhoffs
 - [ ] Bob Thomas
 - [ ] Charles Thomas
 - [ ] Robert Kerckhoffs
@@ -919,7 +919,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 #### Q118. Which type of attack uses formal emails to entice specific individuals into signing in and changing their passwords?
 
 - [ ] vishing
-- [x] spear phishing
+- [ ] spear phishing
 - [ ] brute force attack
 - [ ] password spray attack
 
@@ -928,18 +928,18 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] the location of the data.
 - [ ] The value of the asset.
 - [ ] The owner of the asset.
-- [x] All of these options.
+- [ ] All of these options.
 
 #### Q120. Once you have confirmed that Burpsuite is intercepting website requests, where can you check to see if you have credentials in cleartext to access the target webpage?
 
 - [ ] Select Go on the Repeater tab
 - [ ] See the loopback address and port are on in the Options tab
 - [ ] Check the Raw section in the Intercept tab
-- [x] Check for a login.php line in the Proxy tab
+- [ ] Check for a login.php line in the Proxy tab
 
 #### Q121. Threat actors will attempt to find an attack vector on their target by mapping the attack **\_**.
 
-- [x] surface
+- [ ] surface
 - [ ] infrastructure
 - [ ] threat
 - [ ] door
@@ -948,19 +948,19 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] They could employ the software developers once the supplier organisation has gone out of business.
 - [ ] They could ensure support by acquiring the supplier organisation.
-- [x] They could ensure support through an escrow agreement.
+- [ ] They could ensure support through an escrow agreement.
 - [ ] They could reverse engineer the product so that it could be supported in-house.
 
 #### Q123. Which of the following is the security standard that applies to the certification of security controls within products?
 
 - [ ] ISO/IEC 27001.
 - [ ] ISO/IEC 9000.
-- [x] ISO/IEC 15408.
+- [ ] ISO/IEC 15408.
 - [ ] ISO/IEC 13335.
 
 #### Q124. What is the main role of the board member known as the information security manager?
 
-- [x] To ensure appropriate security controls are implemented across the organisation.
+- [ ] To ensure appropriate security controls are implemented across the organisation.
 - [ ] To provide day-to-day management of the information assurance function.
 - [ ] To have a detailed understanding of the organisation's vulnerabilities.
 - [ ] To have a detailed understanding of threats faced by the organisation.
@@ -970,32 +970,32 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Qualitative and statistical
 - [ ] Statistical and quantitative
 - [ ] Statistical and assumptive
-- [x] Qualitative and quantitative
+- [ ] Qualitative and quantitative
 
 #### Q126. Which type of hackers are often organized and funded by a nation's military intelligence or security services, and attempt to gain access to a foreign adversary's state secrets or military intelligence?
 
 - [ ] hacktivists
 - [ ] competitors
 - [ ] black hat hackers
-- [x] state-sponsored hackers
+- [ ] state-sponsored hackers
 
 #### Q127. Which of the following methods combines two binary streams to create one new stream that contains hidden information that cannot be retrieved without the other stream that was used to create it?
 
 - [ ] substitution cipher
 - [ ] weaponization
 - [ ] transposition cipher
-- [x] XOR encryption
+- [ ] XOR encryption
 
 #### Q128. What is Drupalgeddon?
 
 - [ ] A web app proxy tool
 - [ ] A DDoS bot
 - [ ] A network packet capturing device
-- [x] a SQL injection flaw
+- [ ] a SQL injection flaw
 
 #### Q129. The algorithm used by an encryption technique to hide information is known as the **\_**.
 
-- [x] cipher
+- [ ] cipher
 - [ ] XOR
 - [ ] encoding
 - [ ] cyber kill chain
@@ -1005,11 +1005,11 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] The accidental or deliberate introduction of malicious code.
 - [ ] The loss of intellectual property or trade secrets.
 - [ ] Legal disputes could develop between the customer and the supplier.
-- [x] The laws on the protection of data do not apply to information sent to a third party.
+- [ ] The laws on the protection of data do not apply to information sent to a third party.
 
 #### Q131. A **\_** hat is a hacker who may not operate according to ethical testing standards, but does not have malicious intent.
 
-- [x] gray
+- [ ] gray
 - [ ] blue
 - [ ] red
 - [ ] purple
@@ -1019,6 +1019,6 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] biometric authentication
 - [ ] OAUTH Token
 - [ ] authenticator apps
-- [x] SMS message
+- [ ] SMS message
 
 [Reference](https://www.zdnet.com/article/fbi-warns-about-attacks-that-bypass-multi-factor-authentication-mfa/) `"(...)All in all, MFA is still very effective at preventing most mass and automated attacks; however, users should be aware that there are ways to bypass some MFA solutions, such as those relying on SMS-based verification."`

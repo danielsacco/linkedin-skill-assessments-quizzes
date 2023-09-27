@@ -4,12 +4,12 @@
 
 - [ ] Team Planner
 - [ ] Project Information dialog box
-- [x] task form
+- [ ] task form
 - [ ] Resource Sheet
 
 #### Q2. You would like the ability to edit your typed entries in the Entry Bar, which appears below the ribbon and above the default Entry table in the Gantt Chart view. You recently received a new computer and noticed that the Entry Bar is missing. How do you fix this?
 
-- [x] Use the **Display** tab in the **Project Options** dialog box to enable the Entry Bar.
+- [ ] Use the **Display** tab in the **Project Options** dialog box to enable the Entry Bar.
 - [ ] Change the from Gantt Chart view to Tracking Gantt view.
 - [ ] Use the **Advanced** tab in the **Project Options** dialog box to enable the Entry Bar.
 - [ ] On the **View** tab on the ribbon, in the **Split View** group, select **Details**.
@@ -17,13 +17,13 @@
 #### Q3. Which of the following defines the project scope in terms of deliverables and components, and provides the framework on which the project status is based?
 
 - [ ] work package
-- [x] work breakdown structure
+- [ ] work breakdown structure
 - [ ] baseline
 - [ ] milestone
 
 #### Q4. When setting the **Calculate multiple critical paths** option in a master project's **Advanced** settings, which statement is correct?
 
-- [x] Subprojects will have critical paths calculated individually.
+- [ ] Subprojects will have critical paths calculated individually.
 - [ ] Individual resources will have critical paths calculated.
 - [ ] Milestones will have critical paths fixed.
 - [ ] Only one critical path will be calculated for a linked project.
@@ -32,7 +32,7 @@
 
 ![Microsoft Project Q05](images/microsoft-project_Q05.jpg)
 
-- [x] Network Diagram
+- [ ] Network Diagram
 - [ ] Task Dependency Report
 - [ ] Flow Chart
 - [ ] Gantt Chart
@@ -40,7 +40,7 @@
 #### Q6. You want to switch the scheduling mode for a project from scheduling from a start date to scheduling from a finish date. This action will change the default constraint from As Soon As Possible to As Late As Possible. Which dialog box should you use to make this change?
 
 - [ ] Resource Information
-- [x] Project Information
+- [ ] Project Information
 - [ ] Task Information
 - [ ] Change Working Time
 
@@ -48,13 +48,13 @@
 
 - [ ] task links
 - [ ] Resource Sheet
-- [x] work breakdown structure
+- [ ] work breakdown structure
 - [ ] baseline
 
 #### Q8. Which option is not available in the Report tab on the ribbon?
 
 - [ ] New Report
-- [x] Network Diagram
+- [ ] Network Diagram
 - [ ] Recent
 - [ ] Custom
 
@@ -63,20 +63,20 @@
 - [ ] Inserted projects are calculated like summary tasks is selected.
 - [ ] Calculate multiple critical paths is not selected.
 - [ ] One of the Com add-ins is not selected.
-- [x] Calculate project after each edit is set to Off.
+- [ ] Calculate project after each edit is set to Off.
 
 `The hint being "The schedule has 10,000 tasks" and the fact that the Gantt Chart does not update.`
 
 #### Q10. You would like to understand which tasks are critical and which are not. When looking at the Gantt chart, how are these tasks identified by default?
 
-- [x] Critical tasks are indicated in red and other tasks are indicated in blue.
+- [ ] Critical tasks are indicated in red and other tasks are indicated in blue.
 - [ ] Critical tasks are indicated in dark blue end other tasks are indicated in light blue.
 - [ ] Critical tasks are indicated in a report while the Gantt chart indicates all tasks in blue.
 - [ ] Critical tasks are indicated with an icon and other tasks are indicated in blue.
 
 #### Q11. You are working on a project that has tasks with no flexibility. Which constraint type offers no flexibility?
 
-- [x] Must Finish On
+- [ ] Must Finish On
 - [ ] Start No Earlier Than
 - [ ] As Soon As Possible
 - [ ] Finish No Earlier Than
@@ -86,18 +86,18 @@
 - [ ] weeks
 - [ ] hours
 - [ ] days
-- [x] quarters
+- [ ] quarters
 
 #### Q13. Microsoft Project uses calendars to schedule a project. Which project components can be assigned a calendar?
 
 - [ ] tasks and work
 - [ ] work and units
 - [ ] resources and work
-- [x] tasks and resources
+- [ ] tasks and resources
 
 #### Q14. You are working on a project file that contains many linked subprojects. When saving the files, what option can you use to immediately save the open files, including those that have not changed?
 
-- [x] Yes to All
+- [ ] Yes to All
 - [ ] Yes
 - [ ] Save As
 - [ ] Save
@@ -106,21 +106,21 @@
 
 - [ ] It has changed to 10h.
 - [ ] It has changed to 6h.
-- [x] It has changed to 125%.
+- [ ] It has changed to 125%.
 - [ ] It has changed to 110%.
 
 [reference link](https://support.microsoft.com/en-us/office/peak-task-field-a9947235-b552-4ae5-9f26-d58fdc1a27d3)
 
 #### Q16. What is another name for a work breakdown structure?
 
-- [x] a hierarchy of tasks
+- [ ] a hierarchy of tasks
 - [ ] a linking of tasks
 - [ ] a duration of tasks
 - [ ] a leveling of tasks
 
 #### Q17. A report for Earned Value Over Time has been requested, You decide to use a Microsoft Project visual report. What values does this report template compare when run?
 
-- [x] Earned Value. Planned Value, and Actual
+- [ ] Earned Value. Planned Value, and Actual
 - [ ] Earned Value and Planned Value
 - [ ] Earned Value and Actual Cost
 - [ ] Planned Value and Actual Cost
@@ -128,7 +128,7 @@
 #### Q18. You are preparing a meal comprising a main dish and multiple side dishes. You want the finish of the main dish to drive the finish of the side dishes. The main dish will start before and take longer than the side dishes. You need to create a link from the main dish to each of the side dishes. Which link type is appropriate?
 
 - [ ] Start-to-Finish (SF)
-- [x] Finish-to-Finish(FF)
+- [ ] Finish-to-Finish(FF)
 - [ ] Finish-to-Start (FS)
 - [ ] Start-to-Start (SS)
 
@@ -136,7 +136,7 @@
 
 #### Q19. A resource is overallocated in a project. This resource is responsible for two tasks that are to happen at the same time. The first of these tasks is on the critical path. Which solution should you use to remedy the overallocation?
 
-- [x] Use the Leveling Gantt view adjust the edays field for the second task.
+- [ ] Use the Leveling Gantt view adjust the edays field for the second task.
 - [ ] Use the Task usage view to change the second task contour to an early Peak.
 - [ ] Use the Task usage view to change the second task contour to a bell.
 - [ ] Use the Leveling Gantt view adjust the edays field for the first task.
@@ -145,7 +145,7 @@
 
 - [ ] Use the **Task** tool on the ribbon's **Task** tab for the subtask.
 - [ ] Enter a value in the %**Complete** field.
-- [x] Use the **Task** tool en the ribbon's **Task** tab for the summary task.
+- [ ] Use the **Task** tool en the ribbon's **Task** tab for the summary task.
 - [ ] Use the **Project Information** dialog box.
 
 #### Q21. You have many tasks in a project file and want to convert them into milestones. How can you do this?
@@ -153,26 +153,26 @@
 - [ ] Recreate the tasks and set them as summary tasks.
 - [ ] Set the tasks as summary tasks.
 - [ ] Unassign any resources from the tasks, as resources are not needed for milestone task.
-- [x] Change the tasks' duration to 0.
+- [ ] Change the tasks' duration to 0.
 
 #### Q22. A project has been delayed by three months. In this project, you have set deadlines that also need to be delayed by three months. What feature should you use to accomplish both of these delays?
 
 - [ ] On the **Project** tab, click **Project Information**.
 - [ ] On the **Task** tab, click **Move Task**.
 - [ ] On the **Report** tab, click **Compare Projects**.
-- [x] On the **Project** tab, click **Move Project**.
+- [ ] On the **Project** tab, click **Move Project**.
 
 #### Q23. How many default base calendars does Microsoft Project set up for a project?
 
 - [ ] five
-- [x] three
+- [ ] three
 - [ ] two
 - [ ] six
 
 #### Q24. A task has a fixed duration If the units on the task are changed, what value for the task will automatically change as a result?
 
 - [ ] allocation
-- [x] work
+- [ ] work
 - [ ] contour
 - [ ] effort
 
@@ -181,13 +181,13 @@
 - [ ] The master project will not reflect any changes until the subproject files ate opened as well.
 - [ ] The master project will display an error.
 - [ ] The master project will display message stating that changes were made and the subproject files must be opened first.
-- [x] The master project will reflect the changes made to the subproject files.
+- [ ] The master project will reflect the changes made to the subproject files.
 
 #### Q26. You need to modify a resource pool. When opening the file that contains the pool, which option is not valid?
 
 - [ ] Open as read-write into d new master project file.
 - [ ] Open as read-write and allow others to use the pool.
-- [x] Open as read-only and allow others to use the pool.
+- [ ] Open as read-only and allow others to use the pool.
 - [ ] Open as read-write while locking others from updating the pool.
 
 #### Q27. On your computer, **Automatically add new views, tables. filters. and groups to the global** is selected. You are using a custom filter that you created in one of your schedules, and you modify it to better meet your needs. You now notice that this modification is not available in other schedules. How do you fix this?
@@ -195,11 +195,11 @@
 - [ ] Using More Filters, make a copy of the modified filter.
 - [ ] In the **Project Options** dialog bays clear and reselect **Automatically add new views, tables, filters. and groups to the global**.
 - [ ] Using the Organizer, copy the modified filter from your schedule to global.mpt and replace the filter when prompted.
-- [x] Using Compare Projects, select the appropriate options from the **Task Table** and **Resource Table** lists.
+- [ ] Using Compare Projects, select the appropriate options from the **Task Table** and **Resource Table** lists.
 
 #### Q28. A graduated scale of rates can be created for a resource by using cost rate tables. What is the maximum number of cost rate tables each resource in a project have?
 
-- [x] five
+- [ ] five
 - [ ] ten
 - [ ] six
 - [ ] two
@@ -209,13 +209,13 @@
 - [ ] Create a link between the tasks with dependency.
 - [ ] Change the first task's contour to Double Peak.
 - [ ] Add lag time of -1d to the second task.
-- [x] Split the longer task to accommodate the shorter task.
+- [ ] Split the longer task to accommodate the shorter task.
 
 #### Q30. You want to change the view of the timescale on Gantt chart to be more granular. How many tiers does the timescale support?
 
 - [ ] three
 - [ ] five
-- [x] ten
+- [ ] ten
 - [ ] four
 
 #### Q31. You are assigned the ownership of schedule comprising approximately 12,000 tasks. You need to know exactly, with detail, which tasks have a constraint other than ASAP. The most effective method do this is to create a filter that tests for which set of conditions?
@@ -238,7 +238,7 @@
        3\. equals Yes.  
        4\. equals 0d.  
        5\. equals Ongoing.
-- [x] Constraint TypeSummaryRecurring% CompleteActive  
+- [ ] Constraint TypeSummaryRecurring% CompleteActive  
        1\. does not equal As Soon As Possible.  
        2\. does not equal Yes.  
        3\. equals No.  
@@ -247,21 +247,21 @@
 
 #### Q32. You are working with two project files. You want the second project to contain some of the same tasks, along with their work assignments, as the first project. You Choose to copy the tasks between the projects. What else is copied along with the task when performing basic copy and paste action?
 
-- [x] resources
+- [ ] resources
 - [ ] baseline
 - [ ] calendars
 - [ ] work breakdown structure
 
 #### Q33. You are working with a master project that contains subprojects, and you want to see a list of tasks on which a subproject file is dependent. How can you do this in Microsoft Project?
 
-- [x] On the **Project** tab, click **Subproject**.
+- [ ] On the **Project** tab, click **Subproject**.
 - [ ] On the **View** tab, click **Group by**.
 - [ ] On **Project** tab. click **Links Between Projects**.
 - [ ] On the **View** tab, click **Filter**.
 
 #### Q34. You want to manage multiple projects with one project designated as the master project. Which button on the ribbon do you use?
 
-- [x] Subproject
+- [ ] Subproject
 - [ ] Share Resources
 - [ ] Move project
 - [ ] Link Between Projects
@@ -270,7 +270,7 @@
 
 - [ ] Resource Sheet
 - [ ] Task Form
-- [x] Gantt Chart with Timeline
+- [ ] Gantt Chart with Timeline
 - [ ] Detail Gantt
 
 #### Q36. A project contains numerous linked tasks. What is the name for a task that is controlled or driven by another task(s)?
@@ -278,20 +278,20 @@
 - [ ] overlapped
 - [ ] predecessor
 - [ ] callout
-- [x] successor
+- [ ] successor
 
 #### Q37. You have several Microsoft Project files open. One contains sensitive information, so you hide that file. What is true regarding the hidden file?
 
 - [ ] The **Switch Window** lists the hidden file.
 - [ ] The **Switch Window** command does not list the hidden file.
-- [x] To unhide the file, select **Switch Window**.
+- [ ] To unhide the file, select **Switch Window**.
 - [ ] To view a hidden file, on the **View** tab, click **Arrange Windows**.
 
 #### Q38. In the image below, what does the indicator in Task ID 9 represent?
 
 ![Microsoft Project Q38](images/microsoft-project_Q38.jpg)
 
-- [x] subproject
+- [ ] subproject
 - [ ] linked file
 - [ ] custom field
 - [ ] resource pool
@@ -299,7 +299,7 @@
 #### Q39. You are using work breakdown structure (WBS) codes for an in-progress project. Due to some schedule changes, tasks have been moved around, which has modified the WBS. How do you fix the WBS codes?
 
 - [ ] From the **Project** tab on the ribbon, click **WBS > Define Code**.
-- [x] From the **Project** tab on the ribbon, click **WBS > Renumber**.
+- [ ] From the **Project** tab on the ribbon, click **WBS > Renumber**.
 - [ ] From the **View** tab on ribbon, click **Sort**.
 - [ ] From the **View** tab on the ribbon, in the **Data** group, select **Group by**.
 
@@ -312,7 +312,7 @@
 
 #### Q41. When breaking down the work that needs to be done on a project, what is the smallest unit of work known as?
 
-- [x] work package
+- [ ] work package
 - [ ] duration
 - [ ] work breakdown structure
 - [ ] task assignment
@@ -321,12 +321,12 @@
 
 - [ ] Add a column for the actual duration.
 - [ ] Add a column for the level assignments.
-- [x] Add a column for the Peak value.
+- [ ] Add a column for the Peak value.
 - [ ] Add a column for the assignment.
 
 #### Q43. You are modifying a project's work breakdown structure (WBS) code. What is the default length for any selected sequence type?
 
-- [x] any
+- [ ] any
 - [ ] 5
 - [ ] 3
 - [ ] 1
@@ -336,25 +336,25 @@
 - [ ] Start-to-Start (SS)
 - [ ] Finish-to-Start (FS)
 - [ ] Start-to-Finish (SF)
-- [x] Finish-to-Finish (FF)
+- [ ] Finish-to-Finish (FF)
 
 #### Q45. In a project, duration can have different units. Which duration unit is _not_ valid?
 
 - [ ] weeks
 - [ ] hours
 - [ ] days
-- [x] quarters
+- [ ] quarters
 
 #### Q46. You would like to import a CSV file into a Microsoft Project file. Project displays a message about opening a file in an older format. How can you open this file?
 
 - [] Add a place in the Open File window.
-- [x] Use the Advanced tab in the Project Options dialog box.
+- [ ] Use the Advanced tab in the Project Options dialog box.
 - [] Use the General tab in the Project Options dialog box.
 - [] Use the Microsoft Project Trust Center.
 
 #### Q47. A certain resource has a workload that varies for a task. The task spans five days and is slow to start, ramps up in the middle, and then eventually tapers off as it comes to an end. Which approach would you use to adjust and represent varying workload?
 
-- [x] resource contouring
+- [ ] resource contouring
 - [] resource constraining
 - [] resource leveling
 - [] resource splitting

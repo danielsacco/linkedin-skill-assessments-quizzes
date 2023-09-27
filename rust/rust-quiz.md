@@ -4,7 +4,7 @@
 
 - [ ] i64 as i32
 - [ ] usize as u64
-- [x] i32 as i64
+- [ ] i32 as i64
 - [ ] f64 as f32
 
 #### Q2. What do the vertical bars represent here?
@@ -15,7 +15,7 @@ str::thread::spawn(|| {
 });
 ```
 
-- [x] a closure
+- [ ] a closure
 - [ ] a thread
 - [ ] a future
 - [ ] a block
@@ -27,11 +27,11 @@ str::thread::spawn(|| {
 - [ ] integer
 - [ ] float
 - [ ] boolean
-- [x] tuple
+- [ ] tuple
 
 #### Q4. **\_** cannot be destructured.
 
-- [x] Traits
+- [ ] Traits
 - [ ] Tuples
 - [ ] Enums
 - [ ] Structs
@@ -43,12 +43,12 @@ str::thread::spawn(|| {
 - [ ] cargo --version
 - [ ] cargo init
 - [ ] cargo build
-- [x] cargo check
+- [ ] cargo check
 
 #### Q6. The term _box_ and related phrases such as _boxing a value_ are often used when relating to memory layout. What does _box_ refer to?
 
 - [ ] It's creating a pointer on the heap that points to a value on the stack.
-- [x] It's creating a pointer on the stack that points to a value on the heap.
+- [ ] It's creating a pointer on the stack that points to a value on the heap.
 - [ ] It's creating a memory guard around values to prevent illegal access.
 - [ ] It's an abstraction that refers to ownership. "Boxed" values are clearly labelled.
 
@@ -63,21 +63,21 @@ let slice = &s[0..2];
 - [ ] let slice = &s[len + 2];
 - [ ] let slice = &s[len - 2];
 - [ ] let slice = &s.copy(0..2);
-- [x] let slice = &s[..2];
+- [ ] let slice = &s[..2];
 
 #### Q8. Using the `?` operator at the end of an expression is equivalent to **\_**.
 
 - [ ] a match pattern that branches into True or False
 - [ ] calling ok_error()
 - [ ] calling panic!()
-- [x] a match pattern that may result an early return
+- [ ] a match pattern that may result an early return
 
 #### Q9. Which is valid syntax for defining an array of i32 values?
 
 - [ ] Array<i32>::with_capacity(10)
 - [ ] [i32]
 - [ ] Array<i32>::new(10)
-- [x] [i32; 10]
+- [ ] [i32; 10]
 
 #### Q10. What syntax is required to take a mutable reference to T, when used within a function argument?
 
@@ -90,13 +90,13 @@ fn increment(i: T) {
 - [ ] \*mut T
 - [ ] mut ref T
 - [ ] mut &T
-- [x] &mut T
+- [ ] &mut T
 
 #### Q11. The smart pointers Rc and Arc provide reference counting. What is the API for incrementing a reference count?
 
 - [ ] .add()
 - [ ] .incr()
-- [x] .clone()
+- [ ] .clone()
 - [ ] .increment()
 
 [reference](https://doc.rust-lang.org/book/ch15-04-rc.html)
@@ -106,12 +106,12 @@ fn increment(i: T) {
 - [ ] The error is reported and execution continues.
 - [ ] An exception is raised. The effect(s) of the exception are defined by the error! macro.
 - [ ] The program panics immediately.
-- [x] Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics.
+- [ ] Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics.
 
 #### Q13. Which comment syntax is not legal?
 
 - [ ] `/*`
-- [x] `#`
+- [ ] `#`
 - [ ] `//!`
 - [ ] `//`
 
@@ -119,13 +119,13 @@ fn increment(i: T) {
 
 - [ ] `.ignore()`
 - [ ] `an underscore (_)`
-- [x] ..
+- [ ] ..
 - [ ] skip
 
 #### Q15. Defining a \_ requires a lifetime parameter.
 
 - [ ] function that ends the lifetime of one of its arguments
-- [x] struct that contains a reference to a value
+- [ ] struct that contains a reference to a value
 - [ ] function with a generic argument
 - [ ] struct that contains a reference to a boxed value
 
@@ -157,7 +157,7 @@ for c in text.chars() {
 }
 ```
 
-- [x] &shy;
+- [ ] &shy;
 
 ```rust
 for c in text.chars() {
@@ -205,7 +205,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 ```
 
-- [x] :
+- [ ] :
 
 ```rust
 write!(&mut v, "{}{}{}", a, b, c)?;
@@ -246,7 +246,7 @@ fn main() {
 
 - [ ] The code does not compile. `let` statements require a refutable pattern. Add `if` before `let`.
 - [ ] The code compiles. `let` statements sometimes require a refutable pattern.
-- [x] The code does not compile. `let` statements requires an irrefutable pattern. Add `if` before `let`.
+- [ ] The code does not compile. `let` statements requires an irrefutable pattern. Add `if` before `let`.
 - [ ] The code compiles. `let` do not require a refutable pattern.
 
 #### Q19. Which statement about lifetimes is false?
@@ -254,25 +254,25 @@ fn main() {
 - [ ] Lifetimes were redundantly specified in previous version of Rust.
 - [ ] Lifetimes are specified when a struct is holding a reference to a value.
 - [ ] Lifetimes are specified when certain values must outlive others.
-- [x] Lifetimes are always inferred by the compiler.
+- [ ] Lifetimes are always inferred by the compiler.
 
 #### Q20. When used as a return type, which Rust type plays a similar role to Python's `None`, JavaScript's `null`, or the `void` type in C/C++?
 
 - [ ] `!`
 - [ ] `None`
 - [ ] `Null`
-- [x] `()`
+- [ ] `()`
 
 #### Q21. To convert a `Result` to an `Option`, which method should you use?
 
 - [ ] `.as_option()`
-- [x] `.ok()`
+- [ ] `.ok()`
 - [ ] `.to_option()`
 - [ ] `.into()`
 
 #### Q22. Which statement about the `Clone` and `Copy` traits is false?
 
-- [x] `Copy` is enabled for primitive, built-in types.
+- [ ] `Copy` is enabled for primitive, built-in types.
 - [ ] Without `Copy`, Rust applies move semantics to a type's access.
 - [ ] When using `Clone`, copying data is explicit.
 - [ ] Until a type implements either `Copy` or `Clone`, its internal data cannot be copied.
@@ -290,13 +290,13 @@ fn returns_closure() -> dyn Fn(i32) -> i32 {
 - [ ] The returned `fn` pointer and value need to be represented by another trait.
 - [ ] Closures are types, so they cannot be returned directly from a function.
 - [ ] Closures are types and can be returned only if the concrete trait is implemented.
-- [x] Closures are represented by traits, so they cannot be a return type.
+- [ ] Closures are represented by traits, so they cannot be a return type.
 
 [Rust book reference](https://doc.rust-lang.org/book/ch19-05-advanced-functions-and-closures.html#returning-closures)
 
 #### Q24. What smart pointer is used to allow multiple ownership of a value in various threads?
 
-- [x] `Arc<T>`
+- [ ] `Arc<T>`
 - [ ] `Box<T>`
 - [ ] Both `Arc<T>` and `Rc<T>` are multithread safe.
 - [ ] `Rc<T>`
@@ -307,7 +307,7 @@ fn returns_closure() -> dyn Fn(i32) -> i32 {
 
 - [ ] zero-sized types
 - [ ] structs
-- [x] trait objects
+- [ ] trait objects
 - [ ] floating-point numbers
 
 [Reference](https://doc.rust-lang.org/reference/types/trait-object.html)
@@ -321,7 +321,7 @@ fn main() {
 }
 ```
 
-- [x] Both are character literals.
+- [ ] Both are character literals.
 - [ ] `heart_eyed_cat` is an invalid expression.
 - [ ] `c` is a string literal and `heart_eyed_cat` is a character literal.
 - [ ] Both are string literals.
@@ -332,7 +332,7 @@ fn main() {
 
 - [ ] `Mutex<Arc<T>>`
 - [ ] `Rc<Mutex<T>>`
-- [x] `Arc<Mutex<T>>`
+- [ ] `Arc<Mutex<T>>`
 - [ ] `Mutex<Rc<T>>`
 
 [Rust book reference](https://doc.rust-lang.org/book/ch16-03-shared-state.html#atomic-reference-counting-with-arct)
@@ -346,7 +346,7 @@ let c = "c".to_string();
 ```
 
 - [ ] `String::from(a,b,c)`
-- [x] `format!("{}{}{}", a, b, c)`
+- [ ] `format!("{}{}{}", a, b, c)`
 - [ ] `concat(a,b,c)`
 - [ ] `a + b + c`
 
@@ -361,7 +361,7 @@ fn report<T:Debug>(a: &T) {
 ```
 
 - [ ] print
-- [x] read-only
+- [ ] read-only
 - [ ] read/write
 - [ ] debug
 
@@ -370,7 +370,7 @@ fn report<T:Debug>(a: &T) {
 - [ ] `loop`
 - [ ] `for`
 - [ ] `while`
-- [x] `do`
+- [ ] `do`
 
 #### Q31. How do you construct a value of `Status` that is initialized to `Waiting`?
 
@@ -384,7 +384,7 @@ enum Status {
 
 - [ ] `let s = Enum::new(Status::Waiting);`
 - [ ] `let s = new Status::Waiting;`
-- [x] `let s = Status::Waiting;`
+- [ ] `let s = Status::Waiting;`
 - [ ] `let s = Status::new(Waiting);`
 
 #### Q32. Which statement about enums is false?
@@ -392,11 +392,11 @@ enum Status {
 - [ ] Enums are useful in matching patterns.
 - [ ] Option is an enum type.
 - [ ] Enum variants can have different types with associated data.
-- [x] the term _enum_ is short for _enummap_
+- [ ] the term _enum_ is short for _enummap_
 
 #### Q33. What does an underscore (\_) indicate when used as pattern?
 
-- [x] It matches everything.
+- [ ] It matches everything.
 - [ ] It matches underscores.
 - [ ] It matches any value that has a length of 1.
 - [ ] It matches nothing.
@@ -405,7 +405,7 @@ enum Status {
 
 - [ ] A `&mut T` reference is allowed. However it may not cpexists with any other references. and may be created only in single-threaded code.
 - [ ] `UnsafeCell<T>` provides thread-safety. Therefore, creating `&T` references from multiple threads is safe.
-- [x] The only safe operation is the `.get()` method, which returns only a raw pointer.
+- [ ] The only safe operation is the `.get()` method, which returns only a raw pointer.
 - [ ] Non. `UnsafeCell<T>` only allows code that would otherwise need unsafe blocks to be written in safe code.
 
 [Reference](https://doc.rust-lang.org/stable/std/cell/struct.UnsafeCell.html)
@@ -413,13 +413,13 @@ enum Status {
 #### Q35. Generics are useful when you **\_**.
 
 - [ ] need to reduce code duplication by concretizing values and restricting parameters in functions
-- [x] need to reduce code duplication by abstracting values further, such as in function parameters
+- [ ] need to reduce code duplication by abstracting values further, such as in function parameters
 - [ ] need a supertrait
 - [ ] are not sure if you need a specific kind of trait
 
 #### Q36. How do you create a Rust project on the command-line?
 
-- [x] cargo new
+- [ ] cargo new
 - [ ] rustup init
 - [ ] cargo start
 - [ ] rust new-project
@@ -427,7 +427,7 @@ enum Status {
 #### Q37. Calling.clone() **\_**.
 
 - [ ] deeply copies heap data and clones ownership
-- [x] clones the pointer to the heap
+- [ ] clones the pointer to the heap
 - [ ] clones the heap data onto the stack
 - [ ] deeply copies heap and stack
 
@@ -441,7 +441,7 @@ let text = String::new("LinkedIn");
 
 - [ ] Create a text object.
 - [ ] Assign a mutable value.
-- [x] request to borrow a string.
+- [ ] request to borrow a string.
 - [ ] Assign an immutable value.
 
 [Reference](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
@@ -455,7 +455,7 @@ enum Option_i32 {
 }
 ```
 
-- [x] let integer = Option_i32::Some(5);
+- [ ] let integer = Option_i32::Some(5);
 - [ ] let integer = Option_i32.new(Some(5))
 - [ ] let integer = Option_i32::New::(Some(5))
 - [ ] let integer = Option_i32.init()
@@ -467,7 +467,7 @@ enum Option_i32 {
 - [ ] They can be used interchangeably, but const only supports primitive types while static must be used for structs and user-defined types.
 - [ ] They can be used interchangeably, but const values are compiled at compile time.
 - [ ] Values defined with const live in the stack, while static values live on the heap.
-- [x] Values defined with const can be copied to wherever they are needed, whereas static values remain in a fixed place in memory.
+- [ ] Values defined with const can be copied to wherever they are needed, whereas static values remain in a fixed place in memory.
 
 [Reference](https://stackoverflow.com/questions/52751597/what-is-the-difference-between-a-constant-and-a-static-variable-and-which-should)
 
@@ -475,7 +475,7 @@ enum Option_i32 {
 
 - [ ] i64
 - [ ] int64
-- [x] isize
+- [ ] isize
 - [ ] int
 
 [Reference](https://www.lurklurk.org/effective-rust/use-types.html)
@@ -483,7 +483,7 @@ enum Option_i32 {
 #### Q42. When are supertraits needed?
 
 - [ ] when a trait is needed for multiple structs
-- [x] when a trait depends on another trait
+- [ ] when a trait depends on another trait
 - [ ] only when a generic trait is used
 - [ ] when a metatrait is needed to use another trait
 
@@ -498,7 +498,7 @@ if x {
 ```
 
 - [ ] every type that implements the std::cmp::Truth trait
-- [x] only the primitive bool type
+- [ ] only the primitive bool type
 - [ ] both bool and u8 (which is how bool is implemented under the hood)
 - [ ] bool and std::sync::atomic::AtomicBool
 
@@ -517,14 +517,14 @@ struct person = Person {
 - [ ] person.getMarried()
 - [ ] person[married]
 - [ ] person.value(married)
-- [x] person.married
+- [ ] person.married
 
 [Reference](https://doc.rust-lang.org/book/ch05-01-defining-structs.html#accessing-fields-of-a-struct)
 
 #### Q45. To mark a function as visible to other crates, what do you need to do to its definition?
 
 - [ ] Add the public keyword.
-- [x] Add the pub keywork.
+- [ ] Add the pub keywork.
 - [ ] Begin the function's name with a capital letter.
 - [ ] Remove the private keyword.
 
@@ -533,7 +533,7 @@ struct person = Person {
 #### Q46. Which choice is a compound data type?
 
 - [ ] char
-- [x] tuple
+- [ ] tuple
 - [ ] bool
 - [ ] i32
 
@@ -553,14 +553,14 @@ fn main() {
 - [ ] Use x only once in a println!() statement.
 - [ ] Place curly brackets around let x = 5.
 - [ ] Add const to let x = 6.
-- [x] Add mut to let x = 5.
+- [ ] Add mut to let x = 5.
 
 [Reference](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
 
 #### Q48. Using .unwrap() will \_.
 
 - [ ] let you choose the expected panic error message
-- [x] call panic! if there is an error or absence of value
+- [ ] call panic! if there is an error or absence of value
 - [ ] unwrap the value inside an unsafe wrapper
 - [ ] return the error inside Ok()
 
@@ -570,14 +570,14 @@ fn main() {
 
 - [ ] when there is a way to encode the information in types used
 - [ ] when your code is expected to end in a good state
-- [x] when the situation is considered unrecoverable
+- [ ] when the situation is considered unrecoverable
 - [ ] when valid values are passed on the code
 
 [Reference](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
 
 #### Q50. Which statement about arrays is true?
 
-- [x] [<T>; size of array] can initialize arrays.
+- [ ] [<T>; size of array] can initialize arrays.
 - [ ] Indexing, such as array.0, accesses elements in arrays.
 - [ ] A data structure for collections can contain different types of values.
 - [ ] Arrays are useful when you want to allocate data on the heap and then on the stack.
@@ -593,13 +593,13 @@ let pt = Point2D(-1.0, 2.0)
 - [ ] pt[1]
 - [ ] pt(1)
 - [ ] pt.iter().nth(1)
-- [x] pt.1
+- [ ] pt.1
 
 [Reference](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html)
 
 #### Q52. When writing tests, which macro should you use to assert equality between two values?
 
-- [x] assert_eq!()
+- [ ] assert_eq!()
 - [ ] assert_equal!()
 - [ ] is_equals!()
 - [ ] assert!()

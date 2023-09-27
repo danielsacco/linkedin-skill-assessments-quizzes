@@ -13,7 +13,7 @@
 </cars>
 ```
 
-- [x] `doc("cars.xml")/cars/car[year>2000].data`
+- [ ] `doc("cars.xml")/cars/car[year>2000].data`
 - [ ] `doc("cars.xml")/cars/car[xs:integer(year) gt 2000]`
 - [ ] `doc("cars.xml")/cars/car[year gt 2000]`
 - [ ] `doc("cars.xml")/cars/car[integer(year) > 2000]`
@@ -34,7 +34,7 @@
 ```
 
 - [ ] The `<car>` element can be extended with only one attribute
-- [x] The `<car>` element can be extended with multiple attributes
+- [ ] The `<car>` element can be extended with multiple attributes
 - [ ] The `<car>` element cannot have any attributes
 - [ ] The `<car>` element has child elements which can appear in any order
 
@@ -69,7 +69,7 @@
       </body>
   </html>
   ```
-- [x] :
+- [ ] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -82,14 +82,14 @@
 #### Q4. When working with Ajax applications, which is faster, XML or JSON?
 
 - [ ] XML, because it is extensible
-- [x] JSON, because it transfers data without waiting for a server response
+- [ ] JSON, because it transfers data without waiting for a server response
 - [ ] XML, because it supports namespaces
 - [ ] JSON, because it is already parsed into a JavaScript object
 
 #### Q5. Asynchronous Javascript and XML (Ajax) is technique for creating better, faster, and more interactive web applications. In addition to JavaScript and XML on the back end, which technologies are commonly used to craft AJAX experiences on the front end?
 
 - [ ] PHP, .NET, and SQL
-- [x] HTML, CSS, and DOM
+- [ ] HTML, CSS, and DOM
 - [ ] Python, Perl, and C++
 - [ ] Java, ASP, and C#
 
@@ -100,14 +100,14 @@
 ```
 
 - [ ] null element
-- [x] self-closing tag
+- [ ] self-closing tag
 - [ ] improperly named element
 - [ ] incorrect XML syntax
 
 #### Q7. Which XHTML syntax rule does NOT apply to XML?
 
 - [ ] XHTML attribute values must be quoted
-- [x] XHTML tags and attributes must be in lowercase
+- [ ] XHTML tags and attributes must be in lowercase
 - [ ] XHTML elements must be properly nested within each other.
 - [ ] XHTML tags must have an equivalent closing tag.
 
@@ -116,7 +116,7 @@
 #### Q8. Which Ajax method is used to exchange data with a server, using a modern browser?
 
 - [ ] request-XML
-- [x] XMLHttpRequest
+- [ ] XMLHttpRequest
 - [ ] ActiveXObject
 - [ ] responseXML
 
@@ -125,7 +125,7 @@
 - [ ] processor; complies; process
 - [ ] system; stores; retrieve
 - [ ] non; processes; format
-- [x] human; annotates; manipulate
+- [ ] human; annotates; manipulate
 
 #### Q10. What is this code an example of?
 
@@ -133,14 +133,14 @@
 <x a="x" a="y"></x>
 ```
 
-- [x] improperly named element
+- [ ] improperly named element
 - [ ] self-closing tag
 - [ ] null element
 - [ ] incorrect XML syntax
 
 #### Q11. XML provides a framework for specifying markup languages, while HTML is a predefined markup language. What is applicable to XML and not HTML?
 
-- [x] It is mandatory to use closing tags with XML
+- [ ] It is mandatory to use closing tags with XML
 - [ ] It is important for an XML document to be well formed
 - [ ] XML elements start with an opening tag in angle brackets, such as `<p>`
 - [ ] XML syntax uses tags, elements, and attributes
@@ -148,13 +148,13 @@
 #### Q12. What is the last step in extending XHTML modules?
 
 - [ ] The last step is to complete the extension of XHTML compound documents and make sure the documents adhere to the defined namespaces.
-- [x] The last step is to create the DTD for the XHTML extension, which references both the XHTML modules and the new modules.
+- [ ] The last step is to create the DTD for the XHTML extension, which references both the XHTML modules and the new modules.
 - [ ] The last step is to run the XHTML extension through the XSLT processor, which will properly format it.
 - [ ] The last step is to verify that the XHTML is well formed and valid, and compatible with most browsers.
 
 #### Q13. In an XML DTD ATTLIST declaration, which default value is used to indicate that the attribute does not have to be included?
 
-- [x] `#DEFAULT`
+- [ ] `#DEFAULT`
 - [ ] `#OPTIONAL`
 - [ ] `#IMPLIED`
 - [ ] `#FIXED`
@@ -162,7 +162,7 @@
 #### Q14. How does the XML DOM present an XML document?
 
 - [ ] as a set of objects
-- [x] as a tree structure
+- [ ] as a tree structure
 - [ ] as an array of nodes
 - [ ] as a dynamic program
 
@@ -171,11 +171,11 @@
 - [ ] Set the maxOccurs attribute to a large number, such as 1.000
 - [ ] Set the maxOccurs attribute to 0
 - [ ] Set the maxOccurs attribute to undefined.
-- [x] Set the maxOccurs attribute to unbounded.
+- [ ] Set the maxOccurs attribute to unbounded.
 
 #### Q16. The `<xsl:with-param>` element defines the value of a parameter to be passed into a template. It can be used within which elements?
 
-- [x] `<xsl:apply-templates>` and `<xsl:call-template>`
+- [ ] `<xsl:apply-templates>` and `<xsl:call-template>`
 - [ ] `<xsl:param>` and `<xsl:processing-instruction>`
 - [ ] `<xsl:template>` and `<xsl:transform>`
 - [ ] `<xsl:include>` and `<xsl:variable>`
@@ -183,7 +183,7 @@
 #### Q17. You are checking someone else's XML document for errors. You notice that the prolog does not have a closing tag. What do you do?
 
 - [ ] Remove the prolog to make sure that the XML document will be properly processed across all platforms.
-- [x] Leave it alone, because the prolog does not require a closing tag.
+- [ ] Leave it alone, because the prolog does not require a closing tag.
 - [ ] Move the prolog to an external file so that the XML document only has elements with closing tags.
 - [ ] Add a closing tag, as al XML elements must have a closing tag.
 
@@ -192,12 +192,12 @@
 - [ ] XML is flexible and customizable.
 - [ ] XML can be used to store data.
 - [ ] XML is independent of Operating System.
-- [x] XML is a replacement for HTML.
+- [ ] XML is a replacement for HTML.
 
 #### Q19. In an XML DTD ATTLIST declaration, which tokenized attribute type is used to specify multiple ID values?
 
 - [ ] ENTITIES
-- [x] IDREFS
+- [ ] IDREFS
 - [ ] IDS
 - [ ] IDSETS
 
@@ -206,7 +206,7 @@
 - [ ] XSLT
 - [ ] DOM
 - [ ] AJAX
-- [x] XSD
+- [ ] XSD
 
 `This question is about understanding the XML аfile contents. XSD is the correct one here - that's the schema document, which describes the XML.`
 
@@ -214,7 +214,7 @@
 
 - [ ] `<!ATTLIST car color (red|white|blue|black) black>`
 - [ ] `<!ATTLIST car color (red|white|blue|black) #REQUIRED>`
-- [x] `<!ATTLIST car color (red|white|blue|black) #FIXED>`
+- [ ] `<!ATTLIST car color (red|white|blue|black) #FIXED>`
 - [ ] `<!ATTLIST car color (red|white|blue|black)>`
 
 #### Q22. The main ways to control the display of XML documents are with Cascading Style Sheets (CSS) and Extensible Styles Language (XSL). What is an advantage of CSS over XSL?
@@ -222,20 +222,20 @@
 - [ ] CSS is a complete programming language with more powerful syntax.
 - [ ] With CSS, the same element can be processed multiple times.
 - [ ] CSS allows you to reformat data into completely new structures.
-- [x] CSS is easier to learn, use, and maintain.
+- [ ] CSS is easier to learn, use, and maintain.
 
 #### Q23. Which type of DTD declaration is this code an example of? `<!DOCTYPE abc SYSTEM "file/file.dtd">`
 
 - [ ] Linked
 - [ ] Internal
-- [x] External
+- [ ] External
 - [ ] Structured
 
 #### Q24. The purpose of an XML schema is to define the building blocks of an XML document. Which option best describes the building blocks of an XML document?
 
 - [ ] Header files, function declarations, global variables with their data types, and system library folder location.
 - [ ] Namespace declaration, processor type, markup references, and encoding specification.
-- [x] The document's elements and attributes, their data types and default values, and the number and order of child elements.
+- [ ] The document's elements and attributes, their data types and default values, and the number and order of child elements.
 - [ ] XML entity definitions, XSLT and cascading style sheets, DOM specification, and CDATA assignments.
 
 [reference link:](https://www.w3schools.com/xml/xml_dtd_building.asp)
@@ -244,7 +244,7 @@
 
 - [ ] Frameset
 - [ ] Transitional
-- [x] Basic
+- [ ] Basic
 - [ ] Strict
 
 **Explanation**: [XHTML - Doctypes](https://www.tutorialspoint.com/xhtml/xhtml_doctypes.htm)
@@ -265,7 +265,7 @@
 - [ ] Cadillac
 - [ ] Cadillac Escalade
 - [ ] Cadillac Escalade 20000
-- [x] Cadillac Escalade $20,000
+- [ ] Cadillac Escalade $20,000
 
 #### Q27. You need to display the list of cars in the code snippet below in a column format, with a counter column for each row. Which XPath function do you use for the counter?
 
@@ -280,7 +280,7 @@
 - [ ] `format-number()`
 - [ ] `id()`
 - [ ] `count()`
-- [x] `position()`
+- [ ] `position()`
 
 **Explanation**: [count()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/count) returns the total the number of nodes (3), while [position()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/position) returns the 0-based index of each node.
 
@@ -336,7 +336,7 @@
 </ul>
 ```
 
-- [x] :
+- [ ] :
 
 ```xquery
 <ol>
@@ -355,14 +355,14 @@
 
 - [ ] `4 (DONE)`
 - [ ] `3 (LOADING)`
-- [x] `1 (PROCESSING)`
+- [ ] `1 (PROCESSING)`
 - [ ] `0 (UNSENT)`
 
 [reference link:](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState)
 
 #### Q30. You are working with an XML document that uses an XML schema. How can you extend the document with elements NOT specified by the schema?
 
-- [x] Use the `<any>` element.
+- [ ] Use the `<any>` element.
 - [ ] Use the `<redefine>` element.
 - [ ] Use `<xs:extension>`.
 - [ ] Specify the new elements in the schema.
@@ -392,7 +392,7 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 #### Q32. You are working with an XML document that uses an XML schema. How do you ensure that an attribute must be specified for its corresponding element?
 
 - [ ] Set the type attribute to `xs:required`.
-- [x] Set the `use` attribute to `required`.
+- [ ] Set the `use` attribute to `required`.
 - [ ] Set the minLength attribute to 1.
 - [ ] Set the minOccurs attribute to 1.
 
@@ -412,7 +412,7 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 ```
 
 - [ ] `<xsl:sort select="make" />`
-- [x] `<xsl:sort select="model" />`
+- [ ] `<xsl:sort select="model" />`
 - [ ] `<xsl:sort select="car" />`
 - [ ] `<xsl:sort select="price" />`
 
@@ -427,12 +427,12 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 - [ ] `/* */`
 - [ ] `<!-- -->`
 - [ ] `//`
-- [x] `(: :)`
+- [ ] `(: :)`
 
 #### Q35. Which DOM node type may NOT have the EntityReference node type as one of its child nodes?
 
 - [ ] Element
-- [x] Document
+- [ ] Document
 - [ ] EntityReference
 - [ ] DocumentFragment
 
@@ -443,13 +443,13 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 - [ ] The implementation of an XHTML module requires an extension module and a validation module that ensures that the XHTML is well formed and valid; otherwise the extended instances aren't formally XHTML.
 - [ ] The implementation of an XHTML module requires a definitions module and a constraint module that specifies syntax rules and uses the parameter entities declared in the definitions module.
 - [ ] The implementation of an XHTML module requires a qualified name module and a declaration module that holds the element, element attribute, and content model declarations.
-- [x] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations, and a parameter module that uses the entities declared in the namespace module.
+- [ ] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations, and a parameter module that uses the entities declared in the namespace module.
 
 #### Q37. The `<xsl:namespace-alias>` element is used to replace a namespace in the style sheet with a different namespace in the output. Which XSLT element needs to be its parent node?
 
 - [ ] `<xsl:namespace>`
 - [ ] any valid element
-- [x] root element
+- [ ] root element
 - [ ] top-level element in the corresponding namespace
 
 [reference link:](https://www.w3schools.com/xml/ref_xsl_el_namespace-alias.asp)
@@ -457,7 +457,7 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 #### Q38. XML is a markup language, not a programming language. What makes XML not qualify to be a programming language?
 
 - [ ] XML is too flexible and does not have enough reserved keywords.
-- [x] XML contains only data and not any processing instructions.
+- [ ] XML contains only data and not any processing instructions.
 - [ ] XML does not perform any computation or algorithms.
 - [ ] XML does not have specialized syntax rules.
 
@@ -476,7 +476,7 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 
 - [ ] Elements `<make>` and `<model>` are ancestors of `<year>`.
 - [ ] Elements `<make>` and `<model>` are children of `<cars>`.
-- [x] Elements `<make>` and `<model>` are siblings.
+- [ ] Elements `<make>` and `<model>` are siblings.
 - [ ] Elements `<car>` and `<cars>` are parents of `<make>` and `<model>`.
 
 #### Q40. Which is a valid CSS section for this XML code snippet?
@@ -503,7 +503,7 @@ car(year) {
 }
 ```
 
-- [x] :
+- [ ] :
 
 ```css
 car,
@@ -551,7 +551,7 @@ car#year {
 - [ ] `<make>` is required, `<model>` is optional, `<year>` is optional, and `<price>` is optional.
 - [ ] `<make>` is required, `<model>` is required, `<year>` is optional, and `<price>` is optional.
 - [ ] `<make>` is required, `<model>` is required, `<year>` is required, and `<price>` is optional.
-- [x] `<make>` is required, `<model>` is optional, `<year>` is required, and `<price>` is optional.
+- [ ] `<make>` is required, `<model>` is optional, `<year>` is required, and `<price>` is optional.
 
 #### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
 
@@ -569,7 +569,7 @@ car#year {
 - [ ] `<birthplace>`
 - [ ] `<alias>`
 - [ ] `<name>`
-- [x] `<роwer>`
+- [ ] `<роwer>`
 
 [Reference best practices for xml attributes](https://www.geeksforgeeks.org/xml-attributes/)
 
@@ -577,14 +577,14 @@ car#year {
 
 - [ ] structure
 - [ ] entities
-- [x] elements
+- [ ] elements
 - [ ] attributes
 
 #### Q44. In the XML DOM,what is the `setAttribute()` an example of?
 
 - [ ] node
 - [ ] function
-- [x] method
+- [ ] method
 - [ ] property
 
 #### Q45. What is not one of the advantages of the XML DOM?
@@ -592,7 +592,7 @@ car#year {
 - [ ] The XML DOM is language and platform independent.
 - [ ] The XML DOM is modifiable and dynamic.
 - [ ] The XML DOM is easy to navigate around to find specific information.
-- [x] The XML DOM is efficient with memory and operation speed.
+- [ ] The XML DOM is efficient with memory and operation speed.
 
 #### Q46. In the XML DOM, which property is best to use to loop through each of the <car> nodes i nthe code snippet below?
 
@@ -606,7 +606,7 @@ car#year {
 
 - [ ] `nextChild`
 - [ ] `nextSibling`
-- [x] `nodeValue`
+- [ ] `nodeValue`
 - [ ] `nodename`
 
 #### Q47. If you open up the document below in a web browser, what result do you expect?
@@ -620,4 +620,4 @@ car#year {
 - [ ] The browser will display the entire XML document.
 - [ ] The browser will display just the string Hello World!
 - [ ] The browser will report a syntax error because it includes an element that has a hyphen character.
-- [x] The browser will report a syntax error because it includes an element that starts with a period.
+- [ ] The browser will report a syntax error because it includes an element that starts with a period.

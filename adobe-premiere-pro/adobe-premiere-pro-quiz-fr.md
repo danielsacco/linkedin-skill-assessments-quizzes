@@ -2,7 +2,7 @@
 
 #### Q1. Vous ouvrez une séquence imbriquée afin de réduire la longueur d’un élément. Vous allongez la durée totale des éléments. Qu’advient-il de la durée du nid dans la séquence principale?
 
-- [x] Rien, la durée du nid reste la même dans la séquence d’origine.
+- [ ] Rien, la durée du nid reste la même dans la séquence d’origine.
 - [ ] La durée de l’imbrication change et une modification d’écrasement pousse les éléments restants pour faire de la place.
 - [ ] Les éléments changent de vitesse pour correspondre à la durée de l’imbrication.
 - [ ] La durée de l’imbrication change et un montage d’ondulation pousse les éléments restants pour faire de la place.
@@ -11,12 +11,12 @@
 
 - [ ] L’imbrication améliore les performances de lecture.
 - [ ] L’imbrication facilite la réduction de l’encombrement dans le panneau Projet, ce qui permet d’économiser du temps et potentiellement du budget du projet.
-- [x] L’imbrication permet d’appliquer un seul effet à tout ce qui se trouve à l’intérieur du nid, comme une correction des couleurs ou un limiteur vidéo.
+- [ ] L’imbrication permet d’appliquer un seul effet à tout ce qui se trouve à l’intérieur du nid, comme une correction des couleurs ou un limiteur vidéo.
 - [ ] L’imbrication permet à Adobe Premiere Pro d’effectuer un rendu plus rapide.
 
 #### Q3. Que se passe-t-il sur votre disque dur lorsque vous créez un sous-élément ?
 
-- [x] Rien, puisqu’un sous-clip ne crée pas de nouveau fichier multimédia sur votre disque dur.
+- [ ] Rien, puisqu’un sous-clip ne crée pas de nouveau fichier multimédia sur votre disque dur.
 - [ ] Un fichier de pointeur est créé sur votre disque dur.
 - [ ] Un nouveau clip maître est créé sur votre disque dur et ajouté au projet.
 - [ ] Un nouveau fichier multimédia est créé à côté du média d’origine.
@@ -26,18 +26,18 @@
 - [ ] Adobe Premiere peut exporter directement des fichiers.
 - [ ] Vous pouvez encoder des séquences dans un ou plusieurs formats avec Adobe Media Encoder.
 - [ ] Lorsque vous utilisez Adobe Media Encoder, vous pouvez continuer à travailler sur la même séquence dans Adobe Premiere Pro.
-- [x] Lorsque vous cliquez sur Exporter, Adobe Premiere Pro encode le fichier en arrière-plan et vous permet de poursuivre le montage.
+- [ ] Lorsque vous cliquez sur Exporter, Adobe Premiere Pro encode le fichier en arrière-plan et vous permet de poursuivre le montage.
 
 #### Q5. Lorsque vous travaillez dans Premiere Pro, comment créer rapidement une composition After Effects avec des paramètres correspondant à la séquence actuelle ?
 
 - [ ] Sélectionnez Fichier > Adobe Dynamic Link > Importer une composition After Effects.
 - [ ] Importez un projet à partir d’After Effects et choisissez Faire correspondre la taille du projet lors de l’importation.
-- [x] Sélectionnez Fichier > Adobe Dynamic Link > Nouvelle composition After Effects.
+- [ ] Sélectionnez Fichier > Adobe Dynamic Link > Nouvelle composition After Effects.
 - [ ] Passez à After Effects et configurez manuellement le projet pour plus de précision.
 
 #### Q6. Quelle balise n’est PAS disponible dans le panneau Son essentiel ?
 
-- [x] Narration
+- [ ] Narration
 - [ ] SFX
 - [ ] Ambiance
 - [ ] Musique
@@ -52,7 +52,7 @@ D. Temperature
 E. Blur
 ```
 
-- [x] B, C, D
+- [ ] B, C, D
 - [ ] A, B, C
 - [ ] B, D, E
 - [ ] A, C, E
@@ -61,14 +61,14 @@ E. Blur
 
 - [ ] Panneau Moniteur du programme
 - [ ] Panneau Moniteur source
-- [x] Panneau Montage
+- [ ] Panneau Montage
 - [ ] Panneau Navigateur multimédia
 
 #### Q9. Que pouvez-vous faire pour que le calque de forme ajuste automatiquement la taille à mesure que le calque de texte change ?
 
 ![image](images/001.png?raw=png)
 
-- [x] Sélectionnez l’option Masque avec forme.
+- [ ] Sélectionnez l’option Masque avec forme.
 - [ ] Sélectionnez Responsive Design et épingler au calque de texte.
 - [ ] Sélectionnez Responsive Design et épingler à l’image vidéo.
 - [ ] Utilisez les contrôles Aligner et Transformer.
@@ -78,11 +78,11 @@ E. Blur
 - [ ] Panneau Montage
 - [ ] Panneau Navigateur multimédia
 - [ ] Panneau capture
-- [x] Panneau Moniteur source
+- [ ] Panneau Moniteur source
 
 #### Q11. Quel panneau vous permet de modifier les effets vidéo après qu’ils ont été appliqués à un clip ?
 
-- [x] Panneau Effets
+- [ ] Panneau Effets
 - [ ] Panneau Montage
 - [ ] Panneau Moniteur source
 - [ ] Panneau Options d’effet
@@ -91,14 +91,14 @@ E. Blur
 
 - [ ] Exclure les clips inutilisés
 - [ ] Consolider et transcoder
-- [x] Collecter des fichiers et les copier vers un nouvel emplacement
+- [ ] Collecter des fichiers et les copier vers un nouvel emplacement
 - [ ] Créer un nouveau projet découpé
 
 #### Q13. Quelle est la transition vidéo par défaut dans Adobe Premiere Pro ?
 
 - [ ] film se dissoudre
 - [ ] dissolution de l’additif
-- [x] dissolution croisée
+- [ ] dissolution croisée
 - [ ] dissolution de l’impact
 
 #### Q14. Quel terme décrit l’algorithme utilisé pour encoder et décoder un fichier vidéo ?
@@ -106,7 +106,7 @@ E. Blur
 - [ ] conteneur
 - [ ] format
 - [ ] compresseur
-- [x] codec
+- [ ] codec
 
 #### Q15. Vous souhaitez enregistrer une courte partie d’un clip plus long pour un accès facile. Comment pouvez-vous faire cela?
 
@@ -115,20 +115,20 @@ E. Blur
 - [ ] dans l’Explorateur de médias, marquez les points d’entrée et de sortie sur un élément, puis importez.
 - [ ] Marquez les points d’entrée et de sortie sur l’élément dans le Moniteur du programme et sélectionnez Sélectionner l’option Clip > Make Subclip.
 - [ ] Marquez les points d’entrée et de sortie d’un élément dans le panneau Montage, puis faites-le glisser dans une corbeille.
-- [x] Marquez les points d’entrée et de sortie sur l’élément dans le Moniteur source et sélectionnez Elément > Créer un sous-élément.
+- [ ] Marquez les points d’entrée et de sortie sur l’élément dans le Moniteur source et sélectionnez Elément > Créer un sous-élément.
 
 #### Q16. Quel réglage peut aider à rétablir les détails de bord dans les séquences vidéo ?
 
 - [ ] Intensité
 - [ ] Contraste
-- [x] Aiguiser
+- [ ] Aiguiser
 - [ ] Clarté
 
 #### Q17. Où pouvez-vous ajuster la durée d’une transition?
 
 - [ ] Panneau Effets
 - [ ] Panneau projet
-- [x] Panneau Options d’effet
+- [ ] Panneau Options d’effet
 - [ ] Panneau Moniteur du programme
 
 #### Q18. Vous travaillez avec un nouveau projet et vous éditez depuis deux heures. Quel est le nombre de projets de sauvegarde que vous vous attendez à trouver ?
@@ -137,7 +137,7 @@ E. Blur
 
 - [ ] 2
 - [ ] 12
-- [x] 20
+- [ ] 20
 - [ ] 24
 
 #### Q19. Quel panneau utiliseriez-vous pour parcourir et importer des ressources afin d’assurer une compatibilité maximale avec Premiere Pro ?
@@ -145,7 +145,7 @@ E. Blur
 - [ ] Bibliothèque
 - [ ] Effets
 - [ ] Projet
-- [x] Navigateur multimédia
+- [ ] Navigateur multimédia
 
 Référence : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.\&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import.
 
@@ -153,7 +153,7 @@ Référence : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-b
 
 ![image](images/004.png)
 
-- [x] La transition glisserait vers la droite.
+- [ ] La transition glisserait vers la droite.
 - [ ] Vous n’étendriez que le côté droit de la transition.
 - [ ] Vous devez effectuer un montage d’ondulation et prolonger la durée du premier clip.
 - [ ] La transition se ferait sentir des deux côtés.
@@ -162,7 +162,7 @@ Référence : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-b
 
 - [ ] Adobe Photoshop
 - [ ] Adobe Premiere Pro
-- [x] Adobe Audition
+- [ ] Adobe Audition
 - [ ] Adobe After Effects
 
 #### Q22. Quel volet de préférences inclut la durée par défaut de la transition vidéo et la durée par défaut de la transition audio ?
@@ -170,20 +170,20 @@ Référence : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-b
 - [ ] Médias
 - [ ] Lecture
 - [ ] Généralités
-- [x] Chronologie
+- [ ] Chronologie
 
 #### Q23. Si un effet a une étoile à côté de son icône, de quel type d’effet s’agit-il ?
 
 - [ ] audio
 - [ ] modèle
 - [ ] transition
-- [x] préréglage
+- [ ] préréglage
 
 #### Q24. Comment ce clip a-t-il été manipulé à l’aide d’un réglage Courbes ?
 
 ![image](images/005.png)
 
-- [x] Hue contre Luma
+- [ ] Hue contre Luma
 - [ ] Saturation vs saturation
 - [ ] Teinte vs saturation
 - [ ] Luma vs Saturation
@@ -191,20 +191,20 @@ Référence : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-b
 #### Q25. Où les données de transparence sont-elles stockées lors de la composition de supports ?
 
 - [ ] Panneau Graphiques essentiels
-- [x] Panneau Effets
+- [ ] Panneau Effets
 - [ ] canal alpha
 - [ ] modification de l’assemblage
 
 #### Q26. Lorsqu’une partie de vos séquences est transparente, où sont stockées les informations de transparence dans le fichier ?
 
 - [ ] moniteur source
-- [x] canal alpha
+- [ ] canal alpha
 - [ ] Effet d’opacité
 - [ ] effet alpha
 
 #### Q27. Quelle option vous permet de réutiliser des fichiers de rendu précédemment créés pour une exportation ?
 
-- [x] Utiliser les aperçus
+- [ ] Utiliser les aperçus
 - [ ] Utiliser la fusion d’images
 - [ ] Utilisez une qualité de rendu maximale
 - [ ] Paramètres de séquence de correspondance
@@ -214,7 +214,7 @@ Référence : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-b
 ![image](images/006.png)
 
 - [ ] Couper
-- [x] Découper
+- [ ] Découper
 - [ ] Ripple Trim In
 - [ ] Ripple Trim Out
 
@@ -230,7 +230,7 @@ E. FLV
 
 - [ ] A, B, C
 - [ ] A, C, E
-- [x] B, C, D
+- [ ] B, C, D
 - [ ] B, D, E
 
 #### Q30. Quel format de fichier vidéo pouvez-vous exporter avec Adobe Media Encoder ? (Sélectionnez trois éléments.)
@@ -246,11 +246,11 @@ E. M4A
 - [ ] A, B, C
 - [ ] A, C, E
 - [ ] B, C, D
-- [x] B, D, E
+- [ ] B, D, E
 
 #### Q31. Si vous avez placé un effet accéléré par GPU sur un élément du montage et que vous ne l’avez pas rendu, quelle couleur apparaît en haut de votre montage ?
 
-- [x] rouge
+- [ ] rouge
 - [ ] bleu
 - [ ] jaune
 - [ ] vert
@@ -260,7 +260,7 @@ E. M4A
 - [ ] La luminosité par défaut est la position à mi-chemin entre plus sombre et plus clair.
 - [ ] Vous pouvez définir la barre supérieure des fenêtres sur une couleur d’accent personnalisée.
 - [ ] Vous pouvez régler l’intensité de l’indicateur de mise au point pour aider à identifier facilement quelle fenêtre est active.
-- [x] Vous pouvez modifier la couleur de surbrillance.
+- [ ] Vous pouvez modifier la couleur de surbrillance.
 
 #### Q33. Que pouvez-vous dire sur cette transition ?
 
@@ -276,7 +276,7 @@ E. M4A
 - [ ] Désélectionnez les séquences indésirables dans la zone Séquence.
 - [ ] Sélectionnez Créer un nouveau projet découpé.
 - [ ] Sélectionnez Consolider et transcoder.
-- [x] Choisissez Collecter les fichiers et Copier vers un nouvel emplacement.
+- [ ] Choisissez Collecter les fichiers et Copier vers un nouvel emplacement.
 
 #### Q35. Vous souhaitez prendre un élément partiel utilisé dans votre montage et l’envoyer à After Effects pour un traitement supplémentaire à l’aide de Dynamic Link. Quelle méthode y parvient le mieux ?
 
@@ -330,7 +330,7 @@ E. Ellipse
 ![image](images/010.png)
 
 - [ ] Noirs
-- [x] Contraste
+- [ ] Contraste
 - [ ] Blancs
 - [ ] Exposition
 
@@ -387,7 +387,7 @@ E. Ellipse
 
 #### Q48. Pour organiser rapidement les panneaux dans Adobe Premiere Pro pour une tâche spécifique, qu’utilisez-vous ?
 
-- [x] espaces de travail
+- [ ] espaces de travail
 - [ ] mises en page
 - [ ] préréglages du panneau
 - [ ] événements

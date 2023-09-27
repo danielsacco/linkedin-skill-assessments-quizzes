@@ -3,7 +3,7 @@
 #### Q1. By convention, what name is used for the first key in a JSON schema?
 
 - [ ] schema
-- [x] \$schema
+- [ ] \$schema
 - [ ] JsonSchema
 - [ ] JSONschema
 
@@ -23,7 +23,7 @@
 ["red", "blue", "green"]
 ```
 
-- [x] B
+- [ ] B
 
 ```json
 ["red", "blue", "green"]
@@ -51,7 +51,7 @@
 #### Q3. Which JavaScript method converts a JavaScript value to Json?
 
 - [ ] JSON.parse()
-- [x] JSON.stringify()
+- [ ] JSON.stringify()
 - [ ] JSON.toString()
 - [ ] JSON.objectify()
 
@@ -59,13 +59,13 @@
 
 - [ ] string
 - [ ] number
-- [x] date
+- [ ] date
 - [ ] array
 
 #### Q5. Which term is commonly used to refer to converting data to JSON?
 
 - [ ] unpacking
-- [x] serialization
+- [ ] serialization
 - [ ] deserialization
 - [ ] parsing
 
@@ -73,7 +73,7 @@
 
 `accountNum: '000605802'`
 
-- [x] "accountNum": "000605802"
+- [ ] "accountNum": "000605802"
 - [ ] accountNum: "000605802"
 - [ ] "accountNum": 000605802
 - [ ] accountNum: 000605802
@@ -81,13 +81,13 @@
 #### Q7. What character do you specify before a JSON control character when you want to use that control characters as a literal part of a string?
 
 - [ ] `/`
-- [x] `\`
+- [ ] `\`
 - [ ] `:`
 - [ ] `{`
 
 #### Q8. Which data type is part of the JSON standard?
 
-- [x] Boolean
+- [ ] Boolean
 - [ ] map
 - [ ] promise
 - [ ] function
@@ -97,7 +97,7 @@
 - [ ] important
 - [ ] base
 - [ ] core
-- [x] required
+- [ ] required
 
 #### Q10. Which is the valid JSON equivalent of the data shown?
 
@@ -167,7 +167,7 @@
 }
 ```
 
-- [x] D
+- [ ] D
 
 ```json
 {
@@ -187,7 +187,7 @@
 #### Q11. How do you store several paragraphs of text as a string in JSON?
 
 - [ ] Escape all whitespaces expect space characters.
-- [x] Escape line breaks.
+- [ ] Escape line breaks.
 - [ ] Escape paragraphs.
 - [ ] Remove all whitespaces
 
@@ -196,7 +196,7 @@
 `loggedIn: true`
 
 - [ ] string
-- [x] Boolean
+- [ ] Boolean
 - [ ] number
 - [ ] object
 
@@ -204,14 +204,14 @@
 
 - [ ] "loggedIn": (true)
 - [ ] loggedIn: "true"
-- [x] "loggedIn": true
+- [ ] "loggedIn": true
 - [ ] loggedIn: {true}
 
 #### Q14. What does JSON with padding (JSON-P) use to make a request?
 
 - [ ] an `<origin>` element
 - [ ] a header request
-- [x] the `<script>` element
+- [ ] the `<script>` element
 - [ ] the XMLHttpRequest object
 
 #### Q15. Which value is supported in the JSON specifications?
@@ -219,11 +219,11 @@
 - [ ] undefined
 - [ ] infinity
 - [ ] NaN
-- [x] null
+- [ ] null
 
 #### Q16. Which JavaScript method converts JSON to a JavaScript value?
 
-- [x] JSON.parse()
+- [ ] JSON.parse()
 - [ ] JSON.stringify()
 - [ ] JSON.toString()
 - [ ] JSON.objectify()
@@ -237,7 +237,7 @@
     5.Requests information from a specific source.
     6.Removes information.
 
-- [x] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
+- [ ] 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT
 - [ ] 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE
 
 #### Q18. Which code uses valid JSON syntax for the text "Centennial Olympics?
@@ -262,7 +262,7 @@
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```json
 {
@@ -294,7 +294,7 @@
 
 #### Q19. Can trailing commas be used in objects and arrays?
 
-- [x] yes
+- [ ] yes
 - [ ] only if there is more than one item
 - [ ] no
 - [ ] only when arrays and objects contain more than 10 items
@@ -304,14 +304,14 @@
 #### Q20. Which whitespace characters should be escaped within a string?
 
 - [ ] All whitespace is allowed.
-- [x] double quotes, slashes new lines, and carriage returns
+- [ ] double quotes, slashes new lines, and carriage returns
 - [ ] new lines and carriage returns only
 - [ ] double quotes only
 
 #### Q21. Which is supported by YAML but not supported by JSON?
 
 - [ ] nested
-- [x] comments
+- [ ] comments
 - [ ] arrays
 - [ ] null values
 
@@ -320,12 +320,12 @@
 - [ ] `"'|=(_)(X 72(_)|\/||\*'"`
 - [ ] `"|=(_)(X 72(_)|\/||\*"`
 - [ ] `"|=(_)(X\" \"72(_)|\/||\*"`
-- [x] `"\s(_)(X 72(_)|\/||\*"`
+- [ ] `"\s(_)(X 72(_)|\/||\*"`
 
 #### Q23. How do you encode a date in JSON?
 
 - [ ] Convert the date to UTC and enclose in quotes.
-- [x] Encode the date as string using the ISO-8601 date format.
+- [ ] Encode the date as string using the ISO-8601 date format.
 - [ ] Wrap the date in double quotes.
 - [ ] Add a "date" key to your object and include the date as string.
 
@@ -335,7 +335,7 @@
 
 - [ ] JSON should be wrapped with curly braces.
 - [ ] JSON.parse() is missing an argument.
-- [x] The value supplied to JSON.parse() is not a string.
+- [ ] The value supplied to JSON.parse() is not a string.
 - [ ] Nothing is wrong with it.
 
 #### Q25. What does this JavaScript code print?
@@ -351,7 +351,7 @@ function printNullness(testMe) {
 }
 ```
 
-- [x] A
+- [ ] A
 
 ```
 not null
@@ -385,14 +385,14 @@ null
 
 #### Q26. What tool might you use to validate your JSON?
 
-- [x] JSONLint
+- [ ] JSONLint
 - [ ] ValidateJSON
 - [ ] JSONFiddle
 - [ ] TextEdit
 
 #### Q27. What characters denote strings in JSON?
 
-- [x] double quotes
+- [ ] double quotes
 - [ ] smart (curly) quotes
 - [ ] single or double quotes
 - [ ] single quotes
@@ -401,7 +401,7 @@ null
 
 - [ ] `"constant": "6.022E23"`
 - [ ] `"constant": "6\.022\E23"`
-- [x] `"constant": 6.022E23`
+- [ ] `"constant": 6.022E23`
 - [ ] `constant: "6.022E23"`
 
 [Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`.
@@ -409,14 +409,14 @@ null
 #### Q29. Which element is added to the DOM to create a JSON-P request?
 
 - [ ] `<object>`
-- [x] `<script>`
+- [ ] `<script>`
 - [ ] `<json>`
 - [ ] `<meta>`
 
 #### Q30. Why do so many APIs use JSON?
 
 - [ ] Because it's object-based.
-- [x] Because it's a simple and adaptable format for sharing data.
+- [ ] Because it's a simple and adaptable format for sharing data.
 - [ ] Because it's based on JavaScript.
 - [ ] Because it is derived from SGML.
 
@@ -435,7 +435,7 @@ null
 }
 ```
 
-- [x] A
+- [ ] A
 
 ```json
 {
@@ -483,7 +483,7 @@ null
 
 #### Q32. When building dynamic web applications using AJAX, developers originally used the \_ data format, which has since been replaced by JSON.
 
-- [x] XML
+- [ ] XML
 - [ ] GRAPHQL
 - [ ] REST
 - [ ] SOAP
@@ -493,14 +493,14 @@ null
 - [ ] TRUE
 - [ ] "true"
 - [ ] 1
-- [x] true
+- [ ] true
 
 #### Q34. Which array is valid JSON?
 
 - [ ] ['tatooine', 'hoth', 'dagobah']
 - [ ] [tatooine, hoth, dagobah]
 - [ ] ["tatooine", "hoth", "dagobah",]
-- [x] ["tatooine", "hoth", "dagobah"]
+- [ ] ["tatooine", "hoth", "dagobah"]
 
 #### Q35. What data type is encoded in the outermost component of the JSON shown?
 
@@ -516,7 +516,7 @@ null
 ```
 
 - [ ] object
-- [x] array
+- [ ] array
 - [ ] number
 - [ ] string
 
@@ -524,7 +524,7 @@ null
 
 - [ ] trailing commas
 - [ ] trailing decimals
-- [x] whitespace
+- [ ] whitespace
 - [ ] leading zeroes
 
 [Reference](https://www.geeksforgeeks.org/what-is-the-difference-between-yaml-and-json/)
@@ -534,18 +534,18 @@ null
 - [ ] FALSE
 - [ ] 0
 - [ ] ""
-- [x] null
+- [ ] null
 
 #### Q38. How do you assign a number value in JSON?
 
 - [ ] Escape the number with a backslash.
 - [ ] Enclose the number in double quotes.
 - [ ] Enclose the number in single quotes.
-- [x] Leave the number as is.
+- [ ] Leave the number as is.
 
 #### Q39. Which code uses the correct JSON syntax for encoding a key/value pair with a null value?
 
-- [x] "lastVisit": null
+- [ ] "lastVisit": null
 - [ ] lastVisit: null
 - [ ] "lastVisit": 0
 - [ ] "lastVisit": undefined
@@ -556,12 +556,12 @@ null
 
 - [ ] 128514
 - [ ] d83dde02
-- [x] \uD83D\uDE02
+- [ ] \uD83D\uDE02
 - [ ] \&#128514;
 
 #### Q41. Which code uses the correct JSON syntax for a key/Value pair containing a string?
 
-- [x] "largest": "blue whale"
+- [ ] "largest": "blue whale"
 - [ ] largest: 'blue whale'
 - [ ] 'largest': 'blue whale'
 - [ ] largest: "blue whale"
@@ -571,12 +571,12 @@ null
 - [ ] data
 - [ ] schemadata
 - [ ] schematype
-- [x] type
+- [ ] type
 
 #### Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?
 
 - [ ] "UPC": \043875
-- [x] UPC: "043875"
+- [ ] UPC: "043875"
 - [ ] "UPC": 043875
 - [ ] UPC: '043875'
 
@@ -585,11 +585,11 @@ null
 - [ ] markdown
 - [ ] YAML
 - [ ] XML
-- [x] JSON
+- [ ] JSON
 
 #### Q45. Which code is valid JSON equivalent of the key/value pair shown that also preserves the data type?
 
-- [x] "variance": -0.0823
+- [ ] "variance": -0.0823
 - [ ] variance: "-0.0823"
 - [ ] "variance": "\-0.0823"
 - [ ] variance: -0.0823
@@ -598,14 +598,14 @@ null
 
 #### Q46. With what character should key/value pairs be separated?
 
-- [x] colon
+- [ ] colon
 - [ ] space
 - [ ] semicolon
 - [ ] comma
 
 #### Q47. What character separates keys from values?
 
-- [x] :
+- [ ] :
 - [ ] ->
 - [ ] ::
 - [ ] .
@@ -615,21 +615,21 @@ null
 - [ ] Wrap line breaks in single quotation marks
 - [ ] Make no changes, because whitespace is allowed
 - [ ] Replace any line breaks with `\r`
-- [x] Replace any line breaks with `\n`
+- [ ] Replace any line breaks with `\n`
 
 #### Q49. Which number types are available in javascript but not supported in json?
 
 - [ ] Fractional and Transcendental
 - [ ] Infinity or Rational
 - [ ] Rational and Irrational
-- [x] Infinity or NaN
+- [ ] Infinity or NaN
 
 #### Q50. How should a date value be stored in JSON?
 
 - [ ] As a string with quotes
 - [ ] As a string without quotes
 - [ ] As a string in ISO 8583 format
-- [x] As a string in ISO 8601 format
+- [ ] As a string in ISO 8601 format
 
 #### Q51. Is the JSON code shown here valid?
 
@@ -638,12 +638,12 @@ null
 - [ ] No, emojis must be escaped with a backslash.
 - [ ] No, JSON strings are not allowed to use emojis.
 - [ ] No, emojis should never be enclosed with double quotes.
-- [x] Yes, emojis are valid characters because JSON strings are unicode.
+- [ ] Yes, emojis are valid characters because JSON strings are unicode.
 
 #### Q52. What data structure do you use to encode ordered information?
 
 - [ ] list
-- [x] array
+- [ ] array
 - [ ] struct
 - [ ] indexed hash
 
@@ -652,12 +652,12 @@ null
 - [ ] arrays, strings, numbers, true/false
 - [ ] hashes, arrays, strings, numbers, booleans, null
 - [ ] arrays, objects, lists, strings, numbers, booleans
-- [x] objects, arrays, strings, numbers, booleans, null
+- [ ] objects, arrays, strings, numbers, booleans, null
 
 #### Q54. Which key format is valid JSON?
 
 - [ ] key: "value"
-- [x] "key": "value"
+- [ ] "key": "value"
 - [ ] key, "value"
 - [ ] 'key': 'value'
 
@@ -679,7 +679,7 @@ null
 - [ ] number
 - [ ] array
 - [ ] string
-- [x] object
+- [ ] object
 
 #### Q56. What's wrong with this JSON object?
 
@@ -691,7 +691,7 @@ null
 ```
 
 - [ ] Key/value pairs should be separated by semicolons.
-- [x] Keys should be enclosed with double quotes.
+- [ ] Keys should be enclosed with double quotes.
 - [ ] Key/value pairs should always have a trailing comma.
 - [ ] Keys and values should be enclosed with single quotes.
 
@@ -700,7 +700,7 @@ null
 - [ ] Wrap the comments in single quotes and place it at the bottom of the file.
 - [ ] Wrap the comments in double parentheses.
 - [ ] Escape comments by placing two slashes at the start of the comment.
-- [x] JSON does not support comments.
+- [ ] JSON does not support comments.
 
 #### Q58. How would you make the following string valid in JSON?
 
@@ -710,19 +710,19 @@ null
 
 - [ ] name: "bb-8"
 - [ ] "name": \'bb-8\'
-- [x] "name": "bb-8"
+- [ ] "name": "bb-8"
 - [ ] "name": bb-8
 
 #### Q59. How are values separated in JSON?
 
 - [ ] with brackets
 - [ ] with colons
-- [x] with commas
+- [ ] with commas
 - [ ] with parentheses
 
 #### Q60. With which programming language is JSON best used?
 
-- [x] any language, as JSON is language agnostic.
+- [ ] any language, as JSON is language agnostic.
 - [ ] Ruby
 - [ ] JavaScript
 - [ ] Python
@@ -730,20 +730,20 @@ null
 #### Q61. What values can arrays contain?
 
 - [ ] only numbers
-- [x] any valid JSON value
+- [ ] any valid JSON value
 - [ ] only strings and numbers
 - [ ] only strings
 
 #### Q62. What technique can be used to represent complex objects with JSON?
 
 - [ ] reserialization
-- [x] nesting
+- [ ] nesting
 - [ ] memorization
 - [ ] minimization
 
 #### Q63. What characters are used to enclose an array?
 
-- [x] `[]`
+- [ ] `[]`
 - [ ] `{}`
 - [ ] `""`
 - [ ] `()`
@@ -752,19 +752,19 @@ null
 
 - [ ] text/json
 - [ ] text/javascript
-- [x] application/json
+- [ ] application/json
 - [ ] data/json
 
 #### Q65. Which character cannot be part of string within JSON without additional formatting?
 
 - [ ] /
-- [x] "
+- [ ] "
 - [ ] -
 - [ ] :
 
 #### Q66. What is the purpose of JSON?
 
-- [x] to provide a simple way to serialize and deserialize data between different sources
+- [ ] to provide a simple way to serialize and deserialize data between different sources
 - [ ] to provide a way to store data for machine learning
 - [ ] to provide an archival solution for data warehousing
 - [ ] to provide a way for JavaScript to run other languages
@@ -774,26 +774,26 @@ null
 - [ ] No, but you can sort the keys with `JSON.sort()`.
 - [ ] Yes, object keys are always ordered alphabetically.
 - [ ] Yes, but only when the object is first parsed.
-- [x] No, you can never assume object keys will be in order.
+- [ ] No, you can never assume object keys will be in order.
 
 #### Q68. With what character should object keys be enclosed?
 
 - [ ] `*`
 - [ ] `#`
 - [ ] `^`
-- [x] `"`
+- [ ] `"`
 
 #### Q69. What is the maximum number of key/value pairs that JSON supports?
 
 - [ ] 10,000
 - [ ] 1000
-- [x] There is no defined limit.
+- [ ] There is no defined limit.
 - [ ] 1 million
 
 #### Q70. What is the recommended term used to refer to multiple resources?
 
 - [ ] a swarm
-- [x] multiple resources
+- [ ] multiple resources
 - [ ] a collection
 - [ ] a group
 
@@ -802,11 +802,11 @@ null
 - [ ] yes, but only if they are enclosed in quotes
 - [ ] only with integers
 - [ ] no
-- [x] yes
+- [ ] yes
 
 #### Q72. What two nonnumerical characters can numbers contain?
 
-- [x] dash and dot
+- [ ] dash and dot
 - [ ] dash and comma
 - [ ] comma and exclamation point
 - [ ] dot and comma
@@ -816,32 +816,32 @@ null
 - [ ] JSON.ingest()
 - [ ] JSON.convert()
 - [ ] JSON.read()
-- [x] JSON.parse()
+- [ ] JSON.parse()
 
 #### Q74. How are the values in an array separated?
 
 - [ ] with right arrows
 - [ ] with colons
 - [ ] with semicolons
-- [x] with commas
+- [ ] with commas
 
 #### Q75. What is the minimum number of values in an array?
 
-- [x] zero
+- [ ] zero
 - [ ] one
 - [ ] two
 - [ ] three
 
 #### Q76. In JSON, a set of brackets ([]) is used to denote **\_**, whereas curly braces ({}) denote **\_**.
 
-- [x] arrays; objects
+- [ ] arrays; objects
 - [ ] objects; functions
 - [ ] arrays; functions
 - [ ] key/value pairs; arrays
 
 #### Q77. How does JSON represent truth, falsity and nullness?
 
-- [x] true, false, null
+- [ ] true, false, null
 - [ ] true, false
 - [ ] TRUE, FALSE, NULL
 
@@ -850,25 +850,25 @@ null
 - [ ] Remove spaces from the key before accessing the value.
 - [ ] Use dot notation to access the value.
 - [ ] Use object key index to access the value.
-- [x] Use bracket notation to access the value.
+- [ ] Use bracket notation to access the value.
 
 #### Q79. When parsing JSON, "caching" is a method used to \_.
 
 - [ ] remove duplicate data from a server
-- [x] temporarily store data for faster access
+- [ ] temporarily store data for faster access
 - [ ] store excess information in chunks to be reviewed later
 - [ ] clog up a web browser with useless information
 
 #### Q80. What is the only valid whitespace character within a string that does not require an escape character?
 
 - [ ] line break
-- [x] space
+- [ ] space
 - [ ] tab
 - [ ] return
 
 #### Q81. What technique can you use to safely encode very large numbers?
 
-- [x] Store the number as a string
+- [ ] Store the number as a string
 - [ ] Convert the number into an exponent.
 - [ ] Round the number to the nearest 10-digit number.
 - [ ] Split the number into smaller parts.
@@ -881,7 +881,7 @@ variance: -0.0823
 
 - [ ] variance: "-0.0823"
 - [ ] variance: -0.0823
-- [x] "variance": "-0.0823"
+- [ ] "variance": "-0.0823"
 - [ ] "variance": "\-0.0823"
 
 [Reference data types in json](https://www.w3schools.com/js/js_json_datatypes.asp)
@@ -908,7 +908,7 @@ myVehicleContents = {
 myVehicleContents.van.inside['glove box'] = gloveBoxContents;
 ```
 
-- [x] B
+- [ ] B
 
 ```js
 var gloveBoxContents = myVehicleContents.van.inside['glove box'];
@@ -933,7 +933,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 #### Q84. What characters are used to define an object?
 
 - [ ] ||
-- [x] {}
+- [ ] {}
 - [ ] ()
 - [ ] []
 
@@ -941,14 +941,14 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 
 - [ ] It has a flat architecture.
 - [ ] It has a rewritable structure.
-- [x] It has an array-only structure.
+- [ ] It has an array-only structure.
 - [ ] It has a table structure.
 
 #### Q86. What is supported by YAML but not supported by JSON?
 
 - [ ] arrays
 - [ ] null values
-- [x] comments
+- [ ] comments
 - [ ] nested
 
 `YAML supports # comments but not JSON`
@@ -956,7 +956,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 #### Q87. Which is an invalid JSON value? (same as previous question, but different possible answers)
 
 - [ ] `"'|=(_)(X 72(_)|\/||*'"`
-- [x] `"\s(_)(X 72(_)|\/||*"`
+- [ ] `"\s(_)(X 72(_)|\/||*"`
 - [ ] `"|=(_)(X\" \"72(_)|\/||*"`
 - [ ] `"|=(_)(X 72(_)|\/||*"`
 
@@ -966,14 +966,14 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 
 - [ ] `['rey', 'leia', "ashoka",}`
 - [ ] `['rey', 'leia', 'ashoka',}`
-- [x] `["rey", "leia", "ashoka"]`
+- [ ] `["rey", "leia", "ashoka"]`
 - [ ] `{"rey", "leia", "ashoka"}`
 
 #### Q89. If a non-zero number starts with a zero, what character should immediately follow the zero?
 
 - [ ] zero or more digits
 - [ ] one or more digits
-- [x] a period
+- [ ] a period
 - [ ] a dollar sign
 
 #### Q90. Who would you modify the array below to store additional attributes for each student?
@@ -984,7 +984,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 }
 ```
 
-- [x] Convert each student to an object, then add key/value paris to each student object as needed.
+- [ ] Convert each student to an object, then add key/value paris to each student object as needed.
 - [ ] Add additional name/value pairs, separated by commas, after "students".
 - [ ] Convert each student into an array and add extra elements to the array.
 - [ ] Wrap the existing "students" key with curly braces.
@@ -992,21 +992,21 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 #### Q91. Which is _not_ a valid JSON number
 
 - [ ] `99999999999999999999`
-- [x] `"42"`
+- [ ] `"42"`
 - [ ] `-32`
 - [ ] `1111.00.110011`
 
 #### Q92. What is the maximum string length in JSON?
 
 - [ ] 512 characters
-- [x] There is no defined limit.
+- [ ] There is no defined limit.
 - [ ] 2,056 characters
 - [ ] 1,024 characters
 
 #### Q93. What method is used to export a JavaScript object into JSON notation?
 
 - [ ] `JSON.convert()`
-- [x] `JSON.stringify()`
+- [ ] `JSON.stringify()`
 - [ ] `JSON.export()`
 - [ ] `JSON.string()`
 
@@ -1021,7 +1021,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 }
 ```
 
-- [x] A
+- [ ] A
 
 ```json
 {

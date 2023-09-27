@@ -5,21 +5,21 @@
 #### Q1. What type of light never casts a shadow in a 3D scene?
 
 - [ ] Parallel
-- [x] Ambient
+- [ ] Ambient
 - [ ] Point
 - [ ] Spot
 
 #### Q2. Where do you change the shutter angle for the motion blur in a composition?
 
 - [ ] on the Basic tab of the Composition Settings dialog box
-- [x] on the Advanced tab of the Composition Settings dialog box
+- [ ] on the Advanced tab of the Composition Settings dialog box
 - [ ] on the 3D Renderer tab of the Composition Settings dialog box
 - [ ] in the File > Project Settings dialog box
 
 #### Q3. What is a null object?
 
 - [ ] a special layer used to hold expressions
-- [x] an invisible layer that has all the properties of a visible layer so it can be parented to any layer in the composition
+- [ ] an invisible layer that has all the properties of a visible layer so it can be parented to any layer in the composition
 - [ ] a solid layer with a black background that can be parented to any layer in the composition
 - [ ] a visible layer that can be parented to any layer in the composition
 
@@ -27,33 +27,33 @@
 
 - [ ] Contrast
 - [ ] Clarity
-- [x] Sharpen
+- [ ] Sharpen
 - [ ] Intensity
 
 #### Q5. Where can you control the settings for footage created from an After Effects composition?
 
-- [x] Render Queue panel
+- [ ] Render Queue panel
 - [ ] Save As dialog box
 - [ ] Export Queue panel
 - [ ] Progress panel
 
 #### Q6. Which blur effect supports the use of a depth matte to define the focal range?
 
-- [x] Camera Lens Blur
+- [ ] Camera Lens Blur
 - [ ] Bilateral Blur
 - [ ] Smart BlurS
 - [ ] Channel Blur
 
 #### Q7. How can you create a direct relationship between two layer properties?
 
-- [x] Use the pick whip to enable Parenting.
+- [ ] Use the pick whip to enable Parenting.
 - [ ] Use grouping.
 - [ ] Use Value Linking.
 - [ ] Use the pick whip to enable Connecting.
 
 #### Q8. Which technique is useful for creating slow-motion, fast-motion, freeze frame, or other retiming results for a layer?
 
-- [x] Time Remapping
+- [ ] Time Remapping
 - [ ] Time Displacement
 - [ ] Posterize Time
 - [ ] CC Wide Time
@@ -62,22 +62,22 @@
 
 - [ ] Click Import As > Composition.
 - [ ] Click Import As > Footage.
-- [x] Click Import As > Composition – Retain Layer Size.
+- [ ] Click Import As > Composition – Retain Layer Size.
 - [ ] Set the PSD sequence option.
 
 #### Q10. How can you render a file in the background and keep working in After Effects?
 
-- [x] Click File > Export > Add to Adobe Media Encoder Queue.
+- [ ] Click File > Export > Add to Adobe Media Encoder Queue.
 - [ ] Click File > Watch Folders.
 - [ ] Click File > Export > Background Render.
 - [ ] Click File > Export > Add to Render Queue.
 
 #### Q11. What properties are added to a 3D layer? (Select three items.)
 
-- [x] Z Rotation
-- [x] Anchor Point
+- [ ] Z Rotation
+- [ ] Anchor Point
 - [ ] Material Options
-- [x] Position
+- [ ] Position
 - [ ] Geometry Options
 
 #### Q12. You want to include controls from an After Effects composition in the Essential Graphics panel. What is one way to do this?
@@ -91,7 +91,7 @@
 
 - [ ] Adjust the Black Clip property.
 - [ ] Increase the Blend with Original property.
-- [x] Increase the Temporal Smoothing property.
+- [ ] Increase the Temporal Smoothing property.
 - [ ] Adjust the White Clip property.
 
 #### Q14. Which type of light is used in this scene?
@@ -104,7 +104,7 @@
 #### Q15. Which effect recovers alpha-channel detail from a scene keyed by a typical keying effect, including recovering detail lost due to compression artifacts?
 
 - [ ] Keying > Advanced Spill Suppressor
-- [x] Keying > Key Cleaner
+- [ ] Keying > Key Cleaner
 - [ ] Keying > Extract
 - [ ] Keying > Keylight (1.2)
 
@@ -112,7 +112,7 @@
 
 - [ ] Use the layer pick whip to link properties.
 - [ ] Parent the layer controls.
-- [x] Use an adjustment layer.
+- [ ] Use an adjustment layer.
 - [ ] Set one layer effect and then copy and paste its results to the other layers.
 
 #### Q17. You want to scale all elements in a composition, including the composition itself. How can you do this?
@@ -145,7 +145,7 @@
 
 #### Q21. You want to take an existing layer and make it into two separate layers. How can you do this so the separation occurs at the playhead?
 
-- [x] Click Layer > Split Layer.
+- [ ] Click Layer > Split Layer.
 - [ ] Click Edit > Duplicate.
 - [ ] Click Edit > Extract Work Area.
 - [ ] Click Edit > Split Layer.
@@ -161,27 +161,27 @@
 
 - [ ] Preferences > Output
 - [ ] Preferences > Video Preview
-- [x] Preferences > Video Hardware
+- [ ] Preferences > Video Hardware
 - [ ] Preferences > Previews
 
 #### Q24. A file is in the Render Queue but cannot be rendered. You see that it is labeled Needs Output. What should you do?
 
 - [ ] Save the project.
 - [ ] Set an output file name from the Render To menu.
-- [x] Set an output file name and location from the Output To menu.
+- [ ] Set an output file name and location from the Output To menu.
 - [ ] Adjust the composition settings.
 
 #### Q25. Which effect cannot be applied to a mask shape?
 
 - [ ] Path text
 - [ ] Fill (close path only)
-- [x] Smear (open path only)
+- [ ] Smear (open path only)
 - [ ] Stroke
 
 #### Q26. What type of object creates a single-color layer for use as a backdrop?
 
 - [ ] Footage
-- [x] Solid
+- [ ] Solid
 - [ ] Mask
 - [ ] Null Object
 
@@ -190,4 +190,4 @@
 - [ ] 512
 - [ ] 256
 - [ ] 128
-- [x] 127
+- [ ] 127

@@ -20,7 +20,7 @@ ID=5 Age = 20 Weight=
 ID=6 Age = 25 Weight=130
 ```
 
-- [x] :
+- [ ] :
 
 ```
 ID=5 Age = 20 Weight=0
@@ -48,14 +48,14 @@ ID=6 Age = 25 Weight=130
 - [ ] call Calledsub "smith",26
 - [ ] calledsub (surname="smith", Age = 26)
 - [ ] calledsub (Surname:="Smith", Age:=26)
-- [x] calledsub "smith", 26
+- [ ] calledsub "smith", 26
 
 #### Q3. What is the principal difference between a class and an object?
 
 - [ ] There is no meaningful difference. The terms are used interchangeably.
 - [ ] A class declares an object's properties. An object completes the declaration by defining events and methods.
 - [ ] An object is a template for a class.
-- [x] A class describes the design of an object. An object is an instance of that design.
+- [ ] A class describes the design of an object. An object is an instance of that design.
 
 #### Q4. What value does the MsgBox statement display?
 
@@ -70,7 +70,7 @@ End Sub
 
 - [ ] 2
 - [ ] 10
-- [x] First arg
+- [ ] First arg
 - [ ] 3.1416
 
 #### Q5. What object is needed to put a userform module in a VBA project?
@@ -93,7 +93,7 @@ Total = WorksheetFunction.Sum(TestArray)
 End Sub
 ```
 
-- [x] 3
+- [ ] 3
 - [ ] 0
 - [ ] 9
 - [ ] 6
@@ -110,7 +110,7 @@ End Sub
 - [ ] Frame
 - [ ] multipage
 - [ ] TabStrip
-- [x] ListBox
+- [ ] ListBox
 
 #### Q9. Below is a function named SquareIt. Which version of the subroutine named Area results in a compile error?
 
@@ -141,7 +141,7 @@ End Sub
 #### Q10. EmailAddress() is an array. It is declared by Dim EmailAddress(10) As String, and option Base 1 is in effect. How many rows and columns are in EmailAddress()?
 
 - [ ] 10 rows and 10 columns
-- [x] 10 rows and 1 column
+- [ ] 10 rows and 1 column
 - [ ] 10 rows and 0 columns
 - [ ] 1 row and 10 columns
 
@@ -150,14 +150,14 @@ End Sub
 `Range("E3:312").Range("B3").Select`
 
 - [ ] F5
-- [x] F3
+- [ ] F3
 - [ ] B3
 - [ ] E3
 
 #### Q12. Which variable name is valid in VBA?
 
 - [ ] `_MyVar`
-- [x] `My_Var`
+- [ ] `My_Var`
 - [ ] `My-Var`
 - [ ] `1MyVar`
 
@@ -167,7 +167,7 @@ End Sub
 
 #### Q13. Which is a valid definition of a user-defined data type?
 
-- [x] :
+- [ ] :
 
 ```vb
 Type CBC
@@ -225,7 +225,7 @@ End Type
 2. Switch to the new project.
 3. Right-click UserForms and select Paste.
 
-- [x] :
+- [ ] :
 
 1. Open the existing user form in Design Mode.
 2. Click File > Export File.
@@ -237,13 +237,13 @@ End Type
 - [ ] Word's Macro Recorder does not record actions initiated by keyboard shortcuts.
 - [ ] Word's Macro Recorder does not support Find & Replace edits.
 - [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab.
-- [x] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer.
+- [ ] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer.
 
 #### Q16. Which statement should precede a subroutine's error handler?
 
 - [ ] End
 - [ ] Return
-- [x] Exit Sub
+- [ ] Exit Sub
 - [ ] Stop
 
 #### Q17. How many values can MyArray hold?
@@ -257,19 +257,19 @@ Dim MyArray(5) As Integer
 - [ ] 0
 - [ ] 32,769
 - [ ] 5
-- [x] 6
+- [ ] 6
 
 #### Q18. Which statement is true?
 
 - [ ] Set establishes a value in a class; Let returns a value from a class.
 - [ ] Let establishes a value in a class; Set returns a value from a class.
-- [x] Let establishes a value in a class; Get returns a value from a class.
+- [ ] Let establishes a value in a class; Get returns a value from a class.
 - [ ] Get establishes a value in a class; Set returns a value from a class.
 
 #### Q19. A declaration has scope, which has three levels. What are they?
 
 - [ ] Module, Project and Automation
-- [x] Procedure, Private Module and Public Module
+- [ ] Procedure, Private Module and Public Module
 - [ ] Subroutine, Module and Project
 - [ ] Procedure, Project and Global
 
@@ -277,13 +277,13 @@ Dim MyArray(5) As Integer
 
 - [ ] MS Excel object library and MS Office object library
 - [ ] VBA and MS Office object library
-- [x] VBA and Excel object library
+- [ ] VBA and Excel object library
 - [ ] MS Excel object library and OLE automation
 
 #### Q21. Which action will cause your project to reset its variables?
 
 - [ ] Edit the list of arguments of the current routine while in debug mode.
-- [x] Click End in a run-time error dialog.
+- [ ] Click End in a run-time error dialog.
 - [ ] Add an ActiveXcontrol to a worksheet.
 - [ ] all of these answers
 
@@ -291,7 +291,7 @@ Dim MyArray(5) As Integer
 
 - [ ] Shift+F3
 - [ ] Alt+F (Windows) or Option+F (Mac)
-- [x] Shift+F2
+- [ ] Shift+F2
 - [ ] Ctrl+F (Windows) or Command+F (Mac)
 
 #### Q23. When you define a new class of object, where do you assign a name to it?
@@ -299,27 +299,27 @@ Dim MyArray(5) As Integer
 - [ ] in the class module's name
 - [ ] in the class module's code
 - [ ] in a standard module's code
-- [x] in a standard module's Properties
+- [ ] in a standard module's Properties
 
 #### Q24. How does a class module indicate that it uses a particular interface?
 
 - [ ] The interface itself is part of the class module.
 - [ ] by means of the Interface keyword and the name of the interface
 - [ ] by means of the Implements keyword and the name of the interface
-- [x] The name of the interface is passed as a parameter.
+- [ ] The name of the interface is passed as a parameter.
 
 #### Q25. What is needed for the contents of Module1 to be available to other modules in a VBA project, but not to any other VBA project?
 
 - [ ] Set Option Global at the top of Module1
 - [ ] Declare module-level variables as Private
 - [ ] Set Module Level Scope at the top of Module1
-- [x] Set Option Private Module at the top of Module1
+- [ ] Set Option Private Module at the top of Module1
 
 #### Q26. When used with an array named MyArray, what is the preferred way to set beginning and ending values of a loop control variable?
 
 - [ ] For i = 0 To UBound(MyArray,1)
 - [ ] For i = 1 To UBound(MyArray,1)
-- [x] For i = LBound(MyArray,1) To UBound(MyArray,1)
+- [ ] For i = LBound(MyArray,1) To UBound(MyArray,1)
 - [ ] It depends on whether Option Base 0 or Option Base 1 is in use.
 
 #### Q27. What is the value of Test3?
@@ -335,11 +335,11 @@ End Enum
 - [ ] 0
 - [ ] 1
 - [ ] 3
-- [x] 2
+- [ ] 2
 
 #### Q28. Which statement declares an array?
 
-- [x] Dim MyArray() As Integer
+- [ ] Dim MyArray() As Integer
 - [ ] Dim MyArray() As Array
 - [ ] Dim MyArray As Integer
 - [ ] Dim MyArray As Array
@@ -350,7 +350,7 @@ End Enum
 
 - [ ] Set Macro Security to Trust Access to the VBA Project Object Model
 - [ ] The project's workbook should be protected in the Ribbon's Review tab
-- [x] Include a reference to Microsoft VBA Extensibility 5.3
+- [ ] Include a reference to Microsoft VBA Extensibility 5.3
 - [ ] Include a reference to Microsoft VBA Extensibility 5.3 and set Macro Security to Trust Access to the VBA Project Object Model
 
 #### Q30. How do you add a user form to a VBA project?
@@ -370,7 +370,7 @@ End Enum
 1. Select the project in the Project window of the Visual Basic Editor
 2. Right-click the Run menu and select Customize
 
-- [x] :
+- [ ] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click Insert > UserForm
@@ -390,7 +390,7 @@ End Sub
 
 - [ ] MyVar equals "Procedure AAA Scope"
 - [ ] ISNULL(MyVar) is TRUE
-- [x] MyVar equals "Procedure BBB Scope"
+- [ ] MyVar equals "Procedure BBB Scope"
 - [ ] MyVar is NULL
 
 #### Q32. Which code block from class modules returns a compile error?
@@ -428,7 +428,7 @@ pHDL = Value
 End Property
 ```
 
-- [x] :
+- [ ] :
 
 ```vb
 Public Property Get HDL() As Single
@@ -444,14 +444,14 @@ End Property
 - [ ] The scope of constants is limited to the procedure that declares them
 - [ ] Constants are declared at compile time, but variables are declared at run time
 - [ ] Once declared in a project, the value of a constant cannot be changed. There is no need to look up the current value of FileCount when it is a constant.
-- [x] The Const declaraton specifies the most efficient type given the constant's value
+- [ ] The Const declaraton specifies the most efficient type given the constant's value
 
 #### Q34. A VBA project must declare four classes. How many class modules are needed?
 
 - [ ] two (one for the properties and one for the methods)
 - [ ] one (each class is declared in the same module)
 - [ ] four (one for each class)
-- [x] as many as are required by the variable types that the objects return
+- [ ] as many as are required by the variable types that the objects return
 
 #### Q35. What does this code display?
 
@@ -469,7 +469,7 @@ End Sub
 
 - [ ] an error message
 - [ ] Y and Z
-- [x] Z = in a message box and then a subsequent error message
+- [ ] Z = in a message box and then a subsequent error message
 - [ ] Y = in a message box and then a subsequent error message
 
 #### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserForm1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
@@ -492,7 +492,7 @@ Unload UserForm1
 End Sub
 ```
 
-- [x] :
+- [ ] :
 
 ```vb
 Private Sub CommandButton1_Click()
@@ -527,7 +527,7 @@ With Selection
 End With
 ```
 
-- [x] :
+- [ ] :
 
 ```vb
 With Selection
@@ -594,7 +594,7 @@ End Sub
 - [ ] Declare SubB as Sub SubB(ByRef MyVar).
 - [ ] Declare SubB as Sub SubB(MyVar).
 - [ ] Declare SubB as Sub SubB(Static MyVar).
-- [x] Declare SubB as Sub SubB(ByVal MyVar).
+- [ ] Declare SubB as Sub SubB(ByVal MyVar).
 
 #### Q42. Which procedure declaration is syntactically correct?
 
@@ -628,7 +628,7 @@ As Variant, Optional VarC as Long)
 
 #### Q43. What are the two principal kinds of procedure in VBA?
 
-- [x] Function and Event
+- [ ] Function and Event
 - [ ] Function and Scope
 - [ ] Subroutine and Event
 - [ ] Subroutine and Function
@@ -645,7 +645,7 @@ As Variant, Optional VarC as Long)
 - [ ] `= CountValues= CountValues`
 - [ ] `| CountValues| CountValues`
 - [ ] `: CountValues: CountValues`
-- [x] `? CountValues? CountValues`
+- [ ] `? CountValues? CountValues`
 
 #### Q46. At which level can you declare a variable in this way: Private TopSecret As String?
 
@@ -659,7 +659,7 @@ As Variant, Optional VarC as Long)
 - [ ] Show the form with this statement: UserForm1.Show vbModal.
 - [ ] Set the user form's SpecialEffect property to frmShowModal.
 - [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
-- [x] Set the user form's ShowModal property to False.
+- [ ] Set the user form's ShowModal property to False.
 
 #### Q48. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
 
@@ -703,7 +703,7 @@ Next I
 End Sub
 ```
 
-- [x] :
+- [ ] :
 
 ```vb
 Sub Loopi()
@@ -729,7 +729,7 @@ End Sub
 
 #### Q51. How does a class module indicate that it uses a particular interface?
 
-- [x] by means of the _Implemets_ keyword and the name of interface.
+- [ ] by means of the _Implemets_ keyword and the name of interface.
 - [ ] bymeans of the _Interface_ keyword and the name of the interface.
 - [ ] The name of the interface is passed as a parameter.
 - [ ] The interface itself is part of the class module.
@@ -738,7 +738,7 @@ End Sub
 
 - [ ] Locals windows
 - [ ] object browser
-- [x] project explorer
+- [ ] project explorer
 - [ ] optional dialog
 
 #### Q53. This code is trying to establish a new collection consisting of employee names and numbers. Assoc is a class. What statement is missing from the code?
@@ -753,7 +753,7 @@ For i = 1 To 200
 Next i
 ```
 
-- [x] `Set Associates = New Collection`
+- [ ] `Set Associates = New Collection`
 - [ ] `Set Associates = Collection`
 - [ ] `Redim(Associates(Associates.Count+1))`
 - [ ] `Redim(Associates _ (Unbound(Associates)+1))`
@@ -762,14 +762,14 @@ Next i
 
 - [ ] reference
 - [ ] element
-- [x] argument
+- [ ] argument
 - [ ] attribute
 
 #### Q55. What is the standard term for a variable or value that is passed from one subroutine or function to another?
 
 - [ ] reference
 - [ ] element
-- [x] argument
+- [ ] argument
 - [ ] attribute
 
 #### Q56. Where is the event procedure named Worksheet_Change found?
@@ -777,13 +777,13 @@ Next i
 - [ ] in any standard code module
 - [ ] in the worksheet's object module
 - [ ] in the Worksheet_Change class module
-- [x] in the workbook's code module
+- [ ] in the workbook's code module
 
 #### Q57. You are building an event procedure for a worksheet, and you edit the argument list in the event procedure's Sub statement. What happens when the event procedure runs?
 
 - [ ] There's no difference compared to the results of a standard procedure.
 - [ ] The results are unpredictable.
-- [x] The procedure won't compile.
+- [ ] The procedure won't compile.
 - [ ] The procedure throws a run-time error.
 
 #### Q58. Based on this code, which procedure calls the subroutine SumCosts correctly?
@@ -796,7 +796,7 @@ End Sub
 
 - [ ] call SumCosts "Totalcosts", 3
 - [ ] SumCosts "Totalcosts", 3
-- [x] SumCosts("Totalcosts", 3)
+- [ ] SumCosts("Totalcosts", 3)
 - [ ] Call SumCosts
 
 [Source](https://learn.microsoft.com/en-us/office/vba/language/concepts/getting-started/calling-sub-and-function-procedures)
@@ -809,7 +809,7 @@ If Cars(1).Make="Ford" And Cars (1).MPG > 20
 ```
 
 - [ ] Dataframe
-- [x] Type
+- [ ] Type
 - [ ] object
 - [ ] Variant
 
@@ -820,7 +820,7 @@ ActiveCell.Offset(3,4).Range("A1:E5").Select
 ```
 
 - [ ] If specifies the range that is to be selected after the offset is found
-- [x] it specifies the range of cells in which the contents of the offset are to be written
+- [ ] it specifies the range of cells in which the contents of the offset are to be written
 - [ ] It provides Resize information - in this case, the offset returns a reference of five rows and five columns
 - [ ] It specifies the range of cells at which the offset is to be based
 
@@ -832,6 +832,6 @@ Range("b3:f5, c4:d9").Select
 ```
 
 - [ ] If specifies the range that is to be selected after the offset is found
-- [x] it specifies the range of cells in which the contents of the offset are to be written
+- [ ] it specifies the range of cells in which the contents of the offset are to be written
 - [ ] It provides Resize information - in this case, the offset returns a reference of five rows and five columns
 - [ ] It specifies the range of cells at which the offset is to be based

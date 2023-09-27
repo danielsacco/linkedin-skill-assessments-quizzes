@@ -6,7 +6,7 @@
 let val = (Double)6
 ```
 
-- [x] A syntax issue
+- [ ] A syntax issue
 - [ ] Typecasting
 - [ ] Assignment
 - [ ] Initialization
@@ -20,7 +20,7 @@ let x = 5
 guard x == 5 { return }
 ```
 
-- [x] The `guard` is missing the `else`
+- [ ] The `guard` is missing the `else`
 - [ ] Nothing is wrong
 - [ ] The `guard` is missing a `then`
 - [ ] The comparison is wrong
@@ -35,7 +35,7 @@ enum Direction {
 }
 ```
 
-- [x] There is none
+- [ ] There is none
 - [ ] `String`
 - [ ] `Any`
 - [ ] `Int`
@@ -47,7 +47,7 @@ Reference: [_The Swift Programming Language: Language Guide: Enumerations: Raw V
 - [ ] It allows multiple synchronous or asynchronous operations to run on different queues.
 - [ ] It allows track and control execution of multiple operations together.
 - [ ] It allows operations to wait for each other as desired.
-- [x] All of these answers.
+- [ ] All of these answers.
 
 Reference: [Apple Developer: Documentation: Dispatch: Dispatch Group](https://developer.apple.com/documentation/dispatch/dispatchgroup)
 
@@ -58,7 +58,7 @@ let val = 5
 print("value is: \(val)")
 ```
 
-- [x] String interpolation
+- [ ] String interpolation
 - [ ] String compilation
 - [ ] Method chaining
 - [ ] String concatenation
@@ -74,7 +74,7 @@ vals.sort { (s1, s2) -> Bool in
 }
 ```
 
-- [x] `[10, 2]`
+- [ ] `[10, 2]`
 - [ ] `[2, 10]`
 - [ ] `nil`
 - [ ] This code contains an error
@@ -89,7 +89,7 @@ var stuff: Thing
 print(type(of: stuff))
 ```
 
-- [x] `Dictionary<String, Any>`
+- [ ] `Dictionary<String, Any>`
 - [ ] `Dictionary`
 - [ ] `Error`
 - [ ] `Thing`
@@ -103,7 +103,7 @@ let x = ["1", "2"].dropFirst()
 let y = x[0]
 ```
 
-- [x] This code contains an error
+- [ ] This code contains an error
 - [ ] `1`
 - [ ] `2`
 - [ ] `nil`
@@ -127,7 +127,7 @@ To safely reference the starting and ending indices of a slice, always use the s
 var test = 1 == 1
 ```
 
-- [x] `true`
+- [ ] `true`
 - [ ] `YES`
 - [ ] `1`
 - [ ] This code contains an error
@@ -141,7 +141,7 @@ var x: Int?
 let y = x ?? 5
 ```
 
-- [x] `5`
+- [ ] `5`
 - [ ] `0`
 - [ ] `nil`
 - [ ] This code contains an error
@@ -155,7 +155,7 @@ func add(a: Int, b: Int) -> Int { return a+b }
 ```
 
 - [ ] `Int`
-- [x] `(Int, Int) -> Int`
+- [ ] `(Int, Int) -> Int`
 - [ ] `Int<Optional>`
 - [ ] Functions don't have types.
 
@@ -169,7 +169,7 @@ func myFunc(_ a: Int, b: Int) -> Int {
 }
 ```
 
-- [x] `myFunc(5, b: 6)`
+- [ ] `myFunc(5, b: 6)`
 - [ ] `myFunc(5, 6)`
 - [ ] `myFunc(a: 5, b: 6)`
 - [ ] `myFunc(a, b)`
@@ -178,7 +178,7 @@ Reference: [_The Swift Programming Language: Language Guide: Functions: Function
 
 #### Q13. The Codable protocol is **\_**?
 
-- [x] A combination of `Encodable` and `Decodable`
+- [ ] A combination of `Encodable` and `Decodable`
 - [ ] Not a true protocol
 - [ ] Required of all classes
 - [ ] Automatically included in all classes
@@ -194,7 +194,7 @@ References:
 let value1 = "\("test".count)"
 ```
 
-- [x] `String`
+- [ ] `String`
 - [ ] `Int`
 - [ ] `null`
 - [ ] `test.count`
@@ -203,7 +203,7 @@ Reference: [_The Swift Programming Language: Language Guide: Strings and Charact
 
 #### Q15. When a function takes a closure as a parameter, when do you want to mark is as escaping?
 
-- [x] When it's executed after the function returns
+- [ ] When it's executed after the function returns
 - [ ] When it's scope is undefined
 - [ ] When it's lazy loaded
 - [ ] All of these answers
@@ -219,7 +219,7 @@ class Person {
 }
 ```
 
-- [x] Person has no initializers.
+- [ ] Person has no initializers.
 - [ ] Person has no base class.
 - [ ] `var name` is not formatted correctly.
 - [ ] `address` is a keyword.
@@ -237,7 +237,7 @@ names.map { (s) -> String in
 
 - [ ] `["BEAR", "JOE", "CLARK"]`
 - [ ] `["B", "J", "C"]`
-- [x] `["Bear", "Joe", "Clark"]`
+- [ ] `["Bear", "Joe", "Clark"]`
 - [ ] This code contains an error.
 
 #### Q18. What describes this line of code?
@@ -246,7 +246,7 @@ names.map { (s) -> String in
 let val = 5
 ```
 
-- [x] A constant named val of type `Int`
+- [ ] A constant named val of type `Int`
 - [ ] A variable named val of type `item`
 - [ ] A constant named val of type `Number`
 - [ ] A variable named val of type `Int`
@@ -265,7 +265,7 @@ extension String {
 }
 ```
 
-- [x] Extensions can't add properties.
+- [ ] Extensions can't add properties.
 - [ ] Nothing is wrong with it.
 - [ ] `didSet` takes a parameter.
 - [ ] `c` is not a character.
@@ -274,7 +274,7 @@ Reference: [_The Swift Programming Language: Language Guide: Extensions: Compute
 
 #### Q20. didSet and willSet are examples of **\_**?
 
-- [x] Property observers
+- [ ] Property observers
 - [ ] Key properties
 - [ ] All of these answers
 - [ ] `newOld` value calls
@@ -290,7 +290,7 @@ self.callback = {
 }
 ```
 
-- [x] Use of `self` inside the closure causes retain cycle.
+- [ ] Use of `self` inside the closure causes retain cycle.
 - [ ] You cannot assign a value to a closure in this manner.
 - [ ] You need to define the type of closure explicitly.
 - [ ] There is nothing wrong with this code.
@@ -307,13 +307,13 @@ vals.insert("5")
 - [ ] Three
 - [ ] Four
 - [ ] Eight
-- [x] This code contains an error.
+- [ ] This code contains an error.
 
 Reference: [_The Swift Programming Language: Language Guide: Collection Types: Sets_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484)
 
 #### Q23. How can you avoid a strong reference cycle in a closure?
 
-- [x] Use a capture list to set class instances of `weak` or `unowned`.
+- [ ] Use a capture list to set class instances of `weak` or `unowned`.
 - [ ] You can't, there will always be a danger of strong reference cycles inside a closure.
 - [ ] Initialize the closure as read-only.
 - [ ] Declare the closure variable as `lazy`.
@@ -328,7 +328,7 @@ if let s = String.init("some string") {
 }
 ```
 
-- [x] This `String` initializer does not return an optional.
+- [ ] This `String` initializer does not return an optional.
 - [ ] String does not have an initializer that can take a `String`.
 - [ ] `=` is not a comparison.
 - [ ] Nothing is wrong with this code.
@@ -337,7 +337,7 @@ Reference: [_The Swift Programming Language: Language Guide: The Basics: Optiona
 
 #### Q25. Which code snippet correctly creates a typealias closure?
 
-- [x] `typealias CustomClosure = () -> ()`
+- [ ] `typealias CustomClosure = () -> ()`
 - [ ] `typealias CustomClosure { () -> () }`
 - [ ] `typealias CustomClosure -> () -> ()`
 - [ ] `typealias CustomClosure -> () {}`
@@ -346,7 +346,7 @@ Reference: [_The Swift Programming Language: Language Reference: Declarations: T
 
 #### Q26. How do you reference class members from within a class?
 
-- [x] `self`
+- [ ] `self`
 - [ ] `instance`
 - [ ] `class`
 - [ ] `this`
@@ -355,7 +355,7 @@ Reference: [_The Swift Programming Language: Language Guide: Methods: Instance M
 
 #### Q27. All value types in Swift are **\_** under the hood?
 
-- [x] Structs
+- [ ] Structs
 - [ ] Classes
 - [ ] Optionals
 - [ ] Generics
@@ -368,7 +368,7 @@ Reference: [_The Swift Programming Language: Language Guide: Structures and Clas
 var strings = [1, 2, 3]
 ```
 
-- [x] All of these answers
+- [ ] All of these answers
 - [ ] `strings.append(4)`
 - [ ] `strings.insert(5, at: 1)`
 - [ ] `strings += [5]`
@@ -384,7 +384,7 @@ for i in 0...100 {
 ```
 
 - [ ] 0
-- [x] 101
+- [ ] 101
 - [ ] 99
 - [ ] 100
 
@@ -395,7 +395,7 @@ References:
 
 #### Q30. What can AnyObject represent?
 
-- [x] An instance of any class
+- [ ] An instance of any class
 - [ ] An instance of function type
 - [ ] All of these answers
 - [ ] An instance of an optional type
@@ -409,7 +409,7 @@ let names = ["Larry", "Sven", "Bear"]
 let t = names.enumerated().first().offset
 ```
 
-- [x] This code does not compile. / This code is invalid.
+- [ ] This code does not compile. / This code is invalid.
 - [ ] 0
 - [ ] 1
 - [ ] Larry
@@ -426,7 +426,7 @@ let vt = (name: "ABC", val: 5)
 let test = vt.0
 ```
 
-- [x] `ABC`
+- [ ] `ABC`
 - [ ] `0`
 - [ ] `5`
 - [ ] `name`
@@ -443,7 +443,7 @@ class LSN: MMM {
 }
 ```
 
-- [x] MMM
+- [ ] MMM
 - [ ] LSN
 - [ ] There is no base class.
 - [ ] This code is invalid.
@@ -470,7 +470,7 @@ var userLocation: String = "Home" {
 userLocation = "Work"
 ```
 
-- [x] `About to set userLocation to Work... userLocation updated with new value!`
+- [ ] `About to set userLocation to Work... userLocation updated with new value!`
 - [ ] `About to set userLocation to Work... userLocation already set to that value...`
 - [ ] `About to set userLocation to Home... userLocation updated to new value!`
 - [ ] `Error`
@@ -481,7 +481,7 @@ Reference: [_The Swift Programming Language: Language Guide: Properties: Propert
 
 - [ ] A base class convenience initializer
 - [ ] Either a designated or another convenience initializer
-- [x] A designated initializer
+- [ ] A designated initializer
 - [ ] None of these answers
 
 Reference: [_The Swift Programming Language: Language Guide: Initialization: Class Inheritance and Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID216)
@@ -489,7 +489,7 @@ Reference: [_The Swift Programming Language: Language Guide: Initialization: Cla
 #### Q36. Which object allows you access to specify that a block of code runs in a background thread?
 
 - [ ] DispatchQueue.visible
-- [x] DispatchQueue.global
+- [ ] DispatchQueue.global
 - [ ] errorExample need to be labeled as `throws`.
 - [ ] DispatchQueue.background
 
@@ -502,7 +502,7 @@ let x = ["a", "b", "c"]
 ```
 
 - [ ] `String[]`
-- [x] `Array<String>`
+- [ ] `Array<String>`
 - [ ] `Set<String>`
 - [ ] `Array<Character>`
 
@@ -517,7 +517,7 @@ let oThings = nThings.reduce("") { "\($0)\($1)" }
 
 - [ ] 11212three
 - [ ] 115
-- [x] 12three
+- [ ] 12three
 - [ ] Nothing, this code is invalid.
 
 Reference: [Apple Developer: Documentation: Swift: Array: reduce(\_:\_:)](<https://developer.apple.com/documentation/swift/array/reduce(_:_:)>)
@@ -525,7 +525,7 @@ Reference: [Apple Developer: Documentation: Swift: Array: reduce(\_:\_:)](<https
 #### Q39. How would you call a function that throws errors and also returns a value?
 
 - [ ] `!try`
-- [x] `try?`
+- [ ] `try?`
 - [ ] `try!`
 - [ ] `?try`
 
@@ -542,7 +542,7 @@ protocol TUI {
 ```
 
 - [ ] Protocol functions cannot have return types.
-- [x] Protocol functions cannot have implementations.
+- [ ] Protocol functions cannot have implementations.
 - [ ] Nothing is wrong with it.
 - [ ] `add` is a reserved keyword.
 
@@ -563,7 +563,7 @@ class Car {
 - [ ] Class members
 - [ ] This code is invalid
 - [ ] Class fields
-- [x] Class properties
+- [ ] Class properties
 
 Reference:
 
@@ -574,7 +574,7 @@ Reference:
 
 - [ ] You cannot
 - [ ] `deinit`
-- [x] `init?`
+- [ ] `init?`
 - [ ] `init`
 
 Reference:
@@ -591,7 +591,7 @@ print(dbl ?? ".asString()")
 
 - [ ] `five`
 - [ ] `5a`
-- [x] `.asString()`
+- [ ] `.asString()`
 - [ ] `5`
 
 Reference:
@@ -607,7 +607,7 @@ func add(this x: Int, toThat y: Int) { }
 
 - [ ] None of these answers
 - [ ] Local terms
-- [x] Argument labels
+- [ ] Argument labels
 - [ ] Parameters names
 
 Reference: [_The Swift Programming Language: Language Guide: Functions_](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID166)
@@ -622,7 +622,7 @@ for (key, value) in [1: "one", 2: "two"] {
 
 - [ ] The interaction source is invalid
 - [ ] The interaction variable is invalid
-- [x] There is nothing wrong with this code
+- [ ] There is nothing wrong with this code
 - [ ] The comma in the print is misplaced
 
 Reference: [_The Swift Programming Language: Language Guide: Control Flow: For-In Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID121)
@@ -630,7 +630,7 @@ Reference: [_The Swift Programming Language: Language Guide: Control Flow: For-I
 #### Q46. Which of these choices is associated with unit testing?
 
 - [ ] `XCTest`
-- [x] All of these answers
+- [ ] All of these answers
 - [ ] `@testable`
 - [ ] `XCTAssert`
 
@@ -653,7 +653,7 @@ class Square {
 
 - [ ] This code contains error
 - [ ] A closure
-- [x] A computed property
+- [ ] A computed property
 - [ ] Lazy loading
 
 Reference:
@@ -669,7 +669,7 @@ let vals = ("val", 1)
 ```
 
 - [ ] A dictionary
-- [x] A tuple
+- [ ] A tuple
 - [ ] An optional
 - [ ] This code contains error
 
@@ -685,7 +685,7 @@ var x = 5
 x = 10.0
 ```
 
-- [x] You cannot assign a Double to a variable of type Int
+- [ ] You cannot assign a Double to a variable of type Int
 - [ ] `x` is undefined
 - [ ] `x` is a constant
 - [ ] `x` has no type
@@ -703,7 +703,7 @@ print(items["c"] as Any)
 - [ ] Any
 - [ ] test
 - [ ] 1,2,3
-- [x] nil
+- [ ] nil
 
 References:
 
@@ -716,7 +716,7 @@ References:
 let val = 5.0 + 10
 ```
 
-- [x] There is nothing wrong with this code
+- [ ] There is nothing wrong with this code
 - [ ] `val` is a constant and cannot be changed
 - [ ] `5.0` and `10` are different types
 - [ ] There is no semicolon
@@ -734,7 +734,7 @@ struct Test {
 
 - [ ] Zero
 - [ ] This code contains an error
-- [x] Two
+- [ ] Two
 - [ ] Structs do not have initializers
 
 Reference: [_The Swift Programming Language: Language Guide: Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID213)
@@ -748,7 +748,7 @@ print(x)
 
 - [ ] nil
 - [ ] Nothing - this code contains an error
-- [x] Optional("test")
+- [ ] Optional("test")
 - [ ] test
 
 References:
@@ -765,14 +765,14 @@ var vals = [1, 2, 3]
 - [ ] `vals.sort { $0 < $1 }`
 - [ ] `vals.sort { (s1, s2) in s1 < s2 }`
 - [ ] `vals.sort(by: <)`
-- [x] All of these answers
+- [ ] All of these answers
 
 Reference: [Apple Developer: Documentation: Swift: Array: sort()](<https://developer.apple.com/documentation/swift/array/sort()>)
 
 #### Q55. DispatchQueue.main.async takes a block that will be
 
 - [ ] Not executed
-- [x] Executed in the main queue
+- [ ] Executed in the main queue
 - [ ] None of these answers
 - [ ] Executed on the background thread
 
@@ -783,13 +783,13 @@ Reference: [Apple Developer: Documentation: Dispatch: DispatchQueue: async(group
 - [ ] When a class instance needs memory
 - [ ] All of these answers
 - [ ] When the executable code is finished
-- [x] When a class instance is being removed from memory
+- [ ] When a class instance is being removed from memory
 
 Reference: [_The Swift Programming Language: Language Guide: Deinitialization_](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html)
 
 #### Q57. How do you declare an optional String?
 
-- [x] `String?`
+- [ ] `String?`
 - [ ] `Optional[String]`
 - [ ] `[String]?`
 - [ ] `?String`
@@ -805,7 +805,7 @@ for i in ["0", "1"] {
 ```
 
 - [ ] One
-- [x] Two
+- [ ] Two
 - [ ] Three
 - [ ] This code does not compile
 
@@ -820,7 +820,7 @@ print(names[1] + "Bear")
 
 - [ ] 1Bear
 - [ ] BearBear
-- [x] TonyBear
+- [ ] TonyBear
 - [ ] Nothing, this code is invalid
 
 References:
@@ -835,7 +835,7 @@ let name: String?
 ```
 
 - [ ] `name` can hold only a string value.
-- [x] `name` can hold either a string or nil value.
+- [ ] `name` can hold either a string or nil value.
 - [ ] Optional values cannot be `let` constants.
 - [ ] Only non-empty string variables can be stored in `name`.
 
@@ -848,7 +848,7 @@ let i = 5
 let val = i * 6.0
 ```
 
-- [x] This code is invalid.
+- [ ] This code is invalid.
 - [ ] 6
 - [ ] 30
 - [ ] 0
@@ -865,7 +865,7 @@ enum Positions: Int {
 print (Positions.other.rawValue)
 ```
 
-- [x] 3
+- [ ] 3
 - [ ] 0
 - [ ] other
 - [ ] nil
@@ -882,7 +882,7 @@ Reference: [_The Swift Programming Language: Language Guide: The Basics: Raw Val
 
 - [ ] nil
 - [ ] Nothing, since the code contains an error
-- [x] t
+- [ ] t
 - [ ] zero
 
 References:
@@ -900,7 +900,7 @@ print(s1)
 ```
 
 - [ ] []
-- [x] ["3", "2", "1"]
+- [ ] ["3", "2", "1"]
 - [ ] [321]
 - [ ] ["1", "2", "3"]
 
@@ -911,7 +911,7 @@ References:
 
 #### Q65. What enumeration feature allows them to store case-specific data?
 
-- [x] Associated values
+- [ ] Associated values
 - [ ] Integral values
 - [ ] Raw values
 - [ ] Custom values
@@ -925,7 +925,7 @@ class AmP: MMM, AOM { }
 ```
 
 - [ ] Class
-- [x] Protocol
+- [ ] Protocol
 - [ ] Enumeration
 - [ ] Struct
 
@@ -942,7 +942,7 @@ let numbers = [1, 2, 3, 4, 5, 6].filter { $0 % 2 == 0 }
 
 - [ ] [1, 3, 5]
 - [ ] []
-- [x] [2, 4, 6]
+- [ ] [2, 4, 6]
 - [ ] nil
 
 Reference: [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](<https://developer.apple.com/documentation/swift/sequence/filter(_:)>)
@@ -954,7 +954,7 @@ let vals = ["a", 1, "Hi"]
 ```
 
 - [ ] Array(char)
-- [x] [Any]
+- [ ] [Any]
 - [ ] Array<char>
 - [ ] [Generic]
 
@@ -967,7 +967,7 @@ let vt = (name: "ABC", val: 5)
 ```
 
 - [ ] let x = vt.1
-- [x] All of these answers
+- [ ] All of these answers
 - [ ] let x = vt.val
 - [ ] let (`_`, x) = vt
 
@@ -980,7 +980,7 @@ let x = try? String.init(from: decoder)
 ```
 
 - [ ] String
-- [x] String?
+- [ ] String?
 - [ ] String!
 - [ ] try?
 
@@ -998,7 +998,7 @@ repeat {
 - [ ] Six
 - [ ] Zero
 - [ ] Five
-- [x] Infinite
+- [ ] Infinite
 
 Reference: [_The Swift Programming Language: Language Guide: Control Flow: While Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID124)
 
@@ -1011,7 +1011,7 @@ vals.insert("5")
 
 - [ ] This code contains an error.
 - [ ] Eight
-- [x] Three
+- [ ] Three
 - [ ] Four
 
 Reference: [_The Swift Programming Language: Language Guide: Collection Types: Sets_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484)
@@ -1021,7 +1021,7 @@ Reference: [_The Swift Programming Language: Language Guide: Collection Types: S
 class LSN: MMM{
 }
 
-- [x] MMM
+- [ ] MMM
 - [ ] LSN
 - [ ] There is no base class.
 - [ ] This code is invalid.

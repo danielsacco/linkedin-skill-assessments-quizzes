@@ -7,13 +7,13 @@
 - [ ] Display
 - [ ] Google
 - [ ] Organic Search
-- [x] Paid Search
+- [ ] Paid Search
 
 #### Q2. If you want to evaluate if direct traffic delivered more traffic than organic search in August 2019, which report do you look at?
 
 - [ ] Audience > Behavior > Engagement
 - [ ] Realtime > Traffic Sources
-- [x] Acquisition > All Traffic > Channels
+- [ ] Acquisition > All Traffic > Channels
 - [ ] Acquisition > All Traffic > Referrals
 
 #### Q3. What is the relationship between an event and an event goal?
@@ -21,13 +21,13 @@
 - [ ] Nothing, an event is another name for event goal.
 - [ ] An event is captured per user; an event goal is captured per session.
 - [ ] An event goal must be created in order to track events.
-- [x] An event is a user interaction; an event goal is triggered by a selected event.
+- [ ] An event is a user interaction; an event goal is triggered by a selected event.
 
 #### Q4. A user downloads a white paper with event tracking once in a single session. Another user downloads the same white paper three times in a single session. How many unique events are counted?
 
 - [ ] one
 - [ ] three
-- [x] two
+- [ ] two
 - [ ] four
 
 [Reference](https://support.google.com/analytics/answer/7084499)
@@ -36,7 +36,7 @@
 
 ![Google Analytics Icons](https://i.imgur.com/LZzFesL.png?raw=png)
 
-- [x] to change the way the data table is displayed
+- [ ] to change the way the data table is displayed
 - [ ] to adjust the date range
 - [ ] to assign secondary dimensions
 - [ ] to compare data to previous periods
@@ -44,7 +44,7 @@
 #### Q6. Which report would help you measure the value of your social media efforts?
 
 - [ ] Campaigns > Cost Analysis
-- [x] Social > Conversions
+- [ ] Social > Conversions
 - [ ] Goals > Reverse Goal Path
 - [ ] Goals > Smart Goals
 
@@ -53,13 +53,13 @@
 - [ ] City
 - [ ] Source/Medium
 - [ ] Browser
-- [x] Pageviews
+- [ ] Pageviews
 
 #### Q8. You want to verify that Google Analytics is working immediately after installation. Which report do you review?
 
 - [ ] Audience > Active Users
 - [ ] Acquisition > Overview
-- [x] Realtime > Overview
+- [ ] Realtime > Overview
 - [ ] Behavior > Behavior Flow
 
 #### Q9. Which Chrome extension, developed by Google, would be valuable for identifying deployment issues with Google Analytics?
@@ -67,11 +67,11 @@
 - [ ] Click & Test
 - [ ] Google Keep
 - [ ] Express UTM
-- [x] Google Analytics Debugger
+- [ ] Google Analytics Debugger
 
 #### Q10. You want to track example.com and other example.com using a single property. What must be set up?
 
-- [x] cross domain tracking
+- [ ] cross domain tracking
 - [ ] Google Tag Manager
 - [ ] Include and Exclude filters
 - [ ] custom dimensions
@@ -80,13 +80,13 @@
 
 - [ ] a high page score
 - [ ] a low bounce rate
-- [x] a high bounce rate
+- [ ] a high bounce rate
 - [ ] a low page score
 
 #### Q12. To email a notification whenever a goal is completed, what do you configure?
 
 - [ ] scheduled emails
-- [x] custom alerts
+- [ ] custom alerts
 - [ ] shared reports
 - [ ] shared assets
 
@@ -95,18 +95,18 @@
 - [ ] UTM parameters
 - [ ] Google Tag Manager
 - [ ] User- [ ] ID feature
-- [x] Analytics tracking code
+- [ ] Analytics tracking code
 
 #### Q14. What allows you to specify the steps your traffic is expected to take to reach your goal?
 
 - [ ] destination
-- [x] funnel
+- [ ] funnel
 - [ ] visualization
 - [ ] value
 
 #### Q15. If you wanted to evaluate how your site performs relative to other sites in your industry vertical, what reports do you use?
 
-- [x] Benchmarking
+- [ ] Benchmarking
 - [ ] Cohort Analysis
 - [ ] Network Referrals
 - [ ] Publisher Referrers
@@ -114,7 +114,7 @@
 #### Q16. What is the hierarchy of a Google Analytics account?
 
 - [ ] Account > Property > Organization > Views
-- [x] Organization > Account > Property > Views
+- [ ] Organization > Account > Property > Views
 - [ ] Organization > Property > Account > Views
 - [ ] Account > Organization > Property > Views
 
@@ -124,19 +124,19 @@
 
 - [ ] campaigns
 - [ ] revenue
-- [x] ecommerce
+- [ ] ecommerce
 - [ ] ROAS (Return On Ad Spend)
 
 #### Q18. What is an example of data you cannot track in Google Analytics?
 
 - [ ] page speed score
 - [ ] return on advertising spend
-- [x] precise user latitude/longitude data
+- [ ] precise user latitude/longitude data
 - [ ] time on site
 
 #### Q19. If you create a new user at the property level, what does the user inherit access to?
 
-- [x] all the views of that property
+- [ ] all the views of that property
 - [ ] all the accounts in the organization
 - [ ] Nothing—each permission must be set manually.
 - [ ] all the properties in the account
@@ -146,11 +146,11 @@
 - [ ] users who converted
 - [ ] sessions with a >80% bounce rate
 - [ ] all multisession users
-- [x] sessions with 0 goal completions
+- [ ] sessions with 0 goal completions
 
 #### Q21. If you wanted to determine if a particular browser was resulting in a high bounce rate, what report could you look at?
 
-- [x] Technology > Browser & OS
+- [ ] Technology > Browser & OS
 - [ ] Site Speed > Page Timings
 - [ ] Mobile > Devices
 - [ ] Behavior > Engagement
@@ -160,11 +160,11 @@
 - [ ] Hit: Download // Event: Sample Tone // Content: Music
 - [ ] Category: Music // Action: Download // Label: Sample Tone
 - [ ] Category: Download // Event: Music // Label: Sample Tone
-- [x] Hit: Music // Event: Download //Content: Sample Tone
+- [ ] Hit: Music // Event: Download //Content: Sample Tone
 
 #### Q23. You want to classify people who join your newsletter with a custom dimension for "Newsletter Subscribers." What is the appropriate scope to apply to this custom dimension?
 
-- [x] User
+- [ ] User
 - [ ] Hit
 - [ ] Product
 - [ ] Session
@@ -174,18 +174,18 @@
 - [ ] Use a filter.
 - [ ] Create a new view.
 - [ ] This is not possible.
-- [x] Use a secondary dimension.
+- [ ] Use a secondary dimension.
 
 #### Q25. If you are collecting campaign data, which report shows the results?
 
-- [x] Acquisition > Campaigns > All Campaigns
+- [ ] Acquisition > Campaigns > All Campaigns
 - [ ] Audience > Custom > Custom Variables
 - [ ] Conversions > Goals > Overview
 - [ ] Behavior > Events > Overview
 
 #### Q26. What does this represent inside of Google Analytics?
 
-- [x] segment
+- [ ] segment
 - [ ] report tab
 - [ ] data header
 - [ ] view
@@ -193,7 +193,7 @@
 #### Q27. When configuring the global site tag, where in the HTML should it be placed?
 
 - [ ] directly before the `</head>` tag
-- [x] directly after the `<head>` tag
+- [ ] directly after the `<head>` tag
 - [ ] directly after the `<body>` tag
 - [ ] directly before the `</body>` tag
 
@@ -203,7 +203,7 @@
 
 - [ ] Configure calculated metrics.
 - [ ] Use a custom import.
-- [x] This functionality is not possible.
+- [ ] This functionality is not possible.
 - [ ] Create a search and replace filter.
 
 #### Q29. What is this report an example of?
@@ -213,11 +213,11 @@
 - [ ] Cohort analysis
 - [ ] Funnel visualization
 - [ ] User flow
-- [x] Treemaps
+- [ ] Treemaps
 
 #### Q30. You already have Google Analytics set up on your website, but decide to add Google Tag Manager. What do you do with the existing Analytics tag?
 
-- [x] Remove the tag.
+- [ ] Remove the tag.
 - [ ] Move the tag to just before `</head>`.
 - [ ] Keep the tag.
 - [ ] Move the tag to just before `</body>`.
@@ -226,12 +226,12 @@
 
 - [ ] Create two segments, one for revenue and one for conversion rate, and then review Acquisition > All Traffic.
 - [ ] View Ecommerce > Overview and toggle Traffic Sources in the Explorer tab.
-- [x] Create two segments, one for revenue and one for conversion rate, and then review Conversions > Ecommerce.
+- [ ] Create two segments, one for revenue and one for conversion rate, and then review Conversions > Ecommerce.
 - [ ] Go to All Traffic > Source Medium and set eCommerce in the Conversions menu.
 
 #### Q32. Which calculated metric would return average events per user?
 
-- [x] `{{Total Events}} / {{Users}} Type: Float`
+- [ ] `{{Total Events}} / {{Users}} Type: Float`
 - [ ] `{{Goals}} / {{Users}} Type: Percentage`
 - [ ] `{{Goals}} / {{Users}} Type: Float`
 - [ ] `{{Total Events}} / {{Users}} Type: Percentage`
@@ -239,14 +239,14 @@
 #### Q33. What report helps you understand how many days it takes from the time a user first visits to the time the user converts?
 
 - [ ] Assisted Conversions
-- [x] Time Lag
+- [ ] Time Lag
 - [ ] Path Length
 - [ ] Shopping Behavior
 
 #### Q34. What is a best practice after launching a major change to your home page?
 
 - [ ] Create a new filter.
-- [x] Create an annotation.
+- [ ] Create an annotation.
 - [ ] Create a new view.
 - [ ] Create a new property.
 
@@ -254,27 +254,27 @@
 
 - [ ] equals to /thanks
 - [ ] begins with /thanks
-- [x] equals to /thanks?uid=
+- [ ] equals to /thanks?uid=
 - [ ] regular expression /thanks[a z]
 
 #### Q36. You notice a sudden and unexplained change in traffic. Where do you look to see if someone added a filter?
 
 - [ ] Admin > Views > View Settings
-- [x] Admin > Account > Change History
+- [ ] Admin > Account > Change History
 - [ ] Admin > Views > Annotations
 - [ ] Admin > Account > User Management
 
 #### Q37. Your website has a logged in experience for users. What do you implement to track individual engagement across multiple sessions and multiple devices?
 
 - [ ] Client- [ ] ID
-- [x] User-ID
+- [ ] User-ID
 - [ ] cross- [ ] domain tracking
 - [ ] session unification
 
 #### Q38. What are these examples of?
 
 - [ ] annotations
-- [x] affinity categories
+- [ ] affinity categories
 - [ ] custom audiences
 - [ ] channels
 
@@ -283,19 +283,19 @@
 - [ ] Admin > Tracking Info > Tracking Code
 - [ ] Customization > Settings > Tracking Code
 - [ ] Customization > Property > Tracking
-- [x] Admin > Property Settings
+- [ ] Admin > Property Settings
 
 #### Q40. What feature do you use to capture how many times a button was pressed?
 
 - [ ] action tracking
 - [ ] click handler
-- [x] event tracking
+- [ ] event tracking
 - [ ] goals
 
 #### Q41. Which step in this funnel had the largest percentage of exits?
 
 - [ ] Billing and Shipping
-- [x] Cart
+- [ ] Cart
 - [ ] There are no exits.
 - [ ] Payment
 
@@ -303,7 +303,7 @@
 
 - [ ] dynamics
 - [ ] personas
-- [x] audiences
+- [ ] audiences
 - [ ] tags
 
 #### Q43. If you want to exclude traffic to your website from people on your company network, what do you create?
@@ -311,11 +311,11 @@
 - [ ] a filter to exclude traffic to the hostname
 - [ ] a segment to exclude traffic to the hostname
 - [ ] a segment to exclude traffic from IP addresses
-- [x] a filter to exclude traffic from IP addresses
+- [ ] a filter to exclude traffic from IP addresses
 
 #### Q44. You are running Google Ads and want to automatically track ad performance within Google Analytics. What feature do you enable?
 
-- [x] auto tagging
+- [ ] auto tagging
 - [ ] ad serving
 - [ ] advertising features
 - [ ] API link
@@ -323,27 +323,27 @@
 #### Q45. What is an example of a property in Google Analytics?
 
 - [ ] account
-- [x] website
+- [ ] website
 - [ ] graph
 - [ ] custom report
 
 #### Q46. By default, if a URL is accessed in the browser once as /contact/ and once again as /CONTACT/, how does the data appear in Google Analytics?
 
 - [ ] two pageviews for /contact/
-- [x] one pageview for /contact/ and one pageview for /CONTACT/
+- [ ] one pageview for /contact/ and one pageview for /CONTACT/
 - [ ] An error will be present, as a filter must be created to support this use case.
 - [ ] two pageviews for /CONTACT/
 
 #### Q47. What is the hierarchy between sessions, users, and hits?
 
-- [x] User > Session > Hit
+- [ ] User > Session > Hit
 - [ ] Session > Hit > User
 - [ ] Session > User > Hit
 - [ ] User > Hit > Session
 
 #### Q48. Which feature would allow you to navigate between multiple reports while comparing the data collected for visitors in Los Angeles to the data for visitors in London?
 
-- [x] segments
+- [ ] segments
 - [ ] filters
 - [ ] views
 - [ ] dimensions
@@ -353,53 +353,53 @@
 - [ ] Conversions > Goals > Reverse Goal Path
 - [ ] Conversions > Goals > Funnel Visualization
 - [ ] Behavior > Behavior Flow
-- [x] Conversions > Multi- [ ] Channel Funnels
+- [ ] Conversions > Multi- [ ] Channel Funnels
 
 #### Q50. What does Google Analytics add to the first party cookie to differentiate new from returning visitors?
 
 - [ ] an HTTP request
-- [x] a randomly generated client ID
+- [ ] a randomly generated client ID
 - [ ] a 1x1 tracking pixel
 - [ ] a SessionStorage object
 
 #### Q51. It is September, and you want to evaluate the most popular page on your site for the month of August. What first steps would you take?
 
-- [x] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
+- [ ] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
 - [ ] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
 - [ ] Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
-- [x] Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
+- [ ] Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
 
 #### Q52. This report is sorted by bounce rate in ascending order. How do you view these results in order of importance instead?
 
 - [ ] Sort Type: Absolute Change
 - [ ] Toggle Comparison View
-- [x] Sort Type: Weighted Sort
+- [ ] Sort Type: Weighted Sort
 - [ ] Use Table Filter
 
 #### Q53. What channel receives attribution if no traffic source data is available?
 
 - [ ] (Other)
-- [x] Direct
+- [ ] Direct
 - [ ] Referral
 - [ ] Organic Search
 
 #### Q54. Which choice is an example of a micro goal?
 
-- [x] signing up for an account after clicking an ad
+- [ ] signing up for an account after clicking an ad
 - [ ] playing a video before signing up
 - [ ] buying a product after reading an email
 - [ ] filling out a contact form after reading a social post
 
 #### Q55. What parameter should you use if you were tracking different versions of an ad?
 
-- [x] utm_campaign
+- [ ] utm_campaign
 - [ ] utm_medium
 - [ ] utm_term
 - [ ] utm_content
 
 #### Q56. The tracking ID contains a string that follows this format: `UA XXXXXX Y`. What does the Y refer to?
 
-- [x] the property number
+- [ ] the property number
 - [ ] the account number
 - [ ] the view number
 - [ ] It is random.
@@ -407,14 +407,14 @@
 #### Q57. If a user fills in a contact form and provides an email address, which report would contain that information?
 
 - [ ] Behavior > Events > Overview
-- [x] Acquisition > Social > Form Submissions
+- [ ] Acquisition > Social > Form Submissions
 - [ ] Acquisition > Social > Users Flow
 - [ ] No report contains this information.
 
 #### Q58. If you want to quickly see what days and times were most popular for visiting your site, what do you do?
 
 - [ ] Go to Home > Users by time of day (Widget)
-- [x] Go to the report at Audience > Cohort Analysis and toggle By Day.
+- [ ] Go to the report at Audience > Cohort Analysis and toggle By Day.
 - [ ] Go to Behavior > Engagement and toggle Hourly.
 - [ ] Create a pivot table by Hour on Site Content > All Pages.
 
@@ -422,20 +422,20 @@
 
 - [ ] Switch to Enhanced Ecommerce.
 - [ ] Use a search and replace filter.
-- [x] Create a referral exclusion.
+- [ ] Create a referral exclusion.
 - [ ] Add gtag.js to PayPal tags.
 
 #### Q60. What do you use to compare three dimensions?
 
 - [ ] performance table
-- [x] custom reports
+- [ ] custom reports
 - [ ] Explorer panel
 - [ ] relational table
 
 #### Q61. Is it possible to measure how far someone scrolls on a page using Google Analytics? If so, how?
 
 - [ ] yes, with a calculated metric
-- [x] yes, by viewing in page analytics
+- [ ] yes, by viewing in page analytics
 - [ ] yes, with event tracking
 - [ ] no, not possible
 
@@ -444,11 +444,11 @@
 - [ ] Google Ads data sync
 - [ ] enhanced UTM tracking
 - [ ] Google Adsense data sync
-- [x] Demographics and Interests reports
+- [ ] Demographics and Interests reports
 
 #### Q63. What is the latest version of the analytics tracking tag?
 
-- [x] gtag.js
+- [ ] gtag.js
 - [ ] urchin.js
 - [ ] gaq.push and ga.js
 - [ ] analytics.js
@@ -458,18 +458,18 @@
 - [ ] Sessions
 - [ ] Bounce Rate
 - [ ] Conversions
-- [x] Source/Medium
+- [ ] Source/Medium
 
 #### Q65. Which report displays the page a visitor arrived on?
 
 - [ ] Behavior Flow
 - [ ] Exit Pages
-- [x] Landing Pages
+- [ ] Landing Pages
 - [ ] Channels
 
 #### Q66. You are tracking events of playback of video on the home page of a website. You want users who watch the video, but still leave the page with no additional pageviews or interactions, to still be included in the bounce rate calculation. What must be configured?
 
-- [x] non-interaction event
+- [ ] non-interaction event
 - [ ] implicit event
 - [ ] advanced events
 - [ ] default event
@@ -479,19 +479,19 @@
 - [ ] Linear
 - [ ] First Interaction
 - [ ] Last Interaction
-- [x] Last Non-Direct Click
+- [ ] Last Non-Direct Click
 
 #### Q68. If you want to track one destination goal but have two URLs that could trigger the goal (for example,/thank-you and /checkout-complete), what approach can you use?
 
 - [ ] Create a content grouping, and then use the group as the destination.
 - [ ] Add the additional page as a funnel step.
-- [x] Use a regular expression when adding the goal destination.
+- [ ] Use a regular expression when adding the goal destination.
 - [ ] That is not possible.
 
 #### Q69. If you created a calculated metric that returned a value of "80" with Time as the formatting type, how would it be represented in Google Analytics?
 
 - [ ] 0:01:20
-- [x] 80
+- [ ] 80
 - [ ] 80:00:00
 - [ ] 1:20:00
 
@@ -499,21 +499,21 @@
 
 - [ ] Create a custom report where Page Depth is >/3 or Page Depth is <3. Toggle on Revenue, Top Products, and Average Order Value as Dimensions.
 - [ ] View the Product Performance report and add Page Depth as a secondary dimension. Create a table filter for Page Depth greater than 3 and Page Depth less than 3.
-- [x] Create a custom segment where Page Depth is >/3 and another segment where Page Depth is <3. Apply both segments while on the Ecommerce Overview report.
+- [ ] Create a custom segment where Page Depth is >/3 and another segment where Page Depth is <3. Apply both segments while on the Ecommerce Overview report.
 - [ ] View the Ecommerce Overview report and create a table filter where Page Depth is >/3 or Page Depth is <3.
 
 #### Q71. If you wanted to create a user-defined metric to measure Revenue per User, what would you use?
 
 - [ ] ecommerce metrics
 - [ ] custom dimensions
-- [x] calculated metrics
+- [ ] calculated metrics
 - [ ] custom metrics
 
 #### Q72. You are managing analytics for a recipe website that has the following categories: Appetizers, Main Dishes, and Desserts. What do you create in order to compare aggregated data of all recipes in the Appetizer category vs. all recipes in the Desserts category?
 
 - [ ] custom channels
 - [ ] advanced filters
-- [x] content grouping
+- [ ] content grouping
 - [ ] custom segments
 
 [answer](https://support.google.com/analytics/answer/2853423?hl=en)
@@ -521,7 +521,7 @@
 #### Q73. How would you add a secondary dimension to a report?
 
 - [ ] from the Insights panel
-- [x] from the Secondary dimension menu
+- [ ] from the Secondary dimension menu
 - [ ] all of these answers
 - [ ] with a table filter
 
@@ -530,19 +530,19 @@
 - [ ] Use virtual pageviews.
 - [ ] Configure a campaign URL.
 - [ ] Use the preview tag.
-- [x] Use event tracking.
+- [ ] Use event tracking.
 
 #### Q75. It is a best practice to always have one of what kind of view?
 
 - [ ] property
 - [ ] custom
 - [ ] segmented
-- [x] unfiltered
+- [ ] unfiltered
 
 #### Q76. You send an email including a link to your website without any UTM parameters. A visitor clicks that link from a secured (https) email platform such as Gmail. What source is shown for that traffic?
 
 - [ ] Email
-- [x] Referral
+- [ ] Referral
 - [ ] (other)
 - [ ] Direct
 
@@ -557,21 +557,21 @@
 
 - [ ] dimension
 - [ ] metric
-- [x] hit
+- [ ] hit
 - [ ] tag
 
 #### Q79. What are the four scope types?
 
 - [ ] Visitors, Visits, Events, and Products
 - [ ] Visitors, Visits, Actions, and Catalog
-- [x] Users, Sessions, Hits, and Products
+- [ ] Users, Sessions, Hits, and Products
 - [ ] Users, Sessions, Actions, and Catalog
 
 #### Q80. What is a view filter?
 
 - [ ] a way to permanently modify data after it appears in reports
 - [ ] a way to temporarily modify data before it appears in reports
-- [x] a way to temporarily modify data after it appears in reports
+- [ ] a way to temporarily modify data after it appears in reports
 - [ ] a way to permanently modify data before it appears in reports
 
 #### Q81. How would you access to this report?
@@ -580,12 +580,12 @@
 
 - [ ] Ecommerce > Sales Performance
 - [ ] Goals > Goal Flow
-- [x] Ecommerce > Checkout Behavior
+- [ ] Ecommerce > Checkout Behavior
 - [ ] Events > Event Flow
 
 #### Q82. If your site was accessible at both / and /home.html, what do you configure to consolidate entries under /?
 
-- [x] default page
+- [ ] default page
 - [ ] master view
 - [ ] master page
 - [ ] default view
@@ -595,19 +595,19 @@
 - [ ] on dimensions only
 - [ ] permanent
 - [ ] on metrics only
-- [x] temporary
+- [ ] temporary
 
 #### Q84. What is a risk of using the Compare to Previous Period option?
 
 - [ ] it is not possible to compare previous periods with sampled data pulled ad hoc
 - [ ] The same amount of days selected for the Date Range will be used for the coparison
-- [x] If the review period is Wednesday to Thursday, the previous period may include weekends, which may skew the comparison
+- [ ] If the review period is Wednesday to Thursday, the previous period may include weekends, which may skew the comparison
 - [ ] Both sets of data may appear on the same graph, which will skew your ability to analyze impact
 
 #### Q85. What report displays the exact word(s) a user typed into Google to trigger your google ad?
 
 - [ ] Acquisition > Campaign > Paid Keywords
-- [x] Acquisition > Google Ads > Search queries
+- [ ] Acquisition > Google Ads > Search queries
 - [ ] Acquisition > Google Ads > Keywords
 - [ ] Acquisition > Campaign > Organic Keywords
 
@@ -616,11 +616,11 @@
 - [ ] How users search Google
 - [ ] in-page analytics
 - [ ] waht pages are missing from you site
-- [x] how users search on you site
+- [ ] how users search on you site
 
 #### Q87. What does analytics set and read for each unique domain being tracked?
 
 - [ ] HTML
-- [x] cookies
+- [ ] cookies
 - [ ] pixels
 - [ ] sessions

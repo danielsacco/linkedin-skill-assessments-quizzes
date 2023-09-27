@@ -11,7 +11,7 @@ cp -R ~/"photo dir" /backups #method3
 - [ ] None of the three methods will expand to the user's home directory. Only using `"$HOME/photo dir"`will be successful.
 - [ ] Only method 1 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
 - [ ] Only method 2 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
-- [x] Only method 3 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
+- [ ] Only method 3 will expand `"~/"` to the user's home directory and then append the quoted directory name that includes a space.
 
 #### Q2. If script.sh is run in the current directory, it will fail. Why?
 
@@ -29,13 +29,13 @@ done
 ```
 
 - [ ] ls: cannot access nonexistentfile: No such file or directory
-- [x] The for loop will split on word boundaries and Beach photo1.jpg has a space in it.
+- [ ] The for loop will split on word boundaries and Beach photo1.jpg has a space in it.
 - [ ] The mv command will fail because the curly bracket is a special character in Bash and cannot be used in the names of files.
 - [ ] Running script.sh will be successful as the ls command builds a list of files in the current directory and for loops through that list renaming files with a .bak extension.
 
 #### Q3. To run a copy command in a subshell, which syntax would you use?
 
-- [x] `( command )`
+- [ ] `( command )`
 - [ ] `sh command`
 - [ ] `{ command; }`
 - [ ] `(( command ))`
@@ -48,7 +48,7 @@ done
 echo "1 2 3" | awk '{for (i=1; i<=NF; i++) s=s+$i};END {print s}'
 ```
 
-- [x] 6
+- [ ] 6
 - [ ] 123
 - [ ] 3
 - [ ] 600
@@ -62,7 +62,7 @@ find / -name "finance.db" 1>results.txt 2>/dev/null
 ```
 
 - [ ] the names of files that do not match finance.db
-- [x] information sent to the standard error-for example, errors that the find command displays as it runs
+- [ ] information sent to the standard error-for example, errors that the find command displays as it runs
 - [ ] the names of files that match finance.db
 - [ ] information sent to the standard output-that is, the path to files the find command has located
 
@@ -70,7 +70,7 @@ find / -name "finance.db" 1>results.txt 2>/dev/null
 
 #### Q6. To permanently remove empty lines from a file called textfile, which command could you use?
 
-- [x] `sed -i '/^$/d' textfile`
+- [ ] `sed -i '/^$/d' textfile`
 - [ ] `sed '/^$/d' textfile`
 - [ ] `cat textfile | sed '/^$/d`
 - [ ] `sed -i 's/^$//' textfile`
@@ -91,7 +91,7 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [ ] It would show the username, UID, and home directory of user1 separated by colons.
 - [ ] It would print the UID, GID, and home directory of user1 separated by hyphens.
 - [ ] It would print the UID, comment, and home directory of user1 separated by hyphens.
-- [x] It would show the username, UID, and home directory of user1 separated by hyphens.
+- [ ] It would show the username, UID, and home directory of user1 separated by hyphens.
 
 [reference](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/). Traditionally, the /etc/passwd file is used to keep track of every registered user that has access to a system. The /etc/passwd file is a colon-separated file that contains the following information: 1-`Username`, 2-`Password`, 3-`User ID (UID)`, 4-`Group ID (GID)`, 5-`User ID Info (GECOS)`, 6-`Home directory`, 7-`Command/shell`
 
@@ -100,7 +100,7 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [ ] It will cause Bash to exit if a function or subshell returns a nonzero status code.
 - [ ] It will cause Bash to exit if a conditional returns a non-zero status code.
 - [ ] It will cause Bash to exit if local, declare, or typeset assignments return a nonzero status code.
-- [x] It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
+- [ ] It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
 
 [reference](http://redsymbol.net/articles/unofficial-bash-strict-mode/). The set -e option instructs bash to immediately exit if any command [1] has a non-zero exit status. You wouldn't want to set this for your command-line shell, but in a script it's massively helpful. In all widely used general-purpose programming languages, an unhandled runtime error - whether that's a thrown exception in Java, or a segmentation fault in C, or a syntax error in Python - immediately halts execution of the program; subsequent lines are not executed.
 
@@ -108,7 +108,7 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 
 - [ ] get
 - [ ] argument
-- [x] read
+- [ ] read
 - [ ] input
 
 #### Q10. If file.sql holds SQL statements to be executed, what will be in file.txt?
@@ -120,7 +120,7 @@ mysql < file.sql > file.txt
 - [ ] a copy of the contents of file.sql
 - [ ] an error indicating that this is invalid syntax
 - [ ] the error output of the MySQL command
-- [x] the non-error output of the MySQL command
+- [ ] the non-error output of the MySQL command
 
 **Note**: `check the question below for a variant.`
 
@@ -131,7 +131,7 @@ mysql < file.sql > out.txt
 ```
 
 - [ ] The output on the screen will be identical to out.txt
-- [x] There will be no output on the screen as it's being redirected to out.txt.
+- [ ] There will be no output on the screen as it's being redirected to out.txt.
 - [ ] The output on the screen will be identical to out.txt plus line numbers.
 - [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
 
@@ -141,7 +141,7 @@ mysql < file.sql > out.txt
 
 - [ ] When the command creates files, they will be owned by the group owner of the command.
 - [ ] The SUID bit allows anyone to execute the command no matter what other permissions are set.
-- [x] When the command is executed, its running privileges elevate to the user owner of the command.
+- [ ] When the command is executed, its running privileges elevate to the user owner of the command.
 - [ ] When the command is executed, its running privileges elevate to the group owner of the command.
 
 [reference](https://en.wikipedia.org/wiki/Setuid#:~:text=The%20Linux%20and%20Unix%20access,to%20change%20behaviour%20in%20directories.). The Linux and Unix access rights flags setuid and setgid (short for set user identity and set group identity)[1] allow users to run an executable with the file system permissions of the executable's owner or group respectively and to change behaviour in directories.
@@ -150,7 +150,7 @@ mysql < file.sql > out.txt
 
 - [ ] `cat {$1,textfile}`
 - [ ] `cat textfile | awk [print $1]`
-- [x] `cat textfile | awk '{print $1}'`
+- [ ] `cat textfile | awk '{print $1}'`
 - [ ] `awk textfile {print $1}`
 
 #### Q14. What is the keyboard shortcut to call up the Bash history search as shown below?
@@ -161,7 +161,7 @@ mysql < file.sql > out.txt
 
 - [ ] Esc + R
 - [ ] Ctrl + H
-- [x] Ctrl + R
+- [ ] Ctrl + R
 - [ ] Alt + R
 
 Note: On the Mac it will show `bck-i-search:` instead of `(reverse-i-search)`.
@@ -171,7 +171,7 @@ Note: On the Mac it will show `bck-i-search:` instead of `(reverse-i-search)`.
 - [ ] `var=$( expr 10 / 8 )`
 - [ ] `(( var= 10 /8 ))`
 - [ ] `var=$(( 10 / 8 ))`
-- [x] `var=$(echo 'scale=2; 10 / 8' | bc)`
+- [ ] `var=$(echo 'scale=2; 10 / 8' | bc)`
 
 [reference](https://www.geeksforgeeks.org/bc-command-linux-examples/). The bc command is used for command line calculator. It is similar to basic calculator by using which we can do basic mathematical calculations. The division with 2 digit precision will be passed to `bc`, evaluated, and assigned to the variable.
 
@@ -185,7 +185,7 @@ txt=Penguins
 - [ ] 0, representing 'true', because the variable "txt" contains eight letters
 - [ ] 0, representing 'true', because everybody loves penguins!
 - [ ] 1, representing 'false', because the variable "txt" is longer than eight characters
-- [x] 1, representing 'false', because the variable "txt" does not contain eight lowercase letters between a and z
+- [ ] 1, representing 'false', because the variable "txt" does not contain eight lowercase letters between a and z
 
 #### Q17. How would you change your Bash shell prompt to the following?
 
@@ -195,7 +195,7 @@ HAL>
 
 - [ ] `SHELL="HAL\>"`
 - [ ] `SHELL="HAL>"`
-- [x] `export PS1="HAL>"`
+- [ ] `export PS1="HAL>"`
 - [ ] `PS1="HAL\>"`
 
 #### Q18. What is the output of this code?
@@ -205,7 +205,7 @@ VAR="/var/www/html/website.com/html/"
 echo "${VAR#*/html}"
 ```
 
-- [x] `/website.com/html/`
+- [ ] `/website.com/html/`
 - [ ] `/html/website.com/html/`
 - [ ] `/var/www/html/website.com/`
 - [ ] Nothing will be echoed on the screen.
@@ -218,12 +218,12 @@ For instance `${VAR#?}` expands to the value of $VAR with the first character de
 
 - [ ] Ctrl + A (Windows) or Command + A (Mac)
 - [ ] Ctrl + E (Windows) or Command + E (Mac)
-- [x] Ctrl + D (Windows) or Command + D (Mac)
+- [ ] Ctrl + D (Windows) or Command + D (Mac)
 - [ ] Ctrl + Z (Windows) or Command + Z (Mac)
 
 #### Q20. In order for a Bash script to be executed like an OS command, it should start with a shebang line. What does this look like?
 
-- [x] `#!/usr/bin/env bash`
+- [ ] `#!/usr/bin/env bash`
 - [ ] `~/usr/bin/env bash`
 - [ ] `'$!/usr/bin/env bash`
 - [ ] `#/usr/bin/env bash`
@@ -237,7 +237,7 @@ The date is: Sun Mar 24 12:30:06 CST 2019!
 - [ ] `echo "The date is: !"`
 - [ ] `echo "The date is: date!"`
 - [ ] `echo "The date is: (date)!"`
-- [x] `echo "The date is: $(date)!"`
+- [ ] `echo "The date is: $(date)!"`
 
 #### Q22. Suppose your current working directory is your home directory. How could you run the script demo.sh that is located in your home directory? Find three correct answers.
 
@@ -249,7 +249,7 @@ D. bash /home/demo.sh
 E. bash demo.sh
 ```
 
-- [x] B, C, E
+- [ ] B, C, E
 - [ ] A, B, C
 - [ ] C, D, E
 - [ ] B, D, E
@@ -259,7 +259,7 @@ E. bash demo.sh
 - [ ] `find . -type html`
 - [ ] `find . -name *.html`
 - [ ] `find *.html`
-- [x] `find . -name \*.html -print`
+- [ ] `find . -name \*.html -print`
 
 `The second seems well, but will expand the \* if there is any .html file on your working directory.`
 
@@ -271,7 +271,7 @@ cat < in.txt > out.txt
 
 - [ ] The output from the command line. By default STDIN comes from the keyboard.
 - [ ] Nothing because you can't redirect from file (in.txt) to another file (out.txt). You can only redirect from a command to a file.
-- [x] It would be the contents of in.txt.
+- [ ] It would be the contents of in.txt.
 - [ ] Nothing. The redirect will create a new empty file but there will not be any output from the cat command to redirect.
 
 #### Q25. What does this bash statement do?
@@ -282,13 +282,13 @@ echo $?
 ```
 
 - [ ] It loops between the values of `$a` and `$b`.
-- [x] It tests whether the values of variables `$a` and `$b` are equal.
+- [ ] It tests whether the values of variables `$a` and `$b` are equal.
 - [ ] It returns `$b` if it is larger than `$a`.
 - [ ] It returns `$a` if it is larger than `$b`.
 
 #### Q26. What do you use in a case statement to tell Bash that you're done with a specific test?
 
-- [x] `; ;`
+- [ ] `; ;`
 - [ ] `: :`
 - [ ] `done`
 - [ ] `$$`
@@ -310,7 +310,7 @@ case $num in
 esac
 ```
 
-- [x] a case that matches any value, providing a default option if nothing else catches that value
+- [ ] a case that matches any value, providing a default option if nothing else catches that value
 - [ ] a case only for what happens when the asterisk character is passed into the script
 - [ ] the action of all of the other cases combined together
 - [ ] an action that is taken for any input, even if it matches a specified condition
@@ -319,13 +319,13 @@ esac
 
 - [ ] `touch file{1+10}.txt`
 - [ ] `touch file{1-10}.txt`
-- [x] `touch file{1..10}.txt`
+- [ ] `touch file{1..10}.txt`
 - [ ] `touch file(1..10).txt`
 
 #### Q29. Which variable would you check to verify that the last command executed successfully?
 
 - [ ] `$$`
-- [x] `$?`
+- [ ] `$?`
 - [ ] `$!`
 - [ ] `$@`
 
@@ -339,7 +339,7 @@ echo ${!fname}
 ```
 
 - [ ] john
-- [x] thomas
+- [ ] thomas
 - [ ] Syntax error
 - [ ] blank
 
@@ -352,7 +352,7 @@ echo ${!fname}
 - [ ] `A` ![A](images/Q30/A.png?raw=png)
 - [ ] `B` ![B](images/Q30/B.png?raw=png)
 - [ ] `C` ![C](images/Q30/D.png?raw=png)
-- [x] `D` ![D](images/Q30/C.png?raw=png)
+- [ ] `D` ![D](images/Q30/C.png?raw=png)
 
 Here's a text based version of Q.30:
 
@@ -395,7 +395,7 @@ ll | sed -e 's,file,text,g'
   -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
 ```
 
-- [x] D
+- [ ] D
 
 ```
 -rw-r--r-- 1 frankmolev staff 374     Jun 3 19:30 .
@@ -417,7 +417,7 @@ fi
 
 - [ ] If the value of PET doesn't match dog, the script will return a nonzero status code.
 - [ ] There is nothing wrong with it. The condition checks the value of PET perfectly.
-- [x] It will fail if the user hits the Enter (Return) key without entering a pet name when prompted.
+- [ ] It will fail if the user hits the Enter (Return) key without entering a pet name when prompted.
 - [ ] The then statement needs to be on a separate line.
 
 #### Q33. How can you gather history together for multiple terminals?
@@ -425,11 +425,11 @@ fi
 - [ ] It just works by default.
 - [ ] `history --shared`
 - [ ] `history --combined`
-- [x] `shopt -s histappend`
+- [ ] `shopt -s histappend`
 
 #### Q34. What is the difference between the $@ and $\* variables?
 
-- [x] `$@` treats each quoted argument as a separate entity. `$*` treats the entire argument string as one entity.
+- [ ] `$@` treats each quoted argument as a separate entity. `$*` treats the entire argument string as one entity.
 - [ ] `$*` treats each quoted argument as a separate entity. `$@` treats the entire argument string as one entity.
 - [ ] `$*` is used to count the arguments passed to a script, `$@` provides all arguments in one string.
 - [ ] `$*` is the wildcard that includes all arguments with word splitting, `$@` holds the same data but in an array.
@@ -444,7 +444,7 @@ fi
 
 - [ ] `/usr/bin/test`
 - [ ] `/usr/bin/[`
-- [x] `the built-in [ command`
+- [ ] `the built-in [ command`
 - [ ] `/usr/bin/[[`
 
 #### Q36. What will be the output of this script?
@@ -461,12 +461,12 @@ echo "${Linux[@]}"
 - [ ] Debian Redhat Ubuntu Android Fedora Suse
 - [ ] Android
 - [ ] Fedora Suse
-- [x] Debian Redhat Ubuntu Fedora Suse
+- [ ] Debian Redhat Ubuntu Fedora Suse
 
 #### Q37. Which file allows you to save modifications to the shell environment across sessions?
 
 - [ ] `/etc/bash.conf`
-- [x] `~/.profile`
+- [ ] `~/.profile`
 - [ ] `/etc/bashprofile`
 - [ ] `~/profile`
 
@@ -479,7 +479,7 @@ total 0
 ```
 
 - [ ] No, it's clear that user2 does not have read, write, and execute permissions.
-- [x] Yes, the `+` at the end of the 10-digit permission string signifies there's an access control list. This could possibly give user2 permissions not visible by `ls -l`.
+- [ ] Yes, the `+` at the end of the 10-digit permission string signifies there's an access control list. This could possibly give user2 permissions not visible by `ls -l`.
 - [ ] It's possible that SELinux provides read, write, and execute permissions for user2 which are not visible with `ls -l`.
 - [ ] Yes, the `+` at the end of the 10-digit permission string signifies there's an extended attribute set. This could give user2 permissions to read, write, and execute data.txt.
 
@@ -496,7 +496,7 @@ done
 ```
 
 - [ ] It sorts the associative array named ARRAY and stores the results in an indexed array named KEYS. It then uses this sorted array to loop through the associative array ARRAY.
-- [x] Using a C-style for loop, it loops through the associative array named ARRAY using the associative array's keys and outputs both the key and values for each item.
+- [ ] Using a C-style for loop, it loops through the associative array named ARRAY using the associative array's keys and outputs both the key and values for each item.
 - [ ] It creates an indexed array of the associative array named ARRAY. It then uses a C-style for loop and the indexed array to loop through all items in the associative array, outputting the key and value of each array item using the index number.
 - [ ] It creates an associative array named ARRAY, which it loops through using a C-style for loop and the index numbers of each item in the associative array's keys, outputting the value of each item.
 
@@ -509,7 +509,7 @@ ls Hello[[.vertical-line.]]World
 - [ ] Nothing, this is an invalid file glob.
 - [ ] `Hello.vertical-line.World`
 - [ ] `Hello[[.vertical-line.]]World`
-- [x] `Hello|World`
+- [ ] `Hello|World`
 
 #### Q41. What will be in out.txt?
 
@@ -519,7 +519,7 @@ ls nonexistentfile | grep "No such file" > out.txt
 
 - [ ] No such file
 - [ ] ls: cannot access nonexistentfile: No such file or directory
-- [x] Nothing, out.txt will be empty.
+- [ ] Nothing, out.txt will be empty.
 - [ ] It will be the contents of nonexistentfile.
 
 #### Q42. For the script to print "Is numeric" on screen, what would the user have to enter when prompted?
@@ -537,27 +537,27 @@ fi
 - [ ] Any sequence of characters that includes an integer
 - [ ] The user would have to enter the character sequence of `^[0-9]]+$` Only this will prove to be true and "Is numeric" would be printed on the screen due to incorrect syntax. By encapsulating the regular expression in double quotes every match will fail except the text string `^[0-9]+$`
 - [ ] One or more characters that only includes integers
-- [x] Due to a syntax error it is impossible to get the script to print "Is numeric"
+- [ ] Due to a syntax error it is impossible to get the script to print "Is numeric"
 
 The regex must not be quoted to work properly.
 
 #### Q43. How would you find the last copy command run in your history?
 
 - [ ] `history | find cp`
-- [x] `history | grep cp`
+- [ ] `history | grep cp`
 - [ ] `grep cp history`
 - [ ] `cp history`
 
 #### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
 
-- [x] `for i in $(ls); do ... done`
+- [ ] `for i in $(ls); do ... done`
 - [ ] `for $(ls); do ... done`
 - [ ] `for i in $ls; do ... done`
 - [ ] `for $ls; do ... done`
 
 #### Q45. When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
 
-- [x] `|`
+- [ ] `|`
 - [ ] `->`
 - [ ] `\#`
 - [ ] `@`
@@ -573,13 +573,13 @@ echo $greeting, everybody!
 - [ ] a command
 - [ ] a loop
 - [ ] a parameter
-- [x] a variable
+- [ ] a variable
 
 #### Q47. Which statement checks whether the variable num is greater than five?
 
 - [ ] `(( num -gt 5 ))`
 - [ ] `[[$num -lt 5]]`
-- [x] `(( num > 5 ))`
+- [ ] `(( num > 5 ))`
 - [ ] `num > 5`
 
 [reference](https://tldp.org/LDP/abs/html/dblparens.html)
@@ -598,7 +598,7 @@ $ shopt -s extglob
 $ ls -l @(ba*(na)|a+(p)le)
 ```
 
-- [x] a
+- [ ] a
 
 ```bash
 apple
@@ -640,7 +640,7 @@ pineapple
 
 #### Q49. When used from within a script, which variable contains the name of the script?
 
-- [x] \$0
+- [ ] \$0
 - [ ] \$# // number of positional parameters
 - [ ] \$\$ // pid of the current shell
 - [ ] \$@ // array-like construct of all positional parameters
@@ -654,7 +654,7 @@ ls -l
 
 - [ ] There is an SELinux security context
 - [ ] The sticky bit is set and the file will stay in RAM for speed
-- [x] There is an access control list
+- [ ] There is an access control list
 - [ ] There is an extended attribute such as immutable set
 
 #### Q51. In Bash, what does the command below do?
@@ -663,7 +663,7 @@ ls -l
 cd -
 ```
 
-- [x] It moves you to the directory you were previously in.
+- [ ] It moves you to the directory you were previously in.
 - [ ] It moves you to your home folder (whatever your current working directory happens to be).
 - [ ] It deletes the current directory
 - [ ] It moves you one directory above your current working directory.
@@ -674,7 +674,7 @@ cd -
 cat > notes -
 ```
 
-- [x] Accepts text from standard input and places it in "notes"
+- [ ] Accepts text from standard input and places it in "notes"
 - [ ] Creates "notes" and exits
 - [ ] Outputs the content of notes and deletes it
 - [ ] Appends text to the existing "notes"
@@ -686,7 +686,7 @@ VAR="This old man came rolling"
 echo "\${VAR//man/rolling}"
 ```
 
-- [x] This old rolling came rolling
+- [ ] This old rolling came rolling
 - [ ] This old man came man
 - [ ] This old man came rolling
 - [ ] This old came
@@ -694,7 +694,7 @@ echo "\${VAR//man/rolling}"
 #### Q54. The shell looks at the contents of a particular variable to identify which programs it can run. What is the name of this variable?
 
 - [ ] $INCLUDE
-- [x] $PATH
+- [ ] $PATH
 - [ ] $PROGRAM
 - [ ] $PATHS
 
@@ -704,7 +704,7 @@ echo "\${VAR//man/rolling}"
 
 - [ ] `echo "Shall we play a game? yes/\no"`
 - [ ] `echo "Shall we play a game\? yes\\no"`
-- [x] `echo "Shall we play a game? yes\\no"`
+- [ ] `echo "Shall we play a game? yes\\no"`
 - [ ] `echo "Shall we play a game? yes\no"`
 
 #### Q56. Given a directory with these seven files, what would remain after executing these commands?
@@ -746,7 +746,7 @@ textfile2.txt
 
 - [ ] `c : All of this files will be deleted`
 
-- [x] d:
+- [ ] d:
 
 ```bash
 image1.gif
@@ -767,7 +767,7 @@ fi
 
 - [ ] There will be no unexpected results. This script works as is and the output will be "8 is greater than 5".
 - [ ] The comparison will not be able to handle floating-point numbers, as Bash only handles integers. So this example will output an error message if the value of $var is changed to "8.8".
-- [x] There will be a file in the current directory named 5.
+- [ ] There will be a file in the current directory named 5.
 - [ ] The variable $var is not quoted, which will lead to word splitting. This script will fail with a "unary operator expected" message if you change the value of
 
 #### Q58. What is the result of this script?
@@ -776,12 +776,12 @@ fi
 
 - [ ] It removes the directory 'foo' and the files contained within it.
 - [ ] It removes all files except those in the current directory.
-- [x] It removes all files in the current directory.
+- [ ] It removes all files in the current directory.
 - [ ] It removes all files except those in the 'foo' directory.
 
 #### Q59. Which one is true?
 
-- [x] SELinux policy rules are checked after DAC rules.
+- [ ] SELinux policy rules are checked after DAC rules.
 - [ ] SELinux policy rules are checked before DAC rules
 - [ ] SELinux policy rules are never checked after DAC rules.
 - [ ] None of these
@@ -795,7 +795,7 @@ w
 ```
 
 - [ ] It doesn't display information about the users currently on the machine.
-- [x] It displays information about the users currently on the machine.
+- [ ] It displays information about the users currently on the machine.
 - [ ] It displays information about the users currently on the another machine.
 - [ ] None of these
 
@@ -808,7 +808,7 @@ var="A constant is a variable that is a variable that isn't variable"
 echo "$var" | sed _____
 ```
 
-- [x] `s/\(.*\)variable\(.*variable\)/\1rock\2/'`
+- [ ] `s/\(.*\)variable\(.*variable\)/\1rock\2/'`
 - [ ] `s/variable/rock/'`
 - [ ] `s/variable/rock/g'`
 - [ ] `s/(.*\)variable\(.*variable\)/\1rock\2/'`
@@ -816,13 +816,13 @@ echo "$var" | sed _____
 #### Q62. To make a Bash script named script.sh executable, what should you run?
 
 - [ ] exec script.sh
-- [x] chmod +x script.sh
+- [ ] chmod +x script.sh
 - [ ] bash script.sh
 - [ ] source script.sh
 
 #### Q63. How can you create a shared terminal in a Bash shell?
 
-- [x] screen
+- [ ] screen
 - [ ] screen -X
 - [ ] screen --shared
 - [ ] terminal -shared
@@ -831,20 +831,20 @@ echo "$var" | sed _____
 
 - [ ] ls < filelist.txt
 - [ ] ls ¦ filelist.txt
-- [x] ls > filelist.txt
+- [ ] ls > filelist.txt
 - [ ] ls - filelist.txt
 
 #### Q65. When comparing items with case, what statement indicates an end to the evaluation block?
 
 - [ ] stop
-- [x] esac
+- [ ] esac
 - [ ] done
 - [ ] exit
 
 #### Q66. To run a group of commands without spawning a subshell, which syntax would you use?
 
 - [ ] (command1; command2)
-- [x] { command1; command2; }
+- [ ] { command1; command2; }
 - [ ] (( command1; command2 ))
 - [ ] command1; command2
 
@@ -856,19 +856,19 @@ echo 'Hello, $(whoami)!'
 
 - [ ] Hello, $(jon)!
 - [ ] Hello, jon!
-- [x] Hello, $(whoami)!
+- [ ] Hello, $(whoami)!
 - [ ] Hello, whoami!
 
 #### Q68. How can you copy a directory to another system with compression?
 
 - [ ] `tar -ssh user@192.158.1.1 /bin/newfile`
-- [x] `tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"`
+- [ ] `tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"`
 - [ ] You can't compress the stream
 - [ ] `scp -r directory user@192.168.1.1:/tmp`
 
 #### Q69. To assign the command `ls -lah` to the shortcut command `lh`, what command should you use?
 
-- [x] `alias lh='ls -lah'`
+- [ ] `alias lh='ls -lah'`
 - [ ] `link lh='ls -lah'`
 - [ ] `alias 'ls -lah'=lh`
 - [ ] `lh | ls -lah`
@@ -877,12 +877,12 @@ echo 'Hello, $(whoami)!'
 
 - [ ] find $USER_DIR -name "\*.csv" 2>/dev/null
 - [ ] find $HOME -name "\*.csv" 1>/dev/null
-- [x] find $HOME -name "\*.csv" 2>/dev/null
+- [ ] find $HOME -name "\*.csv" 2>/dev/null
 - [ ] find HOME -name "\*.csv" 1>/dev/null
 
 #### Q71. In Bash, what does a # at the end of the default prompt string indicate?
 
-- [x] that the user is acting as root
+- [ ] that the user is acting as root
 - [ ] that the current working directory is the root of the file system
 - [ ] that there are updates for the system available
 - [ ] that the user is unprivileged
@@ -900,7 +900,7 @@ filec.txt
 $ ls -l file[^abc]*.txt
 ```
 
-- [x] A
+- [ ] A
 
 ```bash
 file1.txt
@@ -961,7 +961,7 @@ This is line 3.
 ------------------------This is line 1.This is line 2.This is line 3.------------------------
 ```
 
-- [x] C
+- [ ] C
 
 ```bash
 ------------------------
@@ -995,7 +995,7 @@ exec 3>&-
 
 - [ ] 123446789
 - [ ] the hyphen symbol (-)
-- [x] 123456789
+- [ ] 123456789
 - [ ] the number 5, which is written to the file using echo
 
 1. [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
@@ -1006,7 +1006,7 @@ exec 3>&-
 - [ ] $ID
 - [ ] $#
 - [ ] $@
-- [x] $$
+- [ ] $$
 
 #### Q76. By combining extended globbing and parameter expansion, what would be the value of VAR?
 
@@ -1020,7 +1020,7 @@ echo "$VAR"
 
 - [ ] `<pre> This is... a string of characters</pre>`
 - [ ] `<pre> This is...a string of characters</pre>`
-- [x] `<pre>This is... a string of characters</pre>`
+- [ ] `<pre>This is... a string of characters</pre>`
 - [ ] `<pre>This is...a string of characters</pre>`
 
 References:
@@ -1032,13 +1032,13 @@ References:
 
 - [ ] !
 - [ ] &&
-- [x] &
+- [ ] &
 - [ ] $
 
 #### Q78. The range of nice number in LINUX system is?
 
 - [ ] -20 to 0
-- [x] -20 to 19
+- [ ] -20 to 19
 - [ ] 0 to 19
 - [ ] 10 to 10
 
@@ -1052,7 +1052,7 @@ echo $((4/3))
 
 - [ ] 1.3
 - [ ] 1.3333333333
-- [x] 1
+- [ ] 1
 - [ ] 2
 
 [Reference](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-10.html)
@@ -1061,7 +1061,7 @@ echo $((4/3))
 
 - [ ] if
 - [ ] case
-- [x] while
+- [ ] while
 - [ ] for
 
 [Reference](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html)
@@ -1074,14 +1074,14 @@ cat > notes -
 
 - [ ] It creates an empty file called "notes" and then exits.
 - [ ] It outputs the contents of the "notes" file to the screen, and then deletes it.
-- [x] It accepts text from the standard input and places it in the "notes" file.
+- [ ] It accepts text from the standard input and places it in the "notes" file.
 - [ ] It appends text to an existing file called "notes."
 
 #### Q82. You want to match five-letter palindromes such as radar, rotor, and tenet. Which sed option should you use?
 
 - [ ] sed -E -n '/^(.)(.)\3\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.).\2\1$/p'
-- [x] sed -E -n '/^(.)(.)(.)\2\1$/p'
+- [ ] sed -E -n '/^(.)(.)(.)\2\1$/p'
 - [ ] sed -E -n '/^(.)(.)(.)(.)\3\2\1$/p'
 
 #### Q83. To add a value to the current environment, what command should you use ?
@@ -1089,7 +1089,7 @@ cat > notes -
 - [ ] shell_add
 - [ ] save
 - [ ] echo
-- [x] export
+- [ ] export
 
 #### Q84. What is the difference between these two conditional expressions?
 
@@ -1098,7 +1098,7 @@ cat > notes -
 
 - [ ] [[$A == $B]] is used for numeric comparisons whereas [[$a-eq $B]] is used for text comparisons.
 - [ ] [[$A==$B]]is the new way of doing comparison where [[$a-eq $B]]is the legacy syntax.
-- [x] they are the same.
+- [ ] they are the same.
 - [ ] [[$A==$B]]is used for text comparisons whereas [[$a-eq $B]]is used for numeric comparisons.
 
 #### Q85. What is the output of this code?
@@ -1111,7 +1111,7 @@ echo "${VAR^}"
 - [ ] unitedstates
 - [ ] United States
 - [ ] United states
-- [x] UNITED STATES
+- [ ] UNITED STATES
 
 #### Q86. What would happen if you ran the script below as it is written?
 
@@ -1125,7 +1125,7 @@ if [[ $foo = "bar" ]]; then echo "foo is bar"
 fi
 ```
 
-- [x] Both conditions will fail.
+- [ ] Both conditions will fail.
 - [ ] Both conditions will succeed.
 - [ ] Condition 1 would succeed and Condition 2 would fail.
 - [ ] Condition 1 would fail and Condition 2 would succeed.
@@ -1134,7 +1134,7 @@ fi
 
 #### Q87. Which variable contains the number of arguments passed to a script from the command line?
 
-- [x] `$#`
+- [ ] `$#`
 - [ ] `$@`
 - [ ] `0`
 - [ ] `$!`

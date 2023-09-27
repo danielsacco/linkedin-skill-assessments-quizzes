@@ -5,11 +5,11 @@
 - [ ] `import React.Component from 'react'`
 - [ ] `import [ Component ] from 'react'`
 - [ ] `import Component from 'react'`
-- [x] `import { Component } from 'react'`
+- [ ] `import { Component } from 'react'`
 
 #### Q2. Si una función componente quisiera rendearse de la misma manera dados los mismos parámetros, ¿cuál es una optimización simple disponible para el mismo?
 
-- [x] Envolverlo en un componente `React.memo`.
+- [ ] Envolverlo en un componente `React.memo`.
 - [ ] Implementar el hook `useReducer`.
 - [ ] Implementar el hook `useMemo` Hook.
 - [ ] Implementar el método de ciclo de vida `shouldComponentUpdate`.
@@ -25,7 +25,7 @@ const person =(firstName, lastName) =>
 console.log(person("Jill", "Wilson"))
 ```
 
-- [x] Envolver el objeto devuelto entre paréntesis
+- [ ] Envolver el objeto devuelto entre paréntesis
 - [ ] Llamar a la función desde otro archivo.
 - [ ] Agregar un `return` ántes del último paréntesis.
 - [ ] Reemplazar el objeto con un Array.
@@ -34,7 +34,7 @@ console.log(person("Jill", "Wilson"))
 
 `import React, {useState} from 'react';`
 
-- [x] React Hooks
+- [ ] React Hooks
 - [ ] componentes con estado
 - [ ] matemática
 - [ ] componentes de clase
@@ -49,7 +49,7 @@ console.log(person);
 ```
 
 - [ ] `{{name: "Rachel", age: 31}}`
-- [x] `{name: "Rachel", age: 31}`
+- [ ] `{name: "Rachel", age: 31}`
 - [ ] `{person: "Rachel", person: 31}}`
 - [ ] `{person: {name: "Rachel", age: 31}}`
 
@@ -58,7 +58,7 @@ console.log(person);
 - [ ] Mocha
 - [ ] Chai
 - [ ] Sinon
-- [x] Jest
+- [ ] Jest
 
 #### Q7. Utilizando deconstrucción de arrays, ¿Cómo obtendrías el primer item del array ("cooking")?
 
@@ -69,14 +69,14 @@ const topics = ['cooking', 'art', 'history'];
 - [ ] `const first = ["cooking", "art", "history"]`
 - [ ] `const [] = ["cooking", "art", "history"]`
 - [ ] `const [, first]["cooking", "art", "history"]`
-- [x] `const [first] = ["cooking", "art", "history"]`
+- [ ] `const [first] = ["cooking", "art", "history"]`
 
 #### Q8. ¿Qué utilizas para pasar propiedades hacia abajo en un árbol de componentes sin tener que manualmente definir en cada uno de ellos parámetros para recibirlos?
 
 - [ ] React Send
 - [ ] React Pinpoint
 - [ ] React Router
-- [x] React Context
+- [ ] React Context
 
 #### Q9. ¿Qué se imprimirá en la consola el ejecutar el siguiente código?
 
@@ -86,7 +86,7 @@ console.log(animal);
 ```
 
 - [ ] Horse
-- [x] Cat
+- [ ] Cat
 - [ ] Mouse
 - [ ] undefined
 
@@ -95,12 +95,12 @@ console.log(animal);
 - [ ] JSX Editor
 - [ ] ReactDOM
 - [ ] Browser Buddy
-- [x] Babel
+- [ ] Babel
 
 #### Q11. ¿Porqué utilizarías useReducer en lugar de useState en un React component?
 
 - [ ] cuando quieres reemplazar a Redux
-- [x] cuando quieres manejar un estado más complejo en una app
+- [ ] cuando quieres manejar un estado más complejo en una app
 - [ ] cuando quieres mejorar la performance
 - [ ] cuando quieres destruir tu aplicación en producción
 
@@ -111,7 +111,7 @@ console.log(animal);
 ```
 
 - [ ] cualquier propiedad que no haya cambiado
-- [x] todas las propiedades de `props`
+- [ ] todas las propiedades de `props`
 - [ ] propiedades hijas
 - [ ] todas las que hayan cambiado en valor
 
@@ -122,7 +122,7 @@ console.log(animal);
 ```
 
 - [ ] Un modal de ruta
-- [x] Un parámetro de ruta
+- [ ] Un parámetro de ruta
 - [ ] Un divisor de ruta
 - [ ] Un link de ruta
 
@@ -139,7 +139,7 @@ ReactDOM.render(<Dish />, document.getElementById('root'));
 - [ ] `div`
 - [ ] section
 - [ ] component
-- [x] `h1`
+- [ ] `h1`
 
 #### Q15. Dada la siguiente llamada, ¿Qué elemento resultará creado en el DOM?
 
@@ -148,7 +148,7 @@ React.createElement('h1', null, "What's happening?");
 ```
 
 - [ ] `<h1 props={null}>What's happening?</h1>`
-- [x] `<h1>What's happening?</h1>`
+- [ ] `<h1>What's happening?</h1>`
 - [ ] `<h1 id="component">What's happening?</h1>`
 - [ ] `<h1 id="element">What's happening?</h1>`
 
@@ -168,7 +168,7 @@ function MyComponent() {
 
 - [ ] lazy
 - [ ] loading
-- [x] fallback
+- [ ] fallback
 - [ ] spinner
 
 #### Q17. ¿Cómo se le llama al mensaje entre llaves?
@@ -180,14 +180,14 @@ const element = <p>{message}</p>;
 
 - [ ] una JS function
 - [ ] un elemento JS
-- [x] una JS expression
+- [ ] una JS expression
 - [ ] un envoltorio JSX
 
 #### Q18. ¿Qué se utiliza para realizar/ejecutar fraccionamiento de código?
 
 - [ ] `React.memo`
 - [ ] `React.split`
-- [x] `React.lazy`
+- [ ] `React.lazy`
 - [ ] `React.fallback`
 
 #### Q19. ¿Cuándo se utiliza `useLayoutEffect`?
@@ -195,7 +195,7 @@ const element = <p>{message}</p>;
 - [ ] cuando quieres optimizar para todos los dispositivos
 - [ ] para completar el update
 - [ ] para cambiar la pantalla actual
-- [x] cuando necesitas que el navegador renderice el DOM antes de que se ejecute el effecto
+- [ ] cuando necesitas que el navegador renderice el DOM antes de que se ejecute el effecto
 
 #### Q20. ¿Cuál es la diferencia en el comporamiento de los receptores del evento onClick de estos dos botones? (asumiendo que this.handleClick está correctamente bindeado)
 
@@ -207,7 +207,7 @@ B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 - [ ] El botón A no tendrá acceso al evento que inició el llamado
 - [ ] El botón B no disparará el this.handleClick exitosamente
 - [ ] El botón A no disparará el this.handleClick exitosamente
-- [x] No habrá diferencia, ambos harán lo mismo.
+- [ ] No habrá diferencia, ambos harán lo mismo.
 
 #### Q21. ¿Cómo deconstruyes las propiedades que son enviadas al componente Dish?
 
@@ -222,7 +222,7 @@ function Dish(props) {
 ```
 
 - [ ] `function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }`
-- [x] `function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }`
+- [ ] `function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }`
 - [ ] `function Dish(props) { return <h1>{name} {cookingTime}</h1>; }`
 - [ ] `function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }`
 
@@ -230,20 +230,20 @@ function Dish(props) {
 
 - [ ] cuando no quieres que tu componente tenga propiedades
 - [ ] cuando tienes componentes anidados que necesitan ser comparados
-- [x] cuando necesitas hacer uso de su implementación del método `shouldComponentUpdate()`
+- [ ] cuando necesitas hacer uso de su implementación del método `shouldComponentUpdate()`
 - [ ] cuando no quieres que tu componente tenga un estado
 
 #### Q23. ¿Porqué es importante evitar copiar valores de las propiedades de un componente a su estado interno siempre que sea posible?
 
 - [ ] porque nunca debes mutar su estado
 - [ ] porque `getDerivedStateFromProps()` es un metodo inseguro de usar
-- [x] porque queremos permitirle al componente actualizarse al detectar cambios en sus propiedades
+- [ ] porque queremos permitirle al componente actualizarse al detectar cambios en sus propiedades
 - [ ] porque queremos permitir el flujo de datos de vuelta al componente superior
 
 #### Q24. ¿Qué és la propiedad children?
 
 - [ ] una propiedad que agrega un hijo al estado del componente
-- [x] una propiedad especial que JSX crea en componentes que contienen una etiqueta de apertura y una etiqueta de cierre, referenciando su contenido.
+- [ ] una propiedad especial que JSX crea en componentes que contienen una etiqueta de apertura y una etiqueta de cierre, referenciando su contenido.
 - [ ] una propiedad que permite definir un array como propiedad
 - [ ] una propiedad que permite pasar datos a componentes hijos
 
@@ -252,13 +252,13 @@ function Dish(props) {
 #### Q25. ¿Qué atributo se utiliza para reemplazar la propiedad innerHTML en el DOM del navegador?
 
 - [ ] injectHTML
-- [x] dangerouslySetInnerHTML
+- [ ] dangerouslySetInnerHTML
 - [ ] weirdSetInnerHTML
 - [ ] strangeHTML
 
 #### Q26. ¿Cuál de estos términos comunmente describe una aplicación de React?
 
-- [x] declarativo
+- [ ] declarativo
 - [ ] integrado
 - [ ] cerrado
 - [ ] imperativo
@@ -266,13 +266,13 @@ function Dish(props) {
 #### Q27. Cuando utilizas webpack, ¿Cuándo necesitarías utilizar un "cargador" (loader)?
 
 - [ ] para armar carpetas en el sistema de archivos
-- [x] para preprocesar archivos
+- [ ] para preprocesar archivos
 - [ ] para cargar datos externos
 - [ ] para cargar el sitio web en los teléfonos de los usuarios
 
 #### Q28. Una representación de una interfaz de usuario que es mantenida en la memoria en sincronía con el DOM "real" ¿cómo se llama?
 
-- [x] DOM virtual
+- [ ] DOM virtual
 - [ ] DOM
 - [ ] elementos virtuales
 - [ ] DOM sombrío/oscuro
@@ -286,7 +286,7 @@ const Heading = () => {
 ```
 
 - [ ] Agregar una función de rendeo.
-- [x] Reemplazar las llaves por paréntesis o agregar un return keyword antes del primer h1 tag
+- [ ] Reemplazar las llaves por paréntesis o agregar un return keyword antes del primer h1 tag
 - [ ] Mover el h1 a otro componente
 - [ ] Envolver el h1 en un div
 
@@ -294,7 +294,7 @@ const Heading = () => {
 
 #### Q30. Para definir una constánte en javascript, ¿Qué keyword se utiliza?
 
-- [x] const
+- [ ] const
 - [ ] let
 - [ ] constant
 - [ ] var
@@ -304,26 +304,26 @@ const Heading = () => {
 - [ ] error bosses
 - [ ] error catchers
 - [ ] error helpers
-- [x] error boundaries
+- [ ] error boundaries
 
 #### Q32. ¿En qué método de ciclo de vida de un componente de clase se deben hacer peticiones de datos?
 
 - [ ] constructor
-- [x] componentDidMount
+- [ ] componentDidMount
 - [ ] componentWillReceiveProps
 - [ ] componentWillMount
 
 #### Q33. Los componentes en React se componen para crear interfaces de usuario. ¿Cómo se componen los componentes en sí mismos?
 
 - [ ] poniéndolos en un mismo archivo
-- [x] anidando otros componentes
+- [ ] anidando otros componentes
 - [ ] con webpack
 - [ ] con separación de código
 
 #### Q34. Todos los componentes en React deben actuar como **\_** con respecto a sus propiedades.
 
 - [ ] monads
-- [x] funciones puras
+- [ ] funciones puras
 - [ ] functions recursivas
 - [ ] funciones de alto orden
 
@@ -337,7 +337,7 @@ handleChange(e) {
 
 - [ ] una propiedad de nombre computada
 - [ ] un valor pre-seteado
-- [x] una llave dinámica
+- [ ] una llave dinámica
 - [ ] un código de cadena JSX
 
 #### Q36. ¿Cuál es el nombre de este componente?
@@ -350,14 +350,14 @@ class Clock extends React.Component {
 }
 ```
 
-- [x] Clock
+- [ ] Clock
 - [ ] No tiene una propiedad de nombre.
 - [ ] React.Component
 - [ ] Component
 
 #### Q37. ¿Qué se le envía a una función `Array.map()` ?
 
-- [x] un callback a una función que es llamada una vez por cada elemento del array
+- [ ] un callback a una función que es llamada una vez por cada elemento del array
 - [ ] el nombre de otro array para iniciar una iteración
 - [ ] el número de veces que se quiere llamar a la función
 - [ ] un string describiendo qué debería hacer la función
@@ -367,21 +367,21 @@ class Clock extends React.Component {
 - [ ] Porque permite una mejor encapsulación
 - [ ] Se asegura de que el objeto no haya mutado
 - [ ] Actualiza automaticamente un componente
-- [x] `setState` es asíncrono y podría resultar en valores no actualizados correctamente a tiempo.
+- [ ] `setState` es asíncrono y podría resultar en valores no actualizados correctamente a tiempo.
 
 [**Explicación/Hint**](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)
 
 #### Q39. ¿Qué paquete contiene la función render() que renderiza los elementos React en el DOM?
 
 - [ ] `React`
-- [x] `ReactDOM`
+- [ ] `ReactDOM`
 - [ ] `Render`
 - [ ] `DOM`
 
 #### Q40. ¿Cómo se define un valor por defecto en un campo de formulario no controlado?
 
 - [ ] usando la propiedad `value`
-- [x] usando la propiedad `defaultValue`
+- [ ] usando la propiedad `defaultValue`
 - [ ] usando la propiedad `default`
 - [ ] Se asigna uno automaticamente
 
@@ -398,14 +398,14 @@ class clock extends React.Component {
 - [ ] Poner el valor de retorno entre comillas
 - [ ] remover el `this`
 - [ ] remover el método render
-- [x] Capitalizar `clock`
+- [ ] Capitalizar `clock`
 
 **Explicación:** En JSX, nombres en minúsculas son considerados elementos de HTML.
 Lee [este artículo](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)
 
 #### Q42. ¿Qué Hook puede ser usado para cambiar el título de la página?
 
-- [x] `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });`
+- [ ] `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });`
 - [ ] `useEffect(() => { title = name + ' ' + lastname; });`
 - [ ] `useEffect(function updateTitle() { name + ' ' + lastname; });`
 - [ ] `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
@@ -414,7 +414,7 @@ Lee [este artículo](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-re
 
 - [ ] `React.fallback`
 - [ ] `React.split`
-- [x] `React.lazy`
+- [ ] `React.lazy`
 - [ ] `React.memo`
 
 #### Q44. ¿Cómo puedes invocar el callback setDone solamente cuando el componente sea montado?
@@ -428,7 +428,7 @@ function MyComponent(props) {
 ```
 
 - [ ] `useEffect(() => { setDone(true); });`
-- [x] `useEffect(() => { setDone(true); }, []);`
+- [ ] `useEffect(() => { setDone(true); }, []);`
 - [ ] `useEffect(() => { setDone(true); }, [setDone]);`
 - [ ] `useEffect(() => { setDone(true); }, [done, setDone]);`
 
@@ -440,13 +440,13 @@ function MyComponent(props) {
 
 - [ ] `<button onClick={this.handleClick.bind(handleClick)}>Click this</button>`
 - [ ] `<button onClick={handleClick()}>Click this</button>`
-- [x] `<button onClick={this.handleClick}>Click this</button>`
+- [ ] `<button onClick={this.handleClick}>Click this</button>`
 - [ ] `<button onclick={this.handleClick}>Click this</button>`
 
 #### Q46. ¿Qué respuesta mejor describe a una función componente?
 
 - [ ] Una función componente es igual que una función de clase.
-- [x] Una función componente acepta un único parámetro con sus propiedades y devuelve un elemento React
+- [ ] Una función componente acepta un único parámetro con sus propiedades y devuelve un elemento React
 - [ ] Una función componente es la única forma en la que se puede crear un componente
 - [ ] Una función componente es requerido para poder crear un componente en React
 
@@ -454,7 +454,7 @@ function MyComponent(props) {
 
 - [ ] FetchJS
 - [ ] ReactDOM
-- [x] Ninguna. `fetch()` es provisto nativamente por la mayoría de los navegadores.
+- [ ] Ninguna. `fetch()` es provisto nativamente por la mayoría de los navegadores.
 - [ ] React
 
 #### Q48. ¿Qué ocurrirá cuando este hook useEffect se ejecute, asumiendo que name no sea igual a "john"?
@@ -467,7 +467,7 @@ useEffect(() => {
 
 - [ ] Causará un error inmediato
 - [ ] Se ejecutará el código de la función, pero solo luego de esperar que ningún otro componente esté accediendo a esa variable (name)
-- [x] Va a actualizar el valor de la variable name una vez y no hará nada hasta que el valor de la misma vuelva a cambiar.
+- [ ] Va a actualizar el valor de la variable name una vez y no hará nada hasta que el valor de la misma vuelva a cambiar.
 - [ ] Causará un bucle infinito
 
 #### Q49. ¿Qué opción no causara que un componente React se vuelva a renderizar?
@@ -475,7 +475,7 @@ useEffect(() => {
 - [ ] si el componente invoca el método `this.setState(...)`
 - [ ] el valor de alguno de sus propiedades cambia
 - [ ] se invoca el método `this.forceUpdate()`
-- [x] alguno de sus componentes hijos se vuelve a renderizar
+- [ ] alguno de sus componentes hijos se vuelve a renderizar
 
 #### Q50. Creaste un nuevo método en un componente de clase llamado handleClick, pero no está funcionando. ¿Qué está faltando?
 
@@ -494,7 +494,7 @@ class Button extends React.Component{
 - [ ] `this.handleClick.bind(this);`
 - [ ] `props.bind(handleClick);`
 - [ ] `this.handleClick.bind();`
-- [x] `this.handleClick = this.handleClick.bind(this);`
+- [ ] `this.handleClick = this.handleClick.bind(this);`
 
 #### Q51. React no renderiza dos componentes anexos a menos que estén envueltos en un fragmento. Debajo se muestra una forma de renderizar un fragmento. ¿Cuál es el otro método más corta para hacer lo mismo?
 
@@ -523,7 +523,7 @@ class Button extends React.Component{
 <///>
 ```
 
-- [x] C
+- [ ] C
 
 ```javascript
 <>
@@ -555,7 +555,7 @@ class Ticker extends React.component {
 }
 ```
 
-- [x] this.state.count
+- [ ] this.state.count
 - [ ] count
 - [ ] state
 - [ ] state.count
@@ -567,7 +567,7 @@ const greeting = isLoggedIn ? <Hello /> : null;
 ```
 
 - [ ] nunca
-- [x] cuando `isLoggedIn` sea true
+- [ ] cuando `isLoggedIn` sea true
 - [ ] cuando el usuario se loguee
 - [ ] cuando la función Hello sea llamada
 
@@ -577,7 +577,7 @@ const greeting = isLoggedIn ? <Hello /> : null;
 ReactDOM.render(<Message orderNumber="16" />, document.getElementById('root'));
 ```
 
-- [x] string
+- [ ] string
 - [ ] boolean
 - [ ] object
 - [ ] number
@@ -589,7 +589,7 @@ const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>;
 ```
 
 - [ ] `const element = <h1 style="backgroundColor: "blue""}>Hi</h1>;`
-- [x] `const element = <h1 style={{backgroundColor: "blue"}}>Hi</h1>;`
+- [ ] `const element = <h1 style={{backgroundColor: "blue"}}>Hi</h1>;`
 - [ ] `const element = <h1 style={blue}>Hi</h1>;`
 - [ ] `const element = <h1 style="blue">Hi</h1>;`
 
@@ -598,7 +598,7 @@ const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>;
 - [ ] `replaceState`
 - [ ] `refreshState`
 - [ ] `updateState`
-- [x] `setState`
+- [ ] `setState`
 
 #### Q57. Considerando el siguiente componente. ¿Cuál es el color por defecto para el icono de Star?
 
@@ -608,7 +608,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 
 - [ ] black
 - [ ] red
-- [x] grey
+- [ ] grey
 - [ ] white
 
 #### Q58. Cuál es la diferencia entre los comportamientos ante el evento onClick para estos dos botones? (asumiendo que this.handleClick no fue bindeado correctamente)
@@ -619,7 +619,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 ```
 
 - [ ] El botón A no tendrá acceso a la referencia del evento onClick
-- [x] El botón A no se ejecutará correctamente
+- [ ] El botón A no se ejecutará correctamente
 - [ ] No hay diferencia, ambos se ejecutarán con éxito
 - [ ] El botón B no se ejecutará correctamente
 
@@ -629,7 +629,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 <Route path="/:id" />
 ```
 
-- [x] A
+- [ ] A
 
 ```javascript
 <Route path="/:id">
@@ -682,7 +682,7 @@ class Greeting extends React.Component {
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```javascript
 class Greeting extends React.Component {
@@ -711,7 +711,7 @@ ReactDOM.render(
 )
 ```
 
-- [x] El elemento destino donde react debería agregar sus elementos al DOM
+- [ ] El elemento destino donde react debería agregar sus elementos al DOM
 - [ ] donde llamar a la función
 - [ ] la ubicación del root element
 - [ ] la ubicación donde crear nuevos javascript
@@ -721,7 +721,7 @@ ReactDOM.render(
 - [ ] El elemento Link le permite al usuario usar el botón de `volver` en el navegador
 - [ ] No hay diferencia, el elemento Link es sinónimo del tag `<a>`
 - [ ] El tag `<a>` causará errores cuando se use con React.
-- [x] El tag `<a>` causará un refrezco total de la página, mientras que el componente `Link` no lo hará.
+- [ ] El tag `<a>` causará un refrezco total de la página, mientras que el componente `Link` no lo hará.
 
 #### Q63. ¿Qué és el primer parámetro `x`, que es enviado a la función `createElement`?
 
@@ -729,7 +729,7 @@ ReactDOM.render(
 React.createElement(x, y, z);
 ```
 
-- [x] el elemento que debería ser creado
+- [ ] el elemento que debería ser creado
 - [ ] El orden en que este elemento debe ser creado en la página
 - [ ] las propiedades del elemento
 - [ ] información que debería ser motrada en el elemento
@@ -743,7 +743,7 @@ useEffect(() => {
 ```
 
 - [ ] componentWillUnmount
-- [x] componentDidMount
+- [ ] componentDidMount
 - [ ] render
 - [ ] componentDidUpdate
 
@@ -760,7 +760,7 @@ class Comp extends React.Component {
 - [ ] Comp
 - [ ] h1
 - [ ] React.Component
-- [x] Component
+- [ ] Component
 
 #### Q66. Cuando utilizas un Portal, ¿Qué va en el primer parámetro?
 
@@ -769,7 +769,7 @@ ReactDOM.createPortal(x, y);
 ```
 
 - [ ] el estado actual
-- [x] el elemento a renderizar
+- [ ] el elemento a renderizar
 - [ ] una referencia al App componet
 - [ ] la página
 
@@ -785,7 +785,7 @@ const [count, setCount] = useState(0);
 - [ ] el valor inicial del estado
 - [ ] una variable
 - [ ] el objeto estado
-- [x] una función callback para cambiar el valor del estado
+- [ ] una función callback para cambiar el valor del estado
 
 **Referencia**
 [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)
@@ -798,7 +798,7 @@ database.map((user) => <h1>{user.data}</h1>);
 ```
 
 - [ ] devuelve un mapa de todas las entradas en la base de datos
-- [x] devuelve un h1 element por cada elemento en la variable database con su data como texto
+- [ ] devuelve un h1 element por cada elemento en la variable database con su data como texto
 - [ ] devuelve un elemento h1 conteniendo todos los elementos de la variable database
 - [ ] chequea qué elemento de la base de datos es apta para ser mostrada en un elemento h1
 
@@ -811,7 +811,7 @@ const { name: firstName } = person;
 - [ ] está creando un nuevo objeto que contiene la misma propiedad `name` que el objeto firstName
 - [ ] Está asignando el valor de la propiedad firstName del objeto person a una constante llamada name
 - [ ] esta obteniendo el valor de person.name.firstName
-- [x] está asignando el valor de la propiedad name del objeto person a una constante llamada firstName
+- [ ] está asignando el valor de la propiedad name del objeto person a una constante llamada firstName
 
 #### Q70. ¿Qué esta mal con este código?
 
@@ -823,7 +823,7 @@ const MyComponent = ({ names }) => (
 ```
 
 - [ ] Los componentes en React no pueden ser definidos usando funciones
-- [x] React no permite que los componentes funcion devuelvan más de un elemento.
+- [ ] React no permite que los componentes funcion devuelvan más de un elemento.
 - [ ] El componente debe usar el keyword return para devolver elementos.
 - [ ] Las cadenas de caracteres deben ser envueltas en comillas
 
@@ -836,7 +836,7 @@ ReactDOM.createPortal(x, y);
 - [ ] el App Compontent
 - [ ] la página
 - [ ] el estado actual
-- [x] el elemento DOM que existe fuera del elemento padre
+- [ ] el elemento DOM que existe fuera del elemento padre
 
 #### Q72. Dado el siguiente código, ¿Qué será renderizado dentro del tag `<h1>`?
 
@@ -854,7 +854,7 @@ const MyComponent = ({ children }) => (
 - [ ] Emitirá un error diciendo "cannot read property "length" of undefined."
 - [ ] 1
 - [ ] undefined
-- [x] 2
+- [ ] 2
 
 #### Q73. ¿Cómo se llama a este patrón de asignación?
 
@@ -863,7 +863,7 @@ const [count, setCount] = useState(0);
 ```
 
 - [ ] deconstrucción de objeto
-- [x] deconstrucción de array
+- [ ] deconstrucción de array
 - [ ] operador de separación
 - [ ] empuje de código
 
@@ -872,7 +872,7 @@ const [count, setCount] = useState(0);
 - [ ] src/App.js
 - [ ] src/index.js
 - [ ] public/manifest.json
-- [x] public/index.html
+- [ ] public/index.html
 
 #### Q75. El código de abajo no esta renderizando nada, y hay un error que dice "ReactDOM is not defined." ¿Cómo lo resolvemos?
 
@@ -885,7 +885,7 @@ const element = <h1>Hi</h1>;
 ReactDOM.render(element, document.getElementById('root'));
 ```
 
-- [x] `render(element, document.getElementById("root"));`
+- [ ] `render(element, document.getElementById("root"));`
 - [ ] `ReactDOM(element, document.getElementById("root"));`
 - [ ] `renderDOM(element, document.getElementById("root"));`
 - [ ] `DOM(element, document.getElementById("root"));`
@@ -906,21 +906,21 @@ render() {
 - [ ] `The user is loggedIn ? logged in : not logged in.`
 - [ ] Hay que escribir una función para determinar si el usuario está logueado o no
 - [ ] `The user is {isLoggedIn = "no"}.`
-- [x] `The user is {isLoggedIn ? "logged in." : "not logged in"}.`
+- [ ] `The user is {isLoggedIn ? "logged in." : "not logged in"}.`
 
 #### Q77. Estas renderizando una lista en React cuando la siguiente advertencia aparece en la consola: "Warning: Each child in a list should have a unique 'key' prop." ¿Cómo resolvés este asunto?
 
 - [ ] Pasa el nombre de cada item como valo en su propiedad key
 - [ ] Agregar una propiedad key con el mismo valor en todos los items de la lista
 - [ ] Borrar las advertencias de la consola
-- [x] Agregar una propiedad key a cada item de la lista con un valor único asosiado al mismo.
+- [ ] Agregar una propiedad key a cada item de la lista con un valor único asosiado al mismo.
 
 #### Q78. ¿Cómo crearías código de boilerplate para un nuevo app que quieres hacer para coleccionar pantalones?
 
 - [ ] npm create-react-app collect-pantalones
 - [ ] npx start-app collect-pantalones
 - [ ] react new collect-pantalones
-- [x] npx create-react-app collect-pantalones
+- [ ] npx create-react-app collect-pantalones
 
 [Create react app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
 
@@ -940,7 +940,7 @@ class StarTrekkin extends React.Component {
 - [ ] `<button onClick={firePhotonTorpedoes()}>Pew Pew</button>`
 - [ ] `<button onClick={firePhotonTorpedoes}>Pew Pew</button>`
 - [ ] `<button onClick={this.firePhotonTorpedoes()}>Pew Pew</button>`
-- [x] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
+- [ ] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
 
 [Handling Events](https://reactjs.org/docs/handling-events.html)
 
@@ -948,20 +948,20 @@ class StarTrekkin extends React.Component {
 
 - [ ] DOM Sombrío
 - [ ] fibra
-- [x] reconciliación
+- [ ] reconciliación
 - [ ] definición de estado
 
 #### Q81. React es un proyecto open-source pero ¿qué compañía lo mantiene?
 
 - [ ] Intuit
 - [ ] Twitter
-- [x] Facebook
+- [ ] Facebook
 - [ ] Snapchat
 
 #### Q82. ¿Qué comando podés usar para crear un proyecto en React?
 
 - [ ] react-starter
-- [x] create-react-app
+- [ ] create-react-app
 - [ ] react-gen
 - [ ] react-start
 
@@ -969,7 +969,7 @@ class StarTrekkin extends React.Component {
 
 #### Q83. ¿Cuál es la extensión de navegador que los desarrolladores de React usan para debugear sus aplicaciones?
 
-- [x] React Developer Tools
+- [ ] React Developer Tools
 - [ ] React Tooling Add-on
 - [ ] React Codewatch
 - [ ] React Debug
@@ -977,7 +977,7 @@ class StarTrekkin extends React.Component {
 #### Q84. ¿Qué herramienta no es parte de Create React App?
 
 - [ ] React
-- [x] jQuery
+- [ ] jQuery
 - [ ] webpack
 - [ ] ReactDOM
 
@@ -985,14 +985,14 @@ class StarTrekkin extends React.Component {
 
 - [ ] HTML
 - [ ] JavaScriptX
-- [x] JSX
+- [ ] JSX
 - [ ] React JavaScript
 
 #### Q86. ¿Cómo podrías chequear el tipo de dato de las propiedades sin utilizar Flow o Typescript?
 
 - [ ] Manualmente.
 - [ ] Usando `prop-helper`.
-- [x] Usando `prop-types`.
+- [ ] Usando `prop-types`.
 - [ ] Usando `checker-types`.
 
 #### Q87. ¿Cómo le agregarías el id heading al siguiente elemento h1?
@@ -1002,7 +1002,7 @@ let dish = <h1>Mac and Cheese</h1>;
 ```
 
 - [ ] `let dish = <h1 id={heading}>Mac and Cheese</h1>;`
-- [x] `let dish = <h1 id="heading">Mac and Cheese</h1>;`
+- [ ] `let dish = <h1 id="heading">Mac and Cheese</h1>;`
 - [ ] `let dish = <h1 id:"heading">Mac and Cheese</h1>;`
 - [ ] `let dish = <h1 class="heading">Mac and Cheese</h1>;`
 
@@ -1024,7 +1024,7 @@ class Huggable extends React.Component {
 - [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>;`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>;`
 - [ ] `<button onClick={(e) => hug(name, e)}>Hug Button</button>;`
-- [x] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
+- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
 
 **Explicación:**
 Esta pregunta testea tu conocimiento de componente de clases en react. Tenés que usar `this` para llamar métodos definidos en componentes de clases.
@@ -1032,7 +1032,7 @@ Esta pregunta testea tu conocimiento de componente de clases en react. Tenés qu
 #### Q89. ¿Qué sintaxis usas para crear componentes en React?
 
 - [ ] un generador
-- [x] una función o una clase
+- [ ] una función o una clase
 - [ ] un service worker
 - [ ] un tag
 
@@ -1045,7 +1045,7 @@ Esta pregunta testea tu conocimiento de componente de clases en react. Tenés qu
 - [ ] onBlur
 - [ ] onPress
 - [ ] defaultValue
-- [x] disabled
+- [ ] disabled
 
 #### Q91. Dado este componente función, ¿Qué describe mejor al Dish component?
 
@@ -1061,7 +1061,7 @@ function Dish() {
 ```
 
 - [ ] es un componente hijo
-- [x] es un componente padre
+- [ ] es un componente padre
 - [ ] es un componente anidado
 - [ ] es un componente anexo
 
@@ -1069,7 +1069,7 @@ function Dish() {
 
 #### Q92. ¿Cuándo se ejectua el método componentDidMount en un componente de clase?
 
-- [x] luego de haber sido agregado al DOM
+- [ ] luego de haber sido agregado al DOM
 - [ ] antes de ser agregado al DOM
 - [ ] inmediatamente luego de ser actualizado
 - [ ] luego de una API call
@@ -1077,13 +1077,13 @@ function Dish() {
 #### Q93. ¿Para qué utilizarías webpack?
 
 - [ ] para buscar dependecias externas que utilice mi app
-- [x] para dividir mi aplicación en bloques de códigos más pequeños y así podér ser cargados más facilmente por el navegador
+- [ ] para dividir mi aplicación en bloques de códigos más pequeños y así podér ser cargados más facilmente por el navegador
 - [ ] para formatear mi código para que sea mas legible
 - [ ] para proteger mi app de injecciones de código malicioso
 
 #### Q94. Cuando utilizas la extensión de chrome React Developer Tools, ¿Qué significa cuando el ícono está en rojo?
 
-- [x] Que se está utilizando la versión development del app
+- [ ] Que se está utilizando la versión development del app
 - [ ] Que se está usando la versión de producción del app
 - [ ] Que se está usando webpack
 - [ ] Que se está usando Create React App
@@ -1103,13 +1103,13 @@ class TransIsBeautiful extends React.Component {
 ```
 
 - [ ] render(props);
-- [x] super(props);
+- [ ] super(props);
 - [ ] super(this);
 - [ ] this.super();
 
 #### Q96. ¿Qué lenguaje NO podés usar con React?
 
-- [x] Swift.
+- [ ] Swift.
 - [ ] JSX.
 - [ ] Javascipt.
 - [ ] TypeScript.
@@ -1128,7 +1128,7 @@ constructor(props) {
 - [ ] console.log(props.pokeDex);
 - [ ] console.log(this.props.pokeDex);
 - [ ] console.log(pokeDex);
-- [x] console.log(this.state.pokeDex);
+- [ ] console.log(this.state.pokeDex);
 
 [Reference](https://www.digitalocean.com/community/tutorials/how-to-manage-state-on-react-class-components#step-3-setting-state-from-a-static-value)
 
@@ -1143,7 +1143,7 @@ add();
 ```
 
 - [ ] null
-- [x] 3
+- [ ] 3
 - [ ] 0
 - [ ] undefined
 
@@ -1154,7 +1154,7 @@ add();
 - [ ] para referirnos a otro archivo JS
 - [ ] para bindear una función
 - [ ] para llamar a una función
-- [x] para acceder directamente a un nodo DOM
+- [ ] para acceder directamente a un nodo DOM
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
 
@@ -1167,7 +1167,7 @@ const { tree, lake } = nature;
 - [ ] function defaults
 - [ ] deconstrucción de arrays
 - [ ] PRPL pattern
-- [x] deconstrucción de objeto
+- [ ] deconstrucción de objeto
 
 [Reference](https://javascript.info/destructuring-assignment)
 
@@ -1180,7 +1180,7 @@ ReactDom.render(
 );
 ```
 
-- [x] A
+- [ ] A
 
 ```javascript
 <Message sent={false} />,

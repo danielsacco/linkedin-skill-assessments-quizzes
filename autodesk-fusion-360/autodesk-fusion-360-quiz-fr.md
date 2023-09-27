@@ -3,20 +3,20 @@
 #### Q1. Comment modifier une fonctionnalité ?
 
 - [ ] Sélectionnez la fonction, appuyez sur Suppr, puis créez une nouvelle fonctionnalité.
-- [x] Cliquez avec le bouton droit sur la fonction et sélectionnez Modifier la fonction.
+- [ ] Cliquez avec le bouton droit sur la fonction et sélectionnez Modifier la fonction.
 - [ ] Continuez à cliquer sur Annuler jusqu’à ce que la fonctionnalité disparaisse.
 - [ ] Recherchez la fonctionnalité dans le navigateur, sélectionnez Supprimer, puis créez une nouvelle fonctionnalité.
 
 #### Q2. Quel outil crée un plan normal à une trajectoire ou à une arête d’esquisse ?
 
 - [ ] Plan à travers deux arêtes
-- [x] Plan le long de la trajectoire
+- [ ] Plan le long de la trajectoire
 - [ ] Plan à l’angle
 - [ ] Plan à travers trois points
 
 #### Q3. Quel outil mesure la distance précise entre deux points et crée des dimensions parallèles aux emplacements des objets ?
 
-- [x] Cote alignée
+- [ ] Cote alignée
 - [ ] Dimension linéaire
 - [ ] Dimension angulaire
 - [ ] Dimension ordonnée
@@ -25,7 +25,7 @@
 
 ![image](images/question_4.png?raw=true)
 
-- [x] 1
+- [ ] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
@@ -39,7 +39,7 @@
 - [ ] sans friction
 - [ ] déplacement prescrit
 - [ ] broche
-- [x] fixe
+- [ ] fixe
 
 #### Q6. Dans l’espace de travail CAM, quelle stratégie supprime la cavité intérieure d’une pièce ?
 
@@ -64,7 +64,7 @@
 
 #### Q9. Quel type de trou entre automatiquement une valeur de diamètre en fonction du type de fixation qu’il accueillera ?
 
-- [x] Dégagement
+- [ ] Dégagement
 - [ ] Simple
 - [ ] Percé
 - [ ] Par
@@ -79,7 +79,7 @@
 #### Q11. Que faut-il pour inviter d’autres personnes dans votre dossier de projet ?
 
 - [ ] un nom
-- [x] une adresse e-mail
+- [ ] une adresse e-mail
 - [ ] une adresse IP
 - [ ] un numéro de téléphone
 
@@ -94,12 +94,12 @@
 
 - [ ] curseur
 - [ ] révolute
-- [x] planaire
+- [ ] planaire
 - [ ] fente d’épingle
 
 #### Q14. Quelle vue montre une pièce de dessin à une échelle agrandie ?
 
-- [x] vue détaillée
+- [ ] vue détaillée
 - [ ] vue de section
 - [ ] vue de base
 - [ ] vue projetée
@@ -107,7 +107,7 @@
 #### Q15. Quel type de fichier n’est pas une sortie de dessin ?
 
 - [ ] Fichier DWG
-- [x] Fichier CSV
+- [ ] Fichier CSV
 - [ ] Fichier STEP
 - [ ] Fichier PDF
 
@@ -120,7 +120,7 @@
 
 #### Q17. Quel traducteur convertit la trajectoire d’outil de l’écran en langage que la machine CNC comprend ?
 
-- [x] un post-processeur
+- [ ] un post-processeur
 - [ ] Code G
 - [ ] Code CN
 - [ ] un processeur de code
@@ -134,7 +134,7 @@
 
 #### Q19. Comment s’appelle la vue initiale placée dans un dessin ?
 
-- [x] vue de base
+- [ ] vue de base
 - [ ] vue détaillée
 - [ ] vue de section
 - [ ] vue principale
@@ -144,7 +144,7 @@
 - [ ] Brouillon
 - [ ] Presse
 - [ ] Tirer
-- [x] Combiner
+- [ ] Combiner
 - [ ] Échelle
 
 #### Q21. Dans l’espace de travail CAM, quelle stratégie supprime la cavité intérieure d’une pièce ?
@@ -156,7 +156,7 @@
 
 #### Q22. Que fait l’outil d’analyse Zebra ?
 
-- [x] Il vérifie la continuité d’un corps.
+- [ ] Il vérifie la continuité d’un corps.
 - [ ] Il divise les corps en morceaux.
 - [ ] Il fixe les corps.
 - [ ] Il applique un rendu métallique.
@@ -165,13 +165,13 @@
 
 - [ ] Animation
 - [ ] Maillage
-- [x] Simulation
+- [ ] Simulation
 - [ ] Rendu
 
 #### Q24. Quel type de filet applique deux valeurs de rayon ou plus à une arête sélectionnée ?
 
 - [ ] G2
-- [x] Rayon variable
+- [ ] Rayon variable
 - [ ] Longueur de l’accord
 - [ ] Lisse
 
@@ -200,7 +200,7 @@
 
 ![image](images/question_28.png?raw=png)
 
-- [x] Deux
+- [ ] Deux
 - [ ] Trois
 - [ ] Aucun
 - [ ] Un
@@ -209,12 +209,12 @@
 
 - [ ] Uniforme
 - [ ] Corps de réparation
-- [x] Mode d’affichage
+- [ ] Mode d’affichage
 - [ ] Permettre de meilleures performances
 
 #### Q30. Quelle commande divise un corps à l’aide de surfaces générées à partir de ses courbes de contour ?
 
-- [x] Corps divisé
+- [ ] Corps divisé
 - [ ] Composant fractionné
 - [ ] Silhouette Split
 - [ ] Visage fendu
@@ -224,19 +224,19 @@
 - [ ] Contraintes d’assemblage
 - [ ] Lien de mouvement
 - [ ] Contrôle de mouvement
-- [x] Articulations
+- [ ] Articulations
 
 #### Q32. Quelle commande fusionne les surfaces pour former un seul corps de surface ?
 
 - [ ] Combiner
 - [ ] Unissez-vous
-- [x] Rejoindre
+- [ ] Rejoindre
 - [ ] Point
 
 #### Q33. Quelle commande utilise une courbe d’esquisse ouverte pour créer une fonction fine ?
 
 - [ ] Fil de discussion
-- [x] Côte
+- [ ] Côte
 - [ ] Loft
 - [ ] balayage
 
@@ -252,18 +252,18 @@
 - [ ] Épaissir
 - [ ] Ouvrir
 - [ ] Décalage
-- [x] Coque
+- [ ] Coque
 
 #### Q36. Quel outil d’analyse génère une vue découpée du modèle sur un seul plan ?
 
 - [ ] Segment
-- [x] Section
+- [ ] Section
 - [ ] Détail
 - [ ] Projection
 
 #### Q36. Quel n’est pas un type d’apparence disponible dans l’espace de travail Rendu ?
 
-- [x] Organes
+- [ ] Organes
 - [ ] Plastique
 - [ ] Bois
 - [ ] Métal
